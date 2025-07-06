@@ -1,0 +1,517 @@
+# FRAUSAR Marker - Kompakte Übersicht
+# Nur Marker-Namen und Basis-Informationen
+
+meta:
+  title: FRAUSAR Marker-System - Komplette Bestandsaufnahme
+  description: Alle Love Scammer Erkennungsmarker in einem einheitlichen Format
+  generated_at: '2025-07-03T01:52:22.616833'
+  version: '2.0'
+  total_markers: 99
+  purpose: GPT-Analyse und Bestandsaufnahme
+statistics:
+  total_markers: 99
+  total_examples: 2228
+  average_examples_per_marker: 22.51
+  categories:
+    UNCATEGORIZED: 99
+  high_risk_markers: 0
+marker_overview:
+  AI_BOTS_SEMANTIC_DETECT:
+    beschreibung: ">\n  beschreibung: >\n  # -*- coding: utf-8 -*-\n\n# ###################################################..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  AI_BOT_SCAM:
+    beschreibung: ">\n  beschreibung: >\n  Erkennt sprachliche Muster, typische Phrasen und Begriffe aus Romance Scams, L..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 34
+  AI_BOT_SEMANTIC_DETECT:
+    beschreibung: ">\n  # -*- coding: utf-8 -*-\n\n# #####################################################################..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 75
+  AMBIVALENCE:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  ARCHETYPAL_PATTERNS:
+    beschreibung: ''''''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  AROUSAL:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  Ambivalence:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  BLAME_SHIFT:
+    beschreibung: Die Technik, die Verantwortung für eigene Fehler, negative Gefühle oder Beziehungsprobleme subtil od...
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 20
+  CARE_SIGNITURE:
+    beschreibung: ">\n  Sich musterhaft wiederholdene Nachrichtenabschlüsse beim Verabschieden, die Zuneigung und Verbin..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 21
+  COMPARISON_GHOST:
+    beschreibung: Subtiler oder offener Vergleich einer aktuellen Situation mit Ex-Partnern, einem früheren Leben oder...
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 20
+  CONNECTION:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  DEEPENING_BY_QUESTIONING:
+    beschreibung: ">\n  semantic_marker = {\n    \"marker\": \"DEEPENING_BY_QUESTIONING\",\n    \"beschreibung\": (\n    \
+      \    \"Erk..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 626
+  DETECT_SYSTEM_TURNING_POINT:
+    beschreibung: ">\n  Metamarker-Cluster aus mehreren Einzelmarker-Ereignissen berechnen."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 8
+  DRAMA_TRIANGLE:
+    beschreibung: ">\n  Typische Rollenrotationen nach dem Dramadreieck: Verfolger, Opfer, Retter – oft im schnellen Wec..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 86
+  EMOTIONAL_BEHAVIORALS:
+    beschreibung: ''''''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  EMOTIONAL_VALENCES:
+    beschreibung: ''''''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  EMOTIONAL_WITHDRAWAL_PRESSURE:
+    beschreibung: Eine manipulative Kommunikationsform, die Selbstabwertung, einen latenten Vorwurf und eine Rückzugsa...
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 20
+  ESCALATION:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  FLUCTUATION:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  FRIENDLY_FLIRTING_DETECT:
+    beschreibung: ">\n  \"beschreibung\": (\n            \"Erkennt kommunikative Muster von freundlich-sympathischem Flirten..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 28
+  FRIENDLY_FLIRTING:
+    beschreibung: ">\n  Neue umfangreiche Beispieldaten für die bestehenden Marker\nupdated_markers = [\n    {\n        \"\
+      ma..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 19
+  Family:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  GASLIGHTING:
+    beschreibung: ">\n  Kommunikation, die das Gegenüber gezielt an seiner Wahrnehmung, Erinnerung oder Realität zweifel..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 19
+  GREETING_FREQUENCY:
+    beschreibung: ">\n  beschreibung: >\n    Häufigkeit von Begrüßungen und Verabschiedungen, Ausdruck von Nähe und Kommu..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 11
+  GUILT_TRIPPING:
+    beschreibung: ">\n  Aussagen, die gezielt Schuldgefühle erzeugen oder verstärken, meist durch subtile oder offene Vo..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 46
+  GUILT_TRIPPING_SEMANTIC_DETECT:
+    beschreibung: ">\n  # -*- coding: utf-8 -*-\n\n# #####################################################################..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 28
+  INITIATIVE:
+    beschreibung: ">\n  beschreibung: >\n    Wer beginnt Gespräche oder neue Themen? Indikator für Beziehungsdynamik und ..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 11
+  INTEGRATION:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  ISOLATION:
+    beschreibung: ">\n  Kommunikation, die aktiv oder subtil soziale Kontakte, Familie oder Freunde des Gegenübers abwer..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 77
+  LIE_CONCEALMENT:
+    beschreibung: ">\n  Indikatoren für Lügen, Ausflüchte oder bewusste Verheimlichung. Erkennbar an widersprüchlichen A..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 5
+  LOVE_BOMBING:
+    beschreibung: ">\n  Übertriebene, überschnelle Zuneigung und Aufmerksamkeit, oft mit starken Versprechen, Kompliment..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 38
+  MARKER_AXIES_DRIFT:
+    beschreibung: ">\n  beschreibung: Bündelt zentrale emotionale Driftachsen zur Analyse und Visualisierung\n    in Komm..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 96
+  META_COMMUNICATIONS:
+    beschreibung: ''''''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  MICRO_CARE:
+    beschreibung: ">\n  Regelmäßige, kleine Akte der Fürsorge, Aufmerksamkeit und Unterstützung im Alltag.\n    Indikator..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 2
+  OFFENSIVE_FLIRTING:
+    beschreibung: ">\n  eschreibung: >\n\nErkennt kommunikative Muster von offensivem, teils grenzüberschreitendem Flirten..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 12
+  PERMANENT_POSTPONE:
+    beschreibung: Das wiederholte und oft vage Aufschieben von wichtigen Entscheidungen, klärenden Gesprächen oder not...
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 20
+  PLAYING_VICTIM:
+    beschreibung: ">\n  Das bewusste oder unbewusste Einnehmen der Opferrolle, um Mitleid, Entlastung oder Verantwortung..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 74
+  PROJECTIVE_IDENTIFICATION:
+    beschreibung: ">\n  Eigene, oft unbewusste Gefühle, Schwächen oder Eigenschaften werden dem Gegenüber so zugeschrieb..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 20
+  Pseudo:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  RELATIONSHIP_AUTHENTICITY:
+    beschreibung: ">\n  beschreibung: >\n    Erkennt, ob im Gesprächsverlauf Hinweise darauf bestehen, dass sich die Gesp..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 12
+  RESONACE_MATCHING_DETECTOR:
+    beschreibung: ">\n  Semantic detection of too good to be true matching."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 6
+  RESONANZ_MATCHING:
+    beschreibung: ">\n  beschreibung: >\n    Erkennt eine auffallend hohe Übereinstimmung oder perfekte Resonanz zwischen..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 27
+  RESPONSE_TIME:
+    beschreibung: ">\n  beschreibung: >\n    Geschwindigkeit, mit der auf Nachrichte"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 12
+  Reactive:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  SCAMMER_BEHAVIOUR_DETECT:
+    beschreibung: ">\n  Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen. \n  Die Marker basieren auf s..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 56
+  SCAMMER_DETECTIO:
+    beschreibung: ">\n  beschreibung: >\n  Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen. \n  Die Mar..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 20
+  SCAMMER_SEMANTIC_BEHAVIOUR:
+    beschreibung: ">\n  beschreibung: >\n  Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen. \n  Die Mar..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 58
+  SELF_SABOTAGE_LOOP:
+    beschreibung: Ein Verhaltens- oder Kommunikationsmuster, bei dem eine Person aktiv oder passiv ihre eigenen Chance...
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 20
+  SEMANTIC_BEHAVIOR:
+    beschreibung: Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen.  Die Marker basieren auf semanti...
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  SHOCK_SURPRISE_DRIFT:
+    beschreibung: ">\n  beschreibung: >\n  Erkennt Momente plötzlicher Überraschung oder Erschrockenheit, die einen abrup..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 62
+  SILENT_TREATMENT:
+    beschreibung: ">\n  Kommunikationsverweigerung, Mauern oder Ignorieren des Gegenübers als passiv-aggressive Manipula..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 15
+  SIMU_IMITATION_STRATEGIES:
+    beschreibung: ">\n  Um das Verhalten eines Love Scammers möglichst realistisch zu imitieren, muss eine KI über ihre ..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 33
+  SIMU_LAVE_SCAM_SEMANTIC:
+    beschreibung: ">\n  YAML-Struktur fürs semantische Verhalten von SIMULATRO KI bei der Simulation von Scammerns"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 13
+  SIMU_LOVE_SCAM_HUMAN01:
+    beschreibung: ">\n  Was bräuchte diese semantische Erkennung?\nStatt \"Ich liebe dich\" einfach nur zu matchen, würde\
+      \ s..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 31
+  SIMU_LOVE_SCAM_PSYCHO_DISTRACT:
+    beschreibung: ">\n  Intensiver Beziehungsaufbau, um beim Opfer ein Trauma-Bonding zu erzeugen, um es dadruch tief em..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 72
+  SOCIAL_BORDERLINES_MIX:
+    beschreibung: ">\n  A mixture of markers to identify social closeness and allowingness of stepping beyond borders"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 22
+  SOCIAL_INTERACTION:
+    beschreibung: ">\n  \"beschreibung\": (\n            \"Erkennt kommunikative Muster von freundlich-sympathischem Flirten..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 30
+  SOCIAL_RESONANCE_DETECTOR:
+    beschreibung: ">\n  Semantic greb pattern"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 2
+  SPIRAL_DYNAMICS_LEVELS:
+    beschreibung: ''''''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  SUBTLE_TERRITORIAL:
+    beschreibung: Verdecktes oder offenes Abstecken von persönlichen Grenzen und Revieren durch Regeln, Rituale oder n...
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 20
+  SYSTEM_TURNING_CLUSTER:
+    beschreibung: ">\n  Beschreibt die Marker, die zusammen einen Systenkipppunkt sichtbarmachen."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 175
+  SYSTEM_TURNING_POINT:
+    beschreibung: ">\n  description: >\n    System erreicht Kipppunkt bei Häufung von Instabilitäts- und Eskalationsmarke..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 7
+  TERMINATION:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  TOMS_Erweiterte_Marker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  UNCERTAINTY:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  WEBCAM_EXCUSE:
+    beschreibung: ">\n  beschreibung: >\n  Erkennt typische Ausreden, mit denen eine Videoverbindung vermieden wird. Dies..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 48
+  XXXSEMANTIC_BEHAVIOR_SYSTEM:
+    beschreibung: ">\n  zielsetzung: >\n  Entwicklung eines KI-gestützten Systems zur semantischen Erkennung, Klassifizie..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 71
+  abbruchmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  alias:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  ambivalenzmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  beispiele:
+    beschreibung: ''''''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  daten:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  deep_semantic_markers:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  dynamic_knot_template_visual:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  dynamic_knots (1):
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  enhanced_marker_config:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  erregungsmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  eskalationsmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  fraud_markers:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  integrationsmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  kommunikationsmarker_ident:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  marker_rollen_rotation:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  marker_set_beziehung:
+    beschreibung: "'Enthält Marker rund um emotionale Dynamiken in Beziehungen: Manipulation,\n    Rückzug, Sarkasmus.'\n\
+      ..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  marker_set_bindungsmuster:
+    beschreibung: "Marker zur Erkennung von Bindungsstrategien in zwischenmenschlichen\n    Beziehungen – z. B. vermeide..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  meta_marker_definitions:
+    beschreibung: ">\n      Ein manipulatives Muster, das emotionale Schuld erzeugt, indem es Selbstabwertung mit latent..."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  neue_marker_beziehung:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  o3_text_markers:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  schwankenmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  sentinelMarkerMatcher:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  spiral_analysis:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  streitmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  unklarheitsmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  verbindungsmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  versöhnungsmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  verstandnismarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  vorwurfsmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  widerspruchsmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  wutmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0
+  zweifelmarker:
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    beispiel_anzahl: 0

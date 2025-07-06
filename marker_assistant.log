@@ -1,0 +1,132 @@
+2025-07-01 01:15:47,586 - FRAUSAR_Assistant - INFO - FRAUSAR Marker Assistant initialisiert für: Assist_TXT_marker_py:/ALL_NEWMARKER01
+2025-07-01 01:15:47,587 - FRAUSAR_Assistant - INFO - === Starte tägliche FRAUSAR Marker-Wartung ===
+2025-07-01 01:15:47,592 - FRAUSAR_Assistant - INFO - 3 neue Trends mit hoher Konfidenz erkannt
+2025-07-01 01:15:47,592 - FRAUSAR_Assistant - INFO - 3 neue Trends mit hoher Konfidenz erkannt
+2025-07-01 01:15:47,593 - FRAUSAR_Assistant - INFO - 3 neue Patterns zu FRAUD_MARKER_PATTERNS.py hinzugefügt
+2025-07-01 01:16:01,036 - FRAUSAR_Assistant - INFO - FRAUSAR Marker Assistant initialisiert für: Assist_TXT_marker_py:/ALL_NEWMARKER01
+2025-07-01 01:16:01,036 - FRAUSAR_Assistant - INFO - === Starte tägliche FRAUSAR Marker-Wartung ===
+2025-07-01 01:16:01,041 - FRAUSAR_Assistant - INFO - 3 neue Trends mit hoher Konfidenz erkannt
+2025-07-01 01:16:01,041 - FRAUSAR_Assistant - INFO - 3 neue Trends mit hoher Konfidenz erkannt
+2025-07-01 01:16:01,042 - FRAUSAR_Assistant - INFO - 3 neue Patterns zu FRAUD_MARKER_PATTERNS.py hinzugefügt
+2025-07-01 01:16:01,043 - FRAUSAR_Assistant - INFO - Wartung abgeschlossen. Report: Assist_TXT_marker_py:/daily_maintenance_report.json
+2025-07-01 12:57:14,438 - FRAUSAR_Assistant - INFO - FRAUSAR Marker Assistant initialisiert für: Assist_TXT_marker_py:/ALL_NEWMARKER01
+2025-07-01 12:57:14,439 - FRAUSAR_Assistant - INFO - === Starte tägliche FRAUSAR Marker-Wartung ===
+2025-07-01 12:57:14,451 - FRAUSAR_Assistant - INFO - 3 neue Trends mit hoher Konfidenz erkannt
+2025-07-01 12:57:14,451 - FRAUSAR_Assistant - INFO - 3 neue Trends mit hoher Konfidenz erkannt
+2025-07-01 12:57:14,452 - FRAUSAR_Assistant - INFO - 3 neue Patterns zu FRAUD_MARKER_PATTERNS.py hinzugefügt
+2025-07-01 12:57:14,453 - FRAUSAR_Assistant - INFO - Wartung abgeschlossen. Report: Assist_TXT_marker_py:/daily_maintenance_report.json
+2025-07-01 12:57:21,623 - FRAUSAR_Assistant - INFO - FRAUSAR Marker Assistant initialisiert für: Assist_TXT_marker_py:/ALL_NEWMARKER01
+2025-07-01 12:57:21,623 - FRAUSAR_Assistant - INFO - === Generiere alle Master-Dateien ===
+2025-07-01 12:57:21,624 - FRAUSAR_Assistant - INFO - Sammle alle Marker aus dem Projekt...
+2025-07-01 12:57:21,624 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py:/ALL_NEWMARKER01
+2025-07-01 12:57:21,641 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/ALL_NEWMARKER01
+2025-07-01 12:57:21,658 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/MARKERBOOK_YAML_CANVAS
+2025-07-01 12:57:21,660 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/tension
+2025-07-01 12:57:21,672 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/resonance
+2025-07-01 12:57:21,681 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4
+2025-07-01 12:57:21,700 - FRAUSAR_Assistant - ERROR - Fehler beim Parsen von Assist_YAML_marker_py: 4/marker_sarkasmus.yaml: unhashable type: 'dict'
+2025-07-01 12:57:21,724 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/MARKERBOOK_YAML_CANVAS
+2025-07-01 12:57:21,737 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/tension
+2025-07-01 12:57:21,761 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/resonance
+2025-07-01 12:57:21,769 - FRAUSAR_Assistant - INFO - 78 Marker erfolgreich gesammelt
+2025-07-01 12:57:21,770 - FRAUSAR_Assistant - INFO - Generiere Master-Export-Dateien...
+2025-07-01 12:57:21,831 - FRAUSAR_Assistant - INFO - Master-Export erstellt: marker_master_export.yaml, marker_master_export.json
+2025-07-01 12:57:21,831 - FRAUSAR_Assistant - INFO - Generiere MARKER_SYSTEM_README.md...
+2025-07-01 12:57:21,832 - FRAUSAR_Assistant - INFO - MARKER_SYSTEM_README.md erstellt: MARKER_SYSTEM_README.md
+2025-07-01 12:57:21,832 - FRAUSAR_Assistant - INFO - Generiere MARKER_MASTER_README.md...
+2025-07-01 12:57:21,832 - FRAUSAR_Assistant - INFO - MARKER_MASTER_README.md erstellt: MARKER_MASTER_README.md
+2025-07-01 12:57:21,832 - FRAUSAR_Assistant - INFO - === Alle Master-Dateien erfolgreich generiert ===
+2025-07-01 12:58:15,022 - FRAUSAR_Assistant - INFO - FRAUSAR Marker Assistant initialisiert für: Assist_TXT_marker_py:/ALL_NEWMARKER01
+2025-07-01 12:58:16,027 - FRAUSAR_Assistant - INFO - Sammle alle Marker aus dem Projekt...
+2025-07-01 12:58:16,028 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py:/ALL_NEWMARKER01
+2025-07-01 12:58:16,060 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/ALL_NEWMARKER01
+2025-07-01 12:58:16,081 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/MARKERBOOK_YAML_CANVAS
+2025-07-01 12:58:16,084 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/tension
+2025-07-01 12:58:16,094 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/resonance
+2025-07-01 12:58:16,104 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4
+2025-07-01 12:58:16,121 - FRAUSAR_Assistant - ERROR - Fehler beim Parsen von Assist_YAML_marker_py: 4/marker_sarkasmus.yaml: unhashable type: 'dict'
+2025-07-01 12:58:16,145 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/MARKERBOOK_YAML_CANVAS
+2025-07-01 12:58:16,157 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/tension
+2025-07-01 12:58:16,184 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/resonance
+2025-07-01 12:58:16,192 - FRAUSAR_Assistant - INFO - 78 Marker erfolgreich gesammelt
+2025-07-01 12:58:16,193 - FRAUSAR_Assistant - INFO - === Generiere alle Master-Dateien ===
+2025-07-01 12:58:16,193 - FRAUSAR_Assistant - INFO - Sammle alle Marker aus dem Projekt...
+2025-07-01 12:58:16,193 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py:/ALL_NEWMARKER01
+2025-07-01 12:58:16,204 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/ALL_NEWMARKER01
+2025-07-01 12:58:16,213 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/MARKERBOOK_YAML_CANVAS
+2025-07-01 12:58:16,214 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/tension
+2025-07-01 12:58:16,221 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/resonance
+2025-07-01 12:58:16,227 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4
+2025-07-01 12:58:16,255 - FRAUSAR_Assistant - ERROR - Fehler beim Parsen von Assist_YAML_marker_py: 4/marker_sarkasmus.yaml: unhashable type: 'dict'
+2025-07-01 12:58:16,418 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/MARKERBOOK_YAML_CANVAS
+2025-07-01 12:58:16,457 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/tension
+2025-07-01 12:58:16,484 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/resonance
+2025-07-01 12:58:16,491 - FRAUSAR_Assistant - INFO - 78 Marker erfolgreich gesammelt
+2025-07-01 12:58:16,491 - FRAUSAR_Assistant - INFO - Generiere Master-Export-Dateien...
+2025-07-01 12:58:16,555 - FRAUSAR_Assistant - INFO - Master-Export erstellt: demo_output/marker_master_export.yaml, demo_output/marker_master_export.json
+2025-07-01 12:58:16,555 - FRAUSAR_Assistant - INFO - Generiere MARKER_SYSTEM_README.md...
+2025-07-01 12:58:16,555 - FRAUSAR_Assistant - INFO - MARKER_SYSTEM_README.md erstellt: demo_output/MARKER_SYSTEM_README.md
+2025-07-01 12:58:16,555 - FRAUSAR_Assistant - INFO - Generiere MARKER_MASTER_README.md...
+2025-07-01 12:58:16,555 - FRAUSAR_Assistant - INFO - MARKER_MASTER_README.md erstellt: demo_output/MARKER_MASTER_README.md
+2025-07-01 12:58:16,556 - FRAUSAR_Assistant - INFO - === Alle Master-Dateien erfolgreich generiert ===
+2025-07-01 13:10:35,097 - FRAUSAR_Assistant - INFO - FRAUSAR Marker Assistant initialisiert für: Assist_TXT_marker_py:/ALL_NEWMARKER01
+2025-07-01 13:10:35,123 - FRAUSAR_Assistant - INFO - Sammle alle Marker aus dem Projekt...
+2025-07-01 13:10:35,123 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py:/ALL_NEWMARKER01
+2025-07-01 13:10:35,147 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/ALL_NEWMARKER01
+2025-07-01 13:10:35,164 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/MARKERBOOK_YAML_CANVAS
+2025-07-01 13:10:35,167 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/tension
+2025-07-01 13:10:35,176 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/resonance
+2025-07-01 13:10:35,185 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4
+2025-07-01 13:10:35,202 - FRAUSAR_Assistant - ERROR - Fehler beim Parsen von Assist_YAML_marker_py: 4/marker_sarkasmus.yaml: unhashable type: 'dict'
+2025-07-01 13:10:35,230 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/MARKERBOOK_YAML_CANVAS
+2025-07-01 13:10:35,242 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/tension
+2025-07-01 13:10:35,266 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/resonance
+2025-07-01 13:10:35,274 - FRAUSAR_Assistant - INFO - 81 Marker erfolgreich gesammelt
+2025-07-01 13:19:01,813 - FRAUSAR_Assistant - INFO - === Generiere alle Master-Dateien ===
+2025-07-01 13:19:01,815 - FRAUSAR_Assistant - INFO - Sammle alle Marker aus dem Projekt...
+2025-07-01 13:19:01,815 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py:/ALL_NEWMARKER01
+2025-07-01 13:19:01,863 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/ALL_NEWMARKER01
+2025-07-01 13:19:01,893 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/MARKERBOOK_YAML_CANVAS
+2025-07-01 13:19:01,899 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/tension
+2025-07-01 13:19:01,915 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_TXT_marker_py: 2/resonance
+2025-07-01 13:19:01,925 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4
+2025-07-01 13:19:01,940 - FRAUSAR_Assistant - ERROR - Fehler beim Parsen von Assist_YAML_marker_py: 4/marker_sarkasmus.yaml: unhashable type: 'dict'
+2025-07-01 13:19:01,961 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/MARKERBOOK_YAML_CANVAS
+2025-07-01 13:19:01,972 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/tension
+2025-07-01 13:19:01,995 - FRAUSAR_Assistant - INFO - Durchsuche: Assist_YAML_marker_py: 4/resonance
+2025-07-01 13:19:02,004 - FRAUSAR_Assistant - INFO - 81 Marker erfolgreich gesammelt
+2025-07-01 13:19:02,004 - FRAUSAR_Assistant - INFO - Generiere Master-Export-Dateien...
+2025-07-01 13:19:02,065 - FRAUSAR_Assistant - INFO - Master-Export erstellt: /Users/benjaminpoersch/claude/marker_master_export.yaml, /Users/benjaminpoersch/claude/marker_master_export.json
+2025-07-01 13:19:02,065 - FRAUSAR_Assistant - INFO - Generiere MARKER_SYSTEM_README.md...
+2025-07-01 13:19:02,066 - FRAUSAR_Assistant - INFO - MARKER_SYSTEM_README.md erstellt: /Users/benjaminpoersch/claude/MARKER_SYSTEM_README.md
+2025-07-01 13:19:02,066 - FRAUSAR_Assistant - INFO - Generiere MARKER_MASTER_README.md...
+2025-07-01 13:19:02,067 - FRAUSAR_Assistant - INFO - MARKER_MASTER_README.md erstellt: /Users/benjaminpoersch/claude/MARKER_MASTER_README.md
+2025-07-01 13:19:02,068 - FRAUSAR_Assistant - INFO - === Alle Master-Dateien erfolgreich generiert ===
+2025-07-02 20:06:37,665 - FRAUSAR_Assistant - INFO - FRAUSAR Marker Assistant initialisiert für: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01
+2025-07-02 20:06:37,666 - FRAUSAR_Assistant - INFO - Sammle alle Marker aus dem Projekt...
+2025-07-02 20:06:37,666 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01
+2025-07-02 20:06:37,690 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/fraud
+2025-07-02 20:06:37,691 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/emotions
+2025-07-02 20:06:37,692 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/tension
+2025-07-02 20:06:37,703 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/resonance
+2025-07-02 20:06:37,712 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/dynamic_knots
+2025-07-02 20:06:37,713 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/MARKERBOOK_YAML_CANVAS
+2025-07-02 20:06:37,716 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/extended_marker_yaml_bundle
+2025-07-02 20:06:37,718 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/RELATIONSHIP_MARKERS
+2025-07-02 20:06:37,718 - FRAUSAR_Assistant - INFO - 91 Marker erfolgreich gesammelt
+2025-07-03 01:52:22,565 - FRAUSAR_Assistant - INFO - FRAUSAR Marker Assistant initialisiert für: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01
+2025-07-03 01:52:22,565 - FRAUSAR_Assistant - INFO - Generiere vereinheitlichte YAML-Datei für GPT-Analyse...
+2025-07-03 01:52:22,565 - FRAUSAR_Assistant - INFO - Sammle alle Marker aus dem Projekt...
+2025-07-03 01:52:22,565 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01
+2025-07-03 01:52:22,594 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/fraud
+2025-07-03 01:52:22,596 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/emotions
+2025-07-03 01:52:22,596 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/tension
+2025-07-03 01:52:22,605 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/resonance
+2025-07-03 01:52:22,612 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/dynamic_knots
+2025-07-03 01:52:22,613 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/MARKERBOOK_YAML_CANVAS
+2025-07-03 01:52:22,615 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/Former_NEW_MARKER_FOLDERS/extended_marker_yaml_bundle
+2025-07-03 01:52:22,616 - FRAUSAR_Assistant - INFO - Durchsuche: ../ALL_SEMANTIC_MARKER_TXT/RELATIONSHIP_MARKERS
+2025-07-03 01:52:22,616 - FRAUSAR_Assistant - INFO - 99 Marker erfolgreich gesammelt
+2025-07-03 01:52:22,707 - FRAUSAR_Assistant - INFO - Vereinheitlichte YAML-Datei erstellt: marker_unified_for_gpt.yaml
+2025-07-03 01:52:22,707 - FRAUSAR_Assistant - INFO - Enthält 99 Marker mit 2228 Beispielen
+2025-07-03 01:52:22,719 - FRAUSAR_Assistant - INFO - Kompakte Übersicht erstellt: marker_unified_for_gpt_compact.yaml

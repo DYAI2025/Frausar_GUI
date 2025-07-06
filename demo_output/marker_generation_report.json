@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-07-01T12:58:16.556104",
+  "summary": {
+    "total_markers": 78,
+    "total_examples": 1661,
+    "categories": 1,
+    "average_examples_per_marker": 21.29
+  },
+  "categories": [
+    "UNCATEGORIZED"
+  ],
+  "top_markers_by_examples": [
+    {
+      "name": "DEEPENING_BY_QUESTIONING_MARKER",
+      "example_count": 563,
+      "category": "UNCATEGORIZED"
+    },
+    {
+      "name": "DRAMA_TRIANGLE_MARKER",
+      "example_count": 86,
+      "category": "UNCATEGORIZED"
+    },
+    {
+      "name": "ISOLATION_MARKER",
+      "example_count": 77,
+      "category": "UNCATEGORIZED"
+    },
+    {
+      "name": "AI_BOT_SEMANTIC_DETECT",
+      "example_count": 75,
+      "category": "UNCATEGORIZED"
+    },
+    {
+      "name": "PLAYING_VICTIM_MARKER",
+      "example_count": 74,
+      "category": "UNCATEGORIZED"
+    },
+    {
+      "name": "SIMU_LOVE_SCAM_PSYCHO_DISTRACT",
+      "example_count": 72,
+      "category": "UNCATEGORIZED"
+    },
+    {
+      "name": "SCAMMER_SEMANTIC_BEHAVIOUR",
+      "example_count": 58,
+      "category": "UNCATEGORIZED"
+    },
+    {
+      "name": "SCAMMER_BEHAVIOUR_DETECT",
+      "example_count": 56,
+      "category": "UNCATEGORIZED"
+    },
+    {
+      "name": "WEBCAM_EXCUSE_MARKER",
+      "example_count": 48,
+      "category": "UNCATEGORIZED"
+    },
+    {
+      "name": "GUILT_TRIPPING_MARKER",
+      "example_count": 46,
+      "category": "UNCATEGORIZED"
+    }
+  ],
+  "generation_info": {
+    "generated_by": "FRAUSAR Marker Assistant",
+    "version": "2.0"
+  }
+}

@@ -1,0 +1,83 @@
+SEMANTIC MARKER FRAMEWORK - COMPLIANCE REPORT
+============================================================
+Generiert: 2025-07-03T03:50:24.077527
+
+Violations: 5
+  ❌ Fehlende Pflichtfelder in SEMANTIC_BEHAVIOR_MARKER.yaml: marker_name, beispiele, semantische_grabber_id
+  ❌ Grabber-ID 'TRUST_EROSION_SEM_a1b2' entspricht nicht dem Format *_SEM oder AUTO_SEM_*
+  ❌ Grabber-ID 'BOUNDARY_VIOLATION_SEM_c3d4' entspricht nicht dem Format *_SEM oder AUTO_SEM_*
+  ❌ Grabber-ID 'EMOTIONAL_MANIPULATION_SEM_e5f6' entspricht nicht dem Format *_SEM oder AUTO_SEM_*
+  ❌ Grabber-ID 'SELF_DOUBT_SEM_g7h8' entspricht nicht dem Format *_SEM oder AUTO_SEM_*
+
+Warnings: 71
+  ⚠️  Legacy TXT-Format gefunden: SHOCK_SURPRISE_DRIFT.txt_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: RELATIONSHIP_AUTHENTICITY_MARKER_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: RESONANZ_MATCHING_MARKER_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: BOUNDARY_SETTING_MARKER_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: GREETING_FREQUENCY_MARKER_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: PERMANENT_POSTPONE_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: AI_BOT_SEMANTIC_DETECT.py_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: FRIENDLY_FLIRTING_DETECT.py_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: PLAYING_VICTIM_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SOCIAL_RESONANCE_DETECTOR.py_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SIMU_LOVE_SCAM_PSYCHO_DISTRACT.yaml_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: GUILT_TRIPPING_SEMANTIC_DETECT.py_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: RESONACE_MATCHING_DETECTOR.py_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: WEBCAM_EXCUSE_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: AROUSAL_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: FLUCTUATION_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SILENT_TREATMENT_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SYSTEM_TURNING_CLUSTER.txt_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: DEVELOPMENT_META_COMMUNICATION_MARKER_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SYSTEM_TURNING_POINT.txt_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: INITIATIVE_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: COMPARISON_GHOST_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SCAMMER_DETECTIO.py_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: BLAME_SHIFT_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: GASLIGHTING_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: OFFENSIVE_FLIRTING.txt_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: UNCERTAINTY_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: INTEGRATION_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: LOVE_BOMBING_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: ESCALATION_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: TERMINATION_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: DEEPENING_BY_QUESTIONING.txt_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: LIE_CONCEALMENT_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: AI_BOT_SCAM.txt_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: ISOLATION_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SIMU_LAVE_SCAM_SEMANTIC.yaml_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: AMBIVALENCE_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: FRIENDLY_FLIRTING_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SELF_SABOTAGE_LOOP_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: AI_BOTS_SEMANTIC_DETECT.py_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: CARE_SIGNITURE_MARKER_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: XXXSEMANTIC_BEHAVIOR_MARKER_SYSTEM.YAML_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SCAMMER_BEHAVIOUR_DETECT.py_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SIMU_IMITATION_STRATEGIES.yaml_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: MARKER_AXIES_DRIFT.txt_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SOCIAL_INTERACTION.py_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: AMBIVALENCE_TOLERANCE_MARKER_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: DETECT_SYSTEM_TURNING_POINT.py_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SOCIAL_BORDERLINES_MARKER_MIX.txt_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SIMU_LOVE_SCAM_HUMAN01.py_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: PROJECTIVE_IDENTIFICATION_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: GUILT_TRIPPING_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SELF_REFLECTION_MARKER_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: NEW_STRATEGY_ATTEMPT_MARKER_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: FAILURE_OWNERSHIP_MARKER_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SUBTLE_TERRITORIAL_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: DRAMA_TRIANGLE_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: RESPONSE_TIME_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: CONNECTION_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: MICRO_CARE_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: SCAMMER_SEMANTIC_BEHAVIOUR.yaml_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: AROUSAL_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: FLUCTUATION_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: UNCERTAINTY_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: INTEGRATION_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: ESCALATION_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: TERMINATION_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: AMBIVALENCE_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: CONNECTION_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Legacy TXT-Format gefunden: FAMILIENDYNAMIK_MARKER.txt - sollte zu YAML konvertiert werden
+  ⚠️  Ungenutzte Grabber: TRUST_EROSION_SEM_a1b2, BOUNDARY_VIOLATION_SEM_c3d4, EMOTIONAL_MANIPULATION_SEM_e5f6, SELF_DOUBT_SEM_g7h8
