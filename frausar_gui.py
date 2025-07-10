@@ -313,6 +313,137 @@ class FRAUSARAssistant:
             'coverage_score': round((len(markers) - len(markers_without_examples)) / len(markers) * 100, 1) if markers else 0
         }
     
+    def validate_yaml_structure(self, file_path):
+        """Validiert eine YAML-Datei auf vollständige Struktur"""
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Prüfe auf erforderliche Felder
+            required_fields = ['marker_name', 'beschreibung', 'examples', 'kategorie', 'tags', 'semantische_grabber_id']
+            issues = []
+            
+            for field in required_fields:
+                if field not in content:
+                    issues.append(f"Fehlendes Feld: {field}")
+            
+            # Prüfe Beispiele-Anzahl
+            examples_match = re.search(r'examples:\s*\n(.*?)(?=\n\w+:|$)', content, re.DOTALL)
+            if examples_match:
+                examples_text = examples_match.group(1)
+                example_count = len(re.findall(r'^\s*-\s*"', examples_text, re.MULTILINE))
+                if example_count < 10:
+                    issues.append(f"Zu wenige Beispiele: {example_count} (mindestens 10 erforderlich)")
+            else:
+                issues.append("Keine Beispiele gefunden")
+            
+            # Prüfe marker_name Format
+            marker_name_match = re.search(r'marker_name:\s*(\w+)', content)
+            if marker_name_match:
+                marker_name = marker_name_match.group(1)
+                if not marker_name.endswith('_MARKER'):
+                    issues.append(f"Marker-Name muss mit '_MARKER' enden: {marker_name}")
+            
+            # Prüfe Beschreibung Länge
+            desc_match = re.search(r'beschreibung:\s*(.+)', content)
+            if desc_match:
+                description = desc_match.group(1).strip()
+                if len(description) < 10:
+                    issues.append(f"Beschreibung zu kurz: {len(description)} Zeichen (mindestens 10)")
+            
+            return {
+                'valid': len(issues) == 0,
+                'issues': issues,
+                'file_path': file_path
+            }
+            
+        except Exception as e:
+            return {
+                'valid': False,
+                'issues': [f"Fehler beim Lesen der Datei: {str(e)}"],
+                'file_path': file_path
+            }
+    
+    def get_invalid_yaml_markers(self):
+        """Sammelt alle YAML-Dateien und prüft ihre Struktur"""
+        invalid_markers = []
+        
+        # Durchsuche alle relevanten Verzeichnisse
+        search_dirs = [
+            self.marker_dir,
+            self.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/fraud",
+            self.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/emotions",
+            self.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/tension",
+            self.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/resonance",
+            self.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/dynamic_knots",
+            self.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/MARKERBOOK_YAML_CANVAS",
+            self.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/extended_marker_yaml_bundle",
+            self.marker_dir.parent / "RELATIONSHIP_MARKERS"
+        ]
+        
+        for search_dir in search_dirs:
+            if search_dir.exists():
+                # Suche nach YAML-Dateien
+                for file_path in search_dir.glob("*.yaml"):
+                    validation_result = self.validate_yaml_structure(file_path)
+                    if not validation_result['valid']:
+                        invalid_markers.append(validation_result)
+                
+                for file_path in search_dir.glob("*.yml"):
+                    validation_result = self.validate_yaml_structure(file_path)
+                    if not validation_result['valid']:
+                        invalid_markers.append(validation_result)
+        
+        return invalid_markers
+    
+    def merge_yaml_files(self, file_paths, output_filename="merged_markers.yaml"):
+        """Vereint mehrere YAML-Dateien zu einer großen strukturierten Datei"""
+        merged_content = {
+            'meta': {
+                'title': 'Vereinte Marker-Sammlung',
+                'created_at': datetime.now().isoformat(),
+                'source_files': [str(p) for p in file_paths],
+                'total_files': len(file_paths)
+            },
+            'markers': {}
+        }
+        
+        for file_path in file_paths:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                # Extrahiere Marker-Daten
+                marker_data = self._parse_marker_content(content, file_path.name)
+                if marker_data:
+                    # Verwende Dateiname als Schlüssel wenn kein marker_name
+                    marker_key = marker_data.get('name', file_path.stem)
+                    merged_content['markers'][marker_key] = {
+                        'marker_name': marker_data.get('name', marker_key),
+                        'beschreibung': marker_data.get('beschreibung', ''),
+                        'examples': marker_data.get('beispiele', []),
+                        'kategorie': marker_data.get('kategorie', 'UNCATEGORIZED'),
+                        'tags': marker_data.get('tags', []),
+                        'semantische_grabber_id': marker_data.get('semantische_grabber_id', ''),
+                        'source_file': str(file_path),
+                        'merged_at': datetime.now().isoformat()
+                    }
+                    
+            except Exception as e:
+                print(f"Fehler beim Verarbeiten von {file_path}: {e}")
+        
+        # Speichere vereinte Datei
+        import yaml
+        output_path = Path(output_filename)
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write("# Vereinte Marker-Sammlung\n")
+            f.write(f"# Erstellt am: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"# Anzahl Quell-Dateien: {len(file_paths)}\n")
+            f.write("# ====================================================================\n\n")
+            yaml.dump(merged_content, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+        
+        return output_path
+    
     def identify_marker_gaps(self):
         """Identifiziert Lücken in der Marker-Abdeckung - immer aktueller Stand"""
         # Sammle Marker neu für aktuelle Analyse
@@ -383,7 +514,16 @@ class FRAUSARAssistant:
                 import yaml
                 with open(self.semantic_grabber_library_path, 'r', encoding='utf-8') as f:
                     data = yaml.safe_load(f)
-                return data.get('semantic_grabbers', {})
+                grabbers = data.get('semantic_grabbers', {})
+                
+                # Konvertiere alte 'patterns' zu 'examples' für Konsistenz
+                for gid, grabber in grabbers.items():
+                    if 'patterns' in grabber and 'examples' not in grabber:
+                        grabber['examples'] = grabber['patterns']
+                    elif 'patterns' not in grabber and 'examples' in grabber:
+                        grabber['patterns'] = grabber['examples']  # Behalte patterns für Rückwärtskompatibilität
+                
+                return grabbers
             except:
                 return {}
         return {}
@@ -428,7 +568,8 @@ class FRAUSARAssistant:
         
         # Vergleiche mit allen existierenden Grabbern
         for grabber_id, grabber_data in self.semantic_grabbers.items():
-            grabber_examples = grabber_data.get('patterns', [])
+            # Unterstütze sowohl 'examples' als auch 'patterns' für Rückwärtskompatibilität
+            grabber_examples = grabber_data.get('examples', grabber_data.get('patterns', []))
             
             # Berechne durchschnittliche Ähnlichkeit
             total_score = 0
@@ -475,7 +616,8 @@ class FRAUSARAssistant:
             new_id = self._generate_grabber_id(marker_name)
             self.semantic_grabbers[new_id] = {
                 'beschreibung': description or f"Automatisch erkannt aus {marker_name}",
-                'patterns': examples[:10],  # Maximal 10 Beispiele
+                'examples': examples[:10],  # Verwende 'examples' statt 'patterns'
+                'patterns': examples[:10],  # Behalte patterns für Rückwärtskompatibilität
                 'created_from': marker_name,
                 'created_at': datetime.now().isoformat()
             }
@@ -491,24 +633,27 @@ class FRAUSARAssistant:
         if len(grabber_ids) < 2:
             return False
         
-        # Sammle alle Patterns
-        all_patterns = []
+        # Sammle alle Patterns/Examples
+        all_examples = []
         descriptions = []
         
         for gid in grabber_ids:
             if gid in self.semantic_grabbers:
                 grabber = self.semantic_grabbers[gid]
-                all_patterns.extend(grabber.get('patterns', []))
+                # Unterstütze sowohl 'examples' als auch 'patterns'
+                examples = grabber.get('examples', grabber.get('patterns', []))
+                all_examples.extend(examples)
                 descriptions.append(grabber.get('beschreibung', ''))
         
         # Entferne Duplikate
-        unique_patterns = list(dict.fromkeys(all_patterns))
+        unique_examples = list(dict.fromkeys(all_examples))
         
         # Erstelle neuen Grabber
         merged_id = new_name or f"MERGED_{grabber_ids[0]}"
         self.semantic_grabbers[merged_id] = {
             'beschreibung': f"Vereint aus: {', '.join(descriptions[:3])}",
-            'patterns': unique_patterns[:20],  # Maximal 20
+            'examples': unique_examples[:20],  # Verwende 'examples'
+            'patterns': unique_examples[:20],  # Behalte patterns für Rückwärtskompatibilität
             'merged_from': grabber_ids,
             'created_at': datetime.now().isoformat()
         }
@@ -528,8 +673,9 @@ class FRAUSARAssistant:
         
         for i, id1 in enumerate(grabber_ids):
             for id2 in grabber_ids[i+1:]:
-                examples1 = self.semantic_grabbers[id1].get('patterns', [])
-                examples2 = self.semantic_grabbers[id2].get('patterns', [])
+                # Unterstütze sowohl 'examples' als auch 'patterns'
+                examples1 = self.semantic_grabbers[id1].get('examples', self.semantic_grabbers[id1].get('patterns', []))
+                examples2 = self.semantic_grabbers[id2].get('examples', self.semantic_grabbers[id2].get('patterns', []))
                 
                 # Berechne Ähnlichkeit
                 if examples1 and examples2:
@@ -549,8 +695,8 @@ class FRAUSARGUI:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("🤖 FRAUSAR Marker Assistant")
-        self.root.geometry("1200x800")
-        
+        # self.root.geometry("1200x800") # Diese Zeile entfernen
+
         self.assistant = FRAUSARAssistant()
         self.pending_changes = []
         
@@ -572,7 +718,7 @@ class FRAUSARGUI:
         
         # Linke Spalte - Marker-Liste
         left_frame = ttk.LabelFrame(content_frame, text="📋 Marker-Liste", padding="5")
-        left_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=False, padx=(0, 5))
+        left_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(0, 5)) # expand auf True setzen
         
         # Suchfeld
         search_frame = ttk.Frame(left_frame)
@@ -653,13 +799,40 @@ class FRAUSARGUI:
         
         # Rechte Spalte - Status & Genehmigungen
         right_frame = ttk.LabelFrame(content_frame, text="💡 Vorschläge & Status", padding="5")
-        right_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=False, padx=(5, 0))
+        right_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(5, 0)) # expand auf True setzen
         
-        self.status_text = scrolledtext.ScrolledText(right_frame, width=35, height=20)
+        self.status_text = scrolledtext.ScrolledText(right_frame, height=20) # width=35 entfernen
         self.status_text.pack(fill=tk.BOTH, expand=True, pady=(0, 5))
         
-        approval_frame = ttk.Frame(right_frame)
-        approval_frame.pack(fill=tk.X)
+        # Erstelle einen scrollbaren Bereich für die Buttons
+        button_container = ttk.Frame(right_frame)
+        button_container.pack(fill=tk.BOTH, expand=True)
+        
+        # Canvas und Scrollbar für scrollbare Buttons
+        canvas = tk.Canvas(button_container, highlightthickness=0)
+        scrollbar = ttk.Scrollbar(button_container, orient="vertical", command=canvas.yview)
+        scrollable_frame = ttk.Frame(canvas)
+        
+        scrollable_frame.bind(
+            "<Configure>",
+            lambda e: canvas.configure(scrollregion=canvas.bbox("all"))
+        )
+        
+        canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
+        canvas.configure(yscrollcommand=scrollbar.set)
+        
+        # Mausrad-Unterstützung
+        def _on_mousewheel(event):
+            canvas.yview_scroll(int(-1*(event.delta/120)), "units")
+        
+        canvas.bind_all("<MouseWheel>", _on_mousewheel)
+        
+        # Pack Canvas und Scrollbar
+        canvas.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+        
+        # Alle Buttons jetzt in scrollable_frame statt approval_frame
+        approval_frame = scrollable_frame
         
         ttk.Button(approval_frame, text="✅ Genehmigen", 
                   command=self.approve_suggestions).pack(fill=tk.X, pady=(0, 2))
@@ -684,7 +857,14 @@ class FRAUSARGUI:
         ttk.Button(approval_frame, text="🔄 Grabber optimieren", 
                   command=self.optimize_grabbers).pack(fill=tk.X, pady=(0, 2))
         ttk.Button(approval_frame, text="📄 Grabber Library öffnen", 
-                  command=self.open_grabber_library).pack(fill=tk.X)
+                  command=self.open_grabber_library).pack(fill=tk.X, pady=(0, 2))
+        
+        # YAML-Tools Buttons
+        ttk.Label(approval_frame, text="YAML-Tools:", font=('Arial', 9, 'bold')).pack(anchor=tk.W, pady=(10, 5))
+        ttk.Button(approval_frame, text="🔍 YAML-Struktur prüfen", 
+                  command=self.validate_yaml_structure_dialog).pack(fill=tk.X, pady=(0, 2))
+        ttk.Button(approval_frame, text="🔄 YAML-Dateien zusammenführen", 
+                  command=self.merge_yaml_files_dialog).pack(fill=tk.X)
         
         # Initialisierung
         self.refresh_marker_list()
@@ -1758,6 +1938,22 @@ metadata:
                     approved_count += 1
                     self.add_chat_message("🤖 Assistant", f"✅ {change['description']} - Erfolgreich gespeichert und neu geladen!")
                 
+                elif change['type'] == 'auto_fix_yaml':
+                    # Auto-Fix für YAML-Dateien
+                    file_path = Path(change['file_path'])
+                    new_content = change['content']
+                    
+                    # Backup erstellen
+                    if file_path.exists():
+                        backup_path = file_path.with_suffix(f".backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}")
+                        backup_path.write_text(file_path.read_text(encoding='utf-8'), encoding='utf-8')
+                    
+                    # Änderungen anwenden
+                    file_path.write_text(new_content, encoding='utf-8')
+                    approved_count += 1
+                    
+                    self.add_chat_message("🤖 Assistant", f"✅ {change['description']} - Auto-Fix erfolgreich angewendet!")
+                
             except Exception as e:
                 self.add_chat_message("🤖 Assistant", f"❌ Fehler bei {change['description']}: {str(e)}")
         
@@ -2044,7 +2240,9 @@ metadata:
             for gid, grabber in self.assistant.semantic_grabbers.items():
                 details_text.insert(tk.END, f"🧲 {gid}\n", 'bold')
                 details_text.insert(tk.END, f"   Beschreibung: {grabber.get('beschreibung', 'N/A')}\n")
-                details_text.insert(tk.END, f"   Patterns: {len(grabber.get('patterns', []))}\n")
+                # Zeige sowohl Examples als auch Patterns (falls vorhanden)
+                examples_count = len(grabber.get('examples', grabber.get('patterns', [])))
+                details_text.insert(tk.END, f"   Examples: {examples_count}\n")
                 
                 # Zeige zugeordnete Marker
                 assigned_markers = grabber_usage.get(gid, [])
@@ -2154,64 +2352,272 @@ metadata:
             messagebox.showerror("Fehler", f"Fehler bei der Grabber-Analyse:\n{str(e)}")
     
     def optimize_grabbers(self):
-        """Optimiert Semantic Grabbers durch Merge-Vorschläge"""
+        """Optimiert Semantic Grabbers und verknüpft sie mit Markern"""
         try:
-            self.update_status("🔄 Optimiere Semantic Grabbers...")
+            self.update_status("🔄 Optimiere Semantic Grabbers und verknüpfe mit Markern...")
             
-            overlaps = self.assistant.analyze_grabber_overlaps(threshold=0.85)
-            
-            if not overlaps:
-                messagebox.showinfo("Info", "Keine Optimierungen notwendig!\nAlle Grabber sind ausreichend unterschiedlich.")
-                return
-            
-            # Dialog für Merge-Vorschläge
+            # Dialog für Optimierungs-Optionen
             dialog = tk.Toplevel(self.root)
-            dialog.title("🔄 Grabber Optimierung")
-            dialog.geometry("600x400")
+            dialog.title("🔄 Grabber Optimierung & Verknüpfung")
+            dialog.geometry("900x700")
             dialog.transient(self.root)
             dialog.grab_set()
             
-            frame = ttk.Frame(dialog, padding="15")
-            frame.pack(fill=tk.BOTH, expand=True)
+            main_frame = ttk.Frame(dialog, padding="10")
+            main_frame.pack(fill=tk.BOTH, expand=True)
             
-            ttk.Label(frame, text="Grabber Merge-Vorschläge", 
-                     font=('Arial', 12, 'bold')).pack(pady=(0, 10))
+            ttk.Label(main_frame, text="Grabber Optimierung & Marker-Verknüpfung", 
+                     font=('Arial', 14, 'bold')).pack(pady=(0, 10))
             
-            # Checkboxen für Merge-Auswahl
-            merge_vars = []
+            # Notebook für verschiedene Optimierungen
+            notebook = ttk.Notebook(main_frame)
+            notebook.pack(fill=tk.BOTH, expand=True, pady=(0, 10))
             
-            for i, overlap in enumerate(overlaps):
+            # Tab 1: Marker ohne Grabber verknüpfen
+            link_tab = ttk.Frame(notebook)
+            notebook.add(link_tab, text="🔗 Marker verknüpfen")
+            
+            # Analysiere Marker ohne Grabber
+            markers = self.assistant.collect_all_markers()
+            unlinked_markers = []
+            
+            for marker_name, marker_data in markers.items():
+                if not marker_data.get('semantic_grabber_id'):
+                    unlinked_markers.append((marker_name, marker_data))
+            
+            # Info-Label
+            info_label = ttk.Label(link_tab, 
+                                  text=f"Gefunden: {len(unlinked_markers)} Marker ohne Semantic Grabber ID", 
+                                  font=('Arial', 12, 'bold'))
+            info_label.pack(pady=(10, 10))
+            
+            # Scrollbare Liste für unverknüpfte Marker
+            list_frame = ttk.Frame(link_tab)
+            list_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=(0, 10))
+            
+            # Treeview für bessere Darstellung
+            columns = ('Marker', 'Beispiele', 'Vorschlag', 'Ähnlichkeit')
+            tree = ttk.Treeview(list_frame, columns=columns, show='headings', height=15)
+            
+            # Spalten konfigurieren
+            tree.heading('Marker', text='Marker Name')
+            tree.heading('Beispiele', text='# Beispiele')
+            tree.heading('Vorschlag', text='Grabber Vorschlag')
+            tree.heading('Ähnlichkeit', text='Ähnlichkeit')
+            
+            tree.column('Marker', width=300)
+            tree.column('Beispiele', width=100)
+            tree.column('Vorschlag', width=200)
+            tree.column('Ähnlichkeit', width=100)
+            
+            # Scrollbar
+            scrollbar = ttk.Scrollbar(list_frame, orient='vertical', command=tree.yview)
+            tree.configure(yscrollcommand=scrollbar.set)
+            
+            tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+            scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+            
+            # Analysiere jeden unverknüpften Marker
+            suggestions = []
+            for marker_name, marker_data in unlinked_markers:
+                beispiele = marker_data.get('beispiele', [])
+                
+                if beispiele:
+                    # Finde passenden Grabber
+                    similar_id, similarity = self.assistant.find_similar_grabber(beispiele)
+                    
+                    if similar_id and similarity >= 0.72:
+                        suggestion = {
+                            'marker_name': marker_name,
+                            'marker_data': marker_data,
+                            'grabber_id': similar_id,
+                            'similarity': similarity,
+                            'action': 'link'
+                        }
+                    else:
+                        # Erstelle neuen Grabber
+                        new_id = self.assistant._generate_grabber_id(marker_name)
+                        suggestion = {
+                            'marker_name': marker_name,
+                            'marker_data': marker_data,
+                            'grabber_id': new_id,
+                            'similarity': 0.0,
+                            'action': 'create'
+                        }
+                    
+                    suggestions.append(suggestion)
+                    
+                    # Füge zur Tabelle hinzu
+                    action_text = f"{similar_id} (verwenden)" if suggestion['action'] == 'link' else f"{new_id} (neu)"
+                    tree.insert('', 'end', values=(
+                        marker_name,
+                        len(beispiele),
+                        action_text,
+                        f"{similarity:.1%}" if similarity > 0 else "Neu"
+                    ))
+            
+            # Tab 2: Grabber Merge-Vorschläge
+            merge_tab = ttk.Frame(notebook)
+            notebook.add(merge_tab, text="🔄 Grabber zusammenführen")
+            
+            # Überschneidungen analysieren
+            overlaps = self.assistant.analyze_grabber_overlaps(threshold=0.85)
+            
+            merge_info = ttk.Label(merge_tab, 
+                                  text=f"Gefunden: {len(overlaps)} mögliche Grabber-Zusammenführungen", 
+                                  font=('Arial', 12, 'bold'))
+            merge_info.pack(pady=(10, 10))
+            
+            # Liste für Merge-Vorschläge
+            merge_frame = ttk.Frame(merge_tab)
+            merge_frame.pack(fill=tk.BOTH, expand=True, padx=10)
+            
+            merge_listbox = tk.Listbox(merge_frame, height=10, selectmode=tk.MULTIPLE)
+            merge_scrollbar = ttk.Scrollbar(merge_frame, orient="vertical")
+            merge_listbox.config(yscrollcommand=merge_scrollbar.set)
+            merge_scrollbar.config(command=merge_listbox.yview)
+            
+            merge_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+            merge_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+            
+            for overlap in overlaps:
                 if overlap['recommendation'] == 'merge':
-                    var = tk.BooleanVar(value=True)
-                    merge_vars.append((var, overlap))
-                    
-                    check_frame = ttk.Frame(frame)
-                    check_frame.pack(fill=tk.X, pady=2)
-                    
-                    ttk.Checkbutton(check_frame, variable=var).pack(side=tk.LEFT)
-                    ttk.Label(check_frame, 
-                             text=f"{overlap['grabber1']} + {overlap['grabber2']} ({overlap['similarity']:.0%} ähnlich)").pack(side=tk.LEFT)
+                    merge_listbox.insert(tk.END, 
+                        f"{overlap['grabber1']} + {overlap['grabber2']} ({overlap['similarity']:.0%} ähnlich)")
             
             # Buttons
-            button_frame = ttk.Frame(frame)
-            button_frame.pack(fill=tk.X, pady=(20, 0))
+            button_frame = ttk.Frame(main_frame)
+            button_frame.pack(fill=tk.X, pady=(10, 0))
             
-            def perform_merges():
-                merged_count = 0
-                for var, overlap in merge_vars:
-                    if var.get():
-                        success = self.assistant.merge_grabbers([overlap['grabber1'], overlap['grabber2']])
-                        if success:
-                            merged_count += 1
+            def apply_optimizations():
+                applied_count = 0
                 
-                if merged_count > 0:
-                    messagebox.showinfo("Erfolg", f"{merged_count} Grabber-Paare erfolgreich vereint!")
-                    self.update_status(f"✅ {merged_count} Grabber optimiert")
+                # 1. Verknüpfe Marker mit Grabbern
+                for suggestion in suggestions:
+                    marker_name = suggestion['marker_name']
+                    grabber_id = suggestion['grabber_id']
+                    
+                    if suggestion['action'] == 'create':
+                        # Erstelle neuen Grabber
+                        self.assistant.semantic_grabbers[grabber_id] = {
+                            'beschreibung': f"Automatisch erstellt für {marker_name}",
+                            'examples': suggestion['marker_data'].get('beispiele', [])[:10],
+                            'patterns': suggestion['marker_data'].get('beispiele', [])[:10],  # Rückwärtskompatibilität
+                            'created_from': marker_name,
+                            'created_at': datetime.now().isoformat()
+                        }
+                        self.assistant._save_semantic_grabbers()
+                    
+                    # Aktualisiere Marker-Datei mit semantische_grabber_id
+                    # Finde die Datei des Markers
+                    marker_files = []
+                    search_dirs = [
+                        self.assistant.marker_dir,
+                        self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/fraud",
+                        self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/emotions",
+                        self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/tension",
+                        self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/resonance",
+                        self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/dynamic_knots",
+                        self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/MARKERBOOK_YAML_CANVAS"
+                    ]
+                    
+                    for search_dir in search_dirs:
+                        if search_dir.exists():
+                            for file_path in search_dir.glob("*.yaml"):
+                                try:
+                                    with open(file_path, 'r', encoding='utf-8') as f:
+                                        content = f.read()
+                                    if marker_name in content or marker_name.replace('_MARKER', '') in file_path.stem:
+                                        marker_files.append(file_path)
+                                except:
+                                    pass
+                    
+                    # Aktualisiere die gefundene Datei
+                    for file_path in marker_files:
+                        try:
+                            with open(file_path, 'r', encoding='utf-8') as f:
+                                content = f.read()
+                            
+                            # Füge semantische_grabber_id hinzu wenn nicht vorhanden
+                            if 'semantische_grabber_id:' not in content:
+                                # Füge nach beispiele ein
+                                if 'beispiele:' in content:
+                                    lines = content.split('\n')
+                                    new_lines = []
+                                    in_beispiele = False
+                                    
+                                    for line in lines:
+                                        new_lines.append(line)
+                                        if 'beispiele:' in line:
+                                            in_beispiele = True
+                                        elif in_beispiele and line.strip() and not line.startswith(' '):
+                                            # Ende der Beispiele erreicht
+                                            new_lines.insert(-1, f"\nsemantische_grabber_id: {grabber_id}")
+                                            in_beispiele = False
+                                    
+                                    if in_beispiele:  # Falls Beispiele am Ende der Datei
+                                        new_lines.append(f"\nsemantische_grabber_id: {grabber_id}")
+                                    
+                                    new_content = '\n'.join(new_lines)
+                                else:
+                                    # Füge am Ende hinzu
+                                    new_content = content + f"\n\nsemantische_grabber_id: {grabber_id}\n"
+                                
+                                # Zur Genehmigung hinzufügen
+                                self.pending_changes.append({
+                                    'type': 'update_marker',
+                                    'marker_name': file_path.name,
+                                    'content': new_content,
+                                    'description': f"Verknüpfe {marker_name} mit Grabber {grabber_id}"
+                                })
+                                applied_count += 1
+                                break  # Nur eine Datei pro Marker aktualisieren
+                        except Exception as e:
+                            print(f"Fehler beim Aktualisieren von {file_path}: {e}")
+                
+                # 2. Führe ausgewählte Grabber zusammen
+                merge_selections = merge_listbox.curselection()
+                for i in merge_selections:
+                    overlap_text = merge_listbox.get(i)
+                    # Extrahiere Grabber IDs aus dem Text
+                    parts = overlap_text.split(' + ')
+                    if len(parts) == 2:
+                        grabber1 = parts[0]
+                        grabber2 = parts[1].split(' (')[0]
+                        
+                        success = self.assistant.merge_grabbers([grabber1, grabber2])
+                        if success:
+                            applied_count += 1
+                
+                if applied_count > 0:
+                    self.update_status(f"✅ {applied_count} Optimierungen zur Genehmigung vorgeschlagen")
+                    self.add_chat_message("🤖 Assistant", 
+                                        f"Optimierung abgeschlossen!\n\n"
+                                        f"📊 {len(suggestions)} Marker-Verknüpfungen vorgeschlagen\n"
+                                        f"🔄 {len(merge_selections)} Grabber-Zusammenführungen\n\n"
+                                        f"⏳ Bitte genehmige die Änderungen")
+                    messagebox.showinfo("Erfolg", 
+                                      f"{applied_count} Optimierungen vorbereitet!\n"
+                                      f"Bitte genehmige die Änderungen.")
+                else:
+                    messagebox.showinfo("Info", "Keine Optimierungen ausgewählt.")
                 
                 dialog.destroy()
             
-            ttk.Button(button_frame, text="🔄 Ausgewählte vereinen", command=perform_merges).pack(side=tk.RIGHT, padx=(10, 0))
-            ttk.Button(button_frame, text="Abbrechen", command=dialog.destroy).pack(side=tk.RIGHT)
+            ttk.Button(button_frame, text="✅ Optimierungen anwenden", 
+                      command=apply_optimizations).pack(side=tk.RIGHT, padx=(10, 0))
+            ttk.Button(button_frame, text="❌ Abbrechen", command=dialog.destroy).pack(side=tk.RIGHT)
+            
+            # Hilfe-Text
+            help_text = """
+Optimierungen:
+1. Marker-Verknüpfung: Findet passende Grabber für Marker ohne semantische_grabber_id
+2. Grabber-Zusammenführung: Vereint sehr ähnliche Grabber (>85% Ähnlichkeit)
+
+Die Änderungen werden zur Genehmigung vorgeschlagen.
+            """
+            ttk.Label(button_frame, text=help_text, font=('Arial', 9), 
+                     justify=tk.LEFT).pack(side=tk.LEFT, padx=(0, 20))
             
         except Exception as e:
             self.update_status(f"❌ Fehler: {str(e)}")
@@ -2307,12 +2713,15 @@ metadata:
             help_frame.pack(fill=tk.X, pady=(10, 0))
             
             help_text = """Format für neue Grabber:
-grabbers:
+semantic_grabbers:
   GRABBER_NAME_SEM:
     beschreibung: "Beschreibung des Grabbers"
-    patterns:
-      - "Beispiel-Pattern 1"
-      - "Beispiel-Pattern 2"
+    examples:
+      - "Beispiel 1"
+      - "Beispiel 2"
+    patterns:  # Optional für Rückwärtskompatibilität
+      - "Beispiel 1"
+      - "Beispiel 2"
     """
             ttk.Label(help_frame, text=help_text, font=('Consolas', 9)).pack(anchor=tk.W)
             
@@ -2321,6 +2730,380 @@ grabbers:
         except Exception as e:
             self.update_status(f"❌ Fehler: {str(e)}")
             messagebox.showerror("Fehler", f"Konnte Grabber Library nicht öffnen:\n{str(e)}")
+    
+    def validate_yaml_structure_dialog(self):
+        """Dialog zur YAML-Struktur-Validierung"""
+        try:
+            self.update_status("🔄 Validiere YAML-Strukturen...")
+            
+            # Sammle alle invaliden Marker
+            invalid_markers = self.assistant.get_invalid_yaml_markers()
+            
+            # Dialog erstellen
+            dialog = tk.Toplevel(self.root)
+            dialog.title("🔍 YAML-Struktur Validierung")
+            dialog.geometry("900x700")
+            dialog.transient(self.root)
+            
+            main_frame = ttk.Frame(dialog, padding="10")
+            main_frame.pack(fill=tk.BOTH, expand=True)
+            
+            ttk.Label(main_frame, text="YAML-Struktur Validierung", 
+                     font=('Arial', 14, 'bold')).pack(pady=(0, 10))
+            
+            # Notebook für verschiedene Ansichten
+            notebook = ttk.Notebook(main_frame)
+            notebook.pack(fill=tk.BOTH, expand=True, pady=(0, 10))
+            
+            # Tab 1: Übersicht
+            overview_tab = ttk.Frame(notebook)
+            notebook.add(overview_tab, text=f"📊 Übersicht ({len(invalid_markers)} Probleme)")
+            
+            # Zusammenfassung
+            summary_frame = ttk.Frame(overview_tab)
+            summary_frame.pack(fill=tk.X, pady=(0, 10))
+            
+            total_files = len(invalid_markers)
+            if total_files == 0:
+                ttk.Label(summary_frame, text="✅ Alle YAML-Dateien sind korrekt strukturiert!", 
+                         font=('Arial', 12), foreground='green').pack()
+            else:
+                ttk.Label(summary_frame, text=f"⚠️ {total_files} Dateien haben Strukturprobleme", 
+                         font=('Arial', 12), foreground='orange').pack()
+            
+            # Liste der problematischen Dateien
+            if invalid_markers:
+                overview_listbox = tk.Listbox(overview_tab, height=20)
+                overview_scrollbar = ttk.Scrollbar(overview_tab, orient="vertical")
+                overview_listbox.config(yscrollcommand=overview_scrollbar.set)
+                overview_scrollbar.config(command=overview_listbox.yview)
+                
+                overview_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+                overview_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+                
+                for marker in invalid_markers:
+                    filename = Path(marker['file_path']).name
+                    issue_count = len(marker['issues'])
+                    overview_listbox.insert(tk.END, f"❌ {filename} ({issue_count} Probleme)")
+            
+            # Tab 2: Details
+            details_tab = ttk.Frame(notebook)
+            notebook.add(details_tab, text="🔍 Details")
+            
+            details_text = scrolledtext.ScrolledText(details_tab, height=25, width=80)
+            details_text.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
+            
+            if invalid_markers:
+                details_text.insert(tk.END, "🔍 DETAILLIERTE PROBLEME:\n\n")
+                for marker in invalid_markers:
+                    filename = Path(marker['file_path']).name
+                    details_text.insert(tk.END, f"📄 {filename}\n")
+                    details_text.insert(tk.END, f"   Pfad: {marker['file_path']}\n")
+                    details_text.insert(tk.END, f"   Probleme:\n")
+                    for issue in marker['issues']:
+                        details_text.insert(tk.END, f"      • {issue}\n")
+                    details_text.insert(tk.END, "\n")
+            else:
+                details_text.insert(tk.END, "✅ Keine Probleme gefunden!")
+            
+            details_text.config(state='disabled')
+            
+            # Tab 3: Filter
+            filter_tab = ttk.Frame(notebook)
+            notebook.add(filter_tab, text="🔧 Filter")
+            
+            filter_frame = ttk.Frame(filter_tab, padding="10")
+            filter_frame.pack(fill=tk.BOTH, expand=True)
+            
+            ttk.Label(filter_frame, text="Filtere nach Problemtyp:", 
+                     font=('Arial', 12, 'bold')).pack(anchor=tk.W, pady=(0, 10))
+            
+            # Filter-Buttons
+            button_frame = ttk.Frame(filter_frame)
+            button_frame.pack(fill=tk.X, pady=(0, 10))
+            
+            def filter_by_type(filter_type):
+                filtered_text = scrolledtext.ScrolledText(filter_frame, height=20, width=80)
+                # Entferne vorherige Ergebnisse
+                for widget in filter_frame.winfo_children():
+                    if isinstance(widget, scrolledtext.ScrolledText):
+                        widget.destroy()
+                
+                filtered_text.pack(fill=tk.BOTH, expand=True, pady=(10, 0))
+                
+                filtered_text.insert(tk.END, f"🔍 FILTER: {filter_type}\n\n")
+                
+                count = 0
+                for marker in invalid_markers:
+                    matching_issues = []
+                    for issue in marker['issues']:
+                        if filter_type == "Fehlende Kategorie" and "kategorie" in issue.lower():
+                            matching_issues.append(issue)
+                        elif filter_type == "Fehlende Semantische_grabber_ID" and "semantische_grabber_id" in issue.lower():
+                            matching_issues.append(issue)
+                        elif filter_type == "Fehlende Beispiele" and ("beispiele" in issue.lower() or "zu wenige" in issue.lower()):
+                            matching_issues.append(issue)
+                    
+                    if matching_issues:
+                        filename = Path(marker['file_path']).name
+                        filtered_text.insert(tk.END, f"📄 {filename}\n")
+                        for issue in matching_issues:
+                            filtered_text.insert(tk.END, f"   • {issue}\n")
+                        filtered_text.insert(tk.END, "\n")
+                        count += 1
+                
+                if count == 0:
+                    filtered_text.insert(tk.END, f"✅ Keine Probleme vom Typ '{filter_type}' gefunden!")
+                
+                filtered_text.config(state='disabled')
+            
+            ttk.Button(button_frame, text="📂 Fehlende Kategorie", 
+                      command=lambda: filter_by_type("Fehlende Kategorie")).pack(side=tk.LEFT, padx=(0, 5))
+            ttk.Button(button_frame, text="🧲 Fehlende Semantische_grabber_ID", 
+                      command=lambda: filter_by_type("Fehlende Semantische_grabber_ID")).pack(side=tk.LEFT, padx=(0, 5))
+            ttk.Button(button_frame, text="📝 Fehlende Beispiele", 
+                      command=lambda: filter_by_type("Fehlende Beispiele")).pack(side=tk.LEFT)
+            
+            # Tab 4: Auto-Fix
+            fix_tab = ttk.Frame(notebook)
+            notebook.add(fix_tab, text="🔧 Auto-Fix")
+            
+            fix_frame = ttk.Frame(fix_tab, padding="10")
+            fix_frame.pack(fill=tk.BOTH, expand=True)
+            
+            ttk.Label(fix_frame, text="Automatische Korrekturen:", 
+                     font=('Arial', 12, 'bold')).pack(anchor=tk.W, pady=(0, 10))
+            
+            fix_info = ttk.Label(fix_frame, text="Diese Funktion kann einfache Strukturprobleme automatisch korrigieren.")
+            fix_info.pack(anchor=tk.W, pady=(0, 20))
+            
+            def auto_fix():
+                fixed_count = 0
+                for marker in invalid_markers:
+                    # Einfache Fixes implementieren
+                    try:
+                        with open(marker['file_path'], 'r', encoding='utf-8') as f:
+                            content = f.read()
+                        
+                        modified = False
+                        
+                        # Fix 1: Füge fehlende Grundstruktur hinzu
+                        if 'marker_name:' not in content:
+                            filename = Path(marker['file_path']).stem
+                            content = f"marker_name: {filename}\n" + content
+                            modified = True
+                        
+                        # Fix 2: Füge fehlende Kategorie hinzu
+                        if 'kategorie:' not in content:
+                            content += "\nkategorie: UNCATEGORIZED\n"
+                            modified = True
+                        
+                        # Fix 3: Füge fehlende Tags hinzu
+                        if 'tags:' not in content:
+                            content += "tags: [needs_review]\n"
+                            modified = True
+                        
+                        if modified:
+                            # Zur Genehmigung hinzufügen
+                            self.pending_changes.append({
+                                'type': 'auto_fix_yaml',
+                                'file_path': marker['file_path'],
+                                'content': content,
+                                'description': f"Auto-Fix für {Path(marker['file_path']).name}"
+                            })
+                            fixed_count += 1
+                    
+                    except Exception as e:
+                        print(f"Fehler beim Auto-Fix von {marker['file_path']}: {e}")
+                
+                if fixed_count > 0:
+                    messagebox.showinfo("Auto-Fix", f"{fixed_count} Dateien für Auto-Fix vorbereitet!\nBitte genehmige die Änderungen.")
+                    self.update_status(f"✅ {fixed_count} Auto-Fix-Vorschläge erstellt")
+                else:
+                    messagebox.showinfo("Auto-Fix", "Keine automatischen Korrekturen möglich.")
+            
+            ttk.Button(fix_frame, text="🔧 Auto-Fix starten", command=auto_fix).pack(anchor=tk.W)
+            
+            # Schließen-Button
+            ttk.Button(main_frame, text="Schließen", command=dialog.destroy).pack(pady=(10, 0))
+            
+            self.update_status(f"✅ Validierung abgeschlossen: {len(invalid_markers)} Probleme gefunden")
+            
+        except Exception as e:
+            self.update_status(f"❌ Fehler: {str(e)}")
+            messagebox.showerror("Fehler", f"Fehler bei der Validierung:\n{str(e)}")
+    
+    def merge_yaml_files_dialog(self):
+        """Dialog zum Zusammenführen von YAML-Dateien"""
+        try:
+            # Sammle alle YAML-Dateien
+            yaml_files = []
+            search_dirs = [
+                self.assistant.marker_dir,
+                self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/fraud",
+                self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/emotions",
+                self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/tension",
+                self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/resonance",
+                self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/dynamic_knots",
+                self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/MARKERBOOK_YAML_CANVAS",
+                self.assistant.marker_dir.parent / "Former_NEW_MARKER_FOLDERS/extended_marker_yaml_bundle",
+                self.assistant.marker_dir.parent / "RELATIONSHIP_MARKERS"
+            ]
+            
+            for search_dir in search_dirs:
+                if search_dir.exists():
+                    for file_path in search_dir.glob("*.yaml"):
+                        yaml_files.append(file_path)
+                    for file_path in search_dir.glob("*.yml"):
+                        yaml_files.append(file_path)
+            
+            # Dialog erstellen
+            dialog = tk.Toplevel(self.root)
+            dialog.title("🔄 YAML-Dateien zusammenführen")
+            dialog.geometry("800x600")
+            dialog.transient(self.root)
+            dialog.grab_set()
+            
+            main_frame = ttk.Frame(dialog, padding="10")
+            main_frame.pack(fill=tk.BOTH, expand=True)
+            
+            ttk.Label(main_frame, text="YAML-Dateien zusammenführen", 
+                     font=('Arial', 14, 'bold')).pack(pady=(0, 10))
+            
+            # Zwei-Spalten-Layout
+            content_frame = ttk.Frame(main_frame)
+            content_frame.pack(fill=tk.BOTH, expand=True, pady=(0, 10))
+            
+            # Linke Spalte: Verfügbare Dateien
+            left_frame = ttk.LabelFrame(content_frame, text="📁 Verfügbare YAML-Dateien", padding="5")
+            left_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(0, 5))
+            
+            available_listbox = tk.Listbox(left_frame, height=20, selectmode=tk.MULTIPLE)
+            available_scrollbar = ttk.Scrollbar(left_frame, orient="vertical")
+            available_listbox.config(yscrollcommand=available_scrollbar.set)
+            available_scrollbar.config(command=available_listbox.yview)
+            
+            available_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+            available_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+            
+            # Fülle Liste mit Dateien
+            for file_path in yaml_files:
+                relative_path = str(file_path.relative_to(self.assistant.marker_dir.parent))
+                available_listbox.insert(tk.END, relative_path)
+            
+            # Mittlere Spalte: Buttons
+            middle_frame = ttk.Frame(content_frame)
+            middle_frame.pack(side=tk.LEFT, fill=tk.Y, padx=5)
+            
+            def add_selected():
+                selections = available_listbox.curselection()
+                for i in selections:
+                    item = available_listbox.get(i)
+                    if item not in [selected_listbox.get(j) for j in range(selected_listbox.size())]:
+                        selected_listbox.insert(tk.END, item)
+            
+            def remove_selected():
+                selections = selected_listbox.curselection()
+                for i in reversed(selections):
+                    selected_listbox.delete(i)
+            
+            def add_all():
+                selected_listbox.delete(0, tk.END)
+                for i in range(available_listbox.size()):
+                    selected_listbox.insert(tk.END, available_listbox.get(i))
+            
+            def clear_all():
+                selected_listbox.delete(0, tk.END)
+            
+            ttk.Button(middle_frame, text="→ Hinzufügen", command=add_selected).pack(pady=5)
+            ttk.Button(middle_frame, text="← Entfernen", command=remove_selected).pack(pady=5)
+            ttk.Button(middle_frame, text="→→ Alle", command=add_all).pack(pady=5)
+            ttk.Button(middle_frame, text="✖ Leeren", command=clear_all).pack(pady=5)
+            
+            # Rechte Spalte: Ausgewählte Dateien
+            right_frame = ttk.LabelFrame(content_frame, text="📋 Ausgewählte Dateien", padding="5")
+            right_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=(5, 0))
+            
+            selected_listbox = tk.Listbox(right_frame, height=20, selectmode=tk.MULTIPLE)
+            selected_scrollbar = ttk.Scrollbar(right_frame, orient="vertical")
+            selected_listbox.config(yscrollcommand=selected_scrollbar.set)
+            selected_scrollbar.config(command=selected_listbox.yview)
+            
+            selected_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+            selected_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+            
+            # Ausgabe-Optionen
+            output_frame = ttk.LabelFrame(main_frame, text="📄 Ausgabe-Optionen", padding="10")
+            output_frame.pack(fill=tk.X, pady=(0, 10))
+            
+            ttk.Label(output_frame, text="Ausgabe-Dateiname:").pack(anchor=tk.W)
+            filename_var = tk.StringVar(value="merged_markers.yaml")
+            ttk.Entry(output_frame, textvariable=filename_var, width=50).pack(fill=tk.X, pady=(5, 10))
+            
+            # Merge-Optionen
+            options_frame = ttk.Frame(output_frame)
+            options_frame.pack(fill=tk.X)
+            
+            preserve_structure = tk.BooleanVar(value=True)
+            ttk.Checkbutton(options_frame, text="Struktur beibehalten", variable=preserve_structure).pack(anchor=tk.W)
+            
+            add_metadata = tk.BooleanVar(value=True)
+            ttk.Checkbutton(options_frame, text="Metadaten hinzufügen", variable=add_metadata).pack(anchor=tk.W)
+            
+            # Buttons
+            button_frame = ttk.Frame(main_frame)
+            button_frame.pack(fill=tk.X)
+            
+            def perform_merge():
+                if selected_listbox.size() == 0:
+                    messagebox.showwarning("Warnung", "Bitte wähle mindestens eine Datei aus!")
+                    return
+                
+                # Sammle ausgewählte Dateipfade
+                selected_files = []
+                for i in range(selected_listbox.size()):
+                    relative_path = selected_listbox.get(i)
+                    full_path = self.assistant.marker_dir.parent / relative_path
+                    selected_files.append(full_path)
+                
+                output_filename = filename_var.get()
+                if not output_filename:
+                    output_filename = "merged_markers.yaml"
+                
+                try:
+                    # Führe Merge durch
+                    output_path = self.assistant.merge_yaml_files(selected_files, output_filename)
+                    
+                    messagebox.showinfo("Erfolg", 
+                                      f"Merge erfolgreich!\n\n"
+                                      f"📄 Ausgabe-Datei: {output_path}\n"
+                                      f"📊 {len(selected_files)} Dateien zusammengeführt")
+                    
+                    self.update_status(f"✅ {len(selected_files)} YAML-Dateien zu {output_filename} zusammengeführt")
+                    
+                    # Chat-Nachricht
+                    self.add_chat_message("🤖 Assistant", 
+                                        f"YAML-Merge erfolgreich abgeschlossen!\n\n"
+                                        f"📄 Ausgabe: {output_filename}\n"
+                                        f"📊 {len(selected_files)} Dateien vereint\n"
+                                        f"🔍 Struktur beibehalten: {'Ja' if preserve_structure.get() else 'Nein'}\n"
+                                        f"📋 Metadaten hinzugefügt: {'Ja' if add_metadata.get() else 'Nein'}")
+                    
+                    dialog.destroy()
+                    
+                except Exception as e:
+                    messagebox.showerror("Fehler", f"Fehler beim Merge:\n{str(e)}")
+            
+            ttk.Button(button_frame, text="🔄 Zusammenführen", command=perform_merge).pack(side=tk.RIGHT, padx=(10, 0))
+            ttk.Button(button_frame, text="❌ Abbrechen", command=dialog.destroy).pack(side=tk.RIGHT)
+            
+            # Info-Label
+            info_text = f"📊 {len(yaml_files)} YAML-Dateien gefunden"
+            ttk.Label(button_frame, text=info_text, font=('Arial', 9)).pack(side=tk.LEFT)
+            
+        except Exception as e:
+            self.update_status(f"❌ Fehler: {str(e)}")
+            messagebox.showerror("Fehler", f"Fehler beim Merge-Dialog:\n{str(e)}")
     
     def run(self):
         self.root.mainloop()
