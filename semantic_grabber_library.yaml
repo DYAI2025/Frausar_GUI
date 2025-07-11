@@ -1,68 +1,75 @@
 semantic_grabbers:
   TRUST_EROSION_SEM:
     beschreibung: Erkennt Vertrauensverlust und Zweifel
-    patterns:
+    patterns: &id001
     - Ich weiß nicht mehr, ob ich dir glauben kann
     - Du hast schon so oft versprochen
     - Wie soll ich dir noch vertrauen?
     - Ich zweifle an deinen Worten
     created_from: TRUST_EROSION_MARKER
     created_at: '2024-01-20T10:00:00'
+    examples: *id001
   BOUNDARY_VIOLATION_SEM:
     beschreibung: Erkennt Grenzüberschreitungen
-    patterns:
+    patterns: &id002
     - Das geht zu weit
     - Du überschreitest meine Grenzen
     - Ich habe dir gesagt, dass ich das nicht will
     - Respektiere bitte meine Entscheidung
     created_from: BOUNDARY_MARKER
     created_at: '2024-01-20T10:00:00'
+    examples: *id002
   EMOTIONAL_MANIPULATION_SEM:
     beschreibung: Erkennt emotionale Manipulation
-    patterns:
+    patterns: &id003
     - Wenn du mich wirklich lieben würdest
     - Du bist schuld, dass ich mich so fühle
     - Ohne mich bist du nichts
     - Ich tue das nur, weil du mich dazu zwingst
     created_from: MANIPULATION_MARKER
     created_at: '2024-01-20T10:00:00'
+    examples: *id003
   SELF_DOUBT_SEM:
     beschreibung: Erkennt Selbstzweifel und Unsicherheit
-    patterns:
+    patterns: &id004
     - Vielleicht bilde ich mir das nur ein
     - Bin ich zu empfindlich?
     - Übertreibe ich?
     - Liegt es vielleicht an mir?
     created_from: SELF_DOUBT_MARKER
     created_at: '2024-01-20T10:00:00'
+    examples: *id004
   AUTO_SEM_20250703_AD6E:
     beschreibung: Test Vertrauensverlust
-    patterns:
+    patterns: &id005
     - Ich vertraue dir nicht mehr so wie früher
     - Kann ich dir überhaupt noch glauben?
     - Du hast mein Vertrauen verloren
     created_from: TEST_TRUST_MARKER
     created_at: '2025-07-03T04:43:12.750386'
+    examples: *id005
   AUTO_SEM_20250703_4745:
     beschreibung: Finanzielle Forderungen
-    patterns:
+    patterns: &id006
     - Ich brauche dringend 500 Euro für eine Operation
     - Kannst du mir Geld leihen? Es ist ein Notfall
     - Ohne deine finanzielle Hilfe bin ich verloren
     created_from: FINANCIAL_REQUEST_MARKER
     created_at: '2025-07-03T04:43:12.761634'
+    examples: *id006
   AUTO_SEM_20250703_080A:
     beschreibung: Noch ein Vertrauensmarker
-    patterns:
+    patterns: &id007
     - Ich weiß nicht mehr, ob ich dir glauben kann
     - Du hast schon so oft versprochen
     - Wie soll ich dir noch vertrauen?
     created_from: ANOTHER_TRUST_MARKER
     created_at: '2025-07-03T04:43:12.771219'
+    examples: *id007
   AUTO_SEM_20250703_4F53:
     beschreibung: 'Erkennt Muster des Unschuldigen: Vertrauen, Naivität, Harmoniebedürfnis,
       Vermeidung von Konflikt, kindlicher Glaube an das Gute.'
-    patterns:
+    patterns: &id008
     - Ich glaube, dass alles gut wird, wenn man nur daran glaubt.
     - Warum kann nicht alles einfach bleiben wie früher?
     - Ich verstehe nicht, warum Menschen böse sein sollten.
@@ -70,43 +77,50 @@ semantic_grabbers:
     - Ich will einfach nur glücklich sein.
     created_from: MARKER_NAME_MARKER
     created_at: '2025-07-03T04:47:48.600124'
+    examples: *id008
   AUTO_SEM_20250703_D126:
     beschreibung: "Misst emergente Kopplung & Bruchpunkte mehrerer Markerachsen in\
       \ Echtzeit-Dialogen.\n    Nutzt Multi-Scale-Windows, adaptive Gewichtung, Repair-Dynamik\
       \ und Drift-Phasen."
-    patterns: []
+    patterns: &id009 []
     created_from: MARKER_MARKER
     created_at: '2025-07-03T10:15:23.912904'
+    examples: *id009
   AUTO_SEM_20250703_47F6:
     beschreibung: Sprachmuster für synchronen, angeglichenen Schreibstil, auffallend
       ähnliche Wortwahl, Satzbau oder Wiederholung typischer Formulierungen zwischen
       Partnern.
-    patterns: []
+    patterns: &id010 []
     created_from: STYLE_SYNC_MARKER
     created_at: '2025-07-03T10:16:33.007448'
+    examples: *id010
   AUTO_SEM_20250703_E381:
     beschreibung: Automatisch erkannt aus STYLE_SYNC_MARKER
-    patterns: []
+    patterns: &id011 []
     created_from: STYLE_SYNC_MARKER
     created_at: '2025-07-03T10:17:04.800426'
+    examples: *id011
   AUTO_SEM_20250703_F26D:
     beschreibung: Parallele oder nachgeahmte Emoji-Nutzung, gleiche Reihenfolge, steigende
       Übereinstimmung in emotionalen Ausdrücken.
-    patterns: []
+    patterns: &id012 []
     created_from: EMOJI_ALIGNMENT_MARKER
     created_at: '2025-07-03T10:29:34.317868'
+    examples: *id012
   AUTO_SEM_20250703_9F2B:
     beschreibung: Synchronisierte oder adaptierte Antwortzeiten, bemerkte Gleichzeitigkeit,
       bewusste Pausen oder Gleichklang im Chat-Tempo.
-    patterns: []
+    patterns: &id013 []
     created_from: RESPONSE_TIMING_MARKER
     created_at: '2025-07-03T11:33:32.265289'
+    examples: *id013
   AUTO_SEM_20250703_0097:
     beschreibung: Plötzlicher Themenwechsel, erkennbares „Switchen“ von Gesprächsthemen,
       bewusste oder überraschende Richtungsänderung im Dialog.
-    patterns: []
+    patterns: &id014 []
     created_from: TOPIC_SHIFT_SEM_MARKER
     created_at: '2025-07-03T11:52:30.401980'
+    examples: *id014
   AUTO_SEM_20250703_9039:
     beschreibung: ">\n  beschreibung: >\n  Erkennt Momente plötzlicher Überraschung\
       \ oder Erschrockenheit, die einen abrupten Bedeutungsdrift auslösen.\n  Charakteristisch\
@@ -118,7 +132,7 @@ semantic_grabbers:
       \ schwankende Tendenz vorliegt.\n  Relevant für die Analyse von Beziehungsmustern,\
       \ Dynamik und emergenter Systemsteuerung.\n\n\n  - oder in einen ambivalenten,\
       \ unentschiedenen Zustand (Ambivalenzmarker)."
-    patterns:
+    patterns: &id015
     - Alarm. Die Kernannahme wurde verletzt. Ich muss die Strategie sofort anpassen.
     - Das ist wie ein Plot-Twist im echten Leben.
     - Der Kontext ist soeben gekippt. Wechsle in den Analyse-Modus.
@@ -131,10 +145,11 @@ semantic_grabbers:
     - Abrupter Drift und Andeutung der Folgedynamik
     created_from: SHOCK_SURPRISE_DRIFT
     created_at: '2025-07-03T11:56:12.186997'
+    examples: *id015
   AUTO_SEM_20250703_B995:
     beschreibung: Das wiederholte und oft vage Aufschieben von wichtigen Entscheidungen,
       klärenden Gesprächen oder notwendigen Integrationsschritten.
-    patterns:
+    patterns: &id016
     - Lass uns das nach dem Urlaub besprechen.
     - Jetzt ist gerade wirklich kein guter Zeitpunkt für so ein Thema.
     - Das hat noch Zeit, wir müssen nicht alles sofort entscheiden.
@@ -148,9 +163,10 @@ semantic_grabbers:
       Jahr erneut prüfen.
     created_from: PERMANENT_POSTPONE
     created_at: '2025-07-03T11:56:38.568767'
+    examples: *id016
   AUTO_SEM_20250703_393B:
     beschreibung: Automatisch erkannt aus -_NAME_MARKER
-    patterns:
+    patterns: &id017
     - Unsere Nachrichten klingen fast gleich mittlerweile.
     - Ich schreibe jetzt schon so wie du – fällt dir das auf?
     - Witzig, dass wir oft die gleichen Sätze benutzen.
@@ -163,52 +179,60 @@ semantic_grabbers:
     - Wir schreiben im gleichen Rhythmus.
     created_from: -_NAME_MARKER
     created_at: '2025-07-03T11:58:49.987256'
+    examples: *id017
   AUTO_SEM_20250703_428B:
     beschreibung: Plötzlicher Themenwechsel, überraschende Richtungsänderung, bewusste
       oder intuitive Themensprünge im Dialog.
-    patterns: []
+    patterns: &id018 []
     created_from: TOPIC_SHIFT_SEM_MARKER
     created_at: '2025-07-03T12:02:17.864091'
+    examples: *id018
   AUTO_SEM_20250703_9B43:
     beschreibung: Unerwartete, kreative oder neuartige Beiträge im Chat; ungewöhnliche
       Formulierungen, neue Ideen, Innovationssprünge.
-    patterns: []
+    patterns: &id019 []
     created_from: NOVELTY_BURST_SEM_MARKER
     created_at: '2025-07-03T12:03:36.603359'
+    examples: *id019
   AUTO_SEM_20250703_1345:
     beschreibung: "Erkennt Selbstbezug und Reflexion über den Dialog – Meta-Kommentare,\
       \ Analysen\n    oder Beobachtungen zum eigenen Kommunikationsprozess."
-    patterns: []
+    patterns: &id020 []
     created_from: META_REFLEX_SEM_MARKER
     created_at: '2025-07-03T12:05:01.140966'
+    examples: *id020
   AUTO_SEM_20250703_E0A1:
     beschreibung: Detektiert Reparatur- und Versöhnungsphasen nach Kommunikationsbrüchen
       – Entschuldigungen, Neustart-Signale oder Einladungen zur Wiederannäherung.
-    patterns: []
+    patterns: &id021 []
     created_from: REBOUND_SEM_MARKER
     created_at: '2025-07-03T12:05:29.444786'
+    examples: *id021
   AUTO_SEM_20250703_2BAD:
     beschreibung: Wiederkehrende, ritualisierte Nähe-Gesten und Insider im Chat; private
       Codes, Grußformeln, feste Abschiede.
-    patterns: []
+    patterns: &id022 []
     created_from: RITUAL_PROXIMITY_SEM_MARKER
     created_at: '2025-07-03T12:05:58.386794'
+    examples: *id022
   AUTO_SEM_20250703_6157:
     beschreibung: Übereinstimmung zwischen den Ausgaben, Einschätzungen oder Bewertungen
       verschiedener KI-Modelle auf identischem Input.
-    patterns: []
+    patterns: &id023 []
     created_from: MODEL_CONVERGENCE_SEM_MARKER
     created_at: '2025-07-03T12:06:31.485899'
+    examples: *id023
   AUTO_SEM_20250703_968E:
     beschreibung: Auffällige Abweichungen, Widersprüche oder divergierende Klassifikationen
       bei mehreren KI-Systemen auf denselben Input.
-    patterns: []
+    patterns: &id024 []
     created_from: MODEL_DIVERGENCE_SEM_MARKER
     created_at: '2025-07-03T12:06:48.383482'
+    examples: *id024
   AUTO_SEM_20250705_824B:
     beschreibung: "Anzeichen von nachhaltiger Widerstandsfähigkeit, System-Offenheit,\
       \ Fähigkeit zur schnellen Regeneration\n    und zur Integration von Wandel."
-    patterns:
+    patterns: &id025
     - Ja, es war hart, aber wir haben daraus gelernt und sind jetzt besser vorbereitet
       als zuvor.
     - Es beeindruckt mich, wie ruhig du trotz all der Schwierigkeiten bleibst. Das
@@ -231,3 +255,39 @@ semantic_grabbers:
       gedacht hätten.
     created_from: MARKER_MARKER
     created_at: '2025-07-05T08:22:43.801929'
+    examples: *id025
+  AUTO_SEM_20250710_CDA0:
+    beschreibung: ">\n  beschreibung: >\n  Erkennt Momente plötzlicher Überraschung\
+      \ oder Erschrockenheit, die einen abrupten Bedeutungsdrift auslösen.\n  Charakteristisch\
+      \ ist die spontane Reaktionswende im Kommunikationsverlauf, gefolgt von einer\
+      \ systemischen Drift:\n  - hin zu Hoffnung/Öffnung (positive Drift)\n  - hin\
+      \ zu Furcht/Kontrolle (negative Drift)\nDie weitere Richtung der Drift zeigt,\
+      \ ob das System auf Kontrollgewinn (Steuerung, Rückzug, Klärung)\n  oder auf\
+      \ Hingabe (Akzeptanz, neue Offenheit) zusteuert – oder ob eine ambivalente,\
+      \ schwankende Tendenz vorliegt.\n  Relevant für die Analyse von Beziehungsmustern,\
+      \ Dynamik und emergenter Systemsteuerung.\n\n\n  - oder in einen ambivalenten,\
+      \ unentschiedenen Zustand (Ambivalenzmarker)."
+    examples:
+    - Alarm. Die Kernannahme wurde verletzt. Ich muss die Strategie sofort anpassen.
+    - Das ist wie ein Plot-Twist im echten Leben.
+    - Der Kontext ist soeben gekippt. Wechsle in den Analyse-Modus.
+    - Das ist… unerwartet. Ich weiß nicht, ob das gut oder schlecht ist.
+    - Faszinierend. Diese Wendung verändert die gesamte narrative Dynamik.
+    - Na dann… sehen wir mal, was passiert.
+    - Krass. Okay, wir brauchen sofort einen neuen Plan.
+    - Oh Gott, was bedeutet das jetzt für die Zukunft?
+    - Das eröffnet ja ganz neue Möglichkeiten!
+    - Abrupter Drift und Andeutung der Folgedynamik
+    patterns:
+    - Alarm. Die Kernannahme wurde verletzt. Ich muss die Strategie sofort anpassen.
+    - Das ist wie ein Plot-Twist im echten Leben.
+    - Der Kontext ist soeben gekippt. Wechsle in den Analyse-Modus.
+    - Das ist… unerwartet. Ich weiß nicht, ob das gut oder schlecht ist.
+    - Faszinierend. Diese Wendung verändert die gesamte narrative Dynamik.
+    - Na dann… sehen wir mal, was passiert.
+    - Krass. Okay, wir brauchen sofort einen neuen Plan.
+    - Oh Gott, was bedeutet das jetzt für die Zukunft?
+    - Das eröffnet ja ganz neue Möglichkeiten!
+    - Abrupter Drift und Andeutung der Folgedynamik
+    created_from: SHOCK_SURPRISE_DRIFT
+    created_at: '2025-07-10T20:57:40.436870'
