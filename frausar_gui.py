@@ -15,7 +15,7 @@ import re
 import json
 
 class FRAUSARAssistant:
-    def __init__(self, marker_directory="../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01"):
+    def __init__(self, marker_directory="ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01"):
         self.marker_dir = Path(marker_directory)
         self.pending_changes = []
         self.semantic_grabber_library_path = Path("semantic_grabber_library.yaml")
@@ -28,14 +28,29 @@ class FRAUSARAssistant:
         if not self.marker_dir.exists():
             return markers
         
-        # Hauptordner scannen
+        # Hauptordner scannen - ALLE unterstützten Dateitypen
+        # Text-Dateien
         for file in self.marker_dir.glob("*.txt"):
-            if any(keyword in file.name.lower() for keyword in ['marker', 'fraud', 'pattern']):
-                markers.append(f"📄 {file.name}")
+            markers.append(f"📄 {file.name}")
         
+        # YAML-Dateien
+        for file in self.marker_dir.glob("*.yaml"):
+            markers.append(f"📊 {file.name}")
+        
+        for file in self.marker_dir.glob("*.yml"):
+            markers.append(f"📊 {file.name}")
+        
+        # JSON-Dateien
+        for file in self.marker_dir.glob("*.json"):
+            markers.append(f"📊 {file.name}")
+        
+        # CSV-Dateien
+        for file in self.marker_dir.glob("*.csv"):
+            markers.append(f"📊 {file.name}")
+        
+        # Python-Skripte
         for file in self.marker_dir.glob("*.py"):
-            if 'marker' in file.name.lower() or 'pattern' in file.name.lower():
-                markers.append(f"🐍 {file.name}")
+            markers.append(f"🐍 {file.name}")
         
         # Unterordner scannen
         marker_folders = [
@@ -62,7 +77,7 @@ class FRAUSARAssistant:
                 for file in folder_path.glob("*.py"):
                     markers.append(f"🐍 {folder_name}/{file.name}")
                 
-                # JSON/YAML Dateien
+                # JSON/YAML/CSV Dateien
                 for file in folder_path.glob("*.json"):
                     markers.append(f"📊 {folder_name}/{file.name}")
                 
@@ -70,6 +85,9 @@ class FRAUSARAssistant:
                     markers.append(f"📊 {folder_name}/{file.name}")
                 
                 for file in folder_path.glob("*.yml"):
+                    markers.append(f"📊 {folder_name}/{file.name}")
+                
+                for file in folder_path.glob("*.csv"):
                     markers.append(f"📊 {folder_name}/{file.name}")
         
         return sorted(markers)
@@ -139,6 +157,29 @@ class FRAUSARAssistant:
                         new_examples_section += f'    "{example.strip()}",\n'
                 new_examples_section += ']\n'
                 return content + new_examples_section
+        
+        # CSV-Dateien
+        elif clean_name.endswith('.csv'):
+            # Für CSV-Dateien: Füge neue Zeilen hinzu
+            lines = content.strip().split('\n')
+            if lines:
+                # Behalte Header bei
+                new_content = lines[0] + '\n'
+                # Füge existierende Daten hinzu
+                if len(lines) > 1:
+                    new_content += '\n'.join(lines[1:]) + '\n'
+                # Füge neue Beispiele als Zeilen hinzu
+                for example in new_examples:
+                    if example.strip() and example not in content:
+                        new_content += example.strip() + '\n'
+                return new_content
+            else:
+                # Neue CSV mit Header
+                new_content = "example\n"
+                for example in new_examples:
+                    if example.strip():
+                        new_content += example.strip() + '\n'
+                return new_content
         
         # YAML/JSON Dateien
         elif clean_name.endswith(('.json', '.yaml', '.yml')):
@@ -250,8 +291,19 @@ class FRAUSARAssistant:
     def _is_marker_file(self, file_path):
         """Prüft ob eine Datei eine Marker-Datei ist"""
         name = file_path.name.lower()
-        return any(ext in name for ext in ['.txt', '.yaml', '.yml', '.json']) and \
-               any(keyword in name for keyword in ['marker', 'pattern', 'knot', 'spiral'])
+        # Alle unterstützten Dateitypen
+        valid_extensions = ['.txt', '.yaml', '.yml', '.json', '.csv', '.py']
+        has_valid_extension = any(name.endswith(ext) for ext in valid_extensions)
+        
+        # Für YAML, JSON, CSV und TXT Dateien keine Keyword-Prüfung
+        if any(name.endswith(ext) for ext in ['.yaml', '.yml', '.json', '.csv', '.txt']):
+            return has_valid_extension
+        
+        # Für Python-Dateien prüfe auf Keywords
+        if name.endswith('.py'):
+            return any(keyword in name for keyword in ['marker', 'pattern', 'knot', 'spiral'])
+        
+        return False
     
     def _parse_marker_content(self, content, filename):
         """Parst Marker-Inhalt und extrahiert strukturierte Daten"""
@@ -1058,6 +1110,13 @@ class FRAUSARGUI:
                 example_count = len(re.findall(r'"[^"]*"', content))
             elif '.json' in marker_name:
                 example_count = content.count('"examples"') + content.count('"beispiele"')
+            elif '.csv' in marker_name:
+                # Für CSV zähle die Zeilen (minus Header)
+                lines = content.strip().split('\n')
+                example_count = max(0, len(lines) - 1)
+            elif '.yaml' in marker_name or '.yml' in marker_name:
+                # Für YAML zähle die Beispiele
+                example_count = len(re.findall(r'^\s*-\s*["\']', content, re.MULTILINE))
             else:
                 example_count = len(re.findall(r'- "', content))
             
@@ -1217,7 +1276,7 @@ class FRAUSARGUI:
         folder_frame = ttk.Frame(main_frame)
         folder_frame.pack(fill=tk.X, pady=(5, 15))
         
-        ttk.Radiobutton(folder_frame, text="🤖 Automatisch wählen", variable=folder_var, value="AUTO").pack(anchor=tk.W)
+        ttk.Radiobutton(folder_frame, text="�� Automatisch wählen", variable=folder_var, value="AUTO").pack(anchor=tk.W)
         ttk.Radiobutton(folder_frame, text="📁 ALL_NEWMARKER01", variable=folder_var, value="ALL_NEWMARKER01").pack(anchor=tk.W)
         ttk.Radiobutton(folder_frame, text="📁 fraud", variable=folder_var, value="fraud").pack(anchor=tk.W)
         ttk.Radiobutton(folder_frame, text="📁 emotions", variable=folder_var, value="emotions").pack(anchor=tk.W)
