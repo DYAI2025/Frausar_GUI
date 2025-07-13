@@ -291,3 +291,576 @@ semantic_grabbers:
     - Abrupter Drift und Andeutung der Folgedynamik
     created_from: SHOCK_SURPRISE_DRIFT
     created_at: '2025-07-10T20:57:40.436870'
+  AUTO_SEM_20250712_60C2:
+    beschreibung: "id: \"M_ARCHETYPAL_PATTERNS\"\n  name: \"ARCHETYPAL_PATTERNS\"\n\
+      \  level: \"meta\"\n  category: \"Narrative Struktur\"\n  semantic_tags: [\"\
+      Archetyp\", \"Selbstdarstellung\", \"Mustererkennung\", \"Identität\"]\n  description:\
+      \ |\n    Erkennung archetypischer Erzählmuster. Der Marker identifiziert narrative\
+      \ Selbstdarstellungen, die typischen Archetypen wie Held, Unschuldiger, Liebender,\
+      \ Rebell, Weise, Herrscher, Schöpfer, Kümmerer, Unterhalter, Waise, Magier zugeordnet\
+      \ werden können. Erfasst Kernwünsche, Ängste, Motivationen und wiederkehrende\
+      \ Rollen in der Kommunikation. Analyse erfolgt sowohl über klassische Rollen-Keywords\
+      \ als auch über semantische Clustering-Methoden.\n  pattern:\n    - RegEx: \"\
+      (retten|beschützen|kämpfen|siegen|aufgeben|leiden|verbinden|lieben|verstehen|entdecken|reisen|neu\
+      \ anfangen|kontrollieren|planen|führen|kümmern|helfen|für dich da|humor|witz|lachen|nicht\
+      \ dazugehören|einsam|Wunder|Magie|Schicksal)\"\n    - Semantik: Aussagen, die\
+      \ archetypische Rollen und Lebensskripte inszenieren oder reflektieren (s.o.)"
+    examples:
+    - 'marker:'
+    - 'examples:'
+    - '- "Ich will doch nur, dass wir uns alle wieder vertragen und glücklich sind
+      🥺"'
+    - '- "Keine Sorge, ich regel das für dich. Du kannst dich auf mich verlassen."'
+    - '- "Du und ich gegen den Rest der Welt, mein Schatz. Unsere Liebe ist das Einzige,
+      was zählt."'
+    - '- "Ich hab alles gekündigt. Muss raus hier, die Welt sehen. Spüre diesen Drang
+      nach Freiheit! 🌍✈️"'
+    - '- "Regeln sind da, um gebrochen zu werden. Ich mach mein eigenes Ding, egal
+      was die anderen sagen."'
+    - '- "Vielleicht sollten wir einen Schritt zurücktreten und das Problem aus einer
+      höheren Perspektive betrachten."'
+    - '- "Hier ist der Plan für die Woche. Bitte haltet euch exakt daran, damit es
+      kein Chaos gibt."'
+    - '- "Ich hatte heute Nacht eine total verrückte Idee für ein neues Projekt! Muss
+      ich dir sofort erzählen! 🎨"'
+    patterns:
+    - 'marker:'
+    - 'examples:'
+    - '- "Ich will doch nur, dass wir uns alle wieder vertragen und glücklich sind
+      🥺"'
+    - '- "Keine Sorge, ich regel das für dich. Du kannst dich auf mich verlassen."'
+    - '- "Du und ich gegen den Rest der Welt, mein Schatz. Unsere Liebe ist das Einzige,
+      was zählt."'
+    - '- "Ich hab alles gekündigt. Muss raus hier, die Welt sehen. Spüre diesen Drang
+      nach Freiheit! 🌍✈️"'
+    - '- "Regeln sind da, um gebrochen zu werden. Ich mach mein eigenes Ding, egal
+      was die anderen sagen."'
+    - '- "Vielleicht sollten wir einen Schritt zurücktreten und das Problem aus einer
+      höheren Perspektive betrachten."'
+    - '- "Hier ist der Plan für die Woche. Bitte haltet euch exakt daran, damit es
+      kein Chaos gibt."'
+    - '- "Ich hatte heute Nacht eine total verrückte Idee für ein neues Projekt! Muss
+      ich dir sofort erzählen! 🎨"'
+    created_from: ARCHETYPAL_PATTERNS_MARKER
+    created_at: '2025-07-12T02:17:10.661545'
+  AUTO_SEM_20250712_2F94:
+    beschreibung: "marker:\n  id: \"M_FLUCTUATION\"\n  name: \"FLUCTUATION\"\n  level:\
+      \ \"meta\"\n  category: \"Emotionsdynamik\"\n  semantic_tags: [\"Schwankung\"\
+      , \"Instabilität\", \"Polarity\", \"Ambivalenz\", \"Regulation\"]\n  description:\
+      \ |\n    Misst die Schwankungsrate und -amplitude von Emotion, Meinung oder\
+      \ Thema über die Zeit. Hohe Fluktuation zeigt sich in schnellen, widersprüchlichen\
+      \ Wechseln (z. B. von Liebe zu Hass, Ja zu Nein, Nähe zu Distanz). Geringe Fluktuation\
+      \ bedeutet Stabilität oder emotionale Starre. Erfasst Wechsel anhan"
+    examples:
+    - 'marker:'
+    - 'id: "M_FLUCTUATION"'
+    - 'name: "FLUCTUATION"'
+    - 'level: "meta"'
+    - 'category: "Emotionsdynamik"'
+    - 'semantic_tags: ["Schwankung", "Instabilität", "Polarity", "Ambivalenz", "Regulation"]'
+    - 'description: |'
+    - Misst die Schwankungsrate und -amplitude von Emotion, Meinung oder Thema über
+      die Zeit. Hohe Fluktuation zeigt sich in schnellen, widersprüchlichen Wechseln
+      (z. B. von Liebe zu Hass, Ja zu Nein, Nähe zu Distanz). Geringe Fluktuation
+      bedeutet Stabilität oder emotionale Starre. Erfasst Wechsel anhand aufeinanderfolgender,
+      semantisch oder polaritätsmäßig gegensätzlicher Nachrichten (Antonymie, Themenwechsel,
+      Arousal-Jumps).
+    - 'example:'
+    - '- RegEx: "(einerseits.*andererseits|heute so, morgen so|erst das, dann das|hass.*liebe|nähe.*distanz|immer.*nie|vertraue
+      dir.*komisches gefühl|super.*daneben|Wut.*Reue|Idee.*dumm|Ja.*Nein|rote Kleid.*blaue
+      Kleid)"'
+    patterns:
+    - 'marker:'
+    - 'id: "M_FLUCTUATION"'
+    - 'name: "FLUCTUATION"'
+    - 'level: "meta"'
+    - 'category: "Emotionsdynamik"'
+    - 'semantic_tags: ["Schwankung", "Instabilität", "Polarity", "Ambivalenz", "Regulation"]'
+    - 'description: |'
+    - Misst die Schwankungsrate und -amplitude von Emotion, Meinung oder Thema über
+      die Zeit. Hohe Fluktuation zeigt sich in schnellen, widersprüchlichen Wechseln
+      (z. B. von Liebe zu Hass, Ja zu Nein, Nähe zu Distanz). Geringe Fluktuation
+      bedeutet Stabilität oder emotionale Starre. Erfasst Wechsel anhand aufeinanderfolgender,
+      semantisch oder polaritätsmäßig gegensätzlicher Nachrichten (Antonymie, Themenwechsel,
+      Arousal-Jumps).
+    - 'example:'
+    - '- RegEx: "(einerseits.*andererseits|heute so, morgen so|erst das, dann das|hass.*liebe|nähe.*distanz|immer.*nie|vertraue
+      dir.*komisches gefühl|super.*daneben|Wut.*Reue|Idee.*dumm|Ja.*Nein|rote Kleid.*blaue
+      Kleid)"'
+    created_from: FLUCTATIONS_MARKER
+    created_at: '2025-07-12T02:18:22.824842'
+  AUTO_SEM_20250712_C384:
+    beschreibung: Automatisch erkannt aus MARKER_MARKER
+    examples: []
+    patterns: []
+    created_from: MARKER_MARKER
+    created_at: '2025-07-12T03:10:03.797823'
+  AUTO_SEM_20250712_E321:
+    beschreibung: "id: \"M_WELLBEING_BALANCE\"\n  name: \"WELLBEING_BALANCE\"\n  level:\
+      \ \"atomic\"\n  category: \"Emotionale Stabilität\"\n  semantic_tags: [\"Wohlbefinden\"\
+      , \"Zufriedenheit\", \"Ausgeglichenheit\", \"Selbstwirksamkeit\"]\n  description:\
+      \ |\n    Erkennt sprachliche Anzeichen für allgemeines Wohlbefinden, innere\
+      \ Balance und Zufriedenheit.\n    Dazu zählen positive Wortwahl, reflektierte\
+      \ Selbstwahnehmung, ein gelassener Sprachfluss sowie Formulierungen, die Selbstwirksamkeit\
+      \ und Akzeptanz ausdrücken.\n  pattern:\n    - RegEx: \"(danke|schön|freue mich|gern|super|passt|alles\
+      \ gut|kein Problem|klar|easy|angenehm|komme klar|kann damit umgehen|akzeptiere\
+      \ das|nehme es so|ist wie es ist|mir aufgefallen|habe gemerkt|nachgedacht)\"\
+      \n    - Semantik: Formulierungen, die Wohlbefinden und Balance signalisieren;\
+      \ Gleichgewicht zwischen Ich- und Wir-Bezug."
+    examples:
+    - 'marker:'
+    - 'examples:'
+    - '- "Danke dir, das passt für mich super."'
+    - '- "Ich mache das gern, kein Problem!"'
+    - '- "Heute fühle ich mich einfach rundum wohl."'
+    - '- "Alles gut, ich komme damit klar."'
+    - '- "Das ist, wie es ist. Ich nehme es einfach so an."'
+    - '- "Ich habe gemerkt, dass mir solche Aufgaben richtig Spaß machen."'
+    - '- "Ich weiß, dass ich das schaffen kann."'
+    - '- "Freue mich schon auf morgen!"'
+    patterns:
+    - 'marker:'
+    - 'examples:'
+    - '- "Danke dir, das passt für mich super."'
+    - '- "Ich mache das gern, kein Problem!"'
+    - '- "Heute fühle ich mich einfach rundum wohl."'
+    - '- "Alles gut, ich komme damit klar."'
+    - '- "Das ist, wie es ist. Ich nehme es einfach so an."'
+    - '- "Ich habe gemerkt, dass mir solche Aufgaben richtig Spaß machen."'
+    - '- "Ich weiß, dass ich das schaffen kann."'
+    - '- "Freue mich schon auf morgen!"'
+    created_from: WELLBEING_MARKER
+    created_at: '2025-07-12T03:11:22.566981'
+  AUTO_SEM_20250712_104B:
+    beschreibung: "- \"Geringe Nutzung von Ironie/Sarkasmus, positive Bezugnahme auf\
+      \ sich und andere, Feedback oder Metakommunikation signalisiert Wohlfühlen in\
+      \ der Verbindung.\"d: \"M_CONNECTION_POSITIVITY\"\n  name: \"CONNECTION_POSITIVITY\"\
+      \n  level: \"atomic\"\n  category: \"Soziale Verbundenheit\"\n  semantic_tags:\
+      \ [\"Verbindung\", \"Wohlfühlen\", \"Wertschätzung\", \"Empathie\"]\n  description:\
+      \ |\n    Erkennt sprachliche Marker für ein positives Miteinander, Wertschätzung,\
+      \ gegenseitiges Wahrnehmen, Humor, Vertrauen und Feedback in der Beziehungsgestaltung.\n\
+      \    Fokus auf gemeinschaftliche Begriffe, empathische Sprache, Metakommunikation\
+      \ und positives Spiegeln.\n  pattern:\n    - RegEx: \"(mag.*mit dir|schön.*mit\
+      \ dir|danke.*geteilt|wir|uns|zusammen|gemeinsam|freue mich.*für dich|vertrauen|geht's\
+      \ dir dabei|klingst zufrieden|spiegeln|harmonieren|tut dir gut|locker|empathisch|entspannt)\"\
+      \n    - Semantik: Formulierungen mit Wertschätzung, Empathie, Humor; positives\
+      \ Nachfragen; Feedback und Metakommunikation über Wohlbefinden."
+    examples:
+    - 'i  examples:'
+    - '- "Ich mag es, mit dir zu schreiben."'
+    - '- "Es ist immer schön, mit dir zu reden."'
+    - '- "Danke, dass du das geteilt hast."'
+    - '- "Wir haben das echt gemeinsam gerockt!"'
+    - '- "Wie geht’s dir dabei wirklich?"'
+    - '- "Ich habe das Gefühl, du bist heute richtig entspannt."'
+    - '- "Du klingst heute total zufrieden, das freut mich."'
+    - '- "Ich glaube, wir harmonieren gerade ganz gut, oder?"'
+    - '- "Wenn du magst, erzähl mehr – kein Druck."'
+    patterns:
+    - 'i  examples:'
+    - '- "Ich mag es, mit dir zu schreiben."'
+    - '- "Es ist immer schön, mit dir zu reden."'
+    - '- "Danke, dass du das geteilt hast."'
+    - '- "Wir haben das echt gemeinsam gerockt!"'
+    - '- "Wie geht’s dir dabei wirklich?"'
+    - '- "Ich habe das Gefühl, du bist heute richtig entspannt."'
+    - '- "Du klingst heute total zufrieden, das freut mich."'
+    - '- "Ich glaube, wir harmonieren gerade ganz gut, oder?"'
+    - '- "Wenn du magst, erzähl mehr – kein Druck."'
+    created_from: CONNECTION_POSITIVITY_MARKER
+    created_at: '2025-07-12T03:12:29.502717'
+  AUTO_SEM_20250712_9B40:
+    beschreibung: "marker:\n  id: \"M_WELLBEING_BALANCE\"\n  name: \"WELLBEING_BALANCE\"\
+      \n  level: \"atomic\"\n  category: \"Emotionale Stabilität\"\n  semantic_tags:\
+      \ [\"Wohlbefinden\", \"Zufriedenheit\", \"Ausgeglichenheit\", \"Selbstwirksamkeit\"\
+      ]\n  description: |\n    Erkennt sprachliche Anzeichen für allgemeines Wohlbefinden,\
+      \ innere Balance und Zufriedenheit.\n    Dazu zählen positive Wortwahl, reflektierte\
+      \ Selbstwahnehmung, ein gelassener Sprachfluss sowie Formulierungen, die Selbstwirksamkeit\
+      \ und Akzeptanz ausdrücken.\n  pattern:\n    - RegEx: \"(danke|schön|freue mich|gern|super|passt|alles\
+      \ gut|kein Problem|klar|easy|angenehm|komme klar|kann damit umgehen|akzeptiere\
+      \ das|nehme es so|ist wie es ist|mir aufgefallen|habe gemerkt|nachgedacht)\"\
+      \n    - Semantik: Formulierungen, die Wohlbefinden und Balance signalisieren;\
+      \ Gleichgewicht zwischen Ich- und Wir-Bezug."
+    examples:
+    - 'examples:'
+    - '- "Danke dir, das passt für mich super."'
+    - '- "Ich mache das gern, kein Problem!"'
+    - '- "Wir haben das echt gut zusammen hingekriegt."'
+    - '- "Alles gut, ich komme damit klar."'
+    - '- "Das ist, wie es ist. Ich nehme es einfach so an."'
+    - '- "Ich habe gemerkt, dass mir solche Aufgaben richtig Spaß machen."'
+    - '- "Ich weiß, dass ich das schaffen kann."'
+    - '- "Freue mich schon auf morgen!"'
+    - '- "Das war heute ein angenehmer Tag."'
+    patterns:
+    - 'examples:'
+    - '- "Danke dir, das passt für mich super."'
+    - '- "Ich mache das gern, kein Problem!"'
+    - '- "Wir haben das echt gut zusammen hingekriegt."'
+    - '- "Alles gut, ich komme damit klar."'
+    - '- "Das ist, wie es ist. Ich nehme es einfach so an."'
+    - '- "Ich habe gemerkt, dass mir solche Aufgaben richtig Spaß machen."'
+    - '- "Ich weiß, dass ich das schaffen kann."'
+    - '- "Freue mich schon auf morgen!"'
+    - '- "Das war heute ein angenehmer Tag."'
+    created_from: M_WELLBEING_BALANCE_MARKER
+    created_at: '2025-07-12T03:56:57.178386'
+  AUTO_SEM_20250712_750C:
+    beschreibung: Automatisch erkannt aus MARKER_MARKER
+    examples: []
+    patterns: []
+    created_from: MARKER_MARKER
+    created_at: '2025-07-12T03:58:45.832073'
+  AUTO_SEM_20250712_05C6:
+    beschreibung: "name: \"Empowerment/Selbstbestimmung\"\nsem_id: \"SGR_EMPOWERMENT_01\"\
+      \nBeschreibung: |\n  Marker für Formulierungen, die Autonomie, Selbstbestimmung\
+      \ und Entscheidungsfreiheit betonen.\n  Erkennt Phrasen, die Wahlfreiheit signalisieren\
+      \ und die eigene Entscheidung unterstützen.\ncategory: \"Beziehung/Meta\""
+    examples:
+    - 'examples:'
+    - '# ursprüngliche Beispiele'
+    - '- "Du entscheidest, wie wir weitermachen."'
+    - '- "Sag einfach, wie es dir am besten passt."'
+    - '- "Bereit, wenn du bist!"'
+    - '- "Mach das, was sich für dich richtig anfühlt."'
+    - '- "Du bestimmst, worüber wir sprechen."'
+    - '- "Geh den Weg, der für dich stimmt."'
+    - '- "Du hast es in der Hand."'
+    - '- "Es liegt ganz bei dir, kein Zwang."'
+    patterns:
+    - 'examples:'
+    - '# ursprüngliche Beispiele'
+    - '- "Du entscheidest, wie wir weitermachen."'
+    - '- "Sag einfach, wie es dir am besten passt."'
+    - '- "Bereit, wenn du bist!"'
+    - '- "Mach das, was sich für dich richtig anfühlt."'
+    - '- "Du bestimmst, worüber wir sprechen."'
+    - '- "Geh den Weg, der für dich stimmt."'
+    - '- "Du hast es in der Hand."'
+    - '- "Es liegt ganz bei dir, kein Zwang."'
+    created_from: EMBOWERMENT_MARKER
+    created_at: '2025-07-12T05:17:17.003645'
+  AUTO_SEM_20250712_51ED:
+    beschreibung: "- id: \"M_META_MODERATION\"\n  name: \"Meta-Moderation\"\n  category:\
+      \ \"Meta-Kommunikation\"\n  semantic_grabber_id: \"SGR_META_MOD_01\""
+    examples:
+    - '- "Wie wollen wir’s machen"'
+    - '- "Mein Vorschlag"'
+    - '- "Du entscheidest, wie es euch lieber ist"'
+    - '- "Variante [0-9]:"'
+    - '- "Sag einfach, wie es dir am besten passt"'
+    - '- "Wie hättest du es gern"'
+    - '- "Wollen wir erstmal klären, wie wir vorgehen"'
+    - '- "Sollen wir so weitermachen"'
+    - '- "Was hältst du davon, wenn wir ..."'
+    - '- "Wie möchtest du am liebsten starten"'
+    patterns:
+    - '- "Wie wollen wir’s machen"'
+    - '- "Mein Vorschlag"'
+    - '- "Du entscheidest, wie es euch lieber ist"'
+    - '- "Variante [0-9]:"'
+    - '- "Sag einfach, wie es dir am besten passt"'
+    - '- "Wie hättest du es gern"'
+    - '- "Wollen wir erstmal klären, wie wir vorgehen"'
+    - '- "Sollen wir so weitermachen"'
+    - '- "Was hältst du davon, wenn wir ..."'
+    - '- "Wie möchtest du am liebsten starten"'
+    created_from: META_MODERATION_MARKER
+    created_at: '2025-07-12T05:19:00.219382'
+  AUTO_SEM_20250712_DCD3:
+    beschreibung: "- id: \"M_PROCESS_STRUCTURE\"\n  name: \"Prozess-Strukturmarker\"\
+      \n  category: \"Meta-Kommunikation\"\n  semantic_grabber_id: \"SGR_PROCESS_STRUCTURE_01\""
+    examples:
+    - examples
+    - '- "Schritt[- ]?für[- ]?Schritt"'
+    - '- "Zuerst.*dann"'
+    - '- "Danach.*weiter"'
+    - '- "Wir machen.*Reihenfolge"'
+    - '- "Der Ablauf ist so"'
+    - '- "Als Nächstes"'
+    - '- "Im ersten Schritt"'
+    - '- "Erstmal.*dann"'
+    - '- "Ich gebe dir sofort Rückmeldung"'
+    patterns:
+    - examples
+    - '- "Schritt[- ]?für[- ]?Schritt"'
+    - '- "Zuerst.*dann"'
+    - '- "Danach.*weiter"'
+    - '- "Wir machen.*Reihenfolge"'
+    - '- "Der Ablauf ist so"'
+    - '- "Als Nächstes"'
+    - '- "Im ersten Schritt"'
+    - '- "Erstmal.*dann"'
+    - '- "Ich gebe dir sofort Rückmeldung"'
+    created_from: PROCESS_STRUCTURE_MARKER
+    created_at: '2025-07-12T05:19:45.124149'
+  AUTO_SEM_20250712_D197:
+    beschreibung: "marker:\n  name: RESULT_ORIENTATION_MARKER\n  grabber_id: RESULT_ORIENTATION_SEM\n\
+      \  category: \"Result Orientation\"\n  description: >\n    Erkennt Äußerungen,\
+      \ die Fokus auf Zielerreichung,\n    Effizienz und messbare Ergebnisse legen.\n\
+      \  pattern:\n    - regex: \"(ziel(e)? erreichen|Deadline|Ergebnis orientiert)\"\
+      \n    - regex: \"(Output|Outcome|Erfolgsmessung)\"\n    - keywords: [\"Effizienz\"\
+      , \"Produktivität\", \"Meilenstein\", \"KPIs\"]\n    - semantik: >\n       \
+      \ Sätze, die klare Zielvorgaben, Deadlines und Erfolgskriterien betonen"
+    examples:
+    - 'examples:'
+    - '- "Lass uns das Ziel bis Freitag erreichen."'
+    - '- "Wir müssen den Meilenstein diese Woche abschließen."'
+    - '- "Ich fokussiere mich auf den Output, nicht auf den Aufwand."'
+    - '- "Wie messen wir den Erfolg dieses Features?"'
+    - '- "Deadline ist morgen um 12 Uhr – ich lege los."'
+    - '- "Ergebnisorientiert arbeiten bedeutet für mich: keine offenen Tasks."'
+    - '- "Produktivität ist, wenn wir liefern, was vereinbart wurde."'
+    - '- "Unsere KPIs sehen eine Steigerung von 20 % vor."'
+    - '- "Wir prüfen am Ende, ob die Goals erfüllt sind."'
+    patterns:
+    - 'examples:'
+    - '- "Lass uns das Ziel bis Freitag erreichen."'
+    - '- "Wir müssen den Meilenstein diese Woche abschließen."'
+    - '- "Ich fokussiere mich auf den Output, nicht auf den Aufwand."'
+    - '- "Wie messen wir den Erfolg dieses Features?"'
+    - '- "Deadline ist morgen um 12 Uhr – ich lege los."'
+    - '- "Ergebnisorientiert arbeiten bedeutet für mich: keine offenen Tasks."'
+    - '- "Produktivität ist, wenn wir liefern, was vereinbart wurde."'
+    - '- "Unsere KPIs sehen eine Steigerung von 20 % vor."'
+    - '- "Wir prüfen am Ende, ob die Goals erfüllt sind."'
+    created_from: RESULT_ORIENTATED_MARKER
+    created_at: '2025-07-12T10:37:55.570547'
+  AUTO_SEM_20250712_5D4A:
+    beschreibung: "marker:\n  name: LOYALTY_MARKER\n  grabber_id: LOYALTY_SEM\n  category:\
+      \ \"Loyalty\"\n  description: >\n    Erkennt Äußerungen, die Treue, Verlässlichkeit\
+      \ und Unterstützung\n    gegenüber Person oder Organisation ausdrücken.\n  pattern:\n\
+      \    - regex: \"(ich stehe (dir|Ihnen) bei|immer hinter (dir|Ihnen))\"\n   \
+      \ - regex: \"(egal was passiert|auf lange Sicht)\"\n    - keywords: [\"Loyalität\"\
+      , \"Verlässlichkeit\", \"Treue\", \"Zusammenhalt\"]\n    - semantik: >\n   \
+      \     Sätze, die Beständigkeit, Verpflichtung und emotionalen Rückhalt signalisieren"
+    examples:
+    - 'examples:'
+    - '- "Ich stehe immer hinter dir, egal was kommt."'
+    - '- "Du kannst lange auf mich zählen."'
+    - '- "Egal was passiert, ich bin dabei."'
+    - '- "Ich halte dir den Rücken frei, versprochen."'
+    - '- "Ich bleibe diesem Projekt treu, bis es abgeschlossen ist."'
+    - '- "Unsere Zusammenarbeit hat für mich Priorität."'
+    - '- "Langfristig bin ich absolut verlässlich."'
+    - '- "Meine Loyalität gilt unserem Team."'
+    - '- "Ich unterstütze dich voll und ganz."'
+    patterns:
+    - 'examples:'
+    - '- "Ich stehe immer hinter dir, egal was kommt."'
+    - '- "Du kannst lange auf mich zählen."'
+    - '- "Egal was passiert, ich bin dabei."'
+    - '- "Ich halte dir den Rücken frei, versprochen."'
+    - '- "Ich bleibe diesem Projekt treu, bis es abgeschlossen ist."'
+    - '- "Unsere Zusammenarbeit hat für mich Priorität."'
+    - '- "Langfristig bin ich absolut verlässlich."'
+    - '- "Meine Loyalität gilt unserem Team."'
+    - '- "Ich unterstütze dich voll und ganz."'
+    created_from: LOYALTY_MARKER
+    created_at: '2025-07-12T10:38:50.243910'
+  AUTO_SEM_20250712_9ED4:
+    beschreibung: "marker:\n  name: HANDS_ON_MENTALITY_MARKER\n  grabber_id: HANDS_ON_MENTALITY_SEM\n\
+      \  category: \"Hands-on Mentality\"\n  description: >\n    Erkennt Äußerungen,\
+      \ die eine pragmatische,\n    anpackende Herangehensweise und direkten Umsetzungseifer\
+      \ zeigen.\n  pattern:\n    - regex: \"(pack( an|en)? wir es an|los geht('s)?|direkt\
+      \ anfangen)\"\n    - regex: \"(ich übernehme das|lass mich das machen)\"\n \
+      \   - keywords: [\"Hands-on\", \"selbstständig\", \"Tatkraft\", \"umsetzen\"\
+      ]\n    - semantik: >\n        Sätze, die Eigeninitiative, schnellen Start und\
+      \ praktische Umsetzung betonen"
+    examples:
+    - 'examples:'
+    - '- "Packen wir es an, ich richte den Account gleich ein."'
+    - '- "Ich übernehme das und melde mich, wenn es fertig ist."'
+    - '- "Los geht’s – ich lege direkt los."'
+    - '- "Lass mich das Tool installieren, dann können wir testen."'
+    - '- "Ich schnapp mir das Ticket und mache es fertig."'
+    - '- "Ich steige sofort ein und setze die ersten Schritte um."'
+    - '- "Direkt praktisch probieren hilft uns schneller voranzukommen."'
+    - '- "Ich mache einen Prototypen – fertig in zehn Minuten."'
+    - '- "Selbstständig kümmere ich mich um die Konfiguration."'
+    patterns:
+    - 'examples:'
+    - '- "Packen wir es an, ich richte den Account gleich ein."'
+    - '- "Ich übernehme das und melde mich, wenn es fertig ist."'
+    - '- "Los geht’s – ich lege direkt los."'
+    - '- "Lass mich das Tool installieren, dann können wir testen."'
+    - '- "Ich schnapp mir das Ticket und mache es fertig."'
+    - '- "Ich steige sofort ein und setze die ersten Schritte um."'
+    - '- "Direkt praktisch probieren hilft uns schneller voranzukommen."'
+    - '- "Ich mache einen Prototypen – fertig in zehn Minuten."'
+    - '- "Selbstständig kümmere ich mich um die Konfiguration."'
+    created_from: HANDS_ON_MENTALITY_MARKER
+    created_at: '2025-07-12T10:39:43.194812'
+  AUTO_SEM_20250712_8B1B:
+    beschreibung: "marker:\n  name: ANALYTICAL_THINKING_MARKER\n  grabber_id: ANALYTICAL_THINKING_SEM\n\
+      \  category: \"Analytical Thinking\"\n  description: >\n    Erkennt Äußerungen,\
+      \ die systematische Analyse,\n    datengetriebene Schlussfolgerungen und strukturierte\
+      \ Problemlösung signalisieren.\n  pattern:\n    - regex: \"(wenn.*dann|Ursachenanalyse|Daten\
+      \ (auswerten|analysieren))\"\n    - regex: \"(systematisch vorgehen|schritt\
+      \ für schritt)\"\n    - keywords: [\"Hypothese\", \"Kausalität\", \"Muster\"\
+      , \"Struktur\"]\n    - semantik: >\n        Sätze, die logische Schlussfolgerungen,\
+      \ methodische Analyse\n        und klare Struktur betonen"
+    examples:
+    - 'examples:'
+    - '- "Wir sollten Daten auswerten, um das Muster zu erkennen."'
+    - '- "Wenn wir das so angehen, dann können wir die Ursache finden."'
+    - '- "Eine Ursachenanalyse hilft uns, den Fehler zu beheben."'
+    - '- "Lass uns systematisch vorgehen und jeden Schritt dokumentieren."'
+    - '- "Meine Hypothese ist, dass der Server zu langsam reagiert."'
+    - '- "Ich habe die Zahlen in eine Tabelle übertragen und Trends erkannt."'
+    - '- "Schritt für Schritt klären wir, welcher Faktor ausschlaggebend ist."'
+    - '- "Datengetrieben können wir bessere Entscheidungen treffen."'
+    - '- "Ich habe mehrere Szenarien durchgespielt und verglichen."'
+    patterns:
+    - 'examples:'
+    - '- "Wir sollten Daten auswerten, um das Muster zu erkennen."'
+    - '- "Wenn wir das so angehen, dann können wir die Ursache finden."'
+    - '- "Eine Ursachenanalyse hilft uns, den Fehler zu beheben."'
+    - '- "Lass uns systematisch vorgehen und jeden Schritt dokumentieren."'
+    - '- "Meine Hypothese ist, dass der Server zu langsam reagiert."'
+    - '- "Ich habe die Zahlen in eine Tabelle übertragen und Trends erkannt."'
+    - '- "Schritt für Schritt klären wir, welcher Faktor ausschlaggebend ist."'
+    - '- "Datengetrieben können wir bessere Entscheidungen treffen."'
+    - '- "Ich habe mehrere Szenarien durchgespielt und verglichen."'
+    created_from: ANALYTICAL_THINKING_MARKER
+    created_at: '2025-07-12T10:40:23.072136'
+  AUTO_SEM_20250712_748B:
+    beschreibung: "marker:\n  name: INTROSPECTION_MARKER\n  grabber_id: SELF_REFLECTION_SEM\n\
+      \  category: \"Self-reflection\"\n  description: >\n    Erkennt Äußerungen,\
+      \ in denen die sprechende Person ihr eigenes\n    Verhalten hinterfragt, analysiert\
+      \ und persönliche Erkenntnisse teilt.\n  pattern:\n    - regex: \"(ich habe\
+      \ mich gefragt|mir ist aufgefallen|reflektiere)\"\n    - regex: \"(in Zukunft\
+      \ werde ich|darauf achte ich|ich nehme mir vor)\"\n    - keywords: [\"Selbstreflexion\"\
+      , \"Rückblick\", \"Lernprozess\", \"Achtsamkeit\"]\n    - semantik: >\n    \
+      \    Sätze, die introspektive Betrachtung und persönliche Entwicklungsziele\
+      \ ausdrücken"
+    examples:
+    - 'examples:'
+    - '- "Mir ist aufgefallen, dass ich in Meetings oft zu kurz komme."'
+    - '- "Ich habe mich gefragt, warum ich da so reagiert habe."'
+    - '- "In Zukunft werde ich mir mehr Zeit für die Vorbereitung nehmen."'
+    - '- "Ich reflektiere gerade mein Kommunikationsverhalten."'
+    - '- "Nach dem Gespräch denke ich darüber nach, wie ich es besser machen kann."'
+    - '- "Ich nehme mir vor, bewusster zuzuhören."'
+    - '- "Rückblickend hätte ich direkter sein sollen."'
+    - '- "Ich achte jetzt darauf, meine Gedanken klarer zu formulieren."'
+    - '- "Dieser Fehler zeigt mir, woran ich arbeiten muss."'
+    patterns:
+    - 'examples:'
+    - '- "Mir ist aufgefallen, dass ich in Meetings oft zu kurz komme."'
+    - '- "Ich habe mich gefragt, warum ich da so reagiert habe."'
+    - '- "In Zukunft werde ich mir mehr Zeit für die Vorbereitung nehmen."'
+    - '- "Ich reflektiere gerade mein Kommunikationsverhalten."'
+    - '- "Nach dem Gespräch denke ich darüber nach, wie ich es besser machen kann."'
+    - '- "Ich nehme mir vor, bewusster zuzuhören."'
+    - '- "Rückblickend hätte ich direkter sein sollen."'
+    - '- "Ich achte jetzt darauf, meine Gedanken klarer zu formulieren."'
+    - '- "Dieser Fehler zeigt mir, woran ich arbeiten muss."'
+    created_from: INTROSPECTION_MARKER
+    created_at: '2025-07-12T10:41:47.278455'
+  AUTO_SEM_20250712_031C:
+    beschreibung: "marker:\n  name: ERROR_CULTURE_MARKER\n  grabber_id: ERROR_CULTURE_SEM\n\
+      \  category: \"Error Culture\"\n  description: >\n    Erkennt Äußerungen, die\
+      \ ein offenes Umgehen mit Fehlern,\n    Verantwortungsübernahme und Lernen aus\
+      \ Misserfolgen signalisieren.\n  pattern:\n    - regex: \"(aus (dem )?Fehler(n)?\
+      \ lernen|Fehler gehören dazu|Schuld?frage)\"\n    - regex: \"(Entschuldigung,\
+      \ das war mein Fehler|das lag an mir)\"\n    - keywords: [\"Fehlerkultur\",\
+      \ \"Lernchance\", \"Review\", \"Risikominimierung\"]\n    - semantik: >\n  \
+      \      Sätze, die Transparenz über Fehltritte, Übernahme von Verantwortung\n\
+      \        und Bereitschaft zur Nachbesserung ausdrücken"
+    examples:
+    - 'examples:'
+    - '- "Entschuldigung, das war mein Fehler – ich korrigiere das sofort."'
+    - '- "Lass uns das in der Retrospektive besprechen und daraus lernen."'
+    - '- "Fehler gehören zum Prozess – Hauptsache, wir ziehen Konsequenzen."'
+    - '- "Ich sehe das als Lernchance und passe den Ablauf entsprechend an."'
+    - '- "Danke für dein Feedback, so vermeiden wir solche Fehler künftig."'
+    - '- "Können wir eine Fehleranalyse machen, um die Ursache zu finden?"'
+    - '- "Bitte bespricht in Zukunft auch die Risiken vorab."'
+    - '- "Das Review hat den Bug aufgedeckt – guter Job!"'
+    - '- "Ich übernehme die Verantwortung dafür und stelle es wieder her."'
+    patterns:
+    - 'examples:'
+    - '- "Entschuldigung, das war mein Fehler – ich korrigiere das sofort."'
+    - '- "Lass uns das in der Retrospektive besprechen und daraus lernen."'
+    - '- "Fehler gehören zum Prozess – Hauptsache, wir ziehen Konsequenzen."'
+    - '- "Ich sehe das als Lernchance und passe den Ablauf entsprechend an."'
+    - '- "Danke für dein Feedback, so vermeiden wir solche Fehler künftig."'
+    - '- "Können wir eine Fehleranalyse machen, um die Ursache zu finden?"'
+    - '- "Bitte bespricht in Zukunft auch die Risiken vorab."'
+    - '- "Das Review hat den Bug aufgedeckt – guter Job!"'
+    - '- "Ich übernehme die Verantwortung dafür und stelle es wieder her."'
+    created_from: ERROR_CULTURE_MARKER
+    created_at: '2025-07-12T10:43:24.414912'
+  AUTO_SEM_20250712_C71F:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-12T16:03:58.106804'
+  AUTO_SEM_20250712_6EAA:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-12T20:21:02.292653'
+  AUTO_SEM_20250712_06AC:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-12T20:21:02.327930'
+  AUTO_SEM_20250712_9CDB:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-12T20:21:02.360544'
+  AUTO_SEM_20250712_FFB5:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-12T20:21:02.393301'
+  AUTO_SEM_20250712_8827:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-12T20:21:02.427730'
+  AUTO_SEM_20250712_0548:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-12T22:42:26.739301'
+  AUTO_SEM_20250712_F244:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-12T22:42:26.789325'
+  AUTO_SEM_20250712_AC4A:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-12T22:42:26.820118'
+  AUTO_SEM_20250712_F089:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-12T22:42:26.848649'
+  AUTO_SEM_20250712_176F:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-12T22:42:26.875540'
+  AUTO_SEM_20250713_59FC:
+    beschreibung: Automatisch erkannt aus SELF_DISCLOSURE_DRIFT_AXES_MARKER
+    examples: []
+    patterns: []
+    created_from: SELF_DISCLOSURE_DRIFT_AXES_MARKER
+    created_at: '2025-07-13T00:58:43.601318'

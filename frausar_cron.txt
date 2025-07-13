@@ -1,0 +1,1 @@
+0 2 * * * cd /Users/benjaminpoersch/:Users:benjaminpoersch:claude/Marker_assist_bot && python3 marker_assistant_bot.py

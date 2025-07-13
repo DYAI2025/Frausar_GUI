@@ -12,6 +12,7 @@ from tkinter import ttk, scrolledtext, messagebox
 from datetime import datetime
 from pathlib import Path
 import re
+import json
 
 class FRAUSARAssistant:
     def __init__(self, marker_directory="../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01"):
@@ -690,6 +691,90 @@ class FRAUSARAssistant:
                         })
         
         return overlaps
+    
+    def convert_yaml_to_json(self, yaml_files, output_same_folder=True, indent=2):
+        """Konvertiert YAML-Dateien zu JSON"""
+        try:
+            from ruamel.yaml import YAML
+        except ImportError:
+            # Fallback zu standard yaml
+            import yaml as yaml_module
+            yaml = None
+        else:
+            yaml = YAML(typ="safe")
+            yaml.preserve_quotes = True
+        
+        results = []
+        errors = []
+        
+        for yaml_file in yaml_files:
+            try:
+                yaml_path = Path(yaml_file)
+                
+                # Lade YAML
+                with open(yaml_path, 'r', encoding='utf-8') as f:
+                    if yaml:
+                        # ruamel.yaml - kann mehrere Dokumente laden
+                        docs = list(yaml.load_all(f))
+                        data = docs[0] if len(docs) == 1 else docs
+                    else:
+                        # standard yaml
+                        data = yaml_module.safe_load(f)
+                
+                # Bestimme Output-Pfad
+                if output_same_folder:
+                    json_path = yaml_path.with_suffix('.json')
+                else:
+                    json_dir = yaml_path.parent / "json_out"
+                    json_dir.mkdir(exist_ok=True)
+                    json_path = json_dir / (yaml_path.stem + '.json')
+                
+                # Schreibe JSON
+                with open(json_path, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, ensure_ascii=False, indent=indent)
+                
+                results.append({
+                    'yaml_file': str(yaml_path),
+                    'json_file': str(json_path),
+                    'status': 'success'
+                })
+                
+            except Exception as e:
+                errors.append({
+                    'file': str(yaml_file),
+                    'error': str(e)
+                })
+        
+        return {
+            'converted': results,
+            'errors': errors,
+            'total': len(yaml_files),
+            'success': len(results),
+            'failed': len(errors)
+        }
+    
+    def find_yaml_files(self, directory=None):
+        """Findet alle YAML-Dateien im Projekt"""
+        if directory is None:
+            directory = self.marker_dir.parent
+        
+        yaml_files = []
+        search_dirs = [
+            directory,
+            self.marker_dir,
+            self.marker_dir.parent / "Former_NEW_MARKER_FOLDERS",
+            self.marker_dir.parent / "RELATIONSHIP_MARKERS",
+            self.marker_dir.parent / "MARKERBOOK_YAML_CANVAS"
+        ]
+        
+        for search_dir in search_dirs:
+            if search_dir.exists():
+                yaml_files.extend(search_dir.rglob("*.yaml"))
+                yaml_files.extend(search_dir.rglob("*.yml"))
+        
+        # Entferne Duplikate und sortiere
+        yaml_files = sorted(list(set(yaml_files)))
+        return yaml_files
 
 class FRAUSARGUI:
     def __init__(self):
@@ -865,6 +950,10 @@ class FRAUSARGUI:
                   command=self.validate_yaml_structure_dialog).pack(fill=tk.X, pady=(0, 2))
         ttk.Button(approval_frame, text="🔄 YAML-Dateien zusammenführen", 
                   command=self.merge_yaml_files_dialog).pack(fill=tk.X)
+        
+        # YAML zu JSON Konvertierung
+        ttk.Button(approval_frame, text="🔀 YAML → JSON konvertieren", 
+                  command=self.yaml_to_json_dialog).pack(fill=tk.X, pady=(2, 0))
         
         # Initialisierung
         self.refresh_marker_list()
@@ -3104,6 +3193,350 @@ semantic_grabbers:
         except Exception as e:
             self.update_status(f"❌ Fehler: {str(e)}")
             messagebox.showerror("Fehler", f"Fehler beim Merge-Dialog:\n{str(e)}")
+    
+    def yaml_to_json_dialog(self):
+        """Dialog für YAML zu JSON Konvertierung"""
+        try:
+            self.update_status("🔄 Öffne YAML → JSON Konverter...")
+            
+            # Dialog erstellen
+            dialog = tk.Toplevel(self.root)
+            dialog.title("🔀 YAML → JSON Konverter")
+            dialog.geometry("900x700")
+            dialog.transient(self.root)
+            dialog.grab_set()
+            
+            main_frame = ttk.Frame(dialog, padding="10")
+            main_frame.pack(fill=tk.BOTH, expand=True)
+            
+            ttk.Label(main_frame, text="YAML → JSON Konverter", 
+                     font=('Arial', 14, 'bold')).pack(pady=(0, 10))
+            
+            # Notebook für verschiedene Modi
+            notebook = ttk.Notebook(main_frame)
+            notebook.pack(fill=tk.BOTH, expand=True, pady=(0, 10))
+            
+            # Tab 1: Einzelne Dateien
+            single_tab = ttk.Frame(notebook)
+            notebook.add(single_tab, text="📄 Einzelne Dateien")
+            
+            # Dateiauswahl
+            file_frame = ttk.LabelFrame(single_tab, text="Dateien auswählen", padding="10")
+            file_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+            
+            # Liste der ausgewählten Dateien
+            selected_files_var = tk.StringVar(value="")
+            selected_files_listbox = tk.Listbox(file_frame, height=10, selectmode=tk.MULTIPLE)
+            selected_files_scrollbar = ttk.Scrollbar(file_frame, orient="vertical")
+            selected_files_listbox.config(yscrollcommand=selected_files_scrollbar.set)
+            selected_files_scrollbar.config(command=selected_files_listbox.yview)
+            
+            selected_files_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+            selected_files_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+            
+            # Buttons für Dateiauswahl
+            button_frame = ttk.Frame(file_frame)
+            button_frame.pack(fill=tk.X, pady=(10, 0))
+            
+            def browse_files():
+                from tkinter import filedialog
+                files = filedialog.askopenfilenames(
+                    title="YAML-Dateien auswählen",
+                    filetypes=[("YAML Dateien", "*.yaml *.yml"), ("Alle Dateien", "*.*")],
+                    initialdir=str(self.assistant.marker_dir)
+                )
+                for file in files:
+                    if file not in [selected_files_listbox.get(i) for i in range(selected_files_listbox.size())]:
+                        selected_files_listbox.insert(tk.END, file)
+            
+            def remove_selected():
+                selections = selected_files_listbox.curselection()
+                for i in reversed(selections):
+                    selected_files_listbox.delete(i)
+            
+            def clear_all():
+                selected_files_listbox.delete(0, tk.END)
+            
+            ttk.Button(button_frame, text="📁 Dateien hinzufügen", 
+                      command=browse_files).pack(side=tk.LEFT, padx=(0, 5))
+            ttk.Button(button_frame, text="❌ Ausgewählte entfernen", 
+                      command=remove_selected).pack(side=tk.LEFT, padx=(0, 5))
+            ttk.Button(button_frame, text="🗑️ Alle entfernen", 
+                      command=clear_all).pack(side=tk.LEFT)
+            
+            # Tab 2: Ordner-Modus
+            folder_tab = ttk.Frame(notebook)
+            notebook.add(folder_tab, text="📁 Ganze Ordner")
+            
+            folder_frame = ttk.LabelFrame(folder_tab, text="Ordner mit YAML-Dateien", padding="10")
+            folder_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+            
+            # Verfügbare Ordner
+            ttk.Label(folder_frame, text="Wähle Ordner zum Konvertieren:", 
+                     font=('Arial', 10, 'bold')).pack(anchor=tk.W, pady=(0, 10))
+            
+            folders_listbox = tk.Listbox(folder_frame, height=10, selectmode=tk.MULTIPLE)
+            folders_scrollbar = ttk.Scrollbar(folder_frame, orient="vertical")
+            folders_listbox.config(yscrollcommand=folders_scrollbar.set)
+            folders_scrollbar.config(command=folders_listbox.yview)
+            
+            folders_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+            folders_listbox.pack(fill=tk.BOTH, expand=True)
+            
+            # Fülle mit bekannten Ordnern
+            known_folders = [
+                "ALL_NEWMARKER01",
+                "Former_NEW_MARKER_FOLDERS/fraud",
+                "Former_NEW_MARKER_FOLDERS/emotions",
+                "Former_NEW_MARKER_FOLDERS/tension",
+                "Former_NEW_MARKER_FOLDERS/resonance",
+                "Former_NEW_MARKER_FOLDERS/dynamic_knots",
+                "Former_NEW_MARKER_FOLDERS/MARKERBOOK_YAML_CANVAS",
+                "Former_NEW_MARKER_FOLDERS/extended_marker_yaml_bundle",
+                "RELATIONSHIP_MARKERS"
+            ]
+            
+            for folder in known_folders:
+                folder_path = self.assistant.marker_dir.parent / folder
+                if folder_path.exists():
+                    yaml_count = len(list(folder_path.glob("*.yaml")) + list(folder_path.glob("*.yml")))
+                    if yaml_count > 0:
+                        folders_listbox.insert(tk.END, f"{folder} ({yaml_count} YAML-Dateien)")
+            
+            # Tab 3: Schnellauswahl
+            quick_tab = ttk.Frame(notebook)
+            notebook.add(quick_tab, text="⚡ Schnellauswahl")
+            
+            quick_frame = ttk.LabelFrame(quick_tab, text="Schnelle Aktionen", padding="10")
+            quick_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+            
+            ttk.Label(quick_frame, text="Häufig verwendete Konvertierungen:", 
+                     font=('Arial', 10, 'bold')).pack(anchor=tk.W, pady=(0, 20))
+            
+            def convert_all_markers():
+                yaml_files = self.assistant.find_yaml_files()
+                self._perform_conversion(yaml_files, dialog)
+            
+            def convert_current_file():
+                if hasattr(self, 'current_marker') and self.current_marker:
+                    # Extrahiere Dateinamen
+                    clean_name = self.current_marker
+                    for prefix in ['📄 ', '🐍 ', '📁 ', '📊 ']:
+                        if clean_name.startswith(prefix):
+                            clean_name = clean_name[2:]
+                            break
+                    
+                    # Finde die Datei
+                    if '/' in clean_name:
+                        parts = clean_name.split('/')
+                        file_path = self.assistant.marker_dir.parent / f"Former_NEW_MARKER_FOLDERS/{parts[0]}" / parts[1]
+                    else:
+                        file_path = self.assistant.marker_dir / clean_name
+                    
+                    if file_path.suffix in ['.yaml', '.yml']:
+                        self._perform_conversion([file_path], dialog)
+                    else:
+                        messagebox.showinfo("Info", "Die aktuelle Datei ist keine YAML-Datei.")
+                else:
+                    messagebox.showwarning("Warnung", "Keine Datei ausgewählt!")
+            
+            ttk.Button(quick_frame, text="📄 Aktuelle Datei konvertieren", 
+                      command=convert_current_file).pack(fill=tk.X, pady=(0, 10))
+            ttk.Button(quick_frame, text="🗂️ Alle Marker konvertieren", 
+                      command=convert_all_markers).pack(fill=tk.X, pady=(0, 10))
+            
+            # Optionen (unten)
+            options_frame = ttk.LabelFrame(main_frame, text="⚙️ Optionen", padding="10")
+            options_frame.pack(fill=tk.X, pady=(0, 10))
+            
+            # Output-Optionen
+            output_var = tk.StringVar(value="same")
+            ttk.Radiobutton(options_frame, text="Im selben Ordner speichern", 
+                           variable=output_var, value="same").pack(anchor=tk.W)
+            ttk.Radiobutton(options_frame, text="In 'json_out' Unterordner speichern", 
+                           variable=output_var, value="json_out").pack(anchor=tk.W)
+            
+            # Einrückung
+            indent_frame = ttk.Frame(options_frame)
+            indent_frame.pack(fill=tk.X, pady=(10, 0))
+            
+            ttk.Label(indent_frame, text="JSON-Einrückung:").pack(side=tk.LEFT)
+            indent_var = tk.IntVar(value=2)
+            indent_spinbox = ttk.Spinbox(indent_frame, from_=0, to=8, width=5, 
+                                        textvariable=indent_var)
+            indent_spinbox.pack(side=tk.LEFT, padx=(10, 0))
+            
+            # Konvertierungs-Button
+            convert_frame = ttk.Frame(main_frame)
+            convert_frame.pack(fill=tk.X)
+            
+            def perform_conversion():
+                current_tab = notebook.index(notebook.select())
+                yaml_files = []
+                
+                if current_tab == 0:  # Einzelne Dateien
+                    yaml_files = [selected_files_listbox.get(i) 
+                                 for i in range(selected_files_listbox.size())]
+                    if not yaml_files:
+                        messagebox.showwarning("Warnung", "Keine Dateien ausgewählt!")
+                        return
+                
+                elif current_tab == 1:  # Ordner
+                    selections = folders_listbox.curselection()
+                    if not selections:
+                        messagebox.showwarning("Warnung", "Keine Ordner ausgewählt!")
+                        return
+                    
+                    for i in selections:
+                        folder_text = folders_listbox.get(i)
+                        folder_name = folder_text.split(" (")[0]
+                        folder_path = self.assistant.marker_dir.parent / folder_name
+                        if folder_path.exists():
+                            yaml_files.extend(folder_path.glob("*.yaml"))
+                            yaml_files.extend(folder_path.glob("*.yml"))
+                
+                if yaml_files:
+                    output_same_folder = output_var.get() == "same"
+                    indent = indent_var.get()
+                    self._perform_conversion(yaml_files, dialog, output_same_folder, indent)
+            
+            ttk.Button(convert_frame, text="🚀 Konvertierung starten", 
+                      command=perform_conversion).pack(side=tk.RIGHT, padx=(10, 0))
+            ttk.Button(convert_frame, text="❌ Abbrechen", 
+                      command=dialog.destroy).pack(side=tk.RIGHT)
+            
+            # Status-Label
+            self.conversion_status = ttk.Label(convert_frame, text="", font=('Arial', 9))
+            self.conversion_status.pack(side=tk.LEFT)
+            
+            self.update_status("✅ YAML → JSON Konverter geöffnet")
+            
+        except Exception as e:
+            self.update_status(f"❌ Fehler: {str(e)}")
+            messagebox.showerror("Fehler", f"Fehler beim Öffnen des Konverters:\n{str(e)}")
+    
+    def _perform_conversion(self, yaml_files, dialog, output_same_folder=True, indent=2):
+        """Führt die YAML zu JSON Konvertierung durch"""
+        try:
+            # Progress-Dialog
+            progress_dialog = tk.Toplevel(dialog)
+            progress_dialog.title("🔄 Konvertierung läuft...")
+            progress_dialog.geometry("500x300")
+            progress_dialog.transient(dialog)
+            progress_dialog.grab_set()
+            
+            progress_frame = ttk.Frame(progress_dialog, padding="20")
+            progress_frame.pack(fill=tk.BOTH, expand=True)
+            
+            ttk.Label(progress_frame, text="Konvertiere YAML-Dateien...", 
+                     font=('Arial', 12, 'bold')).pack(pady=(0, 20))
+            
+            # Progress Bar
+            progress_var = tk.DoubleVar()
+            progress_bar = ttk.Progressbar(progress_frame, variable=progress_var, 
+                                         maximum=len(yaml_files))
+            progress_bar.pack(fill=tk.X, pady=(0, 10))
+            
+            # Status Text
+            status_text = scrolledtext.ScrolledText(progress_frame, height=10, width=60)
+            status_text.pack(fill=tk.BOTH, expand=True)
+            
+            # Konvertierung durchführen
+            results = self.assistant.convert_yaml_to_json(yaml_files, output_same_folder, indent)
+            
+            # Zeige Ergebnisse
+            progress_dialog.destroy()
+            
+            # Ergebnis-Dialog
+            result_dialog = tk.Toplevel(dialog)
+            result_dialog.title("✅ Konvertierung abgeschlossen")
+            result_dialog.geometry("600x500")
+            result_dialog.transient(dialog)
+            result_dialog.grab_set()
+            
+            result_frame = ttk.Frame(result_dialog, padding="20")
+            result_frame.pack(fill=tk.BOTH, expand=True)
+            
+            # Zusammenfassung
+            summary_text = f"""
+🎉 Konvertierung abgeschlossen!
+
+📊 Statistik:
+• Dateien gesamt: {results['total']}
+• Erfolgreich konvertiert: {results['success']} ✅
+• Fehler: {results['failed']} ❌
+"""
+            
+            ttk.Label(result_frame, text=summary_text, 
+                     font=('Arial', 11), justify=tk.LEFT).pack(anchor=tk.W, pady=(0, 20))
+            
+            # Details
+            if results['converted']:
+                ttk.Label(result_frame, text="✅ Erfolgreich konvertierte Dateien:", 
+                         font=('Arial', 10, 'bold')).pack(anchor=tk.W)
+                
+                success_text = scrolledtext.ScrolledText(result_frame, height=10, width=70)
+                success_text.pack(fill=tk.BOTH, expand=True, pady=(5, 10))
+                
+                for item in results['converted']:
+                    success_text.insert(tk.END, f"• {Path(item['yaml_file']).name} → {Path(item['json_file']).name}\n")
+                
+                success_text.config(state='disabled')
+            
+            if results['errors']:
+                ttk.Label(result_frame, text="❌ Fehler:", 
+                         font=('Arial', 10, 'bold')).pack(anchor=tk.W, pady=(10, 0))
+                
+                error_text = scrolledtext.ScrolledText(result_frame, height=5, width=70)
+                error_text.pack(fill=tk.BOTH, pady=(5, 10))
+                
+                for error in results['errors']:
+                    error_text.insert(tk.END, f"• {Path(error['file']).name}: {error['error']}\n")
+                
+                error_text.config(state='disabled')
+            
+            # Buttons
+            button_frame = ttk.Frame(result_frame)
+            button_frame.pack(fill=tk.X, pady=(10, 0))
+            
+            def open_output_folder():
+                if results['converted']:
+                    # Öffne den Ordner der ersten konvertierten Datei
+                    first_json = Path(results['converted'][0]['json_file'])
+                    import subprocess
+                    import platform
+                    
+                    if platform.system() == 'Darwin':  # macOS
+                        subprocess.run(['open', str(first_json.parent)])
+                    elif platform.system() == 'Windows':
+                        subprocess.run(['explorer', str(first_json.parent)])
+                    else:  # Linux
+                        subprocess.run(['xdg-open', str(first_json.parent)])
+            
+            if results['converted']:
+                ttk.Button(button_frame, text="📁 Ausgabeordner öffnen", 
+                          command=open_output_folder).pack(side=tk.LEFT, padx=(0, 10))
+            
+            ttk.Button(button_frame, text="✅ OK", 
+                      command=lambda: [result_dialog.destroy(), dialog.destroy()]).pack(side=tk.RIGHT)
+            
+            # Update Status
+            self.update_status(f"✅ {results['success']} YAML-Dateien erfolgreich zu JSON konvertiert")
+            
+            # Chat-Nachricht
+            self.add_chat_message("🤖 Assistant", 
+                                f"YAML → JSON Konvertierung abgeschlossen!\n\n"
+                                f"📊 Ergebnis:\n"
+                                f"• {results['success']} Dateien erfolgreich konvertiert\n"
+                                f"• {results['failed']} Fehler\n\n"
+                                f"Die JSON-Dateien wurden {'im selben Ordner' if output_same_folder else 'im json_out Ordner'} gespeichert.")
+            
+        except Exception as e:
+            if 'progress_dialog' in locals():
+                progress_dialog.destroy()
+            
+            self.update_status(f"❌ Fehler bei der Konvertierung: {str(e)}")
+            messagebox.showerror("Fehler", f"Fehler bei der Konvertierung:\n{str(e)}")
     
     def run(self):
         self.root.mainloop()

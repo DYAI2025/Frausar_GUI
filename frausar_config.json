@@ -1,0 +1,7 @@
+{
+  "marker_directory": "Assist_TXT_marker_py:/ALL_NEWMARKER01",
+  "backup_retention_days": 30,
+  "trend_confidence_threshold": 0.8,
+  "auto_update_enabled": true,
+  "log_level": "INFO"
+}
