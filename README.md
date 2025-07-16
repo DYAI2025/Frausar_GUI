@@ -135,4 +135,4 @@ Dieses System ist für Forschungs- und Bildungszwecke gedacht. Bei kommerzieller
 ---
 
 **MARSAP** - *Marker Analysis & Recognition System for Adaptive Patterns*  
-Entwickelt für die semantisch-psychologische Kommunikationsanalyse 
+Entwickelt für die semantisch-psychologische Kommunikationsanalyse # Frausar_GUI
