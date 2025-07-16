@@ -15,12 +15,17 @@ import re
 import json
 
 class FRAUSARAssistant:
-    def __init__(self, marker_directory="ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01"):
+    def __init__(self, marker_directory="../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01"):
         self.marker_dir = Path(marker_directory)
         self.pending_changes = []
         self.semantic_grabber_library_path = Path("semantic_grabber_library.yaml")
         self.semantic_grabbers = self._load_semantic_grabbers()
         self.embeddings_cache = {}
+    
+    def set_marker_directory(self, directory):
+        """Setzt ein neues Marker-Verzeichnis"""
+        self.marker_dir = Path(directory)
+        return self.get_marker_list()
     
     def get_marker_list(self):
         """Lädt alle Marker aus Hauptordner und Unterordnern"""
@@ -52,43 +57,34 @@ class FRAUSARAssistant:
         for file in self.marker_dir.glob("*.py"):
             markers.append(f"🐍 {file.name}")
         
-        # Unterordner scannen
-        marker_folders = [
-            "Former_NEW_MARKER_FOLDERS/fraud",
-            "Former_NEW_MARKER_FOLDERS/emotions", 
-            "Former_NEW_MARKER_FOLDERS/resonance",
-            "Former_NEW_MARKER_FOLDERS/dynamic_knots",
-            "Former_NEW_MARKER_FOLDERS/tension",
-            "Former_NEW_MARKER_FOLDERS/MARKERBOOK_YAML_CANVAS",
-            "Former_NEW_MARKER_FOLDERS/extended_marker_yaml_bundle"
-        ]
-        
-        # Die Unterordner sind direkt im ALL_SEMANTIC_MARKER_TXT Ordner
-        for folder in marker_folders:
-            folder_path = self.marker_dir.parent / folder
-            if folder_path.exists():
-                folder_name = folder.split('/')[-1]
-                
-                # Text-Marker
-                for file in folder_path.glob("*.txt"):
-                    markers.append(f"📁 {folder_name}/{file.name}")
-                
-                # Python-Skripte
-                for file in folder_path.glob("*.py"):
-                    markers.append(f"🐍 {folder_name}/{file.name}")
-                
-                # JSON/YAML/CSV Dateien
-                for file in folder_path.glob("*.json"):
-                    markers.append(f"📊 {folder_name}/{file.name}")
-                
-                for file in folder_path.glob("*.yaml"):
-                    markers.append(f"📊 {folder_name}/{file.name}")
-                
-                for file in folder_path.glob("*.yml"):
-                    markers.append(f"📊 {folder_name}/{file.name}")
-                
-                for file in folder_path.glob("*.csv"):
-                    markers.append(f"📊 {folder_name}/{file.name}")
+        # Unterordner scannen (alle direkten Unterordner)
+        try:
+            for subfolder in self.marker_dir.iterdir():
+                if subfolder.is_dir() and not subfolder.name.startswith('.'):
+                    folder_name = subfolder.name
+                    
+                    # Text-Dateien
+                    for file in subfolder.glob("*.txt"):
+                        markers.append(f"📁 {folder_name}/{file.name}")
+                    
+                    # Python-Skripte
+                    for file in subfolder.glob("*.py"):
+                        markers.append(f"🐍 {folder_name}/{file.name}")
+                    
+                    # JSON/YAML/CSV Dateien
+                    for file in subfolder.glob("*.json"):
+                        markers.append(f"📊 {folder_name}/{file.name}")
+                    
+                    for file in subfolder.glob("*.yaml"):
+                        markers.append(f"📊 {folder_name}/{file.name}")
+                    
+                    for file in subfolder.glob("*.yml"):
+                        markers.append(f"📊 {folder_name}/{file.name}")
+                    
+                    for file in subfolder.glob("*.csv"):
+                        markers.append(f"📊 {folder_name}/{file.name}")
+        except Exception as e:
+            print(f"Fehler beim Scannen der Unterordner: {e}")
         
         return sorted(markers)
     
@@ -104,10 +100,10 @@ class FRAUSARAssistant:
         # Prüfe ob es ein Unterordner-Pfad ist
         if '/' in clean_name:
             # Unterordner-Datei
-            parts = clean_name.split('/')
+            parts = clean_name.split('/', 1)
             folder_name = parts[0]
             file_name = parts[1]
-            file_path = self.marker_dir.parent / f"Former_NEW_MARKER_FOLDERS/{folder_name}" / file_name
+            file_path = self.marker_dir / folder_name / file_name
         else:
             # Hauptordner-Datei
             file_path = self.marker_dir / clean_name
@@ -268,23 +264,20 @@ class FRAUSARAssistant:
                         markers[marker_data['name']] = marker_data
         
         # Sammle aus Unterordnern
-        parent_dir = self.marker_dir.parent
-        subfolders = ["Former_NEW_MARKER_FOLDERS/fraud", "Former_NEW_MARKER_FOLDERS/emotions",
-                     "Former_NEW_MARKER_FOLDERS/tension", "Former_NEW_MARKER_FOLDERS/resonance",
-                     "Former_NEW_MARKER_FOLDERS/dynamic_knots", "Former_NEW_MARKER_FOLDERS/MARKERBOOK_YAML_CANVAS"]
-        
-        for folder in subfolders:
-            folder_path = parent_dir / folder
-            if folder_path.exists():
-                for file in folder_path.iterdir():
-                    if file.is_file() and self._is_marker_file(file):
-                        try:
-                            content = file.read_text(encoding='utf-8')
-                            marker_data = self._parse_marker_content(content, file.name)
-                            if marker_data:
-                                markers[marker_data['name']] = marker_data
-                        except:
-                            pass  # Ignoriere Dateien die nicht gelesen werden können
+        try:
+            for subfolder in self.marker_dir.iterdir():
+                if subfolder.is_dir() and not subfolder.name.startswith('.'):
+                    for file in subfolder.iterdir():
+                        if file.is_file() and self._is_marker_file(file):
+                            try:
+                                content = file.read_text(encoding='utf-8')
+                                marker_data = self._parse_marker_content(content, file.name)
+                                if marker_data:
+                                    markers[marker_data['name']] = marker_data
+                            except:
+                                pass  # Ignoriere Dateien die nicht gelesen werden können
+        except Exception as e:
+            print(f"Fehler beim Sammeln aus Unterordnern: {e}")
         
         return markers
     
@@ -857,6 +850,17 @@ class FRAUSARGUI:
         left_frame = ttk.LabelFrame(content_frame, text="📋 Marker-Liste", padding="5")
         left_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(0, 5)) # expand auf True setzen
         
+        # Verzeichnis-Auswahl Button
+        dir_frame = ttk.Frame(left_frame)
+        dir_frame.pack(fill=tk.X, pady=(0, 5))
+        
+        self.current_dir_label = ttk.Label(dir_frame, text=f"📁 {self.assistant.marker_dir}", 
+                                          font=('Arial', 9), foreground="gray")
+        self.current_dir_label.pack(side=tk.LEFT, fill=tk.X, expand=True)
+        
+        ttk.Button(dir_frame, text="📂 Verzeichnis wählen", 
+                  command=self.choose_directory).pack(side=tk.RIGHT)
+        
         # Suchfeld
         search_frame = ttk.Frame(left_frame)
         search_frame.pack(fill=tk.X, pady=(0, 5))
@@ -1027,6 +1031,33 @@ class FRAUSARGUI:
                              "• Mit mir chatten für Hilfe\n\n"
                              "🔒 Sicherheit: Alle Änderungen müssen von dir genehmigt werden!\n"
                              "💾 Automatische Backups für alle Dateitypen!")
+    
+    def choose_directory(self):
+        """Öffnet Dialog zur Verzeichnisauswahl"""
+        from tkinter import filedialog
+        
+        # Öffne Verzeichnis-Dialog
+        selected_dir = filedialog.askdirectory(
+            title="Wähle ein Verzeichnis mit Marker-Dateien",
+            initialdir=str(self.assistant.marker_dir.parent)
+        )
+        
+        if selected_dir:
+            # Setze neues Verzeichnis
+            self.assistant.set_marker_directory(selected_dir)
+            
+            # Update Label
+            self.current_dir_label.config(text=f"📁 {selected_dir}")
+            
+            # Lade Marker neu
+            self.refresh_marker_list()
+            
+            # Zeige Info
+            self.add_chat_message("🤖 Assistant", 
+                                f"Verzeichnis gewechselt!\n\n"
+                                f"📁 Neues Verzeichnis: {selected_dir}\n"
+                                f"📊 Gefundene Dateien: {len(self.all_markers)}\n\n"
+                                f"Alle YAML, JSON, TXT und CSV Dateien wurden geladen.")
     
     def refresh_marker_list(self):
         self.marker_listbox.delete(0, tk.END)

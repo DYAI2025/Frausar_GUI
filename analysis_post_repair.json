@@ -1,0 +1,5631 @@
+{
+  "analysis_timestamp": "2025-07-13T23:46:53.888651",
+  "marker_directory": "../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01",
+  "files": {
+    "-_ID_MARKER.yaml": {
+      "error": "'NoneType' object is not iterable",
+      "markers": []
+    },
+    "EMOTIONAL_BEHAVIORAL_MARKERS 2.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EMOTIONAL_BEHAVIORAL_MARKERS 2",
+          "name": "EMOTIONAL_BEHAVIORAL_MARKERS 2",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "MARKER",
+          "name": "MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SELF_SABOTAGE_LOOP_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SELF_SABOTAGE_LOOP_MARKER",
+          "name": "SELF_SABOTAGE_LOOP_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SELF_REFLECTION_MARKER_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SELF_REFLECTION_MARKER_MARKER",
+          "name": "SELF_REFLECTION_MARKER_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "kommunikationsmarker_ident.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "kommunikationsmarker_ident",
+          "name": "kommunikationsmarker_ident",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SUBTLE_TERRITORIAL_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SUBTLE_TERRITORIAL_MARKER",
+          "name": "SUBTLE_TERRITORIAL_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SCAMMER_BEHAVIOUR_DETECT.py_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SCAMMER_BEHAVIOUR_DETECT.py_MARKER",
+          "name": "SCAMMER_BEHAVIOUR_DETECT.py_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "MODEL_CONVERGENCE_SEM_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "MODEL_CONVERGENCE_SEM_MARKER",
+          "name": "MODEL_CONVERGENCE_SEM_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "KATEGORIEN.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "KATEGORIEN",
+          "name": "KATEGORIEN",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "META_COMMUNICATION_MARKERS.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "META_COMMUNICATION_MARKERS",
+          "name": "META_COMMUNICATION_MARKERS",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "MF01_PROMPT_SCAM_DETECT.py.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "MF01_PROMPT_SCAM_DETECT.py",
+          "name": "MF01_PROMPT_SCAM_DETECT.py",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "gitignore.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "gitignore",
+          "name": "gitignore",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "EMOTIONAL_WITHDRAW.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EMOTIONAL_WITHDRAW",
+          "name": "EMOTIONAL_WITHDRAW",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "RECOPA_chunk_output_template.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "RECOPA_chunk_output_template",
+          "name": "RECOPA_chunk_output_template",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SIMU_LOVE_SCAM_HUMAN01.py_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SIMU_LOVE_SCAM_HUMAN01.py_MARKER",
+          "name": "SIMU_LOVE_SCAM_HUMAN01.py_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "DEEP_SEMANTIC_MARKER_CLUSTER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "DEEP_SEMANTIC_MARKER_CLUSTER",
+          "name": "DEEP_SEMANTIC_MARKER_CLUSTER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "AROUSAL_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "AROUSAL_MARKER",
+          "name": "AROUSAL_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "enhanced_marker_config 2.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "enhanced_marker_config 2",
+          "name": "enhanced_marker_config 2",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "AI_BOT_SCAM.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "AI_BOT_SCAM_MARKER",
+          "name": "AI_BOT_SCAM_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "AMBIVALENT_STALLING_MANEUVER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "AMBIVALENT_STALLING_MANEUVER",
+          "name": "AMBIVALENT_STALLING_MANEUVER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "AFFILIATION_INCENTIVE.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "AFFILIATION_INCENTIVE",
+          "name": "AFFILIATION_INCENTIVE",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "AMBIVALENCE_TOLERANCE_MARKER_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "AMBIVALENCE_TOLERANCE_MARKER_MARKER",
+          "name": "AMBIVALENCE_TOLERANCE_MARKER_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SIMU_LAVE_SCAM_SEMANTIC.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SIMU_LAVE_SCAM_SEMANTIC_MARKER",
+          "name": "SIMU_LAVE_SCAM_SEMANTIC_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "TERMINATION_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "TERMINATION_MARKER",
+          "name": "TERMINATION_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "ANALYTICAL_THINKING_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "ANALYTICAL_THINKING_MARKER",
+          "name": "ANALYTICAL_THINKING_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SEMANTIC_BEHAVIOR_MARKER_SYSTEM.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SEMANTIC_BEHAVIOR_MARKER_SYSTEM_MARKER",
+          "name": "SEMANTIC_BEHAVIOR_MARKER_SYSTEM_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "MARKER_MARKER 2.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "MARKER_MARKER",
+          "name": "MARKER_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "ARCHETYPICAL_PATTERN.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "ARCHETYPICAL_PATTERN",
+          "name": "ARCHETYPICAL_PATTERN",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "ANALYSIS_CONFIGURATION 2.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "ANALYSIS_CONFIGURATION 2",
+          "name": "ANALYSIS_CONFIGURATION 2",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "VALUE_DYNAMICS_LEVELS 2.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "VALUE_DYNAMICS_LEVELS 2",
+          "name": "VALUE_DYNAMICS_LEVELS 2",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SARCASM_SUBTILE.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SARCASM_SUBTILE",
+          "name": "SARCASM_SUBTILE",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "emotional_withdraw 2.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "emotional_withdraw 2",
+          "name": "emotional_withdraw 2",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "EMBOWERMENT_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EMBOWERMENT_MARKER",
+          "name": "EMBOWERMENT_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "RELATIONSHIP_MARKER_CLUSTER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "RELATIONSHIP_MARKER_CLUSTER",
+          "name": "RELATIONSHIP_MARKER_CLUSTER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "BOUNDARY_SETTING_MARKER_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "BOUNDARY_SETTING_MARKER_MARKER",
+          "name": "BOUNDARY_SETTING_MARKER_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "PROCESS_STRUCTURE_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "PROCESS_STRUCTURE_MARKER",
+          "name": "PROCESS_STRUCTURE_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "pyproject_toml.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "pyproject_toml",
+          "name": "pyproject_toml",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "DYNAMIC_KNOTS.yaml.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "DYNAMIC_KNOTS",
+          "name": "DYNAMIC_KNOTS",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "AI_BOT_SEMANTIC_DETECT.py_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "AI_BOT_SEMANTIC_DETECT.py_MARKER",
+          "name": "AI_BOT_SEMANTIC_DETECT.py_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "INTROSPECTION_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "INTROSPECTION_MARKER",
+          "name": "INTROSPECTION_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "VALUE_DYNAMICS_LEVELS.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SPIRAL_DYNAMICS_LEVELS",
+          "name": "SPIRAL_DYNAMICS_LEVELS",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "NEW_STRATEGY_ATTEMPT_MARKER_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "NEW_STRATEGY_ATTEMPT_MARKER_MARKER",
+          "name": "NEW_STRATEGY_ATTEMPT_MARKER_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "BLAME_SHIFT_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "BLAME_SHIFT_MARKER",
+          "name": "BLAME_SHIFT_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "vorwurfsmarker.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "vorwurfsmarker",
+          "name": "vorwurfsmarker",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "verbindungsmarker.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "verbindungsmarker",
+          "name": "verbindungsmarker",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "FRIENDLY_FLIRTING_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "FRIENDLY_FLIRTING_MARKER",
+          "name": "FRIENDLY_FLIRTING_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SCAMMER_DETECTIO.py_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SCAMMER_DETECTIO.py_MARKER",
+          "name": "SCAMMER_DETECTIO.py_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "M_WELLBEING_BALANCE_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "M_WELLBEING_BALANCE_MARKER",
+          "name": "M_WELLBEING_BALANCE_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "RITUAL_PROXIMITY_SEM_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "RITUAL_PROXIMITY_SEM_MARKER",
+          "name": "RITUAL_PROXIMITY_SEM_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "DEVELOPMENT_META_COMMUNICATION_MARKER_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "DEVELOPMENT_META_COMMUNICATION_MARKER_MARKER",
+          "name": "DEVELOPMENT_META_COMMUNICATION_MARKER_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "FLUCTUATION_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "FLUCTUATION_MARKER",
+          "name": "FLUCTUATION_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "PLATFORM_SWITCH.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "PLATFORM_SWITCH",
+          "name": "PLATFORM_SWITCH",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "REPORT_TEMPLATES.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "REPORT_TEMPLATES",
+          "name": "REPORT_TEMPLATES",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SCAMMER_SEMANTIC_BEHAVIOUR.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SCAMMER_SEMANTIC_BEHAVIOUR_MARKER",
+          "name": "SCAMMER_SEMANTIC_BEHAVIOUR_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "MM_Emotional_ESPAW.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "MM_Emotional_ESPAW",
+          "name": "MM_Emotional_ESPAW",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "ANALYSIS_CONFIGURATION.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "ANALYSIS_CONFIGURATION",
+          "name": "ANALYSIS_CONFIGURATION",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "INTEGRATION_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "INTEGRATION_MARKER",
+          "name": "INTEGRATION_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "META_COMMUNICATION_MARKERS 2.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "META_COMMUNICATION_MARKERS 2",
+          "name": "META_COMMUNICATION_MARKERS 2",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "ROLE_ROTATION.MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "ROLE_ROTATION.MARKER",
+          "name": "ROLE_ROTATION.MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "STYLE_SYNC_SEM.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "STYLE_SYNC_SEM",
+          "name": "STYLE_SYNC_SEM",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "LOVE_SCAM_EARLY_SIGNS.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "LOVE_SCAM_EARLY_SIGNS",
+          "name": "LOVE_SCAM_EARLY_SIGNS",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "PERMANENT_POSTPONE_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "PERMANENT_POSTPONE_MARKER",
+          "name": "PERMANENT_POSTPONE_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "streitmarker.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "streitmarker",
+          "name": "streitmarker",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "BLAME_SHIFTING.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "BLAME_SHIFTING",
+          "name": "BLAME_SHIFTING",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "UNCERTAINTY_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "UNCERTAINTY_MARKER",
+          "name": "UNCERTAINTY_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "verhaltens_score_kalkulieren.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "verhaltens_score_kalkulieren",
+          "name": "verhaltens_score_kalkulieren",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "DRIFT_AXIS.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "DRIFT_AXIS",
+          "name": "DRIFT_AXIS",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "GASLIGHTING_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "GASLIGHTING_MARKER",
+          "name": "GASLIGHTING_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "versöhnungsmarker.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "versöhnungsmarker",
+          "name": "versöhnungsmarker",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "PASSIVE_AGGRISIVE_BEHAVIOUR.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "PASSIVE_AGGRISIVE_BEHAVIOUR",
+          "name": "PASSIVE_AGGRISIVE_BEHAVIOUR",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "MIRRORED_STYLE_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "MIRRORED_STYLE_MARKER",
+          "name": "MIRRORED_STYLE_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "spannungen_rueckzug.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "spannungen_rueckzug",
+          "name": "spannungen_rueckzug",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "GASLIGHTING_GUILT.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "GASLIGHTING_GUILT",
+          "name": "GASLIGHTING_GUILT",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SEMANTIC_BEHAVIOR_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SEMANTIC_BEHAVIOR_MARKER",
+          "name": "SEMANTIC_BEHAVIOR_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "EMOTIONAL_INVALIDATION.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EMOTIONAL_INVALIDATION",
+          "name": "EMOTIONAL_INVALIDATION",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SYSTEM_TURNING_POINT.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SYSTEM_TURNING_POINT.yaml_MARKER",
+          "name": "SYSTEM_TURNING_POINT.yaml_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SEMANTIC_FOG_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SEMANTIC_FOG_MARKER",
+          "name": "SEMANTIC_FOG_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SOFT_COMMITMENT_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SOFT_COMMITMENT_MARKER",
+          "name": "SOFT_COMMITMENT_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SHOCK_SURPRISE_DRIFT.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SHOCK_SURPRISE_DRIFT_MARKER",
+          "name": "SHOCK_SURPRISE_DRIFT_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "M_RAPID_SELF_DISCLOSURE2_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "M_RAPID_SELF_DISCLOSURE2_MARKER",
+          "name": "M_RAPID_SELF_DISCLOSURE2_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SARCASTIC_IN_IRONIC_CONTROL.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SARCASTIC_IN_IRONIC_CONTROL",
+          "name": "SARCASTIC_IN_IRONIC_CONTROL",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "TRANSLATION_ARTIFACT.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "TRANSLATION_ARTIFACT",
+          "name": "TRANSLATION_ARTIFACT",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "RESPONSE_TIME_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "RESPONSE_TIME_MARKER",
+          "name": "RESPONSE_TIME_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "META_MODERATION_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "META_MODERATION_MARKER",
+          "name": "META_MODERATION_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "LOVE_BOMBING.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "LOVE_BOMBING",
+          "name": "LOVE_BOMBING",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "EMOTIONAL_VALENCE_MARKERS 2.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EMOTIONAL_VALENCE_MARKERS 2",
+          "name": "EMOTIONAL_VALENCE_MARKERS 2",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "ARCHETYPAL_PATTERNS_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "ARCHETYPAL_PATTERNS_MARKER",
+          "name": "ARCHETYPAL_PATTERNS_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "marker_sarkasmus.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "marker_sarkasmus",
+          "name": "marker_sarkasmus",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "CARE_SIGNITURE_MARKER_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "CARE_SIGNITURE_MARKER_MARKER",
+          "name": "CARE_SIGNITURE_MARKER_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SELF_VICTIMIZATION.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SELF_VICTIMIZATION",
+          "name": "SELF_VICTIMIZATION",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "LOYALTY_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "LOYALTY_MARKER",
+          "name": "LOYALTY_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "OFFENSIVE_FLIRTING.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "OFFENSIVE_FLIRTING_MARKER",
+          "name": "OFFENSIVE_FLIRTING_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "EXAMPLES.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EXAMPLES",
+          "name": "EXAMPLES",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SWAYING_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SWAYING_MARKER",
+          "name": "SWAYING_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "RESONANZ_MATCHING_MARKER_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "RESONANZ_MATCHING_MARKER_MARKER",
+          "name": "RESONANZ_MATCHING_MARKER_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SILENT_TREATMENT_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SILENT_TREATMENT_MARKER",
+          "name": "SILENT_TREATMENT_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "wutmarker.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "wutmarker",
+          "name": "wutmarker",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "FRIENDLY_FLIRTING_DETECT.py_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "FRIENDLY_FLIRTING_DETECT.py_MARKER",
+          "name": "FRIENDLY_FLIRTING_DETECT.py_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "DRAMA_TRIANGLE_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "DRAMA_TRIANGLE_MARKER",
+          "name": "DRAMA_TRIANGLE_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "EMOJI_ALIGNMENT_SEM.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EMOJI_ALIGNMENT_SEM",
+          "name": "EMOJI_ALIGNMENT_SEM",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "M_LOVE_BOMBING_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "M_LOVE_BOMBING_MARKER",
+          "name": "M_LOVE_BOMBING_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "RESPONSE_TIMING_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "RESPONSE_TIMING_MARKER",
+          "name": "RESPONSE_TIMING_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "PROJECTIVE_IDENTIFICATION_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "PROJECTIVE_IDENTIFICATION_MARKER",
+          "name": "PROJECTIVE_IDENTIFICATION_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "GUILT_TRIPPING_SEMANTIC_DETECT.py_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "GUILT_TRIPPING_SEMANTIC_DETECT.py_MARKER",
+          "name": "GUILT_TRIPPING_SEMANTIC_DETECT.py_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "UNCLEAR_INTESION_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "UNCLEAR_INTESION_MARKER",
+          "name": "UNCLEAR_INTESION_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "GUILT_TRIPPING_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "GUILT_TRIPPING_MARKER",
+          "name": "GUILT_TRIPPING_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "ENHANCED_MARKER_CONFIG.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "ENHANCED_MARKER_CONFIG",
+          "name": "ENHANCED_MARKER_CONFIG",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "fraud_markers.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "fraud_markers",
+          "name": "fraud_markers",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "NOVELTY_BURST_SEM_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "NOVELTY_BURST_SEM_MARKER",
+          "name": "NOVELTY_BURST_SEM_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SOCIAL_BORDERLINES_MARKER_MIX.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SOCIAL_BORDERLINES_MARKER_MIX_MARKER",
+          "name": "SOCIAL_BORDERLINES_MARKER_MIX_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "sarkasm_in_ironic_statements.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "sarkasm_in_ironic_statements",
+          "name": "sarkasm_in_ironic_statements",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "CONNECTION_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "CONNECTION_MARKER",
+          "name": "CONNECTION_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "widerspruchsmarker.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "widerspruchsmarker",
+          "name": "widerspruchsmarker",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "CONNECTION_POSITIVITY_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "CONNECTION_POSITIVITY_MARKER",
+          "name": "CONNECTION_POSITIVITY_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "ASYMMETRIC_INFO_MINING.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "ASYMMETRIC_INFO_MINING",
+          "name": "ASYMMETRIC_INFO_MINING",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "LATENT_EXPECTATION.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "LATENT_EXPECTATION",
+          "name": "LATENT_EXPECTATION",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "FAILURE_OWNERSHIP_MARKER_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "FAILURE_OWNERSHIP_MARKER_MARKER",
+          "name": "FAILURE_OWNERSHIP_MARKER_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "BOUNDARY_SHIFT.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "BOUNDARY_SHIFT",
+          "name": "BOUNDARY_SHIFT",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "ERROR_CULTURE_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "ERROR_CULTURE_MARKER",
+          "name": "ERROR_CULTURE_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SELF_ANALYSE_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SELF_ANALYSE_MARKER",
+          "name": "SELF_ANALYSE_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "marker_emotionaler_rueckzugsdruck.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "marker_emotionaler_rueckzugsdruck",
+          "name": "marker_emotionaler_rueckzugsdruck",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "MARKER_AXIES_DRIFT.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "MARKER_AXIES_DRIFT_MARKER",
+          "name": "MARKER_AXIES_DRIFT_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "meta_marker_definitions.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "meta_marker_definitions",
+          "name": "meta_marker_definitions",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "META_REFLEX_SEM_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "META_REFLEX_SEM_MARKER",
+          "name": "META_REFLEX_SEM_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "zweifelmarker.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "zweifelmarker",
+          "name": "zweifelmarker",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "RADICAL_OWNERSHIP_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "RADICAL_OWNERSHIP_MARKER",
+          "name": "RADICAL_OWNERSHIP_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "AMBIVALENCE_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "AMBIVALENCE_MARKER",
+          "name": "AMBIVALENCE_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "EMOTIONAL_BEHAVIORAL_MARKERS.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EMOTIONAL_BEHAVIORAL_MARKERS",
+          "name": "EMOTIONAL_BEHAVIORAL_MARKERS",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "MARKER_MARKER.yaml": {
+      "error": "'NoneType' object is not iterable",
+      "markers": []
+    },
+    "STYLE_SYNC_MARKER.yaml": {
+      "error": "'NoneType' object is not iterable",
+      "markers": []
+    },
+    "SEMANTIC_MARKER_RULES_MARKER.yaml": {
+      "error": "'NoneType' object is not iterable",
+      "markers": []
+    },
+    "TOPIC_SHIFT_SEM_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "TOPIC_SHIFT_SEM_MARKER",
+          "name": "TOPIC_SHIFT_SEM_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "DEEPENING_BY_QUESTIONING.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "DEEPENING_BY_QUESTIONING_MARKER",
+          "name": "DEEPENING_BY_QUESTIONING_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "REBOUND_SEM_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "REBOUND_SEM_MARKER",
+          "name": "REBOUND_SEM_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "COMPARISON_GHOST_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "COMPARISON_GHOST_MARKER",
+          "name": "COMPARISON_GHOST_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SELF_DISCLOSURE_DRIFT_AXES_MARKER.yaml": {
+      "error": "'NoneType' object is not iterable",
+      "markers": []
+    },
+    "sarkasm_in_EW.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "sarkasm_in_EW",
+          "name": "sarkasm_in_EW",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "BINDING_PATTERN_CLUSTER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "BINDING_PATTERN_CLUSTER",
+          "name": "BINDING_PATTERN_CLUSTER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "COGNITIVE_DISSTURBANCE.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "COGNITIVE_DISSTURBANCE",
+          "name": "COGNITIVE_DISSTURBANCE",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SIMU_IMITATION_STRATEGIES.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SIMU_IMITATION_STRATEGIES_MARKER",
+          "name": "SIMU_IMITATION_STRATEGIES_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "FABRICATED_STATUS_ARCHETYPE.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "FABRICATED_STATUS_ARCHETYPE",
+          "name": "FABRICATED_STATUS_ARCHETYPE",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "MARKER_NAME_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "MARKER_NAME_MARKER",
+          "name": "MARKER_NAME_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "MODEL_DIVERGENCE_SEM_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "MODEL_DIVERGENCE_SEM_MARKER",
+          "name": "MODEL_DIVERGENCE_SEM_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "REALITY_SHIFT_DEREALIZATION.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "REALITY_SHIFT_DEREALIZATION",
+          "name": "REALITY_SHIFT_DEREALIZATION",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "PYSCHOLOGICAL_MANIPULATION.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "PYSCHOLOGICAL_MANIPULATION",
+          "name": "PYSCHOLOGICAL_MANIPULATION",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "WEBCAM_EXCUSE_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "WEBCAM_EXCUSE_MARKER",
+          "name": "WEBCAM_EXCUSE_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "WEBCAM_EXCUSE.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "WEBCAM_EXCUSE",
+          "name": "WEBCAM_EXCUSE",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "IDEALIZATION_DEVALUATION.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "IDEALIZATION_DEVALUATION",
+          "name": "IDEALIZATION_DEVALUATION",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "FLUCTATIONS_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "FLUCTATIONS_MARKER",
+          "name": "FLUCTATIONS_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "RESONACE_MATCHING_DETECTOR.py_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "RESONACE_MATCHING_DETECTOR.py_MARKER",
+          "name": "RESONACE_MATCHING_DETECTOR.py_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "marker_rollen_rotation.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "marker_rollen_rotation",
+          "name": "marker_rollen_rotation",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "RESULT_ORIENTATED_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "RESULT_ORIENTATED_MARKER",
+          "name": "RESULT_ORIENTATED_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "ESCALATION_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "ESCALATION_MARKER",
+          "name": "ESCALATION_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "BREAK_UP_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "BREAK_UP_MARKER",
+          "name": "BREAK_UP_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "ISOLATION_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "ISOLATION_MARKER",
+          "name": "ISOLATION_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "EMOJI_ALIGNMENT_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EMOJI_ALIGNMENT_MARKER",
+          "name": "EMOJI_ALIGNMENT_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "HANDS_ON_MENTALITY_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "HANDS_ON_MENTALITY_MARKER",
+          "name": "HANDS_ON_MENTALITY_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "requirements_txt.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "requirements_txt",
+          "name": "requirements_txt",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "PLAYING_VICTIM_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "PLAYING_VICTIM_MARKER",
+          "name": "PLAYING_VICTIM_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "TOMS_Erweiterte_Marker.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "TOMS_Erweiterte_Marker",
+          "name": "TOMS_Erweiterte_Marker",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "STRATEGIC_EMOTIONALIZATION.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "STRATEGIC_EMOTIONALIZATION",
+          "name": "STRATEGIC_EMOTIONALIZATION",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "MICRO_CARE_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "MICRO_CARE_MARKER",
+          "name": "MICRO_CARE_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "LIE_CONCEALMENT_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "LIE_CONCEALMENT_MARKER",
+          "name": "LIE_CONCEALMENT_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "EXISTING_EXAMPLES.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EXISTING_EXAMPLES",
+          "name": "EXISTING_EXAMPLES",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "GREETING_FREQUENCY_MARKER_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "GREETING_FREQUENCY_MARKER_MARKER",
+          "name": "GREETING_FREQUENCY_MARKER_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "HIGH_TENSION_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "HIGH_TENSION_MARKER",
+          "name": "HIGH_TENSION_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "roles_rotation_rules_semantic_grep.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "roles_rotation_rules_semantic_grep",
+          "name": "roles_rotation_rules_semantic_grep",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "ROMANCE_FRAUD_MARKERS.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "ROMANCE_FRAUD_MARKERS",
+          "name": "ROMANCE_FRAUD_MARKERS",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "INITIATIVE_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "INITIATIVE_MARKER",
+          "name": "INITIATIVE_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "EMOTIONAL_VALENCE_MARKERS.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EMOTIONAL_VALENCE_MARKERS",
+          "name": "EMOTIONAL_VALENCE_MARKERS",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SYSTEM_TURNING_CLUSTER.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SYSTEM_TURNING_CLUSTER.yaml_MARKER",
+          "name": "SYSTEM_TURNING_CLUSTER.yaml_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "RELATIONSHIP_AUTHENTICITY_MARKER_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "RELATIONSHIP_AUTHENTICITY_MARKER_MARKER",
+          "name": "RELATIONSHIP_AUTHENTICITY_MARKER_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "MM_MANIPULATIVE_RELATIONSHIP_ENGINEERING_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "MM_MANIPULATIVE_RELATIONSHIP_ENGINEERING_MARKER",
+          "name": "MM_MANIPULATIVE_RELATIONSHIP_ENGINEERING_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "CRISIS_MONEY_REQUEST.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "CRISIS_MONEY_REQUEST",
+          "name": "CRISIS_MONEY_REQUEST",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "URGENCY_SCARCITY.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "URGENCY_SCARCITY",
+          "name": "URGENCY_SCARCITY",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "EMOTIONAL_INTERACTION_REACTION_CLUSTER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EMOTIONAL_INTERACTION_REACTION_CLUSTER",
+          "name": "EMOTIONAL_INTERACTION_REACTION_CLUSTER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "UNTRACEABLE_PAYMENT_METHOD.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "UNTRACEABLE_PAYMENT_METHOD",
+          "name": "UNTRACEABLE_PAYMENT_METHOD",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "EMOTION_GUARD.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "EMOTION_GUARD",
+          "name": "EMOTION_GUARD",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "verhalten_verlustangst_bindungsangst.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "verhalten_verlustangst_bindungsangst",
+          "name": "verhalten_verlustangst_bindungsangst",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SIMU_LOVE_SCAM_PSYCHO_DISTRACT.yaml_MARKER.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "SIMU_LOVE_SCAM_PSYCHO_DISTRACT.yaml_MARKER",
+          "name": "SIMU_LOVE_SCAM_PSYCHO_DISTRACT.yaml_MARKER",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "drift/drift_marker_axes.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "UNKNOWN_0",
+          "name": "Unbenannt",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": true,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "drift/Narion_Complete_Marker_Set.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "UNKNOWN_0",
+          "name": "Unbenannt",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": true,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "drift/driftachse_bindungsdynamik.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "UNKNOWN_0",
+          "name": "Unbenannt",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": true,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "drift/marker_beispiel_generator_input.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "UNKNOWN_0",
+          "name": "Unbenannt",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": true,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "drift/rapid_topic_shift.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "rapid_topic_shift",
+          "name": "Rapid Topic Shift",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": false,
+            "missing_name": false,
+            "missing_description": false,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "drift/driftachse_scham_selbstwirksamkeit.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "UNKNOWN_0",
+          "name": "Unbenannt",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": true,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "drift/semantic_drift_marker.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "semantic_drift_marker",
+          "name": "Semantic Drift",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": false,
+            "missing_name": false,
+            "missing_description": false,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "drift/marker_dynamic_knot.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "UNKNOWN_0",
+          "name": "Unbenannt",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": true,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "drift/enhanced_sd_markers.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "UNKNOWN_0",
+          "name": "Unbenannt",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": true,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "drift/drift_mapping_basis.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "UNKNOWN_0",
+          "name": "Unbenannt",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": true,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "drift/Emergenzphänomen_Marion.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "UNKNOWN_0",
+          "name": "Unbenannt",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": true,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SemanticGrabberLibrary/semantic_grabber_library.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "semantic_grabber_library",
+          "name": "semantic_grabber_library",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": true,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "SemanticGrabberLibrary/semantic_marker_rules.yaml": {
+      "error": "mapping values are not allowed here\n  in \"../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/SemanticGrabberLibrary/semantic_marker_rules.yaml\", line 23, column 19",
+      "markers": []
+    },
+    "chunk_analysis/chunk_analyse_template.yaml": {
+      "error": "mapping values are not allowed here\n  in \"../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/chunk_analysis/chunk_analyse_template.yaml\", line 18, column 35",
+      "markers": []
+    },
+    "chunk_analysis/combi_chunk_analyse_3_.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "combi_chunk_analyse_3_",
+          "name": "combi_chunk_analyse_3_",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": false,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "chunk_analysis/combi_chunk_analyse_2_.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "combi_chunk_analyse_2_",
+          "name": "combi_chunk_analyse_2_",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": false,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "chunk_analysis/combi_chunk_analyse_ID536-585.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "combi_chunk_analyse_ID536-585",
+          "name": "combi_chunk_analyse_ID536-585",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": false,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    },
+    "chunk_analysis/combi_chunk_analyse_template.yaml": {
+      "markers": [
+        {
+          "index": 0,
+          "id": "combi_chunk_analyse_template",
+          "name": "combi_chunk_analyse_template",
+          "detected_level": null,
+          "declared_level": null,
+          "validation": {
+            "valid": false,
+            "issues": [
+              "Level unbestimmbar"
+            ],
+            "missing_fields": []
+          },
+          "format": "unknown_format",
+          "examples_count": 0,
+          "structure_issues": {
+            "missing_id": true,
+            "missing_name": false,
+            "missing_description": false,
+            "missing_examples": true,
+            "inconsistent_naming": false,
+            "mixed_languages": false
+          }
+        }
+      ],
+      "total_markers": 1
+    }
+  },
+  "summary": {
+    "total_files": 199,
+    "total_markers": 192,
+    "level_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "unknown": 192
+    },
+    "validation_summary": {
+      "valid": 0,
+      "invalid": 192,
+      "total_issues": 192
+    },
+    "common_issues": {
+      "Level unbestimmbar": 192
+    },
+    "format_distribution": {
+      "unknown_format": 192
+    },
+    "structure_issues_summary": {
+      "missing_id": 190,
+      "missing_name": 9,
+      "missing_description": 186,
+      "missing_examples": 192,
+      "mixed_languages": 0
+    }
+  }
+}

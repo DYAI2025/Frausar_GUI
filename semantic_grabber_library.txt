@@ -77,33 +77,3 @@ semantic_grabbers:
     patterns: []
     created_from: '#_--------_META_(SYSTEMIC_VOLATILITY_MARKER'
     created_at: '2025-07-14T20:34:25.062301'
-  AUTO_SEM_20250716_A9E0:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-16T12:02:11.307617'
-  AUTO_SEM_20250716_67E4:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-16T12:02:40.179844'
-  AUTO_SEM_20250716_6610:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-16T12:03:03.038285'
-  AUTO_SEM_20250716_5360:
-    beschreibung: 'Automatisch erkannt aus #_--------_META_(SYSTEMIC_VOLATILITY_MARKER'
-    examples: []
-    patterns: []
-    created_from: '#_--------_META_(SYSTEMIC_VOLATILITY_MARKER'
-    created_at: '2025-07-16T12:05:20.350726'
-  AUTO_SEM_20250716_9A69:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-16T12:05:36.282307'
