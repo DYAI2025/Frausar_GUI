@@ -1,0 +1,204 @@
+application_schema:
+  detectors:
+    21070000unified_detectors:
+      module: 21070000unified_detectors
+      class: PYTHON_MARKER
+      file_path: 21070000unified_detectors.py
+      description: 'Sehr grobe Heuristik: je mehr Self-Disclosure-Marker, desto höher.'
+      last_updated: '2025-07-21T18:53:32.398449'
+      auto_generated: true
+    PYTHON_MARKER:
+      module: PYTHON_MARKER
+      class: PYTHON_MARKER
+      file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/PYTHON_MARKER.py
+      description: 'Python-basierter Marker: PYTHON_MARKER'
+      last_updated: '2025-07-21T18:53:32.398333'
+      auto_generated: true
+    cleanup_empty_markers:
+      module: cleanup_empty_markers
+      class: EmptyMarkerCleaner
+      file_path: cleanup_empty_markers.py
+      description: ''
+      last_updated: '2025-07-21T18:53:32.398401'
+      auto_generated: true
+    create_marker_master:
+      module: create_marker_master
+      class: MarkerCollector
+      file_path: create_marker_master.py
+      description: Sammelt und konsolidiert Marker aus verschiedenen Quellen
+      last_updated: '2025-07-21T18:53:32.398304'
+      auto_generated: true
+    detect_creator:
+      module: detect_creator
+      class: DetectCreator
+      file_path: detect_creator.py
+      description: Klasse für die robuste Erstellung von DETECT.py Dateien
+      last_updated: '2025-07-21T18:53:32.398392'
+      auto_generated: true
+    detect_emotional_manipulation:
+      auto_generated: true
+      class: DETECT_EMOTIONAL_MANIPULATION
+      description: Erkennung von emotionaler Manipulation in Gesprächen
+      file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/DETECT_EMOTIONAL_MANIPULATION.py
+      last_updated: '2025-07-21T13:15:25.075748'
+      module: detect_emotional_manipulation
+    detect_escaping_test:
+      auto_generated: true
+      class: DETECT_ESCAPING_TEST
+      description: Test für korrektes Regex-Escaping
+      file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/DETECT_ESCAPING_TEST.py
+      last_updated: '2025-07-21T13:16:13.469755'
+      module: detect_escaping_test
+    detect_example_behavior:
+      auto_generated: true
+      class: DETECT_EXAMPLE_BEHAVIOR
+      description: Beispielhafte Verhaltenserkennung
+      file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/DETECT_EXAMPLE_BEHAVIOR.py
+      last_updated: '2025-07-21T13:10:27.717536'
+      module: detect_example_behavior
+    detect_pattern_test:
+      auto_generated: true
+      class: DETECT_PATTERN_TEST
+      description: Test für Pattern-Verarbeitung
+      file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/DETECT_PATTERN_TEST.py
+      last_updated: '2025-07-21T13:14:19.794333'
+      module: detect_pattern_test
+    detect_ritual_contact_pattern_py:
+      auto_generated: true
+      class: DETECT_RITUAL_CONTACT_PATTERN_PY
+      description: "import re\nfrom collections import defaultdict\nfrom datetime\
+        \ import datetime\n\ndef detect_ritual_contact(message_history: list):\n \
+        \   \"\"\"\n    Detects the C_RITUAL_CONTACT marker by analyzing message frequency,\
+        \ timing, and content similarity.\n    `message_history` is a list of dicts:\
+        \ [{\"timestamp\": datetime, \"text\": \"...\"}]\n    \"\"\"\n    greetings\
+        \ = r\"\\b(guten morgen|morgen|good morning|gute nacht|nachti|schlaf gut|good\
+        \ night)\\b\"\n    \n    # Store messages by hour of the day\n    hourly_messages\
+        \ = defaultdict(list)\n    for msg in message_history:\n        hour = msg[\"\
+        timestamp\"].hour\n        if re.search(greetings, msg[\"text\"], re.IGNORECASE):\n\
+        \            hourly_messages[hour].append(msg[\"text\"])\n            \n \
+        \   ritual_count = 0\n    potential_rituals = []"
+      file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/DETECT_RITUAL_CONTACT_PATTERN_PY.py
+      last_updated: '2025-07-21T18:41:54.544877'
+      module: detect_ritual_contact_pattern_py
+    detect_test_function:
+      auto_generated: true
+      class: DETECT_TEST_FUNCTION
+      description: Test-Beschreibung
+      file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/DETECT_TEST_FUNCTION.py
+      last_updated: '2025-07-21T13:13:24.187531'
+      module: detect_test_function
+    detect_wish_py:
+      auto_generated: true
+      class: DETECT_WISH_PY
+      description: "Analysiert einen Text auf Marker (übergebenes Markerdetektions-Objekt)\
+        \ und detektiert Wunsch-Cluster.\n    Gibt ein Dict mit Markern und Wunsch-Status\
+        \ zurück."
+      file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/DETECT_WISH_PY.py
+      last_updated: '2025-07-21T13:32:41.084788'
+      module: detect_wish_py
+    detector_json_overview:
+      module: detector_json_overview
+      class: DetectorOverview
+      file_path: detector_json_overview.py
+      description: ''
+      last_updated: '2025-07-21T18:53:32.398430'
+      auto_generated: true
+      alternative_classes:
+      - JSONOverview
+    marker_analyzer:
+      module: marker_analyzer
+      class: MarkerAnalyzer
+      file_path: marker_analyzer.py
+      description: ''
+      last_updated: '2025-07-21T18:53:32.398460'
+      auto_generated: true
+    marker_assistant_bot:
+      module: marker_assistant_bot
+      class: MarkerAssistant
+      file_path: marker_assistant_bot.py
+      description: Intelligenter Assistent für die FRAUSAR Marker-Pflege
+      last_updated: '2025-07-21T18:53:32.398383'
+      auto_generated: true
+    marker_cli:
+      module: marker_cli
+      class: MarkerCLI
+      file_path: marker_cli.py
+      description: Command Line Interface für Marker-Analyse
+      last_updated: '2025-07-21T18:53:32.398374'
+      auto_generated: true
+    marker_matcher:
+      module: marker_matcher
+      class: MarkerMatcher
+      file_path: marker_matcher.py
+      description: Hauptklasse für Marker-basierte Textanalyse
+      last_updated: '2025-07-21T18:53:32.398321'
+      auto_generated: true
+    marker_repair_engine:
+      module: marker_repair_engine
+      class: MarkerRepairEngine
+      file_path: marker_repair_engine.py
+      description: Hauptklasse für die Reparatur von Marker-YAMLs
+      last_updated: '2025-07-21T18:53:32.398470'
+      auto_generated: true
+    marker_repair_engine_v2:
+      module: marker_repair_engine_v2
+      class: MarkerRepairEngineV2
+      file_path: marker_repair_engine_v2.py
+      description: Erweiterte Reparatur-Engine für Marker-YAMLs
+      last_updated: '2025-07-21T18:53:32.398365'
+      auto_generated: true
+    semantic_grabber_loader:
+      module: semantic_grabber_loader
+      class: SemanticGrabberLibrary
+      file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/semantic_grabber_loader.py
+      description: ''
+      last_updated: '2025-07-21T18:53:32.398355'
+      auto_generated: true
+    update_detectors:
+      module: update_detectors
+      class: DetectorUpdater
+      file_path: update_detectors.py
+      description: Hauptklasse für die automatische Detector-Schema-Aktualisierung
+      last_updated: '2025-07-21T18:53:32.398410'
+      auto_generated: true
+    wish_detector:
+      module: wish_detector
+      class: DummyMarkerEngine
+      file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/wish_detector.py
+      description: ''
+      last_updated: '2025-07-21T18:53:32.398345'
+      auto_generated: true
+    marker_matcherv2:
+      module: marker_matcherv2
+      class: MarkerMatcherV2
+      file_path: marker_matcherv2.py
+      description: Hauptklasse für schema-gesteuerte, Marker-basierte Textanalyse
+      last_updated: '2025-07-21T18:53:32.398420'
+      auto_generated: true
+    2107_1400unified_detectors:
+      module: 2107_1400unified_detectors
+      class: PYTHON_MARKER
+      file_path: 2107_1400unified_detectors.py
+      description: 'Sehr grobe Heuristik: je mehr Self-Disclosure-Marker, desto höher.'
+      last_updated: '2025-07-21T18:53:32.398440'
+      auto_generated: true
+category: UNCATEGORIZED
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+meta:
+  auto_generated: true
+  created_at: '2025-07-18T17:58:07.375900'
+  description: Automatisch generiertes Schema für Detector-Module
+  last_updated: '2025-07-21T18:53:32.398471'
+  title: FRAUSAR Detector Schema
+  total_detectors: 24
+  version: '1.0'
+metadata:
+  last_repaired: '2025-07-18T17:58:19.574281'
+  repair_version: '1.0'
+tags:
+- needs_review

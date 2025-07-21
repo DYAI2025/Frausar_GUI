@@ -1,3 +1,6 @@
+# FRAUSAR Marker - Kompakte Übersicht
+# Nur Marker-Namen und Basis-Informationen
+
 meta:
   title: FRAUSAR Marker-System - Komplette Bestandsaufnahme
   description: Alle Love Scammer Erkennungsmarker in einem einheitlichen Format
@@ -19,8 +22,7 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   AI_BOT_SCAM:
-    beschreibung: ">\n  beschreibung: >\n  Erkennt sprachliche Muster, typische Phrasen\
-      \ und Begriffe aus Romance Scams, L..."
+    beschreibung: ">\n  beschreibung: >\n  Erkennt sprachliche Muster, typische Phrasen und Begriffe aus Romance Scams, L..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 34
@@ -50,20 +52,17 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   BLAME_SHIFT:
-    beschreibung: Die Technik, die Verantwortung für eigene Fehler, negative Gefühle
-      oder Beziehungsprobleme subtil od...
+    beschreibung: Die Technik, die Verantwortung für eigene Fehler, negative Gefühle oder Beziehungsprobleme subtil od...
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 20
   CARE_SIGNITURE:
-    beschreibung: ">\n  Sich musterhaft wiederholdene Nachrichtenabschlüsse beim Verabschieden,\
-      \ die Zuneigung und Verbin..."
+    beschreibung: ">\n  Sich musterhaft wiederholdene Nachrichtenabschlüsse beim Verabschieden, die Zuneigung und Verbin..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 21
   COMPARISON_GHOST:
-    beschreibung: Subtiler oder offener Vergleich einer aktuellen Situation mit Ex-Partnern,
-      einem früheren Leben oder...
+    beschreibung: Subtiler oder offener Vergleich einer aktuellen Situation mit Ex-Partnern, einem früheren Leben oder...
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 20
@@ -73,8 +72,8 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   DEEPENING_BY_QUESTIONING:
-    beschreibung: ">\n  semantic_marker = {\n    \"marker\": \"DEEPENING_BY_QUESTIONING\"\
-      ,\n    \"beschreibung\": (\n        \"Erk..."
+    beschreibung: ">\n  semantic_marker = {\n    \"marker\": \"DEEPENING_BY_QUESTIONING\",\n    \"beschreibung\": (\n    \
+      \    \"Erk..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 626
@@ -84,8 +83,7 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 8
   DRAMA_TRIANGLE:
-    beschreibung: ">\n  Typische Rollenrotationen nach dem Dramadreieck: Verfolger,\
-      \ Opfer, Retter – oft im schnellen Wec..."
+    beschreibung: ">\n  Typische Rollenrotationen nach dem Dramadreieck: Verfolger, Opfer, Retter – oft im schnellen Wec..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 86
@@ -100,8 +98,7 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   EMOTIONAL_WITHDRAWAL_PRESSURE:
-    beschreibung: Eine manipulative Kommunikationsform, die Selbstabwertung, einen
-      latenten Vorwurf und eine Rückzugsa...
+    beschreibung: Eine manipulative Kommunikationsform, die Selbstabwertung, einen latenten Vorwurf und eine Rückzugsa...
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 20
@@ -116,14 +113,13 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   FRIENDLY_FLIRTING_DETECT:
-    beschreibung: ">\n  \"beschreibung\": (\n            \"Erkennt kommunikative Muster\
-      \ von freundlich-sympathischem Flirten..."
+    beschreibung: ">\n  \"beschreibung\": (\n            \"Erkennt kommunikative Muster von freundlich-sympathischem Flirten..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 28
   FRIENDLY_FLIRTING:
-    beschreibung: ">\n  Neue umfangreiche Beispieldaten für die bestehenden Marker\n\
-      updated_markers = [\n    {\n        \"ma..."
+    beschreibung: ">\n  Neue umfangreiche Beispieldaten für die bestehenden Marker\nupdated_markers = [\n    {\n        \"\
+      ma..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 19
@@ -133,20 +129,17 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   GASLIGHTING:
-    beschreibung: ">\n  Kommunikation, die das Gegenüber gezielt an seiner Wahrnehmung,\
-      \ Erinnerung oder Realität zweifel..."
+    beschreibung: ">\n  Kommunikation, die das Gegenüber gezielt an seiner Wahrnehmung, Erinnerung oder Realität zweifel..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 19
   GREETING_FREQUENCY:
-    beschreibung: ">\n  beschreibung: >\n    Häufigkeit von Begrüßungen und Verabschiedungen,\
-      \ Ausdruck von Nähe und Kommu..."
+    beschreibung: ">\n  beschreibung: >\n    Häufigkeit von Begrüßungen und Verabschiedungen, Ausdruck von Nähe und Kommu..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 11
   GUILT_TRIPPING:
-    beschreibung: ">\n  Aussagen, die gezielt Schuldgefühle erzeugen oder verstärken,\
-      \ meist durch subtile oder offene Vo..."
+    beschreibung: ">\n  Aussagen, die gezielt Schuldgefühle erzeugen oder verstärken, meist durch subtile oder offene Vo..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 46
@@ -156,8 +149,7 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 28
   INITIATIVE:
-    beschreibung: ">\n  beschreibung: >\n    Wer beginnt Gespräche oder neue Themen?\
-      \ Indikator für Beziehungsdynamik und ..."
+    beschreibung: ">\n  beschreibung: >\n    Wer beginnt Gespräche oder neue Themen? Indikator für Beziehungsdynamik und ..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 11
@@ -167,26 +159,22 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   ISOLATION:
-    beschreibung: ">\n  Kommunikation, die aktiv oder subtil soziale Kontakte, Familie\
-      \ oder Freunde des Gegenübers abwer..."
+    beschreibung: ">\n  Kommunikation, die aktiv oder subtil soziale Kontakte, Familie oder Freunde des Gegenübers abwer..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 77
   LIE_CONCEALMENT:
-    beschreibung: ">\n  Indikatoren für Lügen, Ausflüchte oder bewusste Verheimlichung.\
-      \ Erkennbar an widersprüchlichen A..."
+    beschreibung: ">\n  Indikatoren für Lügen, Ausflüchte oder bewusste Verheimlichung. Erkennbar an widersprüchlichen A..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 5
   LOVE_BOMBING:
-    beschreibung: ">\n  Übertriebene, überschnelle Zuneigung und Aufmerksamkeit, oft\
-      \ mit starken Versprechen, Kompliment..."
+    beschreibung: ">\n  Übertriebene, überschnelle Zuneigung und Aufmerksamkeit, oft mit starken Versprechen, Kompliment..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 38
   MARKER_AXIES_DRIFT:
-    beschreibung: ">\n  beschreibung: Bündelt zentrale emotionale Driftachsen zur\
-      \ Analyse und Visualisierung\n    in Komm..."
+    beschreibung: ">\n  beschreibung: Bündelt zentrale emotionale Driftachsen zur Analyse und Visualisierung\n    in Komm..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 96
@@ -196,32 +184,27 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   MICRO_CARE:
-    beschreibung: ">\n  Regelmäßige, kleine Akte der Fürsorge, Aufmerksamkeit und\
-      \ Unterstützung im Alltag.\n    Indikator..."
+    beschreibung: ">\n  Regelmäßige, kleine Akte der Fürsorge, Aufmerksamkeit und Unterstützung im Alltag.\n    Indikator..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 2
   OFFENSIVE_FLIRTING:
-    beschreibung: ">\n  eschreibung: >\n\nErkennt kommunikative Muster von offensivem,\
-      \ teils grenzüberschreitendem Flirten..."
+    beschreibung: ">\n  eschreibung: >\n\nErkennt kommunikative Muster von offensivem, teils grenzüberschreitendem Flirten..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 12
   PERMANENT_POSTPONE:
-    beschreibung: Das wiederholte und oft vage Aufschieben von wichtigen Entscheidungen,
-      klärenden Gesprächen oder not...
+    beschreibung: Das wiederholte und oft vage Aufschieben von wichtigen Entscheidungen, klärenden Gesprächen oder not...
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 20
   PLAYING_VICTIM:
-    beschreibung: ">\n  Das bewusste oder unbewusste Einnehmen der Opferrolle, um\
-      \ Mitleid, Entlastung oder Verantwortung..."
+    beschreibung: ">\n  Das bewusste oder unbewusste Einnehmen der Opferrolle, um Mitleid, Entlastung oder Verantwortung..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 74
   PROJECTIVE_IDENTIFICATION:
-    beschreibung: ">\n  Eigene, oft unbewusste Gefühle, Schwächen oder Eigenschaften\
-      \ werden dem Gegenüber so zugeschrieb..."
+    beschreibung: ">\n  Eigene, oft unbewusste Gefühle, Schwächen oder Eigenschaften werden dem Gegenüber so zugeschrieb..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 20
@@ -231,8 +214,7 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   RELATIONSHIP_AUTHENTICITY:
-    beschreibung: ">\n  beschreibung: >\n    Erkennt, ob im Gesprächsverlauf Hinweise\
-      \ darauf bestehen, dass sich die Gesp..."
+    beschreibung: ">\n  beschreibung: >\n    Erkennt, ob im Gesprächsverlauf Hinweise darauf bestehen, dass sich die Gesp..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 12
@@ -242,8 +224,7 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 6
   RESONANZ_MATCHING:
-    beschreibung: ">\n  beschreibung: >\n    Erkennt eine auffallend hohe Übereinstimmung\
-      \ oder perfekte Resonanz zwischen..."
+    beschreibung: ">\n  beschreibung: >\n    Erkennt eine auffallend hohe Übereinstimmung oder perfekte Resonanz zwischen..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 27
@@ -258,80 +239,68 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   SCAMMER_BEHAVIOUR_DETECT:
-    beschreibung: ">\n  Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen.\
-      \ \n  Die Marker basieren auf s..."
+    beschreibung: ">\n  Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen. \n  Die Marker basieren auf s..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 56
   SCAMMER_DETECTIO:
-    beschreibung: ">\n  beschreibung: >\n  Erkennt manipulative Verhaltensmuster aus\
-      \ Romance-Scam-Situationen. \n  Die Mar..."
+    beschreibung: ">\n  beschreibung: >\n  Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen. \n  Die Mar..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 20
   SCAMMER_SEMANTIC_BEHAVIOUR:
-    beschreibung: ">\n  beschreibung: >\n  Erkennt manipulative Verhaltensmuster aus\
-      \ Romance-Scam-Situationen. \n  Die Mar..."
+    beschreibung: ">\n  beschreibung: >\n  Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen. \n  Die Mar..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 58
   SELF_SABOTAGE_LOOP:
-    beschreibung: Ein Verhaltens- oder Kommunikationsmuster, bei dem eine Person aktiv
-      oder passiv ihre eigenen Chance...
+    beschreibung: Ein Verhaltens- oder Kommunikationsmuster, bei dem eine Person aktiv oder passiv ihre eigenen Chance...
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 20
   SEMANTIC_BEHAVIOR:
-    beschreibung: Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen.  Die
-      Marker basieren auf semanti...
+    beschreibung: Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen.  Die Marker basieren auf semanti...
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 0
   SHOCK_SURPRISE_DRIFT:
-    beschreibung: ">\n  beschreibung: >\n  Erkennt Momente plötzlicher Überraschung\
-      \ oder Erschrockenheit, die einen abrup..."
+    beschreibung: ">\n  beschreibung: >\n  Erkennt Momente plötzlicher Überraschung oder Erschrockenheit, die einen abrup..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 62
   SILENT_TREATMENT:
-    beschreibung: ">\n  Kommunikationsverweigerung, Mauern oder Ignorieren des Gegenübers\
-      \ als passiv-aggressive Manipula..."
+    beschreibung: ">\n  Kommunikationsverweigerung, Mauern oder Ignorieren des Gegenübers als passiv-aggressive Manipula..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 15
   SIMU_IMITATION_STRATEGIES:
-    beschreibung: ">\n  Um das Verhalten eines Love Scammers möglichst realistisch\
-      \ zu imitieren, muss eine KI über ihre ..."
+    beschreibung: ">\n  Um das Verhalten eines Love Scammers möglichst realistisch zu imitieren, muss eine KI über ihre ..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 33
   SIMU_LAVE_SCAM_SEMANTIC:
-    beschreibung: ">\n  YAML-Struktur fürs semantische Verhalten von SIMULATRO KI\
-      \ bei der Simulation von Scammerns"
+    beschreibung: ">\n  YAML-Struktur fürs semantische Verhalten von SIMULATRO KI bei der Simulation von Scammerns"
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 13
   SIMU_LOVE_SCAM_HUMAN01:
-    beschreibung: ">\n  Was bräuchte diese semantische Erkennung?\nStatt \"Ich liebe\
-      \ dich\" einfach nur zu matchen, würde s..."
+    beschreibung: ">\n  Was bräuchte diese semantische Erkennung?\nStatt \"Ich liebe dich\" einfach nur zu matchen, würde\
+      \ s..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 31
   SIMU_LOVE_SCAM_PSYCHO_DISTRACT:
-    beschreibung: ">\n  Intensiver Beziehungsaufbau, um beim Opfer ein Trauma-Bonding\
-      \ zu erzeugen, um es dadruch tief em..."
+    beschreibung: ">\n  Intensiver Beziehungsaufbau, um beim Opfer ein Trauma-Bonding zu erzeugen, um es dadruch tief em..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 72
   SOCIAL_BORDERLINES_MIX:
-    beschreibung: ">\n  A mixture of markers to identify social closeness and allowingness\
-      \ of stepping beyond borders"
+    beschreibung: ">\n  A mixture of markers to identify social closeness and allowingness of stepping beyond borders"
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 22
   SOCIAL_INTERACTION:
-    beschreibung: ">\n  \"beschreibung\": (\n            \"Erkennt kommunikative Muster\
-      \ von freundlich-sympathischem Flirten..."
+    beschreibung: ">\n  \"beschreibung\": (\n            \"Erkennt kommunikative Muster von freundlich-sympathischem Flirten..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 30
@@ -346,20 +315,17 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   SUBTLE_TERRITORIAL:
-    beschreibung: Verdecktes oder offenes Abstecken von persönlichen Grenzen und Revieren
-      durch Regeln, Rituale oder n...
+    beschreibung: Verdecktes oder offenes Abstecken von persönlichen Grenzen und Revieren durch Regeln, Rituale oder n...
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 20
   SYSTEM_TURNING_CLUSTER:
-    beschreibung: ">\n  Beschreibt die Marker, die zusammen einen Systenkipppunkt\
-      \ sichtbarmachen."
+    beschreibung: ">\n  Beschreibt die Marker, die zusammen einen Systenkipppunkt sichtbarmachen."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 175
   SYSTEM_TURNING_POINT:
-    beschreibung: ">\n  description: >\n    System erreicht Kipppunkt bei Häufung\
-      \ von Instabilitäts- und Eskalationsmarke..."
+    beschreibung: ">\n  description: >\n    System erreicht Kipppunkt bei Häufung von Instabilitäts- und Eskalationsmarke..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 7
@@ -379,14 +345,12 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   WEBCAM_EXCUSE:
-    beschreibung: ">\n  beschreibung: >\n  Erkennt typische Ausreden, mit denen eine\
-      \ Videoverbindung vermieden wird. Dies..."
+    beschreibung: ">\n  beschreibung: >\n  Erkennt typische Ausreden, mit denen eine Videoverbindung vermieden wird. Dies..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 48
   XXXSEMANTIC_BEHAVIOR_SYSTEM:
-    beschreibung: ">\n  zielsetzung: >\n  Entwicklung eines KI-gestützten Systems\
-      \ zur semantischen Erkennung, Klassifizie..."
+    beschreibung: ">\n  zielsetzung: >\n  Entwicklung eines KI-gestützten Systems zur semantischen Erkennung, Klassifizie..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 71
@@ -466,20 +430,18 @@ marker_overview:
     risk_score: 1
     beispiel_anzahl: 0
   marker_set_beziehung:
-    beschreibung: "'Enthält Marker rund um emotionale Dynamiken in Beziehungen: Manipulation,\n\
-      \    Rückzug, Sarkasmus.'\n..."
+    beschreibung: "'Enthält Marker rund um emotionale Dynamiken in Beziehungen: Manipulation,\n    Rückzug, Sarkasmus.'\n\
+      ..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 0
   marker_set_bindungsmuster:
-    beschreibung: "Marker zur Erkennung von Bindungsstrategien in zwischenmenschlichen\n\
-      \    Beziehungen – z. B. vermeide..."
+    beschreibung: "Marker zur Erkennung von Bindungsstrategien in zwischenmenschlichen\n    Beziehungen – z. B. vermeide..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 0
   meta_marker_definitions:
-    beschreibung: ">\n      Ein manipulatives Muster, das emotionale Schuld erzeugt,\
-      \ indem es Selbstabwertung mit latent..."
+    beschreibung: ">\n      Ein manipulatives Muster, das emotionale Schuld erzeugt, indem es Selbstabwertung mit latent..."
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 0
@@ -553,15 +515,3 @@ marker_overview:
     kategorie: UNCATEGORIZED
     risk_score: 1
     beispiel_anzahl: 0
-category: UNCATEGORIZED
-tags:
-- needs_review
-examples:
-- AUTO_GENERATED_EXAMPLE_1
-- AUTO_GENERATED_EXAMPLE_2
-- AUTO_GENERATED_EXAMPLE_3
-- AUTO_GENERATED_EXAMPLE_4
-- AUTO_GENERATED_EXAMPLE_5
-metadata:
-  last_repaired: '2025-07-18T17:58:19.605684'
-  repair_version: '1.0'

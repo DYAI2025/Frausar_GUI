@@ -1,0 +1,707 @@
+meta:
+  title: FRAUSAR Marker-System - Komplette Bestandsaufnahme
+  description: Alle Love Scammer Erkennungsmarker in einem einheitlichen Format
+  generated_at: '2025-07-20T12:08:24.333583'
+  version: '2.0'
+  total_markers: 42
+  purpose: GPT-Analyse und Bestandsaufnahme
+risk_levels:
+  green: Kein oder nur unkritischer Marker
+  yellow: 1-2 moderate Marker, erste Drift erkennbar
+  blinking: 3+ Marker oder ein Hochrisiko-Marker, klare Drift/Manipulation
+  red: Hochrisiko-Kombination, massive Drift/Manipulation
+markers:
+  -_ID.yaml:
+    name: -_ID.yaml
+    beschreibung: ''''''
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  ID.json:
+    name: ID.json
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  '#_--------_META_(SYSTEMIC_VOLATILITY.json':
+    name: '#_--------_META_(SYSTEMIC_VOLATILITY.json'
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  MM_FLIRT_DANCE_DRIFT.yaml:
+    name: MM_FLIRT_DANCE_DRIFT.yaml
+    beschreibung: "'Verdichtete Sequenz aus Flirt-, Ambivalenz-, Rapid-Disclosure-\
+      \ und\n  Soft-Commitment-Mustern mit wachsender Intensität bei fehlender Definition.\n\
+      \n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  C_SECRET_BONDING.yaml:
+    name: C_SECRET_BONDING.yaml
+    beschreibung: "'Exklusiver, vor Dritten verborgener Interaktionsraum.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_APPEAL_TO_AUTHORITY.yaml:
+    name: A_APPEAL_TO_AUTHORITY.yaml
+    beschreibung: "'id: A_APPEAL_TO_AUTHORITY\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.yaml:
+    name: WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.yaml
+    beschreibung: ''''''
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  C_SUSTAINED_CONTACT.yaml:
+    name: C_SUSTAINED_CONTACT.yaml
+    beschreibung: "'Ungewöhnlich hohe Kommunikationsfrequenz (≥ 3/Woche) länger als\
+      \ zwei\n  Monate ohne äußeren Sachzwang.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  ID.yaml:
+    name: ID.yaml
+    beschreibung: ''''''
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_ORG.yaml:
+    name: A_ORG.yaml
+    beschreibung: ">\n  id: \"A_ORG\"\n  level: 1\n  version: \"1.0.0\"\n  author:\
+      \ \"auto_gpt\"\n  created_at: \"2025-07-18\"\n  status: \"draft\"\n  lang: \"\
+      de\"\n  name: \"ORGANIZATION_ENTITY\"\n  description: \"Token wurde als Organisations-Entität\
+      \ getaggt.\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_CRITICISM_ATTACK.yaml:
+    name: A_CRITICISM_ATTACK.yaml
+    beschreibung: ">\n  id: A_CRITICISM_ATTACK"
+    beispiele:
+    - 'examples:'
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"gottman"'
+    - '"criticism"'
+    - '"communication"'
+    - '"origin_author:John_Gottman"'
+  -_ID.json:
+    name: -_ID.json
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json:
+    name: WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_APPEAL_TO_AUTHORITY.json:
+    name: A_APPEAL_TO_AUTHORITY.json
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  NAME.yaml:
+    name: NAME.yaml
+    beschreibung: ''''''
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  _HIGH_LOC_DENSITY.yaml:
+    name: _HIGH_LOC_DENSITY.yaml
+    beschreibung: ">\n  - id: \"S_HIGH_LOC_DENSITY\"\n  level: 2\n  version: \"1.0.0\"\
+      \n  author: \"auto_gpt\"\n  created_at: \"2025-07-18\"\n  status: \"draft\"\n\
+      \  lang: \"de\"\n  name: \"HIGH_LOC_DENSITY\"\n  description: \"Hohe Dichte\
+      \ an Orts-Entitäten in einem Textabschnitt.\"\n  composed_of:\n    - type: atomic\n\
+      \      marker_ids: [\"A_LOC\"]\n  rules:\n    - type: frequency\n      threshold:\
+      \ 4\n      scope: \"token_window\"\n      value: 100"
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_CRITICISM_DEFENSIVENESS_LOOP.yaml:
+    name: S_CRITICISM_DEFENSIVENESS_LOOP.yaml
+    beschreibung: ">\n  d: S_CRITICISM_DEFENSIVENESS_LOOP"
+    beispiele:
+    - 'iexamples:'
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"gottman"'
+    - '"escalation"'
+    - '"feedback_loop"'
+    - '"origin_author:John_Gottman"'
+  A_LOC.yaml:
+    name: A_LOC.yaml
+    beschreibung: ">\n  id: \"A_LOC\"\n  level: 1\n  version: \"1.0.0\"\n  author:\
+      \ \"auto_gpt\"\n  created_at: \"2025-07-18\"\n  status: \"draft\"\n  lang: \"\
+      de\"\n  name: \"LOCATION_ENTITY\"\n  description: \"Token wurde als Orts-Entität\
+      \ getaggt.\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  C_SVT_MESSAGE_INCONGRUENCE.yaml:
+    name: C_SVT_MESSAGE_INCONGRUENCE.yaml
+    beschreibung: ">\n  id: \"C_SVT_MESSAGE_INCONGRUENCE\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"schulz_von_thun"'
+    - '"inkongruenz"'
+    - '"systemtemperatur"'
+    - '"konflikt"'
+    - '"origin_author:Schulz-von-Thun"'
+  AKUSTISCHE_KOHÄRENZ.yaml:
+    name: AKUSTISCHE_KOHÄRENZ.yaml
+    beschreibung: ">\n  import yaml\n\n# Definition des Meta-Markers \"Akustischer\
+      \ Kohärenzbruch\"\nacoustic_marker = {\n    \"set_name\": \"selbst_evaluative_muster\"\
+      ,\n    \"marker_list\": [\n        {\n            \"name\": \"Akustischer Kohärenzbruch\"\
+      ,\n            \"typ\": \"Modalitätskonflikt / Kontextdissonanz\",\n       \
+      \     \"beschreibung\": (\n                \"Erkennt Spannungen zwischen gesprochener\
+      \ Sprache und begleitenden Umgebungsgeräuschen. \"\n                \"Ein Bruch\
+      \ entsteht, wenn die auditive Kulisse der Situation widerspricht – etwa Nähe\
+      \ im Ton, \"\n                \"aber Distanz im Raumklang (z. B. Schritte weggehen,\
+      \ Türschlag).\"\n            ),\n            \"beispiele\": [\n            \
+      \    \"„Ich bin ganz bei dir.“ (gleichzeitig: entfernte Schritte, knallende\
+      \ Tür)\",\n                \"„Das macht nichts.“ (gleichzeitig: tiefer Seufzer,\
+      \ Stille danach)\",\n                \"„Erzähl ruhig.“ (während im Hintergrund\
+      \ Unruhe oder Unterbrechung hörbar ist)\"\n            ],\n            \"indikator\"\
+      : [\n                \"Sprache deutet Nähe, Geräusch signalisiert Distanz\"\
+      ,\n                \"Gesagte Bedeutung wird durch Kontextgeräusch untergraben\"\
+      ,\n                \"Emotionaler Subtext liegt in der akustischen Szene, nicht\
+      \ im Wort\"\n            ],\n            \"funktion\": [\n                \"\
+      löst Marker-Driftprüfung aus\",\n                \"kann Selbsttäuschung oder\
+      \ taktische Kommunikation markieren\",\n                \"triggert semantische\
+      \ Tiefenanalyse über Modalitätsgrenzen hinweg\"\n            ]\n        }\n\
+      \    ]\n}\n\n# Speicherpfad\npath = \"/mnt/data/selbst_evaluative_muster.yaml\"\
+      \n\n# Vorhandene Datei laden und erweitern\nwith open(path, \"r\", encoding=\"\
+      utf-8\") as f:\n    existing_set = yaml.safe_load(f)\n\nexisting_set[\"marker_list\"\
+      ].append(acoustic_marker[\"marker_list\"][0])\n\n# Datei aktualisieren\nwith\
+      \ open(path, \"w\", encoding=\"utf-8\") as f:\n    yaml.dump(existing_set, f,\
+      \ allow_unicode=True)\n\npath"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_HIGH_SIMILARITY_DUPLICATE.yaml:
+    name: S_HIGH_SIMILARITY_DUPLICATE.yaml
+    beschreibung: ">\n  id: S_HIGH_SIMILARITY_DUPLICATE"
+    beispiele:
+    - 'examples:'
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"semantic_similarity"'
+    - '"embedding"'
+    - '"origin_source:SAS_Paper"'
+  MM_MEANING_CRISIS.yaml:
+    name: MM_MEANING_CRISIS.yaml
+    beschreibung: ">\n  - id: \"MM_MEANING_CRISIS\"\n  level: 4\n  version: \"1.0.0\"\
+      \n  author: \"auto_gpt\"\n  created_at: \"2025-07-14\"\n  status: \"draft\"\n\
+      \  lang: \"de\"\n  name: \"Meaning Crisis\"\n  description: |\n    Übergeordnetes\
+      \ Syndrom, das sich durch anhaltende Antriebslosigkeit,\n    innere Leere und\
+      \ generelles Desinteresse auszeichnet und auf eine mögliche\n    Sinnkrise (meaning\
+      \ crisis) hindeuten kann.\n  composed_of:\n    - type: cluster\n      marker_ids:\
+      \ [\"C_INNER_EMPTINESS\", \"C_SOCIAL_WITHDRAWAL\"]  # vorausgesetzt, C_SOCIAL_WITHDRAWAL\
+      \ existiert\n  trigger_threshold: 1\n  scoring:\n    weight: 1.8\n    priority:\
+      \ \"high\"\n  tags:\n    - \"meaning-crisis\"\n    - \"meta\"\n    - \"depression\"\
+      \n    - \"early-warning\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_SVT_BEZIEHUNG_DU_BOTSCHAFT.yaml:
+    name: A_SVT_BEZIEHUNG_DU_BOTSCHAFT.yaml
+    beschreibung: ">\n  id: \"A_SVT_BEZIEHUNG_DU_BOTSCHAFT\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"schulz_von_thun"'
+    - '"beziehungsebene"'
+    - '"konflikt"'
+    - '"origin_author:Schulz-von-Thun"'
+  MM_INFORMATION_DENSITY.yaml:
+    name: MM_INFORMATION_DENSITY.yaml
+    beschreibung: ">\n  id: \"MM_INFORMATION_DENSITY\"\n  level: 4\n  version: \"\
+      1.0.0\"\n  author: \"auto_gpt\"\n  created_at: \"2025-07-18\"\n  status: \"\
+      draft\"\n  lang: \"de\"\n  name: \"INFORMATION_DENSITY\"\n  description: |\n\
+      \    Übergeordneter Marker für hohe Informationsdichte,\n    ausgelöst durch\
+      \ mindestens einen Entity-Rich-Cluster.\n  composed_of:\n    - type: cluster\n\
+      \      marker_ids: [\"C_ENTITY_RICH_TOPIC\"]\n  trigger_threshold: 1"
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  PYTHON.py:
+    name: PYTHON.py
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  S_HIGH_PRESSURE_DEMAND.yaml:
+    name: S_HIGH_PRESSURE_DEMAND.yaml
+    beschreibung: "'id: S_HIGH_PRESSURE_DEMAND\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_DEFENSIVENESS_SHIFT.yaml:
+    name: A_DEFENSIVENESS_SHIFT.yaml
+    beschreibung: ">\n  id: A_DEFENSIVENESS_SHIFT"
+    beispiele:
+    - 'examples:'
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"gottman"'
+    - '"defensiveness"'
+    - '"communication"'
+    - '"origin_author:John_Gottman"'
+  C_ADAPTIVE_POLARIZATION.yaml:
+    name: C_ADAPTIVE_POLARIZATION.yaml
+    beschreibung: "'Annäherung ↔ Distanz in schneller Folge.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  S_INTERACTIVE_STONEWALLING.yaml:
+    name: S_INTERACTIVE_STONEWALLING.yaml
+    beschreibung: ">\n  id: S_INTERACTIVE_STONEWALLING"
+    beispiele:
+    - 'examples:'
+    - '- |-'
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - '- |-'
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - '- |-'
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - '- |-'
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - '- |-'
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_HIGH_PRESSURE_DEMAND.json:
+    name: S_HIGH_PRESSURE_DEMAND.json
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  -ID.yaml:
+    name: -ID.yaml
+    beschreibung: ''''''
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_PER.yaml:
+    name: A_PER.yaml
+    beschreibung: ">\n  - id: \"A_PER\"\n  level: 1\n  version: \"1.0.0\"\n  author:\
+      \ \"auto_gpt\"\n  created_at: \"2025-07-18\"\n  status: \"draft\"\n  lang: \"\
+      de\"\n  name: \"PERSON_ENTITY\"\n  description: \"Token wurde als Personen-Entität\
+      \ getaggt.\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  C_ENTITY_RICH_TOPIC.yaml:
+    name: C_ENTITY_RICH_TOPIC.yaml
+    beschreibung: ">\n  - id: \"C_ENTITY_RICH_TOPIC\"\n  level: 3\n  version: \"1.0.0\"\
+      \n  author: \"auto_gpt\"\n  created_at: \"2025-07-18\"\n  status: \"draft\"\n\
+      \  lang: \"de\"\n  name: \"ENTITY_RICH_TOPIC\"\n  description: |\n    Erfasst\
+      \ Texte, in denen verschiedene Entity-Typen (Person, Organisation, Ort)\n  \
+      \  in hoher Dichte gemischt auftreten.\n  composed_of:\n    - type: semantic\n\
+      \      marker_ids:\n        - \"S_HIGH_PERSON_DENSITY\"\n        - \"S_HIGH_ORG_DENSITY\"\
+      \n        - \"S_HIGH_LOC_DENSITY\"\n  activation_logic: \"any\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_SCARCITY_TIMER.yaml:
+    name: A_SCARCITY_TIMER.yaml
+    beschreibung: ">\n  id: A_SCARCITY_TIMER"
+    beispiele:
+    - Das ist ein zeitlich limitiertes Sonderangebot nur für unsere treuesten Kunden.
+    - Beeilen Sie sich, der Countdown läuft und das Angebot endet bald.
+    - Diese Aktion ist streng limitiert und gilt nur, solange der Vorrat reicht.
+    - Nutzen Sie Ihre letzte Chance, die Tickets zum Frühbucherpreis zu bekommen.
+    - '- Das exklusive Angebot gilt nur für kurze Zeit!'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_MISC.yaml:
+    name: A_MISC.yaml
+    beschreibung: ">\n  id: \"A_MISC\"\n  level: 1\n  version: \"1.0.0\"\n  author:\
+      \ \"auto_gpt\"\n  created_at: \"2025-07-18\"\n  status: \"draft\"\n  lang: \"\
+      de\"\n  name: \"MISCELLANEOUS_ENTITY\"\n  description: \"Token wurde als sonstige\
+      \ Eigennamen-Entität (Produkt, Event, Werk o. Ä.) getaggt.\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_MIXED_SCRIPT_TOKEN.yaml:
+    name: A_MIXED_SCRIPT_TOKEN.yaml
+    beschreibung: ">\n  id: \"A_MIXED_SCRIPT_TOKEN\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"obfuscation"'
+    - '"mixed_script"'
+    - '"phishing"'
+    - '"spam"'
+    - '"origin_source:Stanza"'
+  selbst_evaluative_muster.yaml:
+    name: selbst_evaluative_muster.yaml
+    beschreibung: "Erkennt Muster, bei denen ein System oder Sprecher versucht, die\
+      \ Stimmigkeit\n    seiner eigenen Aussagen zu überprüfen – nicht durch äußere\
+      \ Korrektur, sondern\n    durch Vergleich interner Bedeutungszustände.\n  funktion:\n\
+      \  - triggert Selbstanpassung\n  - prüft Markercluster auf interne Widersprüche\n\
+      \  - aktiviert Kontextprüfung, bevor neue Marker gesetzt werden\n  indikator:\n\
+      \  - semantische Selbstreferenz\n  - Vergleich zwischen Input und späterem Output\n\
+      \  - Suche nach Kohärenz in Sequenzen\n  name: Interne Konsistenzschleife\n\
+      \  typ: Selbstbewertung / Kohärenz\n- beispiele:\n  - '„Ich bin ganz bei dir.“\
+      \ (gleichzeitig: entfernte Schritte, knallende Tür)'\n  - '„Das macht nichts.“\
+      \ (gleichzeitig: tiefer Seufzer, Stille danach)'\n  - „Erzähl ruhig.“ (während\
+      \ im Hintergrund Unruhe oder Unterbrechung hörbar ist)\n  beschreibung: Erkennt\
+      \ Spannungen zwischen gesprochener Sprache und begleitenden\n    Umgebungsgeräuschen.\
+      \ Ein Bruch entsteht, wenn die auditive Kulisse der Situation\n    widerspricht\
+      \ – etwa Nähe im Ton, aber Distanz im Raumklang (z. B. Schritte weggehen,\n\
+      \    Türschlag).\n  funktion:\n  - löst Marker-Driftprüfung aus\n  - kann Selbsttäuschung\
+      \ oder taktische Kommunikation markieren\n  - triggert semantische Tiefenanalyse\
+      \ über Modalitätsgrenzen hinweg\n  indikator:\n  - Sprache deutet Nähe, Geräusch\
+      \ signalisiert Distanz\n  - Gesagte Bedeutung wird durch Kontextgeräusch untergraben\n\
+      \  - Emotionaler Subtext liegt in der akustischen Szene, nicht im Wort\n  name:\
+      \ Akustischer Kohärenzbruch\n  typ: Modalitätskonflikt / Kontextdissonanz"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - needs_review
+  S_HIGH_PERSON_DENSIT.yaml:
+    name: S_HIGH_PERSON_DENSIT.yaml
+    beschreibung: ">\n  id: \"S_HIGH_PERSON_DENSITY\"\n  level: 2\n  version: \"1.0.0\"\
+      \n  author: \"auto_gpt\"\n  created_at: \"2025-07-18\"\n  status: \"draft\"\n\
+      \  lang: \"de\"\n  name: \"HIGH_PERSON_DENSITY\"\n  description: \"Hohe Dichte\
+      \ an Personen-Entitäten in einem Textabschnitt.\"\n  composed_of:\n    - type:\
+      \ atomic\n      marker_ids: [\"A_PER\"]\n  rules:\n    - type: frequency\n \
+      \     threshold: 5\n      scope: \"token_window\"\n      value: 100"
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- id: '
+    - 'level: 2'
+    - 'version: '
+    - 'author: '
+    - 'created_at: '
+    - 'status: '
+    - 'lang: '
+    - 'name: '
+    - 'description: '
+    - 'composed_of:'
+    - '- type: atomic'
+    - 'marker_ids: ['
+    - 'rules:'
+    - '- type: frequency'
+    - 'threshold: 4'
+    - 'scope: '
+    - 'value: 100'
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  selbst_evaluative_muster.json:
+    name: selbst_evaluative_muster.json
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  C_INNER_EMPTINESS.yaml:
+    name: C_INNER_EMPTINESS.yaml
+    beschreibung: ">\n  - id: \"C_INNER_EMPTINESS\"\n  level: 3\n  version: \"1.0.0\"\
+      \n  author: \"auto_gpt\"\n  created_at: \"2025-07-14\"\n  status: \"draft\"\n\
+      \  lang: \"de\"\n  name: \"Inner Emptiness\"\n  description: |\n    Erfasst\
+      \ ein Muster von wiederkehrenden apathischen und lustlosen Reaktionen,\n   \
+      \ das auf eine zugrundeliegende innere Leere hindeutet.\n  composed_of:\n  \
+      \  - type: semantic\n      marker_ids: [\"S_APATHETIC_REACTION\"]\n  activation_logic:\
+      \ \"S_APATHETIC_REACTION\"\n  rules:\n    - type: frequency\n      threshold:\
+      \ 2\n      scope: \"conversation_chunk\"\n      value: 20\n  scoring:\n    weight:\
+      \ 1.3\n    priority: \"mid\"\n  meta_marker: [\"MM_MEANING_CRISIS\"]\n  tags:\n\
+      \    - \"inner-emptiness\"\n    - \"lack-of-motivation\"\n    - \"cluster\"\n\
+      \    - \"emotion\""
+    beispiele:
+    - 'examples:'
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'A: '
+    - 'B: '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  FLIRT_DRIFT_DETECTIO.yaml:
+    name: FLIRT_DRIFT_DETECTIO.yaml
+    beschreibung: ">\n  # ---------- Hilfsfunktionen ----------\ndef openness_score(msg):\n\
+      \    \"\"\"Sehr grobe Heuristik: je mehr Self-Disclosure-Marker, desto höher.\"\
+      \"\"\n    return (\n        2 * msg.count(\"A_RAPID_SELF_DISCLOSURE\")\n   \
+      \     + 1 * msg.count(\"A_SOFT_FLIRT\")\n        + 0.5 * msg.count(\"A_SOFT_COMMITMENT\"\
+      )\n    )\n\ndef time_diff(t1, t2):\n    return abs((t2 - t1).total_seconds())"
+    beispiele:
+    - from collections import deque, Counter
+    - from datetime import timedelta
+    - import numpy as np
+    - '# ---------- Kerndetektor ----------'
+    - def detect_flirt_drift(chats, marker_lookup,
+    - window_days=10,
+    - min_hits=4,
+    - 'openness_slope_min=0.15):'
+    - 'chats:   iterable[dict]   [{id, ts, text, markers:[ids]}] chronologisch'
+    - 'returns: (bool, span, diagnostics)'
+    - W = timedelta(days=window_days)
+    - 'buf   = deque()          # Sliding-window-Puffer'
+    - 'hits  = []               # Zeitstempel relevanter Treffer'
+    - 'scores= []               # Offenheits-Scores'
+    - flirt_clusters = {
+    - 'for msg in chats:'
+    - ts   = msg[
+    - mset = set(marker_lookup[msg[
+    - '# ----- relevanter Treffer? -----'
+    - 'if mset & flirt_clusters:'
+    - buf.append((ts, msg))
+    - hits.append(ts)
+    - scores.append(openness_score(mset))
+    - '# ----- Fenster trimmen -----'
+    - 'while hits and time_diff(hits[0], ts) > W.total_seconds():'
+    - hits.pop(0)
+    - scores.pop(0)
+    - buf.popleft()
+    - '# ----- Trigger-Kriterien prüfen -----'
+    - 'if len(hits) >= min_hits:'
+    - '# Offenheits-Steigung (Simple Linear Regression auf Score-Zeit)'
+    - times = np.arange(len(scores))
+    - 'if len(scores) > 1:'
+    - slope = np.polyfit(times, scores, 1)[0]
+    - 'else:'
+    - slope = 0
+    - freq_steigt = len(hits) >= min_hits
+    - 'if slope > openness_slope_min and freq_steigt:'
+    - diagnostics = {
+    - '}'
+    - return True, list(buf), diagnostics
+    - return False, [], {}
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_SVT_APPELL_DIREKT.yaml:
+    name: A_SVT_APPELL_DIREKT.yaml
+    beschreibung: ">\n  id: \"A_SVT_APPELL_DIREKT\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"schulz_von_thun"'
+    - '"appellebene"'
+    - '"aufforderung"'
+    - '"origin_author:Schulz-von-Thun"'
+statistics:
+  total_markers: 42
+  total_examples: 194
+  average_examples_per_marker: 4.62
+  categories:
+    UNCATEGORIZED: 42
+  markers_without_examples:
+  - -_ID.yaml
+  - ID.json
+  - '#_--------_META_(SYSTEMIC_VOLATILITY.json'
+  - MM_FLIRT_DANCE_DRIFT.yaml
+  - C_SECRET_BONDING.yaml
+  - A_APPEAL_TO_AUTHORITY.yaml
+  - WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.yaml
+  - C_SUSTAINED_CONTACT.yaml
+  - ID.yaml
+  - -_ID.json
+  - WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json
+  - A_APPEAL_TO_AUTHORITY.json
+  - NAME.yaml
+  - AKUSTISCHE_KOHÄRENZ.yaml
+  - PYTHON.py
+  - S_HIGH_PRESSURE_DEMAND.yaml
+  - C_ADAPTIVE_POLARIZATION.yaml
+  - S_HIGH_PRESSURE_DEMAND.json
+  - -ID.yaml
+  - selbst_evaluative_muster.yaml
+  - selbst_evaluative_muster.json
+  coverage_score: 50.0
+category: UNCATEGORIZED
+tags:
+- needs_review
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+metadata:
+  last_repaired: '2025-07-20T22:39:20.744589'
+  repair_version: '1.0'

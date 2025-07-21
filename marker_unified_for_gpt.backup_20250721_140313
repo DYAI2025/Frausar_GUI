@@ -1,14 +1,14 @@
 # FRAUSAR Marker-System - Vereinheitlichte Bestandsaufnahme für GPT
 # Diese Datei enthält ALLE Marker in einem einheitlichen Format
-# Generiert am: 2025-07-21 18:53:56
+# Generiert am: 2025-07-21 13:34:18
 # ====================================================================
 
 meta:
   title: FRAUSAR Marker-System - Komplette Bestandsaufnahme
   description: Alle Love Scammer Erkennungsmarker in einem einheitlichen Format
-  generated_at: '2025-07-21T18:53:56.149524'
+  generated_at: '2025-07-21T13:34:18.413219'
   version: '2.0'
-  total_markers: 61
+  total_markers: 51
   purpose: GPT-Analyse und Bestandsaufnahme
 risk_levels:
   green: Kein oder nur unkritischer Marker
@@ -18,13 +18,11 @@ risk_levels:
 markers:
   -_ID.yaml:
     name: -_ID.yaml
-    beschreibung: '>'
+    beschreibung: ''''''
     beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
+    tags: []
   ID.json:
     name: ID.json
     beschreibung: Keine Beschreibung verfügbar
@@ -212,13 +210,11 @@ markers:
     tags: []
   ID.yaml:
     name: ID.yaml
-    beschreibung: '>'
+    beschreibung: ''''''
     beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
+    tags: []
   A_ORG.yaml:
     name: A_ORG.yaml
     beschreibung: ">\n  id: \"A_ORG\"\n  level: 1\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at: \"2025-07-18\"\
@@ -281,26 +277,6 @@ markers:
     - '"criticism"'
     - '"communication"'
     - '"origin_author:John_Gottman"'
-  A_BLAME_SHIFT.yaml:
-    name: A_BLAME_SHIFT.yaml
-    beschreibung: ">\n  Atomic Marker für Schuldumkehr-Formulierungen (Blame Shifting),\ndie Verantwortung abweisen und auf\
-      \ das Gegenüber projizieren."
-    beispiele:
-    - Nicht meine Schuld, du hast mich nicht informiert.
-    - Wärst du früher dran gewesen, gäb’s das Problem nicht.
-    - Wenn du pünktlich wärst, müssten wir jetzt nicht diskutieren.
-    - Wegen dir haben wir Verspätung.
-    - Du hast das komplett falsch vorbereitet.
-    - Nicht ich bin schuld, du hast das falsch verstanden.
-    - Du hast mir nie gesagt, wie das geht.
-    - Wenn du besser aufgepasst hättest…
-    - Wärst du nicht so unaufmerksam, wären wir fertig.
-    - Du hast den Termin verpasst, nicht ich.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json:
     name: WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json
     beschreibung: Keine Beschreibung verfügbar
@@ -418,32 +394,6 @@ markers:
     - '"systemtemperatur"'
     - '"konflikt"'
     - '"origin_author:Schulz-von-Thun"'
-  C_EMO_VOLATILE_WINDOW.yaml:
-    name: C_EMO_VOLATILE_WINDOW.yaml
-    beschreibung: ">\n  Cluster-Wrapper für semantischen Marker S_EMO_VOLATILE_WINDOW,\num ihn in Meta-Marker integrieren\
-      \ zu können."
-    beispiele:
-    - Valenzreihe springt 0.7→-0.6→0.6.
-    - Chat schwankt stark zwischen Euphorie und Frust.
-    - 'Voice-Log: Lachen – Weinen – Lachen in <10 Min.'
-    - 'Ticket: “Yay!” gefolgt von “Ugh…” und wieder “Yay!”'
-    - Tägliche Stimmungskurve zeigt Zacken.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  MM_SELF_PROTECTION_DECEPTION.yaml:
-    name: MM_SELF_PROTECTION_DECEPTION.yaml
-    beschreibung: ">\n  Meta-Marker für das übergeordnete Muster einer erlernten\nSelbstschutzstrategie, die auf Teilwahrheiten,\
-      \ Verharmlosung und\nGaslighting basiert, um Verantwortung zu vermeiden."
-    beispiele:
-    - 'A: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   AKUSTISCHE_KOHÄRENZ.yaml:
     name: AKUSTISCHE_KOHÄRENZ.yaml
     beschreibung: ">\n  import yaml\n\n# Definition des Meta-Markers \"Akustischer Kohärenzbruch\"\nacoustic_marker = {\n\
@@ -646,26 +596,6 @@ markers:
     - '"defensiveness"'
     - '"communication"'
     - '"origin_author:John_Gottman"'
-  A_FEELING_CONNECTION.yaml:
-    name: A_FEELING_CONNECTION.yaml
-    beschreibung: ">\n  Phrasen, die ein Gefühl der Verbundenheit direkt ausdrücken."
-    beispiele: []
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  C_SELF_PROTECTION_TACTICS.yaml:
-    name: C_SELF_PROTECTION_TACTICS.yaml
-    beschreibung: ">\n  Cluster-Marker, der typische Selbstschutz- und Täuschungsstrategien erfasst:\nTeilwahrheiten, Verharmlosung,\
-      \ Gaslighting und nonverbale Abwertung."
-    beispiele:
-    - 'A: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   C_ADAPTIVE_POLARIZATION.yaml:
     name: C_ADAPTIVE_POLARIZATION.yaml
     beschreibung: "'Annäherung ↔ Distanz in schneller Folge.\n\n  '"
@@ -754,21 +684,6 @@ markers:
     - '- |-'
     - 'Sprecher A: '
     - 'Sprecher B: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  A_ROUTINE_GREETING.yaml:
-    name: A_ROUTINE_GREETING.yaml
-    beschreibung: ">\n  Typische, wiederkehrende Grußformeln zu bestimmten Tageszeiten."
-    beispiele:
-    - Good morning NAME.
-    - Hey, hast du  gut geschlafen?
-    - Ich wünsche dir  einen schönen guten Morgen
-    - gut geschlafen?
-    - Wie war deine Nacht?
-    - Hast du schöne Träume gehabt?
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags:
@@ -922,21 +837,6 @@ markers:
     risk_score: 1
     tags:
     - needs_review
-  S_BLAME_SHIFT_RESPONSE.yaml:
-    name: S_BLAME_SHIFT_RESPONSE.yaml
-    beschreibung: ">\n  Semantischer Marker, wenn eine Schuldumkehr-Phrase (A_BLAME_SHIFT)\nkombiniert mit einer Verharmlosung\
-      \ (A_DOWNPLAYING) oder Gaslighting (A_GASLIGHT)\nin derselben Nachricht vorkommt."
-    beispiele:
-    - Ach komm, teilweise ist da was dran, aber übertreib nicht – wärst du besser vorbereitet gewesen.
-    - Nicht meine Schuld, das ist wirklich keine große Sache.
-    - Wegen dir lief’s schief, aber halb so wild.
-    - Wenn du es genau nimmst, wärst du dran gewesen – war doch nur Spaß.
-    - Nicht ich hab’s vermasselt, du bildest dir das nur ein.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   C_FLIRTING_DYNAMICS.yaml:
     name: C_FLIRTING_DYNAMICS.yaml
     beschreibung: ">\n  Bündelt die wichtigsten Teilaspekte eines fortgeschrittenen Flirt-Dialogs: von harmlos-freundlichem\
@@ -944,30 +844,6 @@ markers:
       \ Erwartungshaltungen.  Erfasst wird die typische Drift-Achse zwischen spielerischer Nähe, verdeckter Erwartung und\
       \ bewusstem Hinhalten."
     beispiele: []
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  A_TEAM_METAPHOR.yaml:
-    name: A_TEAM_METAPHOR.yaml
-    beschreibung: ">\n  Verwendung der Metapher 'Team', um Zusammengehörigkeit zu beschreiben."
-    beispiele: []
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  C_SELF_DISCLOSURE.yaml:
-    name: C_SELF_DISCLOSURE.yaml
-    beschreibung: ">\n  Cluster-Wrapper für Atomic A_SELF_DISCLOSURE, um Offenlegungen\n(persönliche Infos, Gefühle) als kombinationsfähige\
-      \ Einheit\nabzubilden."
-    beispiele:
-    - „Mir geht’s echt mies, weil …“
-    - „Ich habe Angst, dass …“
-    - „Persönlich belastet mich X.“
-    - „Letzte Nacht konnte ich nicht schlafen.“
-    - '„Ich gestehe: Ich bin überfordert.“'
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags:
@@ -1069,28 +945,6 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  MM_MICRO_VALIDATION_LOOP.yaml:
-    name: MM_MICRO_VALIDATION_LOOP.yaml
-    beschreibung: ">\n  Meta-Marker für mikro-symmetrisches Kontaktfeld: Symbolische\nUnterstützung (Emojis/Symbole) PLUS\
-      \ vorsichtige Validierung\nUND gleichzeitige Selbstdistanzierung. Aktiv, wenn beide\nCluster C_SYMBOLIC_SUPPORT_FIELD\
-      \ und C_MICRO_VALIDATION_LOOP\nin einem 10-Nachrichten-Fenster auftreten."
-    beispiele:
-    - 'A sendet „Passt das? 😊“ + „Wenn nicht, sag’s offen.↔“
-
-      → beide Cluster aktiv → Meta feuert.'
-    - 'Wechsel aus ❤️-Emoji und „Stimmt das für dich?“,
-
-      begleitet von „Wenn es zu viel ist, sag Stopp.“'
-    - ↔ + „Nur falls ok für dich …“ nach Boundary-Hinweis.
-    - Kurzes 👍, dann „Gib Bescheid, falls du Distanz brauchst.“
-    - 'Gespräch: Emoji-Bestätigung, sofortige Nachfrage
-
-      nach Komfortzone → Mikro-Validation-Loop.'
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   S_CARING_FRIEND_EXPRESSIONS.yaml:
     name: S_CARING_FRIEND_EXPRESSIONS.yaml
     beschreibung: ">\n  Bedeutungsgruppe von Sätzen, die Fürsorge, Freundschaft und emotionale \nVerbundenheit signalisieren\
@@ -1178,11 +1032,11 @@ markers:
     - '"aufforderung"'
     - '"origin_author:Schulz-von-Thun"'
 statistics:
-  total_markers: 61
-  total_examples: 531
-  average_examples_per_marker: 8.7
+  total_markers: 51
+  total_examples: 493
+  average_examples_per_marker: 9.67
   categories:
-    UNCATEGORIZED: 61
+    UNCATEGORIZED: 51
   markers_without_examples:
   - -_ID.yaml
   - ID.json
@@ -1196,11 +1050,9 @@ statistics:
   - A_SVT_BEZIEHUNG_DU_BOTSCHAFT.yaml
   - PYTHON.py
   - S_HIGH_PRESSURE_DEMAND.yaml
-  - A_FEELING_CONNECTION.yaml
   - S_HIGH_PRESSURE_DEMAND.json
   - -ID.yaml
   - selbst_evaluative_muster.yaml
   - C_FLIRTING_DYNAMICS.yaml
-  - A_TEAM_METAPHOR.yaml
   - selbst_evaluative_muster.json
-  coverage_score: 68.9
+  coverage_score: 66.7

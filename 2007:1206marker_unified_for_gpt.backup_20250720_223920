@@ -1,14 +1,14 @@
 # FRAUSAR Marker-System - Vereinheitlichte Bestandsaufnahme für GPT
 # Diese Datei enthält ALLE Marker in einem einheitlichen Format
-# Generiert am: 2025-07-21 18:53:56
+# Generiert am: 2025-07-20 12:08:24
 # ====================================================================
 
 meta:
   title: FRAUSAR Marker-System - Komplette Bestandsaufnahme
   description: Alle Love Scammer Erkennungsmarker in einem einheitlichen Format
-  generated_at: '2025-07-21T18:53:56.149524'
+  generated_at: '2025-07-20T12:08:24.333583'
   version: '2.0'
-  total_markers: 61
+  total_markers: 42
   purpose: GPT-Analyse und Bestandsaufnahme
 risk_levels:
   green: Kein oder nur unkritischer Marker
@@ -18,13 +18,11 @@ risk_levels:
 markers:
   -_ID.yaml:
     name: -_ID.yaml
-    beschreibung: '>'
+    beschreibung: ''''''
     beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
+    tags: []
   ID.json:
     name: ID.json
     beschreibung: Keine Beschreibung verfügbar
@@ -32,169 +30,35 @@ markers:
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags: []
-  A_IF_YOU_WANT.yaml:
-    name: A_IF_YOU_WANT.yaml
-    beschreibung: ">\n  Typische Formulierungen, die Entscheidungsverantwortung höflich oder indirekt\nan das Gegenüber delegieren."
-    beispiele:
-    - Können wir machen – aber nur, wenn du willst.
-    - Ich würd dich gern sehen… falls es dir passt.
-    - Wie du magst, ich bin offen.
-    - Ich will dich nicht drängen.
-    - Deine Entscheidung – ich richte mich nach dir.
+  '#_--------_META_(SYSTEMIC_VOLATILITY.json':
+    name: '#_--------_META_(SYSTEMIC_VOLATILITY.json'
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
+    tags: []
   MM_FLIRT_DANCE_DRIFT.yaml:
     name: MM_FLIRT_DANCE_DRIFT.yaml
     beschreibung: "'Verdichtete Sequenz aus Flirt-, Ambivalenz-, Rapid-Disclosure- und\n  Soft-Commitment-Mustern mit wachsender\
       \ Intensität bei fehlender Definition.\n\n  '"
-    beispiele:
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- Donnerstag: '
-    - '- Mittwoch: Kurze, witzige Meme-Antwort.'
-    - '- Dienstag: Keine Reaktion.'
-    - '- Montag: 10-Minuten-Voicenote mit tiefen Geständnissen.'
-    - '*Dynamik in Voicenotes:*'
-    - '- |'
-    - 'A: '
-    - '*Dann*'
-    - 'A: *keine Antwort für einen Tag*'
-    - 'B: '
-    - 'A: '
-    - '*Später*'
-    - 'B: '
-    - 'A: '
-    - '*Dialog über eine Woche:*'
-    - '- |'
-    - 'Tag 3: '
-    - 'Tag 2: '
-    - 'Tag 1: '
-    - '*Komprimiertes Beispiel über 3 Tage:*'
-    - '- |'
-    - 'B: '
-    - '*Am Folgetag...*'
-    - 'B: '
-    - 'A: '
-    - 'B: '
-    - '- |'
-    - 'B: '
-    - 'A: '
-    - '*Am nächsten Tag ist B kurz angebunden.*'
-    - 'B: '
-    - 'A: '
-    - '*Zwei Tage später...*'
-    - 'A: '
-    - '- |'
-    - '- Zwei Tage später: '
-    - '- Kurz davor der Rückzug: '
-    - '- Vorschlag für ein Treffen (SOFT_COMMITMENT).'
-    - '- Intensive, tagelange Chats mit viel Humor und Offenheit (SUSTAINED_CONTACT, RAPID_SELF_DISCLOSURE).'
-    - '*Szenario '
-    - '- |'
-    - 'B: '
-    - 'A: '
-    - A & B (beide in Beziehungen) schreiben täglich (SUSTAINED_CONTACT).
-    - '*Szenario '
-    - '- |'
-    - '- Dann eine Nachricht: '
-    - '- Darauf folgt ein Tag Funkstille (ADAPTIVE_POLARIZATION).'
-    - '- Ein tiefes Geständnis über eine vergangene Verletzung (RAPID_SELF_DISCLOSURE).'
-    - '- Tägliche Guten-Morgen-Nachrichten (SUSTAINED_CONTACT).'
-    - '*Szenario über 2 Wochen:*'
-    - '- |'
-    - 'B: '
-    - 'A: '
-    - '*Woche 2: Ein Treffen wird vage in Aussicht gestellt, aber nie fixiert.*'
-    - '- |'
-    - 'B: '
-    - 'A: '
-    - '*Woche 1: Tägliches, intensives Schreiben.*'
-    - '- |'
-    - 'B: '
-    - 'A: '
-    - Tag 24
-    - '- |'
-    - '*Funkstille → plötzlich 15-Minuten-Voicenote voller Sehnsucht* B: '
-    - Tag 17
-    - '- |'
-    - 'B: '
-    - 'A: '
-    - Tag 10, nachts
-    - '- |'
-    - 'B: '
-    - Tag 9
-    - '- |'
-    - 'B: '
-    - 'A: '
-    - Tag 8
-    - '- |'
-    - '*gleicher Tag, spät abends* B: '
-    - '- |'
-    - 'B: '
-    - 'A: '
-    - Tag 6
-    - '- |'
-    - 'A: '
-    - 'B: '
-    - Tag 5
-    - '- |'
-    - 'A: '
-    - Tag 3
-    - '- |'
-    - 'B: '
-    - 'A: '
-    - Tag 1
-    - '- |'
+    beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags: []
   C_SECRET_BONDING.yaml:
     name: C_SECRET_BONDING.yaml
     beschreibung: "'Exklusiver, vor Dritten verborgener Interaktionsraum.\n\n  '"
-    beispiele:
-    - ChatGPT fragen
-    - „Nur wir zwei haben den Schlüssel zur Schließfachbox – vergiss das nicht.“
-    - „Keiner darf mitbekommen, dass der Deal morgen früh fixiert wird.“
-    - „Sobald der Upload durch ist, löschen wir alles vom Server.“
-    - „Speicher meine Nummer unter einem anderen Namen, falls wer guckt.“
-    - „Greif nur im Inkognito-Fenster auf die Cloud-Datei zu.“
-    - „Erzähl niemandem, dass wir den Prototyp heute schon getestet haben.“
-    - „Nachts um drei, Hinterhof rechts – keine Fotos, keine Stories.“
-    - „Verwisch bitte den Chat-Verlauf, sobald du’s gelesen hast.“
-    - „Ich schick dir die Koordinaten später über Signal.“
-    - „Unser Codewort bleibt streng unter uns, klar?“
+    beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags: []
   A_APPEAL_TO_AUTHORITY.yaml:
     name: A_APPEAL_TO_AUTHORITY.yaml
-    beschreibung: ">\n  id: A_APPEAL_TO_AUTHORITY\nErkennt rhetorische Muster, bei denen Autoritäten, Experten oder Institutionen\
-      \ als Quelle für eine Aussage genannt werden, um deren Gültigkeit oder Überzeugungskraft zu erhöhen. Der Marker zielt\
-      \ auf typische Formen des *Appeal to Authority*-Arguments und kann im Kontext von Überzeugung, Manipulation oder Argumentationsanalyse\
-      \ eingesetzt werden."
-    beispiele:
-    - Laut einer Studie ist dies die effektivste Methode.
-    - Wie Dr. Weber in seiner Forschung gezeigt hat, ist diese Technik sehr zuverlässig.
-    - Die WHO hat deutlich gemacht, dass diese Maßnahme notwendig ist.
-    - Der Minister betonte die Wichtigkeit dieser Entscheidung.
-    - Experten warnen vor den Folgen.
-    - Dies wurde in zahlreichen wissenschaftlichen Studien belegt.
+    beschreibung: "'id: A_APPEAL_TO_AUTHORITY\n\n  '"
+    beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
+    tags: []
   WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.yaml:
     name: WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.yaml
     beschreibung: ''''''
@@ -212,13 +76,11 @@ markers:
     tags: []
   ID.yaml:
     name: ID.yaml
-    beschreibung: '>'
+    beschreibung: ''''''
     beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
+    tags: []
   A_ORG.yaml:
     name: A_ORG.yaml
     beschreibung: ">\n  id: \"A_ORG\"\n  level: 1\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at: \"2025-07-18\"\
@@ -241,37 +103,6 @@ markers:
     name: A_CRITICISM_ATTACK.yaml
     beschreibung: ">\n  id: A_CRITICISM_ATTACK"
     beispiele:
-    - 👿 angry face with horns
-    - 😠 angry face
-    - 😤 face with look of triumph
-    - 🤬 face with symbols on mouth
-    - 😡 face with steam from nose
-    - 😡 WUT & FRUSTRATION
-    - 😬 grimacing face
-    - 😑 expressionless face
-    - 🙄 face with rolling eyes
-    - 😒 unamused face
-    - 😒 GENERVT & PASSIV-AGGRESSIV
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
     - 'examples:'
     - '- '
     kategorie: UNCATEGORIZED
@@ -281,26 +112,13 @@ markers:
     - '"criticism"'
     - '"communication"'
     - '"origin_author:John_Gottman"'
-  A_BLAME_SHIFT.yaml:
-    name: A_BLAME_SHIFT.yaml
-    beschreibung: ">\n  Atomic Marker für Schuldumkehr-Formulierungen (Blame Shifting),\ndie Verantwortung abweisen und auf\
-      \ das Gegenüber projizieren."
-    beispiele:
-    - Nicht meine Schuld, du hast mich nicht informiert.
-    - Wärst du früher dran gewesen, gäb’s das Problem nicht.
-    - Wenn du pünktlich wärst, müssten wir jetzt nicht diskutieren.
-    - Wegen dir haben wir Verspätung.
-    - Du hast das komplett falsch vorbereitet.
-    - Nicht ich bin schuld, du hast das falsch verstanden.
-    - Du hast mir nie gesagt, wie das geht.
-    - Wenn du besser aufgepasst hättest…
-    - Wärst du nicht so unaufmerksam, wären wir fertig.
-    - Du hast den Termin verpasst, nicht ich.
+  -_ID.json:
+    name: -_ID.json
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
+    tags: []
   WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json:
     name: WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json
     beschreibung: Keine Beschreibung verfügbar
@@ -315,21 +133,6 @@ markers:
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags: []
-  A_BRO_LIKE_CALLING.yaml:
-    name: A_BRO_LIKE_CALLING.yaml
-    beschreibung: ">\n  Direktanreden oder Spitznamen, die eine freundschaftlich-vertraute Ebene \nsignalisieren, oft verspielt,\
-      \ neckisch oder liebevoll."
-    beispiele:
-    - Digga, was geht?
-    - Brudi, ich vermiss dich!
-    - Alter, du bist der Beste!
-    - Ey du Vogel, ich feier dich.
-    - Schatzi, komm klar jetzt 😂
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   NAME.yaml:
     name: NAME.yaml
     beschreibung: ''''''
@@ -368,21 +171,6 @@ markers:
     - '"escalation"'
     - '"feedback_loop"'
     - '"origin_author:John_Gottman"'
-  C_FRIENDSHIP_SIGNALING.yaml:
-    name: C_FRIENDSHIP_SIGNALING.yaml
-    beschreibung: ">\n  Cluster-Marker für sprachliche Signale, die Zugehörigkeit, Vertrautheit und \nfreundschaftliche Nähe\
-      \ erzeugen. Oft durch Anspielungen, geteilte Geschichte, \nNicknames oder ironische Zuneigung ausgedrückt."
-    beispiele:
-    - Weißt du noch, wie wir damals im Regen gefeiert haben?
-    - Du bist und bleibst mein Lieblingsidiot.
-    - Egal was passiert, ich steh hinter dir, klar?
-    - Du kennst mich doch – ich brauch drei Tage zum Antworten 😂
-    - Nur du darfst mich so nennen, Alter.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   A_LOC.yaml:
     name: A_LOC.yaml
     beschreibung: ">\n  id: \"A_LOC\"\n  level: 1\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at: \"2025-07-18\"\
@@ -418,32 +206,6 @@ markers:
     - '"systemtemperatur"'
     - '"konflikt"'
     - '"origin_author:Schulz-von-Thun"'
-  C_EMO_VOLATILE_WINDOW.yaml:
-    name: C_EMO_VOLATILE_WINDOW.yaml
-    beschreibung: ">\n  Cluster-Wrapper für semantischen Marker S_EMO_VOLATILE_WINDOW,\num ihn in Meta-Marker integrieren\
-      \ zu können."
-    beispiele:
-    - Valenzreihe springt 0.7→-0.6→0.6.
-    - Chat schwankt stark zwischen Euphorie und Frust.
-    - 'Voice-Log: Lachen – Weinen – Lachen in <10 Min.'
-    - 'Ticket: “Yay!” gefolgt von “Ugh…” und wieder “Yay!”'
-    - Tägliche Stimmungskurve zeigt Zacken.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  MM_SELF_PROTECTION_DECEPTION.yaml:
-    name: MM_SELF_PROTECTION_DECEPTION.yaml
-    beschreibung: ">\n  Meta-Marker für das übergeordnete Muster einer erlernten\nSelbstschutzstrategie, die auf Teilwahrheiten,\
-      \ Verharmlosung und\nGaslighting basiert, um Verantwortung zu vermeiden."
-    beispiele:
-    - 'A: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   AKUSTISCHE_KOHÄRENZ.yaml:
     name: AKUSTISCHE_KOHÄRENZ.yaml
     beschreibung: ">\n  import yaml\n\n# Definition des Meta-Markers \"Akustischer Kohärenzbruch\"\nacoustic_marker = {\n\
@@ -491,25 +253,6 @@ markers:
       \ 1\n  scoring:\n    weight: 1.8\n    priority: \"high\"\n  tags:\n    - \"meaning-crisis\"\n    - \"meta\"\n    - \"\
       depression\"\n    - \"early-warning\""
     beispiele:
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
     - 'examples:'
     - '- '
     - '- '
@@ -523,39 +266,21 @@ markers:
     - needs_review
   A_SVT_BEZIEHUNG_DU_BOTSCHAFT.yaml:
     name: A_SVT_BEZIEHUNG_DU_BOTSCHAFT.yaml
-    beschreibung: "'Identifiziert ''Du-Botschaften'', die dem Empfänger Eigenschaften oder\n  Schuld zuweisen und somit die\
-      \ Beziehungsebene stark belasten.\n\n  '"
-    beispiele: []
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags: []
-  A_DAILY_GREETING.yaml:
-    name: A_DAILY_GREETING.yaml
-    beschreibung: ">\n  Alltägliche Begrüßungs- und Verabschiedungsformeln, die regelmäßigen Kontakt\nund Routine im Chat\
-      \ signalisieren."
+    beschreibung: ">\n  id: \"A_SVT_BEZIEHUNG_DU_BOTSCHAFT\""
     beispiele:
-    - Guten Morgen! Hoffe, du hast gut geschlafen.
-    - Gute Nacht, träum was Schönes.
-    - Schönen Abend dir noch!
-    - Morgen 😊 Wie läuft’s bei dir?
-    - Nacht 🌙 Wir schreiben morgen.
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags:
-    - neu_erstellt
-    - needs_review
-  MM_RELATIONAL_STABILITY_FRIENDSHIP.yaml:
-    name: MM_RELATIONAL_STABILITY_FRIENDSHIP.yaml
-    beschreibung: ">\n  Meta-Marker zur Erkennung stabilisierender, bindungsbezogener Sprachmuster \nin Freundschaften. Aktiv\
-      \ bei wiederholter Bezugnahme auf Loyalität, gemeinsame \nGeschichte, humorvolle Intimität und Fürsorge. Oft gepaart\
-      \ mit Schutzangeboten \noder selbstironischem Bezug."
-    beispiele:
-    - 'A: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
+    - '"schulz_von_thun"'
+    - '"beziehungsebene"'
+    - '"konflikt"'
+    - '"origin_author:Schulz-von-Thun"'
   MM_INFORMATION_DENSITY.yaml:
     name: MM_INFORMATION_DENSITY.yaml
     beschreibung: ">\n  id: \"MM_INFORMATION_DENSITY\"\n  level: 4\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at:\
@@ -581,21 +306,6 @@ markers:
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags: []
-  C_SOFT_COMMITMENT.yaml:
-    name: C_SOFT_COMMITMENT.yaml
-    beschreibung: ">\n  Cluster-Marker für ambivalente, aber weich-positive Beziehungsangebote, bei denen\nVerantwortung für\
-      \ Nähe oder Initiative auf das Gegenüber verschoben wird."
-    beispiele:
-    - Ich würd dich echt gern sehen – aber nur, wenn das für dich grad okay ist.
-    - Wenn du Lust hast, ich wär da – aber kein Druck.
-    - Sag du einfach, ich bin flexibel.
-    - Ich wär offen für ein Treffen – aber nur, wenn du magst.
-    - Ich misch mich nicht ein – aber wär schön, dich zu sehen.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   S_HIGH_PRESSURE_DEMAND.yaml:
     name: S_HIGH_PRESSURE_DEMAND.yaml
     beschreibung: "'id: S_HIGH_PRESSURE_DEMAND\n\n  '"
@@ -607,36 +317,6 @@ markers:
     name: A_DEFENSIVENESS_SHIFT.yaml
     beschreibung: ">\n  id: A_DEFENSIVENESS_SHIFT"
     beispiele:
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
     - 'examples:'
     - '- '
     kategorie: UNCATEGORIZED
@@ -646,70 +326,10 @@ markers:
     - '"defensiveness"'
     - '"communication"'
     - '"origin_author:John_Gottman"'
-  A_FEELING_CONNECTION.yaml:
-    name: A_FEELING_CONNECTION.yaml
-    beschreibung: ">\n  Phrasen, die ein Gefühl der Verbundenheit direkt ausdrücken."
-    beispiele: []
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  C_SELF_PROTECTION_TACTICS.yaml:
-    name: C_SELF_PROTECTION_TACTICS.yaml
-    beschreibung: ">\n  Cluster-Marker, der typische Selbstschutz- und Täuschungsstrategien erfasst:\nTeilwahrheiten, Verharmlosung,\
-      \ Gaslighting und nonverbale Abwertung."
-    beispiele:
-    - 'A: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   C_ADAPTIVE_POLARIZATION.yaml:
     name: C_ADAPTIVE_POLARIZATION.yaml
     beschreibung: "'Annäherung ↔ Distanz in schneller Folge.\n\n  '"
-    beispiele:
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
+    beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags: []
@@ -717,27 +337,6 @@ markers:
     name: S_INTERACTIVE_STONEWALLING.yaml
     beschreibung: ">\n  id: S_INTERACTIVE_STONEWALLING"
     beispiele:
-    - 'Sprecher B: '
-    - ohne Handys, nur wir beide?
-    - Wie wäre es, wenn wir einmal pro Woche einen festen Date-Abend einführen –
-    - Jeden Abend sitzen wir nur noch vor unseren Bildschirmen.
-    - 'Sprecher A: '
-    - 'Sprecher B: '
-    - Wäre super, wenn du sagst, ob du dabei bist, damit ich final buchen kann.
-    - sogar Aktivitäten wie Kajakfahren und eine Weinprobe.
-    - 'Sprecher A: '
-    - 'Sprecher B: '
-    - damit sie sich nicht so allein fühlt. Das würde mir enorm viel bedeuten.
-    - Ich dachte, vielleicht könntest du mich begleiten oder zumindest danach bei ihr vorbeischauen,
-    - 'Sprecher A: '
-    - 'Sprecher B: '
-    - Kannst du dir das bitte ansehen und Feedback geben, bevor ich es einreiche?
-    - und eine Präsentation gebaut, damit das Management die Risiken sofort sieht.
-    - 'Sprecher A: '
-    - 'Sprecher B: '
-    - Könnten wir bitte gemeinsam einen konkreten Plan machen, wie wir die Aufgaben besser verteilen?
-    - Mir fehlt deine Unterstützung, besonders wenn es um die Kinder geht.
-    - 'Sprecher A: '
     - 'examples:'
     - '- |-'
     - 'Sprecher A: '
@@ -754,21 +353,6 @@ markers:
     - '- |-'
     - 'Sprecher A: '
     - 'Sprecher B: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  A_ROUTINE_GREETING.yaml:
-    name: A_ROUTINE_GREETING.yaml
-    beschreibung: ">\n  Typische, wiederkehrende Grußformeln zu bestimmten Tageszeiten."
-    beispiele:
-    - Good morning NAME.
-    - Hey, hast du  gut geschlafen?
-    - Ich wünsche dir  einen schönen guten Morgen
-    - gut geschlafen?
-    - Wie war deine Nacht?
-    - Hast du schöne Träume gehabt?
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags:
@@ -839,32 +423,6 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  S_RESPONSIBILITY_SHIFT.yaml:
-    name: S_RESPONSIBILITY_SHIFT.yaml
-    beschreibung: ">\n  Bedeutungsgruppe indirekter Verantwortungstransfers, bei denen die Entscheidung \ndem Gegenüber überlassen\
-      \ wird, um sich nicht festlegen zu müssen."
-    beispiele:
-    - Also ich bin da – aber wie du willst.
-    - Ich überlass dir die Entscheidung.
-    - Falls du Lust hast, können wir was machen.
-    - Ich will dir da nichts vorschreiben.
-    - Du entscheidest, ich bin flexibel.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  MM_RELATIONAL_DELEGATION.yaml:
-    name: MM_RELATIONAL_DELEGATION.yaml
-    beschreibung: ">\n  Meta-Marker für wiederkehrende Muster relationaler Verantwortungsauslagerung, \nmeist verbunden mit\
-      \ Ambivalenz, Schutz vor Zurückweisung oder indirekter Machtausübung."
-    beispiele:
-    - 'A: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   A_MISC.yaml:
     name: A_MISC.yaml
     beschreibung: ">\n  id: \"A_MISC\"\n  level: 1\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at: \"2025-07-18\"\
@@ -921,57 +479,6 @@ markers:
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags:
-    - needs_review
-  S_BLAME_SHIFT_RESPONSE.yaml:
-    name: S_BLAME_SHIFT_RESPONSE.yaml
-    beschreibung: ">\n  Semantischer Marker, wenn eine Schuldumkehr-Phrase (A_BLAME_SHIFT)\nkombiniert mit einer Verharmlosung\
-      \ (A_DOWNPLAYING) oder Gaslighting (A_GASLIGHT)\nin derselben Nachricht vorkommt."
-    beispiele:
-    - Ach komm, teilweise ist da was dran, aber übertreib nicht – wärst du besser vorbereitet gewesen.
-    - Nicht meine Schuld, das ist wirklich keine große Sache.
-    - Wegen dir lief’s schief, aber halb so wild.
-    - Wenn du es genau nimmst, wärst du dran gewesen – war doch nur Spaß.
-    - Nicht ich hab’s vermasselt, du bildest dir das nur ein.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  C_FLIRTING_DYNAMICS.yaml:
-    name: C_FLIRTING_DYNAMICS.yaml
-    beschreibung: ">\n  Bündelt die wichtigsten Teilaspekte eines fortgeschrittenen Flirt-Dialogs: von harmlos-freundlichem\
-      \ Necking über offensive Anspielungen bis hin zu Soft-Commitment-Versprechen, ambivalenter Polarisierung und latenten\
-      \ Erwartungshaltungen.  Erfasst wird die typische Drift-Achse zwischen spielerischer Nähe, verdeckter Erwartung und\
-      \ bewusstem Hinhalten."
-    beispiele: []
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  A_TEAM_METAPHOR.yaml:
-    name: A_TEAM_METAPHOR.yaml
-    beschreibung: ">\n  Verwendung der Metapher 'Team', um Zusammengehörigkeit zu beschreiben."
-    beispiele: []
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  C_SELF_DISCLOSURE.yaml:
-    name: C_SELF_DISCLOSURE.yaml
-    beschreibung: ">\n  Cluster-Wrapper für Atomic A_SELF_DISCLOSURE, um Offenlegungen\n(persönliche Infos, Gefühle) als kombinationsfähige\
-      \ Einheit\nabzubilden."
-    beispiele:
-    - „Mir geht’s echt mies, weil …“
-    - „Ich habe Angst, dass …“
-    - „Persönlich belastet mich X.“
-    - „Letzte Nacht konnte ich nicht schlafen.“
-    - '„Ich gestehe: Ich bin überfordert.“'
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
     - needs_review
   S_HIGH_PERSON_DENSIT.yaml:
     name: S_HIGH_PERSON_DENSIT.yaml
@@ -1054,58 +561,6 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  S_SUSTAINED_CONTACT.yaml:
-    name: S_SUSTAINED_CONTACT.yaml
-    beschreibung: ">\n  Semantische Gruppe von Mustern, die regelmäßige, routinierte Kontaktaufnahme\nüber Tage und Wochen\
-      \ hinweg signalisieren."
-    beispiele:
-    - Guten Morgen! Hoffe, du hast gut geschlafen.
-    - Gute Nacht, wir schreiben morgen.
-    - Schönen Abend dir noch!
-    - Morgen 😊 Wie war dein Tag gestern?
-    - Nacht 🌙 Freu mich schon auf morgen.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  MM_MICRO_VALIDATION_LOOP.yaml:
-    name: MM_MICRO_VALIDATION_LOOP.yaml
-    beschreibung: ">\n  Meta-Marker für mikro-symmetrisches Kontaktfeld: Symbolische\nUnterstützung (Emojis/Symbole) PLUS\
-      \ vorsichtige Validierung\nUND gleichzeitige Selbstdistanzierung. Aktiv, wenn beide\nCluster C_SYMBOLIC_SUPPORT_FIELD\
-      \ und C_MICRO_VALIDATION_LOOP\nin einem 10-Nachrichten-Fenster auftreten."
-    beispiele:
-    - 'A sendet „Passt das? 😊“ + „Wenn nicht, sag’s offen.↔“
-
-      → beide Cluster aktiv → Meta feuert.'
-    - 'Wechsel aus ❤️-Emoji und „Stimmt das für dich?“,
-
-      begleitet von „Wenn es zu viel ist, sag Stopp.“'
-    - ↔ + „Nur falls ok für dich …“ nach Boundary-Hinweis.
-    - Kurzes 👍, dann „Gib Bescheid, falls du Distanz brauchst.“
-    - 'Gespräch: Emoji-Bestätigung, sofortige Nachfrage
-
-      nach Komfortzone → Mikro-Validation-Loop.'
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  S_CARING_FRIEND_EXPRESSIONS.yaml:
-    name: S_CARING_FRIEND_EXPRESSIONS.yaml
-    beschreibung: ">\n  Bedeutungsgruppe von Sätzen, die Fürsorge, Freundschaft und emotionale \nVerbundenheit signalisieren\
-      \ – oft durch Humor, Neckerei oder direkte \nZuneigungsbekundung."
-    beispiele:
-    - Pass auf dich auf, du Spinner.
-    - Ich hab dich echt lieb, Mann.
-    - Wenn du was brauchst, meld dich – ehrlich.
-    - Wär nicht dasselbe ohne dich, du Lappen.
-    - Ich will einfach, dass’s dir gut geht.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   FLIRT_DRIFT_DETECTIO.yaml:
     name: FLIRT_DRIFT_DETECTIO.yaml
     beschreibung: ">\n  # ---------- Hilfsfunktionen ----------\ndef openness_score(msg):\n    \"\"\"Sehr grobe Heuristik:\
@@ -1178,29 +633,31 @@ markers:
     - '"aufforderung"'
     - '"origin_author:Schulz-von-Thun"'
 statistics:
-  total_markers: 61
-  total_examples: 531
-  average_examples_per_marker: 8.7
+  total_markers: 42
+  total_examples: 194
+  average_examples_per_marker: 4.62
   categories:
-    UNCATEGORIZED: 61
+    UNCATEGORIZED: 42
   markers_without_examples:
   - -_ID.yaml
   - ID.json
+  - '#_--------_META_(SYSTEMIC_VOLATILITY.json'
+  - MM_FLIRT_DANCE_DRIFT.yaml
+  - C_SECRET_BONDING.yaml
+  - A_APPEAL_TO_AUTHORITY.yaml
   - WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.yaml
   - C_SUSTAINED_CONTACT.yaml
   - ID.yaml
+  - -_ID.json
   - WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json
   - A_APPEAL_TO_AUTHORITY.json
   - NAME.yaml
   - AKUSTISCHE_KOHÄRENZ.yaml
-  - A_SVT_BEZIEHUNG_DU_BOTSCHAFT.yaml
   - PYTHON.py
   - S_HIGH_PRESSURE_DEMAND.yaml
-  - A_FEELING_CONNECTION.yaml
+  - C_ADAPTIVE_POLARIZATION.yaml
   - S_HIGH_PRESSURE_DEMAND.json
   - -ID.yaml
   - selbst_evaluative_muster.yaml
-  - C_FLIRTING_DYNAMICS.yaml
-  - A_TEAM_METAPHOR.yaml
   - selbst_evaluative_muster.json
-  coverage_score: 68.9
+  coverage_score: 50.0

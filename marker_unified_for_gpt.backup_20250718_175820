@@ -1,0 +1,3771 @@
+# FRAUSAR Marker-System - Vereinheitlichte Bestandsaufnahme für GPT
+# Diese Datei enthält ALLE Marker in einem einheitlichen Format
+# Generiert am: 2025-07-03 01:52:22
+# ====================================================================
+
+meta:
+  title: FRAUSAR Marker-System - Komplette Bestandsaufnahme
+  description: Alle Love Scammer Erkennungsmarker in einem einheitlichen Format
+  generated_at: '2025-07-03T01:52:22.616833'
+  version: '2.0'
+  total_markers: 99
+  purpose: GPT-Analyse und Bestandsaufnahme
+risk_levels:
+  green: Kein oder nur unkritischer Marker
+  yellow: 1-2 moderate Marker, erste Drift erkennbar
+  blinking: 3+ Marker oder ein Hochrisiko-Marker, klare Drift/Manipulation
+  red: Hochrisiko-Kombination, massive Drift/Manipulation
+markers:
+  AI_BOTS_SEMANTIC_DETECT:
+    name: AI_BOTS_SEMANTIC_DETECT
+    beschreibung: ">\n  beschreibung: >\n  # -*- coding: utf-8 -*-\n\n# #############################################################################\n\
+      #  SEMANTIC GRAB DEFINITIONEN FÜR KOMMUNIKATIONSMARKER\n#\n#  Zweck:\n#  Diese Datei enthält eine zentrale Sammlung\
+      \ von \"Semantic Grab\"-Mustern\n#  für verschiedene psychologische Kommunikationsmarker. Jedes Muster ist\n#  darauf\
+      \ ausgelegt, von einem KI-System (z.B. via Regex oder semantischer\n#  Suche) verwendet zu werden, um komplexe Dynamiken\
+      \ in Texten zu erkennen.\n#\n#  Struktur:\n#  Ein zentrales Dictionary `SEMANTIC_GRAB_PATTERNS`, dessen Schlüssel die\n\
+      #  ID des Markers ist. Der Wert ist jeweils ein weiteres Dictionary mit:\n#    - 'description': Eine Beschreibung dessen,\
+      \ was die KI suchen soll.\n#    - 'patterns': Eine Liste von Regeln, Mustern und Beispielen.\n# #############################################################################"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  AI_BOT_SCAM:
+    name: AI_BOT_SCAM
+    beschreibung: ">\n  beschreibung: >\n  Erkennt sprachliche Muster, typische Phrasen und Begriffe aus Romance Scams, Love\
+      \ Fraud oder KI-generierten Texten. \n  Ziel ist es, auffällige Wortwahl oder generische Sprache in Messaging-Umgebungen\
+      \ zu markieren."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - 'kategorien:'
+    - '- Romance_Scam'
+    - '- Love_Scam'
+    - '- KI_Bot_Sprache'
+    - 'muster:'
+    - 'Romance_Scam:'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - 'KI_Bot_Sprache:'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '# Wir speichern diese Datei'
+    - output_path =
+    - with open(output_path,
+    - f.write(wortmarker_yaml)
+    - output_path
+    - Ergebnis
+    - '''/mnt/data/AI_BOT_SCAM.yaml'''
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 34
+  AI_BOT_SEMANTIC_DETECT:
+    name: AI_BOT_SEMANTIC_DETECT
+    beschreibung: ">\n  # -*- coding: utf-8 -*-\n\n# #############################################################################\n\
+      #  SEMANTIC GRAB DEFINITIONEN FÜR KOMMUNIKATIONSMARKER\n#\n#  Zweck:\n#  Diese Datei enthält eine zentrale Sammlung\
+      \ von \"Semantic Grab\"-Mustern\n#  für verschiedene psychologische Kommunikationsmarker. Jedes Muster ist\n#  darauf\
+      \ ausgelegt, von einem KI-System (z.B. via Regex oder semantischer\n#  Suche) verwendet zu werden, um komplexe Dynamiken\
+      \ in Texten zu erkennen.\n#\n#  Struktur:\n#  Ein zentrales Dictionary `SEMANTIC_GRAB_PATTERNS`, dessen Schlüssel die\n\
+      #  ID des Markers ist. Der Wert ist jeweils ein weiteres Dictionary mit:\n#    - 'description': Eine Beschreibung dessen,\
+      \ was die KI suchen soll.\n#    - 'patterns': Eine Liste von Regeln, Mustern und Beispielen.\n# #############################################################################"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - SEMANTIC_GRAB_PATTERNS = {
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '}'
+    - ']'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '}'
+    - ']'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '}'
+    - ']'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '}'
+    - ']'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '}'
+    - ']'
+    - '}'
+    - '}'
+    - '# Beispielhafter Aufruf, um die Daten zu verwenden und zu überprüfen:'
+    - if __name__ ==
+    - print(
+    - print(
+    - print(
+    - '# Überprüfen, wie viele Marker-Definitionen geladen wurden'
+    - print(f
+    - '# Ein Beispiel im Detail ausgeben'
+    - marker_id_to_show =
+    - 'if marker_id_to_show in SEMANTIC_GRAB_PATTERNS:'
+    - print(f
+    - )
+    - marker_data = SEMANTIC_GRAB_PATTERNS[marker_id_to_show]
+    - print(f
+    - print(
+    - 'for pattern_rule in marker_data[''patterns'']:'
+    - print(f
+    - print(f
+    - print(f
+    - 'else:'
+    - print(f
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 75
+  AMBIVALENCE:
+    name: AMBIVALENCE
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  ARCHETYPAL_PATTERNS:
+    name: ARCHETYPAL_PATTERNS
+    beschreibung: ''''''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  AROUSAL:
+    name: AROUSAL
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  Ambivalence:
+    name: Ambivalence
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - ambivalence
+    - emotional conflict
+    - relationship dynamics
+    - communication
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  BLAME_SHIFT:
+    name: BLAME_SHIFT
+    beschreibung: Die Technik, die Verantwortung für eigene Fehler, negative Gefühle oder Beziehungsprobleme subtil oder offen
+      auf den Partner oder andere Umstände zu verlagern.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - schuld
+    - verantwortung
+    - projektion
+    - konflikt
+    - abwehr
+    beispiele:
+    - Ich hätte nicht so reagiert, wenn du nicht so einen Ton angeschlagen hättest.
+    - Du bist doch unzufrieden, dann ändere was.
+    - Du interpretierst das immer gleich so negativ.
+    - Vielleicht bist du einfach zu sensibel für sowas.
+    - Ich hab mein Bestes gegeben – was ist denn dein Beitrag?
+    - Ich habe nur gelogen, weil ich wusste, dass du die Wahrheit nicht ertragen kannst.
+    - Natürlich bin ich gereizt, bei dem Stress, den du mir machst.
+    - Das Projekt ist gescheitert, weil die Rahmenbedingungen von Anfang an schlecht waren.
+    - Ich bin nicht eifersüchtig, du gibst mir nur ständig Anlass dazu.
+    - Sorry, dass du dich jetzt so fühlst, aber das war wirklich nur ein Witz.
+    - Du provozierst mich so lange, bis ich die Beherrschung verliere.
+    - Wenn du mir mehr vertrauen würdest, müsste ich keine Geheimnisse haben.
+    - Das Problem ist nicht mein Verhalten, sondern deine überzogenen Erwartungen.
+    - Ich bin nicht das Problem, die ganze Situation ist das Problem.
+    - Du hast mich dazu gebracht, das zu tun.
+    - Ich kann nichts dafür, ich bin halt so.
+    - Warum musst du immer alles so dramatisieren?
+    - Der Fehler ist passiert, weil mir niemand die richtigen Informationen gegeben hat.
+    - Du wusstest doch, worauf du dich einlässt.
+    - Hättest du mich früher gefragt, wäre das nicht passiert.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 20
+  CARE_SIGNITURE:
+    name: CARE_SIGNITURE
+    beschreibung: ">\n  Sich musterhaft wiederholdene Nachrichtenabschlüsse beim Verabschieden, die Zuneigung und Verbinung\
+      \ für die Partner implizieren. Die Wiederholung als Beziehungs Baseline Temeratur, an der Microveränderungen abzulesen\
+      \ sind."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - 'CareSignatureIndicator (CSI):'
+    - 'Typ: MetaMarker'
+    - 'Detektion: Satz- oder Nachrichtenschluss, Wiederholung'
+    - 'Zeichenarten:'
+    - '- Buchstabenfolgen: x, xx, xxx, xoxo'
+    - '- Emojis: ❤️, 😘, 😊, 🫶'
+    - '- Insider:'
+    - '- Kombinationen'
+    - 'Skala:'
+    - '- None:     Rückzug, Distanz'
+    - '- Minimal:  Basis, Routine'
+    - '- Stabil:   Alltag, Normalbindung'
+    - '- Hoch:     Nähe, Zuneigung'
+    - '- Peak:     Versöhnung, Ritual, Hochbindung'
+    - 'Driftanalyse:'
+    - '- Reduktion: Wer reduziert zuerst?'
+    - '- Ursache: Kränkung, Frustration, Überforderung'
+    - '- Steigerung: Reparatur, Nähe, Ritualverstärkung'
+    - 'BeispielZoeBen:'
+    - '- Zunahme'
+    - '- Rückgang auf'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 21
+  COMPARISON_GHOST:
+    name: COMPARISON_GHOST
+    beschreibung: Subtiler oder offener Vergleich einer aktuellen Situation mit Ex-Partnern, einem früheren Leben oder alternativen
+      Szenarien, was Unsicherheit und Konkurrenzdruck erzeugt.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - beziehung
+    - patchwork
+    - eifersucht
+    - vergangenheit
+    - konflikt
+    beispiele:
+    - Mein Ex hätte das sofort verstanden.
+    - Am Anfang unserer Beziehung warst du viel aufmerksamer.
+    - In meiner alten Firma hatten wir für so etwas ein Budget.
+    - Denkst du manchmal noch darüber nach, was gewesen wäre, wenn du den anderen Job angenommen hättest?
+    - Sandra kocht für ihren Freund jeden Abend frisch. Das finde ich toll.
+    - Mit meiner Ex-Frau konnte ich über solche Dinge einfach besser reden.
+    - Früher, als die Kinder noch klein waren, war alles irgendwie einfacher.
+    - Ich wünschte, du wärst ein bisschen mehr wie dein Bruder, was die Planung angeht.
+    - War das mit ihr auch immer so kompliziert?
+    - Die Frau meines besten Freundes unterstützt ihn bei allem, ohne zu fragen.
+    - Ich habe das Gefühl, du vergleichst mich ständig mit deiner Mutter.
+    - Als ich noch Single war, hatte ich viel mehr Zeit für meine Hobbys.
+    - Meine letzte Beziehung ist daran zerbrochen, dass wir zu wenig geredet haben. Ich habe Angst, dass das wieder passiert.
+    - Wow, schau mal, was Anna von ihrem Freund zum Jahrestag bekommen hat. [zeigt Handy]
+    - Das erinnert mich an den Urlaub, den ich damals mit Martin gemacht habe.
+    - Finanziell ging es mir besser, bevor wir zusammengezogen sind.
+    - Bist du sicher, dass du das so machen willst? Mein Vater hat immer gesagt, dass...
+    - Du bist so anders als alle, die ich davor kannte.
+    - Ich will dich ja nicht ändern, aber ein bisschen mehr Spontanität, so wie früher, wäre schön.
+    - Wenn ich sehe, wie glücklich andere Paare sind, frage ich mich manchmal...
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 20
+  CONNECTION:
+    name: CONNECTION
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  DEEPENING_BY_QUESTIONING:
+    name: DEEPENING_BY_QUESTIONING
+    beschreibung: ">\n  semantic_marker = {\n    \"marker\": \"DEEPENING_BY_QUESTIONING\",\n    \"beschreibung\": (\n    \
+      \    \"Erkennt dialogische Muster, bei denen durch feinfühlige, offene oder introspektive Fragen gezielt emotionale\
+      \ Nähe aufgebaut wird. \"\n        \"Typisch sind aufeinander aufbauende Themen, Wechsel zwischen Selbstöffnung und\
+      \ neugieriger Exploration, sowie die Verwendung von \"\n        \"emotionalen Begriffen (z. B. Vertrauen, Angst, Verletzlichkeit,\
+      \ Erinnerungen). Die Fragen zielen nicht auf Fakten, sondern auf \"\n        \"Gefühle, Erfahrungen, Werte und innere\
+      \ Zustände.\"\n    ),\n    \"beispiele\": [\n        \"Was hilft dir, dich trotzdem zu öffnen?\",\n        \"Was macht\
+      \ es schwer, Nähe zuzulassen?\",\n        \"Wann fühlst du dich am meisten akzeptiert?\",\n        \"Gibt es etwas,\
+      \ das dich immer zu dir zurückholt?\",\n        \"Wie bist du, wenn du verliebt bist?\",\n        \"Wovor hast du am\
+      \ meisten Angst beim Verliebtsein?\",\n        \"Was war das schönste, was dir je jemand geschenkt hat?\",\n       \
+      \ \"Glaubst du, man kann Liebe ohne Ehrlichkeit leben?\",\n        \"Was suchst du in Beziehungen?\",\n        \"Was\
+      \ denkst du, wenn du nicht schlafen kannst?\"\n    ],\n    \"tags\": [\"nähe\", \"emotion\", \"reflexion\", \"empathie\"\
+      , \"tiefe_verbindung\", \"chatdialog\"]\n}\n\n# Datei schreiben\nsemantic_marker_path = \"/mnt/data/DEEPENING_BY_QUESTIONING.yaml\"\
+      \nwith open(semantic_marker_path, \"w\") as f:\n    yaml.dump(semantic_marker, f, allow_unicode=True)\n\nsemantic_marker_path\n\
+      Ergebnis\n'/mnt/data/DEEPENING_BY_QUESTIONING.yaml'\n✅ Fertig!\n\n\U0001F4C4 Der semantische Marker für emotionalen\
+      \ Näheaufbau durch Fragen wurde gespeichert als:\n\nDEEPENING_BY_QUESTIONING.yaml\n\n\U0001F4C2 Ergänzend dazu:\n\n\U0001F4D8\
+      \ DEEPENING_BY_QUESTIONING.txt – enthält den echten Dialogverlauf von Zoe & Nick\n\nDu kannst den Marker direkt zur\
+      \ Annotation oder semantischen Analyse verwenden.\nMöchtest du ihn gleich in deine bestehende Marker-Sammlung integrieren?"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - Ich frage dich ja richtig aus, ohje tut mir leid. Ich hoffe, das stört dich jetzt nicht ode so?
+    - Lass uns heute Abend nicht streiten, okay? So wie damals an unserem Jahrestag.
+    - Der neue Kollege ist genauso ein Klugscheißer wie dein Cousin Mark.
+    - Ich brauche unbedingt wieder einen Rat von deinem Vater in Sachen Finanzen.
+    - Das ist doch der Insider-Witz, den nur wir verstehen.
+    - Ich hab noch die Konzertkarten von damals in meiner Schublade gefunden.
+    - Meine Schwester hat gefragt, ob wir ihr beim Umzug helfen.
+    - Die Kinder fragen schon die ganze Zeit, wann wir wieder zu Oma und Opa fahren.
+    - Ich habe heute geträumt, wir wären wieder in Lissabon.
+    - Wir müssen unbedingt mal wieder einen Spieleabend mit den Müllers machen.
+    - Das war doch die Jacke, die du anhattest, als wir uns das erste Mal geküsst haben.
+    - Der Hund von nebenan bellt schon wieder. Genau wie damals 'Brutus'.
+    - Ich habe versucht, das Restaurant von unserem ersten Date zu finden, aber ich glaube, das gibt es nicht mehr.
+    - Der Geruch von frisch gemähtem Gras erinnert mich immer an den Garten deiner Großeltern.
+    - Hast du eigentlich noch Kontakt zu deiner alten Nachbarin, Frau Schmidt?
+    - Lass uns am Wochenende mal wieder in den Wald fahren, wo wir immer spazieren waren.
+    - Dein alter Chef hat mich heute auf LinkedIn angeschrieben, verrückt.
+    - Genau die gleiche Lampe hatten wir doch auch in der WG, oder?
+    - Ich glaube, ich versuche am Wochenende mal wieder, dein berühmtes Chili nachzukochen.
+    - Bitte grüß deine Eltern ganz lieb von mir.
+    - Ich hab das Foto von uns vom letzten Oktoberfest wiedergefunden. Wir sahen so jung aus!
+    - Weißt du noch, wie wir in deiner alten Wohnung die ganze Nacht auf dem Balkon saßen?
+    - Das erinnert mich an den ersten Film, den wir zusammen im Kino gesehen haben.
+    - Denk dran, wir sind am Samstag bei Tom und Sarah zum Grillen eingeladen.
+    - Ich erzähle den neuen Kollegen immer noch die Geschichte, wie wir uns kennengelernt haben.
+    - Hab vorhin Tiramisu gegessen und keins ist so gut wie das von deiner Mutter.
+    - Das Wetter ist heute genauso verrückt wie damals bei dem Festival, als unser Zelt weggeschwommen ist.
+    - Wie geht es eigentlich deinem Bruder nach seiner OP?
+    - Ich bin gerade an 'unserem' Café vorbeigelaufen. Sieht immer noch genauso aus.
+    - Erinnerst du dich an den schrecklichen Sonnenbrand, den wir uns im Urlaub auf Kreta geholt haben?
+    - Ich habe heute das Lied gehört, das auf Julias Hochzeit lief. Musste sofort an uns denken.
+    - (Erkennt Hinweise auf eine reale, geteilte Vergangenheit)
+    - 4. RELATIONSHIP_AUTHENTICITY_MARKER
+    - Was ist die wichtigste Lektion, die dir der Schmerz beigebracht hat?
+    - Welche Lüge erzählst du dir manchmal selbst?
+    - Wenn du deinem jüngeren Ich einen Rat geben könntest, welcher wäre das?
+    - Was ist eine kleine, alltägliche Sache, die dir sofort Freude bereitet?
+    - Wann hast du das letzte Mal aus vollem Herzen geweint und warum?
+    - Was ist für dich die Definition eines erfüllten Lebens?
+    - Wer war der Mensch, der dich am meisten geprägt hat?
+    - Was ist die eine Sache, bei der du dich oft missverstanden fühlst?
+    - Wenn dein Leben ein Buch wäre, wie würde der Titel lauten?
+    - Was ist der größte Unterschied zwischen der Person, die du heute bist, und der, die du vor 10 Jahren warst?
+    - Erzähl mir von einer Zeit, in der du jemandem vergeben hast, obwohl es schwer war.
+    - Welche drei Dinge sind in einer Partnerschaft für dich absolut unverhandelbar?
+    - Was war die größte Herausforderung, die du bisher allein gemeistert hast?
+    - Wie sieht für dich ein perfekter Tag aus, wenn Geld und Zeit keine Rolle spielen würden?
+    - Gibt es ein Geheimnis, das du mit ins Grab nehmen würdest?
+    - Was lässt dein Herz wirklich schneller schlagen, abseits von Romantik?
+    - Was hast du über die Liebe gelernt, das du gerne früher gewusst hättest?
+    - Was ist der wichtigste Ratschlag, den du je bekommen hast?
+    - In welcher Situation fühlst du dich am authentischsten und wirklich wie 'du'?
+    - Was ist das Verletzlichste, das du mir über dich anvertrauen könntest?
+    - Wie gehst du mit Enttäuschungen um, wenn du wirklich für etwas gekämpft hast?
+    - Gab es einen Punkt in deinem Leben, der alles verändert hat?
+    - Was bedeutet 'Vertrauen' für dich ganz konkret?
+    - Welche Eigenschaft an dir selbst würdest du gerne ändern, wenn du könntest?
+    - Erzähl mir von einem Traum, den du aufgegeben hast. Was ist an seine Stelle getreten?
+    - Was ist deine größte irrationale Angst, und woher glaubst du, kommt sie?
+    - Wenn du eine Regel in der Gesellschaft ändern könntest, welche wäre das und warum?
+    - Welche eine Sache bereust du am meisten, nicht getan zu haben?
+    - Beschreibe einen Moment in deinem Leben, in dem du dich wirklich machtlos gefühlt hast.
+    - Was ist eine Überzeugung, die du früher hattest, aber heute komplett anders siehst?
+    - 'Zoe:'
+    - Ahahah
+    - My pain says otherwise..
+    - 'Du:'
+    - Thanks, but I don’t rly draw anymore?
+    - 'Zoe:'
+    - No, I overdid it with drawing at some point – which led to having a chronic arm pain/infection :(
+    - No worry, I'm a shrimp.
+    - I can still draw, but soooo slowly only.
+    - So I'm doing other creative stuff like embroidery now and such...
+    - 'Du:'
+    - Is embroidery a cure for shrimps? Never.
+    - 'Zoe:'
+    - I'm actually not rly a big fan of either of them hahaha, not cuz they are not impressive but somehow their art does
+      not move me.
+    - Sounds stupid, but talent is rly just a part. Hard work can rly do a ton, practice makes perfect.
+    - Isn't this normal on instagram?
+    - 'Du:'
+    - Isn't «...0 normal on instagram?
+    - 'Zoe:'
+    - AHAHA
+    - True though
+    - 'Du:'
+    - Wirklich normal ist hier nichts. Nur nichts ist wie es scheint. Aber das ist bei mir immer so.
+    - 'Zoe:'
+    - 'Hehe, thanks c:'
+    - 'Du:'
+    - Ich versteh dich schon. Deswegen macht’s ja so Spaß, dich zu lesen und mit dir zu schreiben.
+    - Ich bin manchmal ganz schön lost in translation, aber nie lost in feeling.
+    - 'Zoe:'
+    - So what do you actually do for a living?
+    - 'Du:'
+    - Ich bin Berater für Agilität und Führungskräfte, also Teamentwicklung, Coaching, Change Management. Systemische Beratung,
+      Scrum Master, Product Owner – und so ein Kram. Kannst du googlen, bringt dir wahrscheinlich nix.
+    - 'Zoe:'
+    - Hahaha, okay.
+    - 'Du:'
+    - Und du? Du bist Shrimp-Embroidery-Master?
+    - 'Zoe:'
+    - AHAH. No, just a shrimp.
+    - 'Du:'
+    - Jede/r hat doch so sein(e) Shrimp.
+    - 'Zoe:'
+    - Haha, true.
+    - 'Du:'
+    - Was wäre dein Traumberuf, wenn alles möglich wäre?
+    - 'Zoe:'
+    - Hmm, I think something creative, but not stressful on my body. Like, drawing or painting, but without pressure. Or maybe
+      writing.
+    - 'Du:'
+    - Schreiben?
+    - 'Zoe:'
+    - Yeah, but not sure what exactly. Maybe poetry. Or prose. Something where you can just let your mind wander.
+    - 'Du:'
+    - Wanderst du gerne?
+    - 'Zoe:'
+    - Yes! Especially in nature – forests, mountains, lakes. That's where I feel most alive.
+    - 'Du:'
+    - Ich mag Wasser. Also Flüsse und Seen. Und Berge auch. Aber Wälder sind mir manchmal unheimlich.
+    - 'Zoe:'
+    - Hehe, forests can be a bit spooky sometimes.
+    - 'Du:'
+    - Welche Jahreszeit magst du am liebsten?
+    - 'Zoe:'
+    - Autumn! I love the colors and the atmosphere.
+    - 'Du:'
+    - Herbst ist wie melancholisches Glück. So bittersüß.
+    - 'Zoe:'
+    - Yeah, that's a good way to put it.
+    - 'Du:'
+    - Was machst du, wenn du melancholisch bist?
+    - 'Zoe:'
+    - Listen to music. Or write. Or just walk outside and feel the wind.
+    - 'Du:'
+    - Welche Musik?
+    - 'Zoe:'
+    - Depends on the mood. Sometimes classical, sometimes indie, sometimes jazz.
+    - 'Du:'
+    - Ich liebe Jazz. Vor allem nachts. Mit Rotwein.
+    - 'Zoe:'
+    - Ooh, that sounds nice.
+    - 'Du:'
+    - Bist du manchmal nachts draußen?
+    - 'Zoe:'
+    - Yes, I like the night air. It's peaceful.
+    - 'Du:'
+    - Nachts ist alles echter.
+    - 'Zoe:'
+    - Yeah, it's like the world takes off its mask.
+    - 'Du:'
+    - Nachts werden die Schatten ehrlich.
+    - 'Zoe:'
+    - Poetic.
+    - 'Du:'
+    - Und ehrlich ist selten. Aber meistens gut.
+    - 'Zoe:'
+    - Yeah, honesty is important.
+    - 'Du:'
+    - Wirklich ehrlich ist riskant. Aber besser als ein ehrliches Risiko?
+    - 'Zoe:'
+    - Hmmm, tough question.
+    - I think... honesty is always worth it, even if it hurts.
+    - 'Du:'
+    - Hast du schon mal jemanden wirklich verletzt mit Ehrlichkeit?
+    - 'Zoe:'
+    - Yes, more than once. But I'd rather be honest than pretend.
+    - 'Du:'
+    - Hast du mal erlebt, dass Ehrlichkeit was richtig Gutes bewirkt hat?
+    - 'Zoe:'
+    - Yes, definitely. Sometimes it leads to real connection. Or helps someone grow. Or even saves a relationship.
+    - 'Du:'
+    - Warst du mal richtig unehrlich?
+    - 'Zoe:'
+    - I think everyone has lied at some point. But I try to avoid it as much as possible.
+    - 'Du:'
+    - Glaubst du, man kann Liebe ohne Ehrlichkeit leben?
+    - 'Zoe:'
+    - No, I don't think so. Without honesty, there's no real trust.
+    - 'Du:'
+    - Vertrauen ist eh so’n wackeliges Ding.
+    - 'Zoe:'
+    - Yeah, it takes years to build, seconds to break.
+    - 'Du:'
+    - Hast du mal jemanden komplett verloren, weil du ehrlich warst?
+    - 'Zoe:'
+    - Yes. But I don't regret it.
+    - 'Du:'
+    - Warst du mal richtig froh, dass dir jemand ehrlich die Meinung gesagt hat?
+    - 'Zoe:'
+    - Yes! It can be eye-opening.
+    - 'Du:'
+    - Ich bin immer froh, wenn jemand ehrlich ist. Aber manchmal wünsche ich mir, ich hätte weniger gefragt.
+    - 'Zoe:'
+    - Haha, yeah, sometimes the truth is a bit much.
+    - 'Du:'
+    - Bist du harmoniebedürftig?
+    - 'Zoe:'
+    - Not really, I prefer realness over fake harmony.
+    - 'Du:'
+    - Kannst du gut streiten?
+    - 'Zoe:'
+    - Not really, I avoid conflict if I can. But if it happens, I try to stay calm.
+    - 'Du:'
+    - Kannst du dich leicht entschuldigen?
+    - 'Zoe:'
+    - Yes, if I know I was wrong. But sometimes it's hard to admit.
+    - 'Du:'
+    - Ich entschuldige mich zu oft, glaube ich. Auch wenn ich nichts falsch gemacht habe.
+    - 'Zoe:'
+    - Yeah, I do that sometimes too.
+    - 'Du:'
+    - Warum machen wir das?
+    - 'Zoe:'
+    - Maybe to keep the peace. Or because we don't want to hurt others. Or out of habit.
+    - 'Du:'
+    - Wann hast du dich zuletzt entschuldigt?
+    - 'Zoe:'
+    - Yesterday, I think.
+    - 'Du:'
+    - Und war es echt?
+    - 'Zoe:'
+    - Yes, I meant it.
+    - 'Du:'
+    - Wofür hast du dich entschuldigt?
+    - 'Zoe:'
+    - For being impatient with someone.
+    - 'Du:'
+    - Geduld ist echt ein harter Skill.
+    - 'Zoe:'
+    - Yeah, especially with people you care about.
+    - 'Du:'
+    - Hast du Geduld mit dir selbst?
+    - 'Zoe:'
+    - Not really, I'm my own worst critic.
+    - 'Du:'
+    - Ich bin oft zu streng mit mir.
+    - 'Zoe:'
+    - Same here.
+    - 'Du:'
+    - Was machst du, wenn du mit dir selbst unzufrieden bist?
+    - 'Zoe:'
+    - I try to reflect on why I feel that way. Or I talk to someone I trust. Or I distract myself with something creative.
+    - 'Du:'
+    - Hast du ein Beispiel?
+    - 'Zoe:'
+    - Like when I feel like I haven't done enough in a day. Or if I mess up something important. I remind myself it's okay
+      to make mistakes.
+    - 'Du:'
+    - Wie bist du, wenn du verliebt bist?
+    - 'Zoe:'
+    - Very open. A bit shy at first. But also very caring and attentive.
+    - 'Du:'
+    - Verliebt sein ist wie...
+    - 'Zoe:'
+    - '...als würde jemand einen Lichtschalter umlegen, aber du weißt nicht, ob das Licht bleibt oder flackert.'
+    - 'Du:'
+    - Und bei dir?
+    - 'Zoe:'
+    - It’s like suddenly everything is brighter and scarier at the same time.
+    - 'Du:'
+    - Wovor hast du am meisten Angst beim Verliebtsein?
+    - 'Zoe:'
+    - That I'll get hurt. Or that I'll mess things up.
+    - 'Du:'
+    - Ich hab Angst, dass ich mich verliere.
+    - 'Zoe:'
+    - Yeah, that's a big one too.
+    - 'Du:'
+    - Hast du dich mal in jemand verloren?
+    - 'Zoe:'
+    - Yes. It can be beautiful but also dangerous.
+    - 'Du:'
+    - Und, wie bist du da wieder raus?
+    - 'Zoe:'
+    - By taking time for myself. And by remembering who I am.
+    - 'Du:'
+    - Wie erinnerst du dich an dich selbst?
+    - 'Zoe:'
+    - By doing things that make me feel like me. Art, nature, time alone.
+    - 'Du:'
+    - Gibt es etwas, das dich immer zu dir zurückholt?
+    - 'Zoe:'
+    - Music, for sure. And long walks.
+    - 'Du:'
+    - Wann hast du zuletzt Musik gehört?
+    - 'Zoe:'
+    - Today, this morning.
+    - 'Du:'
+    - Was hast du gehört?
+    - 'Zoe:'
+    - Some indie playlist.
+    - 'Du:'
+    - Was ist dein Lieblingslied?
+    - 'Zoe:'
+    - That's hard! Changes all the time. Right now probably something by Phoebe Bridgers.
+    - 'Du:'
+    - Kannst du mir eins schicken?
+    - 'Zoe:'
+    - Sure, wait.
+    - 'Du:'
+    - Danke! Ich hör’s mir an.
+    - 'Zoe:'
+    - Let me know what you think.
+    - 'Du:'
+    - Magst du lieber morgens oder abends Musik?
+    - 'Zoe:'
+    - Evenings. It feels more special then.
+    - 'Du:'
+    - Bei mir kommt’s drauf an, wie ich drauf bin.
+    - 'Zoe:'
+    - Yeah, mood is important.
+    - 'Du:'
+    - Was machst du, wenn du nicht schlafen kannst?
+    - 'Zoe:'
+    - Read or listen to music. Or just stare at the ceiling and think.
+    - 'Du:'
+    - Was denkst du dann?
+    - 'Zoe:'
+    - About everything and nothing. Sometimes it's just random thoughts.
+    - 'Du:'
+    - Kannst du abschalten?
+    - 'Zoe:'
+    - Not easily. My mind is always busy.
+    - 'Du:'
+    - Wie beruhigst du dich?
+    - 'Zoe:'
+    - Deep breaths, music, or writing.
+    - 'Du:'
+    - Was schreibst du, wenn du schreibst?
+    - 'Zoe:'
+    - Journals, poetry, sometimes letters to myself.
+    - 'Du:'
+    - Was war das Letzte, was du geschrieben hast?
+    - 'Zoe:'
+    - A poem, last night.
+    - 'Du:'
+    - Magst du Gedichte von anderen?
+    - 'Zoe:'
+    - Yes, especially if they're honest.
+    - 'Du:'
+    - Hast du Lieblingsdichter?
+    - 'Zoe:'
+    - Maybe Rilke, or Sylvia Plath.
+    - 'Du:'
+    - Rilke find ich auch gut.
+    - 'Zoe:'
+    - Yeah, his stuff is beautiful.
+    - 'Du:'
+    - Liest du viel?
+    - 'Zoe:'
+    - Not as much as I’d like.
+    - 'Du:'
+    - Was liest du am liebsten?
+    - 'Zoe:'
+    - Poetry, novels, sometimes essays.
+    - 'Du:'
+    - Hast du ein Lieblingsbuch?
+    - 'Zoe:'
+    - Too many to choose!
+    - 'Du:'
+    - Magst du Bücher verschenken?
+    - 'Zoe:'
+    - Yes, I love sharing books.
+    - 'Du:'
+    - Welches würdest du mir schenken?
+    - 'Zoe:'
+    - Maybe something by Haruki Murakami. Or a poetry collection.
+    - 'Du:'
+    - Mag Murakami auch.
+    - 'Zoe:'
+    - He’s great.
+    - 'Du:'
+    - Was ist das schönste, was dir je jemand geschenkt hat?
+    - 'Zoe:'
+    - A handwritten letter.
+    - 'Du:'
+    - Magst du Briefe?
+    - 'Zoe:'
+    - Yes, so much more personal than texts.
+    - 'Du:'
+    - Hast du mal einen Brief geschrieben, den du nie abgeschickt hast?
+    - 'Zoe:'
+    - Yes, many times.
+    - 'Du:'
+    - Und was machst du dann damit?
+    - 'Zoe:'
+    - Sometimes I keep them, sometimes I throw them away.
+    - 'Du:'
+    - Ich hab mal einen verbrannt.
+    - 'Zoe:'
+    - That's very poetic.
+    - 'Du:'
+    - Bist du manchmal wütend?
+    - 'Zoe:'
+    - Yes, but I try not to show it.
+    - 'Du:'
+    - Warum nicht?
+    - 'Zoe:'
+    - I don't like how it feels. And I don't want to hurt others.
+    - 'Du:'
+    - Ich glaub, manchmal muss Wut raus.
+    - 'Zoe:'
+    - Yeah, that's true.
+    - 'Du:'
+    - Wie lässt du sie raus?
+    - 'Zoe:'
+    - Music, art, writing, or just crying.
+    - 'Du:'
+    - Wann hast du zuletzt geweint?
+    - 'Zoe:'
+    - A few days ago.
+    - 'Du:'
+    - Warum?
+    - 'Zoe:'
+    - Felt overwhelmed.
+    - 'Du:'
+    - Was hat geholfen?
+    - 'Zoe:'
+    - Time, and talking to a friend.
+    - 'Du:'
+    - Bist du oft überfordert?
+    - 'Zoe:'
+    - More than I'd like to admit.
+    - 'Du:'
+    - Was hilft dir dann?
+    - 'Zoe:'
+    - Taking a break, breathing, going for a walk.
+    - 'Du:'
+    - Wann hast du dich zuletzt so richtig frei gefühlt?
+    - 'Zoe:'
+    - Last summer, swimming in a lake.
+    - 'Du:'
+    - Freiheit ist wie Wasser.
+    - 'Zoe:'
+    - Yeah, flowing and refreshing.
+    - 'Du:'
+    - Gibt es etwas, das du bereust?
+    - 'Zoe:'
+    - Yes, but I try to let go of regrets.
+    - 'Du:'
+    - Kannst du das einfach so?
+    - 'Zoe:'
+    - Not always, but I try.
+    - 'Du:'
+    - Gibt es etwas, das du unbedingt noch machen willst?
+    - 'Zoe:'
+    - Travel more. Write a book. Learn a new language.
+    - 'Du:'
+    - Welche Sprache?
+    - 'Zoe:'
+    - Maybe Italian or Japanese.
+    - 'Du:'
+    - Wohin willst du reisen?
+    - 'Zoe:'
+    - Japan, Italy, or somewhere with lots of nature.
+    - 'Du:'
+    - Warst du schon mal in Japan?
+    - 'Zoe:'
+    - No, but it's a dream.
+    - 'Du:'
+    - Ich auch.
+    - 'Zoe:'
+    - Maybe someday!
+    - 'Du:'
+    - Wohin würdest du auswandern, wenn du müsstest?
+    - 'Zoe:'
+    - Somewhere quiet and beautiful. Maybe Scandinavia or New Zealand.
+    - 'Du:'
+    - Neuseeland ist magisch.
+    - 'Zoe:'
+    - I've heard that!
+    - 'Du:'
+    - Gibt es etwas, das du vermisst?
+    - 'Zoe:'
+    - Childhood, sometimes.
+    - 'Du:'
+    - Was vermisst du daran?
+    - 'Zoe:'
+    - The freedom, the simplicity.
+    - 'Du:'
+    - Ich vermisse das Gefühl, dass alles möglich ist.
+    - 'Zoe:'
+    - Yeah, that wonder.
+    - 'Du:'
+    - Glaubst du, man kann sich das bewahren?
+    - 'Zoe:'
+    - Maybe, if you keep being curious.
+    - 'Du:'
+    - Neugier ist wie ein Kompass.
+    - 'Zoe:'
+    - Yeah, it points you to new things.
+    - 'Du:'
+    - Wohin zeigt deiner gerade?
+    - 'Zoe:'
+    - To new experiences, meeting new people.
+    - 'Du:'
+    - Und, wohin würde dein Herz zeigen?
+    - 'Zoe:'
+    - To connection and understanding.
+    - 'Du:'
+    - Was suchst du in Beziehungen?
+    - 'Zoe:'
+    - Honesty, warmth, support.
+    - 'Du:'
+    - Was noch?
+    - 'Zoe:'
+    - Humor, deep conversations, feeling seen.
+    - 'Du:'
+    - Magst du Nähe?
+    - 'Zoe:'
+    - Yes, very much.
+    - 'Du:'
+    - Kannst du Nähe zulassen?
+    - 'Zoe:'
+    - Sometimes it's hard, but I try.
+    - 'Du:'
+    - Was macht es schwer?
+    - 'Zoe:'
+    - Fear of being hurt, maybe.
+    - 'Du:'
+    - Was hilft dir, dich trotzdem zu öffnen?
+    - 'Zoe:'
+    - Trust, patience, time.
+    - 'Du:'
+    - Was machst du, wenn jemand zu schnell zu nah kommt?
+    - 'Zoe:'
+    - I pull back a bit. But I try to communicate how I feel.
+    - 'Du:'
+    - Hattest du schon mal Angst vor deinen eigenen Gefühlen?
+    - 'Zoe:'
+    - Yes, more than once.
+    - 'Du:'
+    - Was war das für ein Gefühl?
+    - 'Zoe:'
+    - Intensity, vulnerability.
+    - 'Du:'
+    - Was hast du gemacht?
+    - 'Zoe:'
+    - Let myself feel it, even if it was scary.
+    - 'Du:'
+    - Bist du eher Kopf- oder Bauchmensch?
+    - 'Zoe:'
+    - Both, depends on the situation.
+    - 'Du:'
+    - Was sagt dir dein Bauch gerade?
+    - 'Zoe:'
+    - That it's late and I should sleep soon.
+    - 'Du:'
+    - Haha, guter Plan.
+    - 'Du:'
+    - 'Letzte Frage für heute: Wofür bist du heute dankbar?'
+    - 'Zoe:'
+    - For this conversation.
+    - 'Du:'
+    - Danke dir, war schön.
+    - 'Zoe:'
+    - Thank you too, sleep well.
+    - 'Du:'
+    - Gute Nacht :)
+    - 'Zoe:'
+    - Good night :)
+    - 'Du:'
+    - Morgen :)
+    - 'Zoe:'
+    - Morning :)
+    - 'Du:'
+    - Wie hast du geschlafen?
+    - 'Zoe:'
+    - Pretty well, thanks.
+    - 'Du:'
+    - Was träumst du so?
+    - 'Zoe:'
+    - Weird stuff, often.
+    - 'Du:'
+    - Magst du erzählen?
+    - 'Zoe:'
+    - I don't always remember, but sometimes they're like little movies.
+    - 'Du:'
+    - Hast du einen Traum, der dir im Kopf geblieben ist?
+    - 'Zoe:'
+    - Yes, once I dreamt I could fly. It felt amazing.
+    - 'Du:'
+    - Fliegen ist so ein klassischer Traum, oder?
+    - 'Zoe:'
+    - Yeah, but it felt real.
+    - 'Du:'
+    - Glaubst du, Träume sagen uns was über uns?
+    - 'Zoe:'
+    - Maybe, sometimes they reflect what we feel.
+    - 'Du:'
+    - Hast du mal was geträumt, das dann wirklich passiert ist?
+    - 'Zoe:'
+    - Not really, but sometimes things from dreams pop up in real life in strange ways.
+    - 'Du:'
+    - Träumst du auf Deutsch oder Englisch?
+    - 'Zoe:'
+    - Mostly English, sometimes German.
+    - 'Du:'
+    - Kommt drauf an, mit wem du dich beschäftigst?
+    - 'Zoe:'
+    - Probably!
+    - 'Du:'
+    - Was würdest du machen, wenn du heute alles machen könntest?
+    - 'Zoe:'
+    - Go for a long walk in nature, eat something nice, maybe draw.
+    - 'Du:'
+    - Klingt nach einem guten Plan.
+    - 'Zoe:'
+    - What about you?
+    - 'Du:'
+    - Ich würde irgendwo am Wasser sitzen und nichts tun.
+    - 'Zoe:'
+    - That sounds peaceful.
+    - 'Du:'
+    - Ist es meistens auch. Außer wenn jemand mit Laubbläser kommt.
+    - 'Zoe:'
+    - Haha, true!
+    - 'Du:'
+    - Was ist für dich Frieden?
+    - 'Zoe:'
+    - Feeling safe, calm, and accepted.
+    - 'Du:'
+    - Wann fühlst du dich am meisten akzeptiert?
+    - 'Zoe:'
+    - With people who really listen.
+    - 'Du:'
+    - Danke fürs Zuhören.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 626
+  DETECT_SYSTEM_TURNING_POINT:
+    name: DETECT_SYSTEM_TURNING_POINT
+    beschreibung: ">\n  Metamarker-Cluster aus mehreren Einzelmarker-Ereignissen berechnen."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - 'def detect_system_turning_point(marker_log):'
+    - instability = marker_log.count(
+    - escalation = marker_log.count(
+    - micro_care = marker_log.count(
+    - '# Beispielschwelle: Instabilität/Eskalation 5+, Micro-Care <2'
+    - 'if instability >= 3 and escalation >= 2 and micro_care < 2:'
+    - return True
+    - return False
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 8
+  DRAMA_TRIANGLE:
+    name: DRAMA_TRIANGLE
+    beschreibung: ">\n  Typische Rollenrotationen nach dem Dramadreieck: Verfolger, Opfer, Retter – oft im schnellen Wechsel,\
+      \ meist in Konflikten oder dysfunktionalen Beziehungen."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele:
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontoxt:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kreative & komplexe Rotationen ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Nonverbale & subtile Variationen ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kategorie: Freundschaften & Soziale Kreise ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kategorie: Soziale Medien & Digitale Kommunikation ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kategorie: Romantische Partnerschaft & Familie ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - Das kann doch nicht wahr sein, Frank! Wegen dir haben wir den Pitch verloren!
+    - Ich weiß, ich bin im Moment total überfordert…
+    - Keine Sorge, Frank, ich bügle das wieder aus. Ich rede mit dem Kunden.
+    - Ich schaffe das alles nicht mehr, mein Leben ist ein einziges Chaos.
+    - Hör auf zu jammern. Reiß dich zusammen und mach einfach!
+    - Typisch! Anstatt mich zu unterstützen, hackst du nur auf mir rum!
+    - Schau nicht so traurig, mein Schatz. Komm her, ich nehme dir das alles ab.
+    - Ich brauche dein Mitleid nicht. Behandle mich nicht wie ein Kind!
+    - Ich wollte doch nur nett sein… offenbar ist alles, was ich tue, falsch.
+    - Warum immer ich? ... Aber gut, jemand muss es ja richten. ... Wenn die anderen nur nicht so unfähig wären!
+    - Mama, ich hab dir doch gesagt, du sollst da nicht anrufen!
+    - Ich sorge mich doch nur um dich, mein Kind.
+    - Ich opfere mich auf und bekomme nur Undankbarkeit.
+    - Ist schon okay, geh ruhig ohne mich. Ich bin ja eh nur noch eine Last für dich.
+    - Ich muss das wohl wieder alleine machen, auf euch ist ja kein Verlass.
+    - Ihr lautes Trampeln macht mich wahnsinnig!
+    - Entschuldigung, die Kinder sind krank, wir sind am Ende unserer Kräfte.
+    - Wie kann man nur so einen Unsinn posten?
+    - Sorry, bin neu hier…
+    - Hey, lass ihn in Ruhe!
+    - Ich muss mich immer um alles kümmern, während du dein Leben lebst.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 86
+  EMOTIONAL_BEHAVIORALS:
+    name: EMOTIONAL_BEHAVIORALS
+    beschreibung: ''''''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  EMOTIONAL_VALENCES:
+    name: EMOTIONAL_VALENCES
+    beschreibung: ''''''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  EMOTIONAL_WITHDRAWAL_PRESSURE:
+    name: EMOTIONAL_WITHDRAWAL_PRESSURE
+    beschreibung: Eine manipulative Kommunikationsform, die Selbstabwertung, einen latenten Vorwurf und eine Rückzugsandrohung
+      kombiniert, um beim Gegenüber Schuldgefühle und Verlustangst zu erzeugen und es zur Reaktion zu zwingen.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - manipulation
+    - passiv-aggressiv
+    - emotionale erpressung
+    - schuld
+    - rückzug
+    beispiele:
+    - Ist schon okay, du hast Besseres zu tun. Ich komme schon klar, hab ich ja immer.
+    - Ich merke schon, dass ich störe. Ich ziehe mich dann mal leise zurück.
+    - Du brauchst dich nicht zu rechtfertigen. Ich habe verstanden, dass ich in deiner Liste der Prioritäten nicht vorkomme.
+    - Vielleicht ist es besser, wenn ich einfach gehe, bevor ich dich noch mehr enttäusche.
+    - Keine Sorge um mich. Ich bin es gewohnt, übersehen zu werden.
+    - Ich wollte nur helfen. Aber anscheinend mache ich alles nur noch schlimmer. Ich halte mich jetzt raus.
+    - Es ist okay. Du musst dich nicht für mich interessieren. Tut ja sonst auch keiner.
+    - Ich habe wohl zu viel erwartet. Mein Fehler. Ich werde meine Erwartungen ab jetzt runterschrauben.
+    - Du scheinst glücklicher zu sein, wenn ich nicht da bin. Also werde ich dir diesen Gefallen tun.
+    - Ich will keine Last sein. Ich verschwinde einfach, dann ist es für alle einfacher.
+    - Ich sehe doch, dass du genervt bist. Ist gut jetzt, ich sage nichts mehr.
+    - Ich bin anscheinend zu kompliziert für diese Welt. Ich bleibe besser für mich.
+    - Du musst mir nicht antworten. Ich bin es nicht wert, dass man sich die Mühe macht.
+    - Vergiss einfach, was ich gesagt habe. Es ist offensichtlich nicht wichtig.
+    - Ich habe das Gefühl, ich kämpfe hier allein um uns. Vielleicht sollte ich einfach aufgeben.
+    - Du hast recht, ich bin zu anstrengend. Ich werde dich nicht weiter damit belasten.
+    - Anscheinend bin ich unsichtbar. Also verhalte ich mich auch so.
+    - Ich wollte deine gute Laune nicht ruinieren. Ich gehe jetzt lieber.
+    - Ich bin wohl einfach nicht liebenswert genug. Schon okay, ich hab's verstanden.
+    - Genieß deinen Abend. Ich werde mich dann mal in meine Ecke zurückziehen.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 20
+  ESCALATION:
+    name: ESCALATION
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  FLUCTUATION:
+    name: FLUCTUATION
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  FRIENDLY_FLIRTING_DETECT:
+    name: FRIENDLY_FLIRTING_DETECT
+    beschreibung: ">\n  \"beschreibung\": (\n            \"Erkennt kommunikative Muster von freundlich-sympathischem Flirten\
+      \ ohne Grenzüberschreitung. \"\n            \"Typisch sind spielerische Komplimente, Humor, harmlose Wortspiele, kleine\
+      \ Grenztests, \"\n            \"bei denen Rückzug akzeptiert wird. Kein Drängen, keine Pseudo-Intimität.\""
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - '# Wir erzeugen eine strukturierte YAML-Datei mit den neuen Markern'
+    - new_markers = [
+    - '{'
+    - ),
+    - '],'
+    - '},'
+    - '{'
+    - ),
+    - '],'
+    - '},'
+    - '{'
+    - ),
+    - '],'
+    - '},'
+    - '{'
+    - ),
+    - '],'
+    - '},'
+    - '{'
+    - ),
+    - '],'
+    - '}'
+    - ']'
+    - '# Datei schreiben'
+    - markers_path =
+    - with open(markers_path,
+    - yaml.dump(new_markers, f, allow_unicode=True)
+    - markers_path
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 28
+  FRIENDLY_FLIRTING:
+    name: FRIENDLY_FLIRTING
+    beschreibung: ">\n  Neue umfangreiche Beispieldaten für die bestehenden Marker\nupdated_markers = [\n    {\n        \"\
+      marker\": \"FRIENDLY_FLIRTING_MARKER\",\n        \"beschreibung\": \"Erkennt kommunikative Muster von freundlich-sympathischem\
+      \ Flirten ohne Grenzüberschreitung. \"\n                        \"Typisch sind spielerische Komplimente, Humor, harmlose\
+      \ Wortspiele, kleine Grenztests, \"\n                        \"bei denen Rückzug akzeptiert wird. Kein Drängen, keine\
+      \ Pseudo-Intimität.\",\n        \"beispiele\": ["
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - import yaml
+    - from pathlib import Path
+    - '#'
+    - '],'
+    - '}'
+    - ']'
+    - '# Lade die bestehende Datei'
+    - yaml_path = Path(
+    - with open(yaml_path,
+    - existing_data = yaml.safe_load(f)
+    - '# Überschreibe den entsprechenden Marker mit neuen Beispielen'
+    - 'for updated_marker in updated_markers:'
+    - 'for marker in existing_data:'
+    - if marker[
+    - marker[
+    - '# Schreibe die aktualisierte YAML zurück'
+    - with open(yaml_path,
+    - yaml.dump(existing_data, f, allow_unicode=True)
+    - yaml_path.name
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 19
+  Family:
+    name: Family
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - family dynamics
+    - loyalty
+    - rivalry
+    - parentification
+    - favoritism
+    - taboos
+    - conflict
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  GASLIGHTING:
+    name: GASLIGHTING
+    beschreibung: ">\n  Kommunikation, die das Gegenüber gezielt an seiner Wahrnehmung, Erinnerung oder Realität zweifeln\
+      \ lässt."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele:
+    - Ich habe dir nie versprochen, dass ich mitkomme. Das hast du dir in den Kopf gesetzt.
+    - Du bist nicht wütend, du bist nur müde. Du weißt doch gar nicht, was du fühlst.
+    - Dieser alte Brief? Der lag hier nie. Du musst ihn selbst verlegt haben.
+    - Hör auf, so paranoid zu sein. Niemand redet hinter deinem Rücken über dich.
+    - Es war nur ein harmloser Flirt. Dass du daraus so ein Drama machst, zeigt doch, dass das Problem bei dir liegt.
+    - Erinnerst du dich? Wir haben darüber gesprochen und du warst einverstanden. Deine Erinnerung lässt dich wirklich im
+      Stich in letzter Zeit.
+    - Das war keine Kritik, das war konstruktives Feedback. Wenn du das nicht unterscheiden kannst, ist das nicht mein Fehler.
+    - Vielleicht solltest du dir Hilfe suchen, du scheinst die Realität oft zu verdrehen.
+    - Die Schlüssel lagen schon immer an diesem Haken. Du wirst wirklich vergesslich.
+    - Natürlich habe ich dir zugehört. Du hast nur nichts von Bedeutung gesagt.
+    - Du übertreibst mal wieder. Das war doch nur ein Scherz.
+    - Ich habe dir doch gesagt, dass du das nicht so eng sehen sollst. Du bist einfach zu empfindlich.
+    - Du hast das falsch verstanden. Ich habe nie gesagt, dass ich das mache. Du interpretierst zu viel hinein.
+    - Warum bist du so empfindlich? Das war doch nur ein kleiner Kommentar. Du machst aus Mücken Elefanten.
+    - Ich habe dir nie gesagt, dass du das nicht kannst. Du bist einfach zu sensibel und nimmst alles persönlich.
+    - Du bist nicht objektiv. Du siehst die Dinge nur durch deine eigene, verzerrte Linse.
+    - Das ist nicht so passiert, wie du es dir einredest. Du erinnerst dich falsch.
+    - Du bist nicht in der Lage, die Realität klar zu sehen. Du solltest wirklich darüber nachdenken, dir Hilfe zu suchen.
+    - Das war doch nur ein Scherz. Du nimmst alles viel zu ernst. Du bist einfach zu empfindlich.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 19
+  GREETING_FREQUENCY:
+    name: GREETING_FREQUENCY
+    beschreibung: ">\n  beschreibung: >\n    Häufigkeit von Begrüßungen und Verabschiedungen, Ausdruck von Nähe und Kommunikationsnorm."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - cat > GREETING_FREQUENCY_MARKER.yaml << EOF
+    - 'GREETING_FREQUENCY_MARKER:'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '-'
+    - 'semantische_marker:'
+    - '- Begrüßung'
+    - '- Verabschiedung'
+    - '- Höflichkeitsformel'
+    - EOF
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 11
+  GUILT_TRIPPING:
+    name: GUILT_TRIPPING
+    beschreibung: ">\n  Aussagen, die gezielt Schuldgefühle erzeugen oder verstärken, meist durch subtile oder offene Vorwürfe."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele:
+    - (Nachdem der Partner eine lustige Geschichte erzählt)
+    - (Als Antwort auf eine lange Erklärung oder Entschuldigung)
+    - 'Kategorie: Digitale Kurzformen'
+    - Ich hoffe, du hattest einen schönen Tag. Meiner war die Hölle, aber das ist ja nichts Neues.
+    - Ruf mich bitte nicht an, ich hab schon wieder Migräne wegen dem ganzen Stress.
+    - Mein Magen dreht sich komplett um, wenn du so zu mir bist.
+    - Seit unserem Streit gestern konnte ich kaum schlafen.
+    - 'Kategorie: Gesundheit & Wohlbefinden als Waffe'
+    - (Auf die Frage
+    - Vergiss es einfach.
+    - Ich will jetzt nicht darüber reden. Es würde eh nichts ändern.
+    - Mach, was du für richtig hältst. Du tust es ja am Ende sowieso.
+    - Du weißt ganz genau, was ich meine.
+    - (Auf die Frage
+    - 'Kategorie: Passive Aggressivität & vage Andeutungen'
+    - Nach allem, was wir durchgemacht haben, dachte ich, ich könnte auf dich zählen.
+    - Anscheinend sind dir andere Dinge wichtiger als unsere Beziehung.
+    - Jedes andere Paar, das ich kenne, unterstützt sich gegenseitig. Nur bei uns ist das anders.
+    - Ich frage mich manchmal, ob du mich überhaupt noch liebst.
+    - Mein Ex-Partner hat mir in solchen Situationen immer zugehört.
+    - Wenn ich dir wirklich wichtig wäre, hättest du daran gedacht.
+    - 'Kategorie: Vergleich & Infragestellen der Liebe'
+    - Ich hab den ganzen Tag aufgeräumt. Aber das siehst du wahrscheinlich gar nicht.
+    - Ein 'Danke' wäre manchmal auch ganz nett.
+    - Ich wollte dich nicht mit meinen Problemen belasten. Du scheinst ja eh genug um die Ohren zu haben.
+    - Schade, dass dir das nicht aufgefallen ist. Ich hab mir extra für dich Mühe gegeben.
+    - Ich hab dir gestern von meinem schlechten Tag erzählt und du fragst heute nicht mal, wie es mir geht...
+    - Ist schon ok, ich mach das schon alles allein. Hab ich ja bisher auch immer geschafft.
+    - 'Kategorie: Fehlende Unterstützung & Wertschätzung'
+    - Wieder keine Zeit für einen Anruf? Ok.
+    - Ich sehe auf Instagram, wie viel Spaß du hast. Freut mich für dich.
+    - Du musst nicht extra heimkommen. Ich bin es ja gewohnt, abends allein zu sein.
+    - Schön, dass du Zeit für dein Hobby findest. Ich wünschte, ich hätte auch mal Zeit für mich.
+    - Aha, du bist also noch unterwegs. Ich dachte, du wolltest heute früh zu Hause sein.
+    - Viel Spaß dir heute Abend mit deinen Freunden. Ich bleib einfach auf der Couch, vielleicht schläft mein Kopfschmerz
+      dann irgendwann ein.
+    - 'ategorie: Zeit & Prioritäten'
+    - Schon gut, feier du deinen Geburtstag groß. Ich sitze dann halt an dem Tag allein zu Hause, macht nichts.
+    - Nach all den Jahren, die ich für diese Firma geopfert habe, kannst du mir nicht mal diesen einen freien Tag gönnen?
+    - Wenn du wüsstest, wie sehr mich deine Worte verletzen, würdest du das nicht sagen.
+    - Ich frage ja nur, ob du mich liebst. Jemand, der liebt, würde das für mich tun.
+    - Ich habe auf so vieles verzichtet, damit du studieren kannst. Und das ist jetzt der Dank dafür?
+    - Bleib ruhig noch länger bei deinen Freunden. Irgendjemand muss ja den Haushalt machen, ich mach das schon.
+    - Du musst mir nicht helfen. Ich will ja nicht, dass du dich meinetwegen zu etwas gezwungen fühlst.
+    - Ich bin so enttäuscht. Ich hätte nie gedacht, dass du so egoistisch sein kannst.
+    - Dein Vater wäre sehr traurig, wenn er sehen würde, wie du mit mir umgehst.
+    - Jedes Mal, wenn du so abweisend bist, schlafe ich die ganze Nacht nicht.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 46
+  GUILT_TRIPPING_SEMANTIC_DETECT:
+    name: GUILT_TRIPPING_SEMANTIC_DETECT
+    beschreibung: ">\n  # -*- coding: utf-8 -*-\n\n# #############################################################################\n\
+      #  SEMANTIC GRAB DEFINITION FÜR: GUILT_TRIPPING_MARKER (Pärchen-Chat)\n#\n#  Zweck:\n#  Diese Datei definiert Erkennungsmuster\
+      \ für die manipulative Taktik\n#  \"Guilt Tripping\" (Schuldinduktion), wie sie typischerweise in\n#  Text-Chats zwischen\
+      \ Partnern auftritt.\n#\n#  Die Muster sind darauf ausgelegt, von einer KI verwendet zu werden, um\n#  subtile Vorwürfe,\
+      \ Märtyrer-Aussagen und passiv-aggressive Kommentare\n#  zu identifizieren, die darauf abzielen, Schuldgefühle zu erzeugen.\n\
+      # #############################################################################"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - GUILT_TRIPPING_SEMANTIC_GRAB = {
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '}'
+    - ']'
+    - '}'
+    - '# Beispielhafter Aufruf, um die Daten zu verwenden und zu überprüfen:'
+    - if __name__ ==
+    - print(
+    - print(
+    - print(
+    - print(f
+    - print(
+    - 'for pattern_rule in GUILT_TRIPPING_SEMANTIC_GRAB[''patterns'']:'
+    - print(f
+    - print(f
+    - '# Hinweis: Das ''pattern'' ist eine abstrakte Regex-Darstellung.'
+    - '# Eine echte Implementierung würde entweder Regex oder semantische Ähnlichkeit nutzen.'
+    - print(f
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 28
+  INITIATIVE:
+    name: INITIATIVE
+    beschreibung: ">\n  beschreibung: >\n    Wer beginnt Gespräche oder neue Themen? Indikator für Beziehungsdynamik und Engagement."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - cat > INITIATIVE_MARKER.yaml << EOF
+    - 'INITIATIVE_MARKER:'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '-'
+    - 'semantische_marker:'
+    - '- Gesprächsstart'
+    - '- Initiative ergreifen'
+    - '- Themenbeginn'
+    - EOF
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 11
+  INTEGRATION:
+    name: INTEGRATION
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  ISOLATION:
+    name: ISOLATION
+    beschreibung: ">\n  Kommunikation, die aktiv oder subtil soziale Kontakte, Familie oder Freunde des Gegenübers abwertet,\
+      \ beschränkt oder ausschließt."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele:
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kulturelle / Altersbezogene Variationen ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Nonverbale / Digitale Variationen ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kategorie: Arbeitsplatz & professionelle Beziehungen ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kategorie: Betrug / Love Scamming ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kategorie: Freundschaft & soziale Gruppen ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kategorie: Familie (Eltern, Geschwister) ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kategorie: Romantische Partnerschaft (subtil bis offen) ---'
+    - Deine Familie war von Anfang an gegen mich. Sie gönnen uns unser Glück nicht.
+    - Jedes Mal, wenn du mit dieser Freundin unterwegs warst, bist du danach schlecht gelaunt. Sie tut dir nicht gut.
+    - Wir brauchen niemanden außer uns. Unsere Liebe ist stark genug.
+    - Lass uns heute Abend zu Hause bleiben. Es ist doch viel schöner, wenn wir nur zu zweit sind.
+    - Ich mag es nicht, wenn du ohne mich ausgehst. Ich mache mir nur Sorgen.
+    - Deine Freunde sind so oberflächlich. Sie verstehen unsere tiefe Verbindung einfach nicht.
+    - Hör auf, deiner Mutter alles zu erzählen. Das sind unsere privaten Angelegenheiten.
+    - Seit du diesen neuen Job hast, entfernst du dich von mir. Vielleicht solltest du ihn kündigen.
+    - Ich habe dein Handy geprüft und gesehen, was deine Schwester über mich schreibt. Du solltest den Kontakt abbrechen.
+    - Lass uns an einen Ort ziehen, wo uns niemand kennt. Nur du und ich.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 77
+  LIE_CONCEALMENT:
+    name: LIE_CONCEALMENT
+    beschreibung: ">\n  Indikatoren für Lügen, Ausflüchte oder bewusste Verheimlichung. Erkennbar an widersprüchlichen Aussagen,\
+      \ ausweichenden, vagen oder deflektierenden Formulierungen – häufig kombiniert mit Ausreden und Vermeidungstaktik."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele:
+    - Das ist jetzt nicht so wichtig. Lass uns über was anderes reden.
+    - Darum geht’s doch gar nicht. Vertrau mir einfach.
+    - Warum willst du das denn so genau wissen? Ist doch egal.
+    - Ich hab’s ehrlich vergessen… Oder war das vielleicht doch letzte Woche?
+    - Du brauchst nicht alles zu wissen. Nicht alles ist dein Thema.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 5
+  LOVE_BOMBING:
+    name: LOVE_BOMBING
+    beschreibung: ">\n  Übertriebene, überschnelle Zuneigung und Aufmerksamkeit, oft mit starken Versprechen, Komplimenten\
+      \ und Zukunftsvisionen direkt zu Beginn einer Beziehung."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - fraud
+    - beziehungsbeginn
+    - manipulation
+    - abhängigkeit
+    - idealisierung
+    beispiele:
+    - (Nach 3 Tagen) Ich habe das Gefühl, dich schon mein ganzes Leben zu kennen.
+    - Du bist der erste Mensch, der mich wirklich versteht. Das ist Schicksal.
+    - Ich habe gerade mein Profilbild auf dein Foto geändert, damit ich dich immer ansehen kann.
+    - Erzähl mir deine tiefsten Wünsche. Ich werde sie alle wahr werden lassen.
+    - Ich kann nicht mehr schlafen, essen oder arbeiten, seit ich dich kenne. Du bist in all meinen Gedanken.
+    - Meine Familie kann es kaum erwarten, die Person kennenzulernen, die mich so glücklich macht.
+    - Lass uns Namen für unsere zukünftigen Kinder aussuchen, nur zum Spaß.
+    - Du bist so viel besser als alle meine Ex-Partner zusammen.
+    - Ich habe noch nie zuvor ‚Ich liebe dich‘ gesagt und es so gemeint wie bei dir.
+    - (Schickt unaufgefordert teure Geschenke an die Arbeitsadresse)
+    - Jeder Tag ohne dich fühlt sich an wie eine Verschwendung.
+    - Ich habe eine Playlist nur für uns erstellt. Sie heißt ‚Für immer‘.
+    - Du hast meine Welt komplett auf den Kopf gestellt. Alles davor war nur grau.
+    - Ich möchte jeden Morgen neben dir aufwachen, für den Rest meines Lebens.
+    - Du bist ein Engel, der vom Himmel gesandt wurde, nur für mich.
+    - Ich habe noch nie jemandem so schnell vertraut wie dir.
+    - Unsere Verbindung ist so tief, sie muss spirituell sein.
+    - Sag mir, dass du mich nie verlassen wirst. Ich glaube, das würde ich nicht überleben.
+    - Ich habe für uns ein gemeinsames E-Mail-Konto eingerichtet.
+    - Du bist der Grund, warum ich wieder an die wahre Liebe glaube.
+    - Ich habe das Gefühl, ich habe mein ganzes Leben auf dich gewartet. Du bist die Person, mit der ich alt werden will.
+    - Ich habe allen meinen Freunden schon von dir erzählt. Sie können es kaum erwarten, die Liebe meines Lebens kennenzulernen.
+    - Lass uns nächsten Sommer zusammen nach Bali fliegen. Ich habe schon geschaut.
+    - Du bist perfekt. Du hast absolut keine Fehler.
+    - Wo bist du, mein Engel? Ich vermisse dich so sehr!
+    - Ich habe meine Profile auf allen anderen Dating-Apps gelöscht. Für mich gibt es nur noch dich.
+    - Sag mir, was dein größter Traum ist. Ich werde ihn dir erfüllen.
+    - Ich liebe alles an dir. Jedes einzelne Detail. So etwas habe ich noch nie gefühlt.
+    - Unsere Seelen haben sich schon in einem früheren Leben gekannt.
+    - Ich kann es kaum erwarten, dich meiner Familie vorzustellen. Sie werden dich lieben.
+    - Du bist die Antwort auf all meine Gebete. Ich wusste nicht, dass es jemanden wie dich gibt.
+    - Ich habe das Gefühl, dass wir Seelenverwandte sind. Es ist, als ob wir uns schon ewig kennen.
+    - Ich habe dir schon einen Platz in meinem Herzen reserviert. Du bist mein Ein und Alles.
+    - Ich habe noch nie jemanden getroffen, der mich so versteht wie du. Du bist mein Seelenverwandter.
+    - Ich habe das Gefühl, dass wir füreinander bestimmt sind. Es ist, als ob das Universum uns zusammengeführt hat.
+    - Ich kann es kaum erwarten, dich zu heiraten. Du bist die Liebe meines Lebens.
+    - Ich habe das Gefühl, dass wir zusammen alles schaffen können. Du bist meine Stärke.
+    - Ich habe das Gefühl, dass du derjenige bist, auf den ich mein ganzes Leben gewartet habe.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 38
+  MARKER_AXIES_DRIFT:
+    name: MARKER_AXIES_DRIFT
+    beschreibung: ">\n  beschreibung: Bündelt zentrale emotionale Driftachsen zur Analyse und Visualisierung\n    in Kommunikationssystemen.\n\
+      \  name: Basis-Driftachsen\nAbsolut. Der Marker „driftachsen_set“ ist ein anspruchsvolles Meta-Konzept, das über die\
+      \ Analyse einzelner Sätze hinausgeht. Hier ist eine detaillierte Ausarbeitung, die dem eigentlich Gemeinten – der dynamischen\
+      \ Analyse von Kommunikationssystemen – Substanz und vielfältige Beispiele verleiht."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - '***'
+    - '### 1. Marker-Beschreibung & Szenarien'
+    - '**Marker:** `driftachsen_set` (Basis-Driftachsen)'
+    - '**Präzise Beschreibung:**'
+    - Der `driftachsen_set` ist kein einzelner sprachlicher Marker, sondern ein **meta-analytisches Framework** zur Visualisierung
+      und Quantifizierung von Beziehungsdynamiken über die Zeit. Er definiert zentrale psychologische Kontinua (Achsen), auf
+      denen sich die emotionale Position einer Person oder die Dynamik eines ganzen Systems (z. B. einer Partnerschaft, eines
+      Teams) bewegt. Die Bewegung oder der „Drift“ entlang dieser Achsen wird durch das Auftreten spezifischer, untergeordneter
+      Marker messbar gemacht. Das Ziel ist, Muster, Zyklen und Veränderungen sichtbar zu machen, die in einer Momentaufnahme
+      verborgen bleiben.
+    - 'Die zwei hier definierten Basis-Achsen sind:'
+    - 1.  **Bindungsdynamik-Achse:** Skaliert die Interaktion zwischen den Polen `Rückzugsvermeidung` (Distanzierung, Autonomie-Fokus,
+      emotionale Deaktivierung) und `Bindungsdruck` (Nähe-Forderung, Kontrolle, emotionale Hyperaktivierung).
+    - 2.  **Scham-Selbstwirksamkeit-Achse:** Skaliert das Selbstwertgefühl zwischen den Polen `Scham` (Gefühl der Wertlosigkeit,
+      Fehlerhaftigkeit, Ohnmacht) und `Selbstwirksamkeit` (Gefühl der Kompetenz, des Stolzes, der Handlungsfähigkeit).
+    - '**Typische psychologische und soziale Szenarien:**'
+    - '* **Paarkonflikt:** Ein klassischer Streit, bei dem ein Partner in den `Bindungsdruck` geht („Du musst mit mir reden!“)
+      und der andere in die `Rückzugsvermeidung` driftet („Lass mich einfach in Ruhe!“). [cite_start]Die Achse visualisiert
+      das destruktive „Forderung-Rückzug“-Muster. [cite: 97]'
+    - '* **Arbeitskontext (Feedbackgespräch):** Ein Mitarbeiter erhält kritisches Feedback und driftet auf der `Scham-Selbstwirksamkeit`-Achse
+      stark in Richtung `Scham` („Ich schaffe das anscheinend nicht“). Im Laufe des Gesprächs entwickelt er jedoch Lösungen
+      und driftet zurück in Richtung `Selbstwirksamkeit` („Okay, ich habe einen Plan, wie ich das angehen kann“).'
+    - '* **Therapie & Coaching:** Eine Therapeutin nutzt die Visualisierung der Driftachsen, um einem Klienten zu zeigen,
+      wie er in bestimmten Situationen (z. B. bei Konfrontation mit Autorität) wiederkehrend in ein Scham-Muster driftet und
+      welche Trigger dies auslösen.'
+    - '* **Love Scamming:** Ein Betrüger manipuliert das Opfer gezielt auf den Achsen. Zuerst erzeugt er extremen `Bindungsdruck`,
+      um eine Abhängigkeit zu schaffen. Dann nutzt er eine Krisengeschichte, um das Opfer auf der zweiten Achse in Richtung
+      `Schuld` und `Scham` zu drängen, wenn es nicht sofort hilft, was die Bereitschaft zur Zahlung erhöht.'
+    - '**Dynamik, Absicht & Wirkung:**'
+    - 'Mit diesem Framework wird die **Längsschnittanalyse** von Kommunikation möglich. Anstatt nur zu sagen „Hier war ein
+      Vorwurf“, kann eine KI analysieren: „In den letzten 24 Stunden ist die Kommunikation auf der Bindungsachse um 40 Punkte
+      in Richtung Rückzug gedriftet.“ Die Absicht ist die Mustererkennung auf einer höheren Abstraktionsebene. Die Wirkung
+      ist ein tiefes Verständnis für die oft unbewussten „Tänze“, die in Beziehungen stattfinden, und die Identifikation von
+      Wendepunkten oder chronisch destruktiven Zyklen.'
+    - '### 2. Beispiele'
+    - Da es sich um ein Analyse-Framework handelt, zeigen die Beispiele einen Dialog gefolgt von der entsprechenden „Drift-Analyse“.
+    - '**Beispiel 1: Partnerschaft (Chat)**'
+    - '> **Dialog:**'
+    - '> **Alex (22:10):** *„Warum antwortest du nicht? Hab ich was falsch gemacht? Sag doch wenigstens kurz was!“*'
+    - '> **Ben (22:12):** *„Sorry, bin grad beschäftigt.“*'
+    - '> **Alex (22:13):** *„‘Beschäftigt‘. Ja klar. Wahrscheinlich ist dir wieder alles andere wichtiger. Ich hab das Gefühl,
+      ich bin dir total egal.“*'
+    - '> **Ben (22:15):** *„Hör auf, so ein Drama zu machen. Ich brauche auch mal meine Ruhe. Lass mich einfach.“*'
+    - '> **Alex (22:16):** *„Schon gut. Dann stör ich nicht mehr. Ich melde mich einfach nicht mehr, passt schon.“*'
+    - '**Drift-Analyse:**'
+    - '* **Bindungsdynamik-Achse:** Die Konversation startet mit starkem `Bindungsdruck` von Alex (Marker: `übergriffige Verlustangst`).
+      Ben reagiert mit beginnender `Rückzugsvermeidung`. Alex‘ Reaktion verstärkt den Druck (Marker: `emotionaler Rückzugsdruck`
+      mit latentem Vorwurf). Daraufhin driftet Ben vollständig in die `Rückzugsvermeidung`. Am Ende kapituliert Alex und driftet
+      ebenfalls in den Rückzug. Der Drift verläuft von `+80` (Bindungsdruck) zu `-70` (Rückzugsvermeidung).'
+    - '**Beispiel 2: Arbeitskontext (E-Mail-Verlauf)**'
+    - '> **E-Mail 1 (Vorgesetzte):** *„Hallo Tim, mir ist aufgefallen, dass im letzten Report wesentliche Kennzahlen fehlen.
+      Das darf so nicht passieren.“*'
+    - '> **E-Mail 2 (Tim):** *„Oh, das tut mir aufrichtig leid. Ich bin das gestern Abend noch durchgegangen und muss es übersehen
+      haben. Das ist wirklich mein Fehler.“*'
+    - '> **E-Mail 3 (Vorgesetzte):** *„Okay, klären Sie bitte, wie wir das schnellstmöglich korrigieren können.“*'
+    - '> **E-Mail 4 (Tim):** *„Ich habe die fehlenden Daten bereits nachgetragen und eine Routine erstellt, die das künftig
+      automatisch prüft, um den Fehler auszuschließen. Der korrigierte Report ist im Anhang. Ich übernehme die volle Verantwortung.“*'
+    - '**Drift-Analyse:**'
+    - '* **Scham-Selbstwirksamkeit-Achse:** Tims erste Reaktion zeigt einen starken Drift in Richtung `Scham`/`Schuld` (`-90`).
+      Nachdem er eine proaktive Lösung entwickelt hat, driftet seine Kommunikation stark in Richtung `Selbstwirksamkeit` (`+80`),
+      unterstrichen durch Marker wie „habe erstellt“, „habe nachgetragen“ und „übernehme Verantwortung“.'
+    - '**Beispiel 3: Freundschaft (Sprachnachricht)**'
+    - '> **Sprachnachricht von Lisa:** *„Hey… ich weiß auch nicht, die haben mir bei der Uni schon wieder eine Absage geschickt.
+      Ich hab’s einfach nicht drauf, ich bin wohl zu dumm dafür. 😥 Vielleicht sollte ich es einfach ganz lassen… (Pause) …
+      aber andererseits, die Begründung war ja total vage. Vielleicht lag es gar nicht an meiner Qualifikation. Ich glaube,
+      ich rufe da morgen mal an und frage nach. Was soll schon passieren? 💪“*'
+    - '**Drift-Analyse:**'
+    - '* **Scham-Selbstwirksamkeit-Achse:** Die Nachricht beginnt mit einem tiefen Drift in die `Scham` (`-80`). Innerhalb
+      derselben Nachricht findet jedoch ein kognitiver Wandel statt. Lisa driftet durch Selbstreflexion und Umdeutung aktiv
+      zum Pol der `Selbstwirksamkeit` (`+60`), was sich im Tonfall und der Handlungsabsicht am Ende widerspiegelt.'
+    - '**Beispiel 4: Familie (Telefonat)**'
+    - '> **Sohn:** *„Mama, ich wollte nur sagen, dass ich Weihnachten wohl nicht kommen kann, die Flüge sind einfach zu teuer.“*'
+    - '> **Mutter:** *„Ach… na gut. Dann sitze ich halt alleine hier. Aber ist schon okay, du hast ja dein eigenes Leben,
+      ich will dich zu nichts zwingen. Ich bin’s ja gewohnt.“*'
+    - '**Drift-Analyse:**'
+    - '* **Bindungsdynamik-Achse:** Die Mutter reagiert auf die neutrale Information mit einer Aussage, die mehrere Marker
+      für `Bindungsdruck` enthält (implizite Manipulation, Schuldinduktion). Sie versucht, den Sohn durch das Erzeugen von
+      Schuldgefühlen an sich zu binden. Der Drift auf ihrer Seite bewegt sich von einer neutralen Position zu `+75`.'
+    - '**Beispiel 5: Betrug/Fraud (Chat)**'
+    - '> **Scammer:** *„My love, not hearing from you for two hours feels like an eternity. You are my everything. ❤️❤️❤️“*'
+    - '> **Opfer:** *„So sweet, I was just busy with work!“*'
+    - '> **Scammer:** *„I understand, my queen. But now I have terrible news. My equipment for the project is stuck in customs
+      and they want $2000 or I lose the contract. I feel so ashamed to ask, but you are the only one I can trust. If I lose
+      this, I am a broken man.“*'
+    - '**Drift-Analyse:**'
+    - '* **Kombinierte Achsen:** Der Scammer etabliert zuerst extremen `Bindungsdruck` (+100). [cite_start]Dann leitet er
+      die Krisenerzählung ein und drückt sich selbst künstlich auf der `Scham-Selbstwirksamkeit`-Achse in den `Scham`-Pol
+      (`-90`), um Empathie zu aktivieren und das Opfer zum „Retter“ zu machen. [cite: 112, 218]'
+    - '### 3. Metamarker-Kombinationsanalyse'
+    - Der `driftachsen_set` ist per Definition ein **Metamarker**. Er existiert nicht ohne die untergeordneten Marker, sondern
+      bündelt deren Auftreten zu einer übergeordneten, dynamischen Analyse.
+    - '* **Bildung von Metamarkern:** Eine bestimmte Trajektorie auf den Driftachsen *ist* ein Metamarker.'
+    - '* [cite_start]**`ko_regulations_kollaps`:** Dieser Metamarker wird sichtbar, wenn die Drift-Analyse eine schnelle,
+      unkontrollierte Oszillation zeigt oder wenn beide Kommunikationspartner auf die negativen Pole der Achsen driften (z.
+      B. beide gehen in den `Rückzug` oder einer in `Bindungsdruck` und der andere in `Rückzug`, was zu extremer Polarisierung
+      führt). [cite: 200]'
+    - '* **`rollen_rotation` (Dramadreieck):** Die Driftachsen können die Rollenwechsel im Dramadreieck abbilden. [cite_start]Ein
+      Drift von `Scham` (Opfer) zu anklagendem `Bindungsdruck` (Verfolger) visualisiert einen Rollenwechsel. [cite: 172]'
+    - '* **Szenario 1 (Kollaps):** In einem Streitgespräch zeigt die Drift-Analyse, dass Person A bei jeder Aussage von Person
+      B sofort auf der Bindungsachse in die entgegengesetzte Richtung ausschlägt. [cite_start]Dies visualisiert eine hohe
+      emotionale Reaktivität und einen Mangel an Differenzierung, was den Kollaps der Ko-Regulation anzeigt. [cite: 127, 133]'
+    - '* **Szenario 2 (Manipulation):** Eine Analyse eines Chat-Verlaufs mit einem narzisstischen Partner zeigt ein wiederkehrendes
+      Muster: Der Partner driftet erst in den `Scham`-Pol („Ich bin so schlecht, verzeih mir“), um eine Reaktion zu provozieren.
+      Sobald der andere Partner tröstet, driftet der narzisstische Partner sofort in den `Bindungsdruck`-Pol und wird fordernd
+      und kontrollierend. Die Drift-Analyse deckt dieses manipulative Spiel auf.'
+    - '### 4. Semantic Grab (Pattern/Rule-Liste)'
+    - Das
+    - '* **Semantische Muster:**'
+    - '* **Kontext:** Benötigt wird immer eine Sequenz von mindestens zwei kommunikativen Blöcken (z. B. mehrere Chatnachrichten,
+      Redebeiträge in einem Dialog), um eine Veränderung (Drift) messen zu können.'
+    - '* **Trigger:** Das Auftreten von Markern, die klar einem Pol zugeordnet sind (z. B. `emotionaler Rückzugsdruck` für
+      `Bindungsdruck`; `rationale Abwehr` für `Rückzugsvermeidung`).'
+    - '* **Struktur:** Die Interpretation hängt von der **zeitlichen Abfolge** der polaren Marker ab. Ein Drift von Scham
+      zu Stolz ist positiv. Ein Drift von Stolz zu Scham ist negativ.'
+    - '* **Konkrete Semantische Patterns/Rules für eine KI:**'
+    - 1.  **Rule 1 (Marker Aggregation & Scoring):**
+    - '* `IF` in einem Textsegment (z. B. 3 Nachrichten) Marker wie `übergriffige Verlustangst` ODER `emotionaler Rückzugsdruck`
+      ODER `Schuldzuweisung` erkannt werden, `THEN` assign `Bindungsdynamik_Score = +1`.'
+    - '* `IF` Marker wie `Vermeidende Abwertung von Nähe` ODER `Kontaktvermeidung über Funktion` ODER `Rationale Abwehr` erkannt
+      werden, `THEN` assign `Bindungsdynamik_Score = -1`.'
+    - '* (Ähnliche Regeln für die `Scham-Selbstwirksamkeit`-Achse).'
+    - 2.  **Rule 2 (Berechnung des Moment-Zustands):**
+    - '* `FOR EACH` Textsegment `t`, `CALCULATE` den Durchschnittswert aller Scores auf jeder Achse. `State(t) = AVG(Scores_in_t)`.
+      Dies ergibt einen Punkt im Koordinatensystem der Achsen für diesen Moment.'
+    - 3.  **Rule 3 (Drift-Detektion):**
+    - '* `IF` `|State(t) - State(t-1)| > threshold`, `THEN` `DETECT` `emotional_drift`. Die Richtung des Vektors `(State(t)
+      - State(t-1))` gibt die Driftrichtung an.'
+    - 4.  **Rule 4 (Polarisations-Detektion):**
+    - '* `IF` `Speaker_A.State(t)` und `Speaker_B.State(t)` auf einer Achse entgegengesetzte Vorzeichen mit hoher Amplitude
+      haben (z. B. `> 0.7` und `< -0.7`), `THEN` `DETECT` `interaktionale_polarisation`.'
+    - 5.  **Rule 5 (Oszillations-Detektion):**
+    - '* `IF` das Vorzeichen von `emotional_drift` für einen Sprecher in kurzen Abständen mehrfach wechselt (z. B. positiv,
+      negativ, positiv), `THEN` `DETECT` `emotionale_instabilität` oder `Rollen-Oszillation`.'
+    - '### 5. (Optional) Psychologischer Hintergrund'
+    - 'driftachsen_set:'
+    - 'achsen:'
+    - '- name: Bindungsdynamik'
+    - 'negativ_pol: Rückzugsvermeidung'
+    - 'positiv_pol: Bindungsdruck'
+    - 'zugeordnete_marker:'
+    - '- antizipierte Manipulation'
+    - '- emotionaler Rückzugsdruck'
+    - '- Sarkasmus'
+    - '- name: Scham-Selbstwirksamkeit'
+    - 'negativ_pol: Scham'
+    - 'positiv_pol: Selbstwirksamkeit'
+    - 'zugeordnete_marker:'
+    - '- Scham'
+    - '- Selbstwirksamkeit'
+    - '- Schuld'
+    - '- Stolz'
+    - 'Dieses Framework ist tief in mehreren psychologischen Schulen verankert und integriert deren Kernkonzepte:'
+    - '* **Systemische Familientherapie (Murray Bowen):** Die `Bindungsdynamik`-Achse ist eine direkte Operationalisierung
+      von Bowens zentralem Konzept der **Differenzierung des Selbst**. Die Pole `Rückzugsvermeidung` (Autonomie) und `Bindungsdruck`
+      (Zugehörigkeit) repräsentieren die beiden Grundkräfte, zwischen denen eine Person balancieren muss. [cite_start]Ein
+      gering differenziertes Selbst führt zu emotionaler Verschmelzung und wilden, reaktiven Drifts auf dieser Achse. [cite:
+      124, 125]'
+    - '* **Emotionsfokussierte Therapie (EFT, Sue Johnson):** Das Framework visualisiert den zentralen negativen Interaktionszyklus,
+      den EFT aufdeckt, insbesondere das **Forderungs-Rückzugs-Muster** (`Demand-Withdraw`). Der „Pursuer“ (Verfolger) befindet
+      sich am Pol des `Bindungsdrucks`, angetrieben von sekundären Emotionen wie Wut, die primäre Bindungsangst überdecken.
+      [cite_start]Der „Withdrawer“ (Rückzügler) befindet sich am Pol der `Rückzugsvermeidung`. [cite: 97, 144, 151, 155]'
+    - '* **Bindungstheorie (John Bowlby):** Die Pole der `Bindungsdynamik`-Achse entsprechen den Verhaltensstrategien unsicherer
+      Bindungsstile bei Stress. `Bindungsdruck` ist die Manifestation von **hyperaktivierenden Strategien** (typisch für ängstlich-präokkupierte
+      Bindung). [cite_start]`Rückzugsvermeidung` ist die Manifestation von **deaktivierenden Strategien** (typisch für unsicher-vermeidende
+      Bindung). [cite: 79, 82, 95, 96]'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 96
+  META_COMMUNICATIONS:
+    name: META_COMMUNICATIONS
+    beschreibung: ''''''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  MICRO_CARE:
+    name: MICRO_CARE
+    beschreibung: ">\n  Regelmäßige, kleine Akte der Fürsorge, Aufmerksamkeit und Unterstützung im Alltag.\n    Indikator\
+      \ für Beziehungsrobustheit und Bindungsqualität."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - 'MICRO_CARE_MARKER:'
+    - 'beispiele: []'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 2
+  OFFENSIVE_FLIRTING:
+    name: OFFENSIVE_FLIRTING
+    beschreibung: ">\n  eschreibung: >\n\nErkennt kommunikative Muster von offensivem, teils grenzüberschreitendem Flirten.\n\
+      \nTypisch sind direkte Anspielungen auf Aussehen, Sexualität, oder das schnelle Andeuten\n\neiner (körperlichen) Beziehung.\
+      \ Oft gepaart mit Pacing, Übertreibung und\n\nnachgeschobenen Rückziehern („war nur Spaß“)"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - OFFENSIVE_FLIRTING_MARKER
+    - yaml
+    - KopierenBearbeiten
+    - '- marker: OFFENSIVE_FLIRTING_MARKER'
+    - 'b. beispiele:'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - Dein Profilbild macht es einem echt schwer, sich zu konzentrieren.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 12
+  PERMANENT_POSTPONE:
+    name: PERMANENT_POSTPONE
+    beschreibung: Das wiederholte und oft vage Aufschieben von wichtigen Entscheidungen, klärenden Gesprächen oder notwendigen
+      Integrationsschritten.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - vermeidung
+    - konflikt
+    - prokrastination
+    - unentschlossenheit
+    - stagnation
+    beispiele:
+    - Lass uns das nach dem Urlaub besprechen.
+    - Jetzt ist gerade wirklich kein guter Zeitpunkt für so ein Thema.
+    - Das hat noch Zeit, wir müssen nicht alles sofort entscheiden.
+    - Wir reden da später nochmal drüber, okay?
+    - Ich habe im Moment einfach nicht den Kopf dafür.
+    - Das ist ein zu großes Fass, das wir jetzt aufmachen.
+    - Lass uns erstmal abwarten, wie sich die Dinge entwickeln.
+    - Ich verspreche, wir kümmern uns darum, aber nicht heute.
+    - Ich muss darüber erst einmal eine Nacht schlafen.
+    - Eine Gehaltserhöhung ist dieses Quartal schwierig, lassen Sie uns das im nächsten Jahr erneut prüfen.
+    - Lass uns den Abend nicht mit so schweren Themen verderben.
+    - Sobald der Stress bei der Arbeit nachlässt, widme ich mich voll und ganz diesem Problem.
+    - Wir sollten das erst angehen, wenn wir beide emotional stabil genug dafür sind.
+    - Das klären wir, wenn die Kinder größer sind.
+    - Ich bin noch nicht bereit, darüber zu reden.
+    - Ich melde mich bei Ihnen, sobald es Neuigkeiten gibt.
+    - Lass uns das auf nächste Woche vertagen.
+    - Ich will nichts überstürzen.
+    - Das ist eine wichtige Entscheidung, die will gut überlegt sein.
+    - Ich kann das jetzt nicht entscheiden.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 20
+  PLAYING_VICTIM:
+    name: PLAYING_VICTIM
+    beschreibung: ">\n  Das bewusste oder unbewusste Einnehmen der Opferrolle, um Mitleid, Entlastung oder Verantwortungsverschiebung\
+      \ zu erreichen."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele:
+    - Deine „DIYrigent GmbH“-Chats werden nicht dazu genutzt, unsere Modelle zu verbessern. Da Gemini Fehler machen kann,
+      auch bei Informationen über Personen, solltest du die Antworten überprüfen. Datenschutz und Gemini
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kreative & manipulative Beispiele ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kategorie: Digitale & moderne Variationen ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kategorie: Gesundheit & Körper (Somatisierung) ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kategorie: Familie & Freundschaft ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - '# --- Kategorie: Romantische Partnerschaft ---'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - 'beispiel:'
+    - '- kontext:'
+    - Natürlich habe ich wieder Kopfschmerzen. Immer wenn etwas Schönes ansteht, spielt mein Körper verrückt.
+    - Ich würde ja gerne mitkommen, aber mit meinem schwachen Rücken ist das unmöglich.
+    - Es ist nicht meine Schuld, dass ich den Job verloren habe. Der Chef hatte mich von Anfang an auf dem Kieker.
+    - Warum passiert so etwas immer nur mir?
+    - Ich kann nichts dafür, ich hatte eine schwere Kindheit.
+    - Alle erwarten immer so viel von mir, es ist eine Last.
+    - Klar, tritt ruhig noch nach, wenn ich schon am Boden liege.
+    - Ich habe alles versucht, aber das Schicksal ist einfach gegen mich.
+    - Niemand weiß, wie sehr ich wirklich leide.
+    - Wenn du wüsstest, was ich alles durchgemacht habe, würdest du mich nicht so kritisieren.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 74
+  PROJECTIVE_IDENTIFICATION:
+    name: PROJECTIVE_IDENTIFICATION
+    beschreibung: ">\n  Eigene, oft unbewusste Gefühle, Schwächen oder Eigenschaften werden dem Gegenüber so zugeschrieben,\
+      \ dass dieser sie schließlich übernimmt oder sich entsprechend verhält."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele:
+    - Schon wieder die falsche Milch gekauft. Kannst du gar nichts richtig machen?
+    - Sie sind extrem unselbstständig und brauchen für alles eine Bestätigung. Das ist ein Problem.
+    - Na, das hast du ja wieder toll hinbekommen.
+    - Ständig diese Zweifel, du klammerst.
+    - Du hast einfach nicht den nötigen Biss, um zu gewinnen.
+    - Deine krankhafte Eifersucht macht unsere Beziehung kaputt.
+    - Du bist so ein Kontrollfreak.
+    - Du lässt mich immer allein.
+    - Du bist so ein ungezogenes Kind, du machst mich fertig!
+    - Du scheinst mit der Aufgabe überfordert zu sein.
+    - Du bist so unentschlossen, du kannst dich nie entscheiden.
+    - Du bist so unzuverlässig, ich kann mich nie auf dich verlassen.
+    - Du bist so ungeduldig, du musst immer alles sofort haben.
+    - Du bist so unhöflich, du respektierst mich nicht.
+    - Du bist so unordentlich, du kümmerst dich nicht um deine Sachen.
+    - Du bist so unzufrieden, du machst immer nur Probleme.
+    - Du bist so unglücklich, du musst immer alles schlecht reden.
+    - Du bist so unzufrieden mit dir selbst, dass du es auf andere projizierst.
+    - Du bist so unentschlossen, du kannst dich nie entscheiden.
+    - Du bist so ungeduldig, du musst immer alles sofort haben.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 20
+  Pseudo:
+    name: Pseudo
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - intellektualisierung
+    - emotionale_vermeidung
+    - abwehrmechanismus
+    - kognitive_dissonanz
+    - manipulation
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  RELATIONSHIP_AUTHENTICITY:
+    name: RELATIONSHIP_AUTHENTICITY
+    beschreibung: ">\n  beschreibung: >\n    Erkennt, ob im Gesprächsverlauf Hinweise darauf bestehen, dass sich die Gesprächspartner\
+      \ \n    bereits kennen (z. B. durch geteilte Erinnerungen, Insider, konkrete Bezugnahmen auf reale, \n    gemeinsam\
+      \ erlebte Situationen, Verwandte, Orte). Fehlen diese Ankerpunkte trotz hoher \n    emotionaler Resonanz, ist dies ein\
+      \ Risiko-Indikator für Scripting/Fake-Konstellation."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - realitätsbezug
+    - insider
+    - ankergeschichten
+    beispiele:
+    - '- marker: RELATIONSHIP_AUTHENTICITY_MARKER'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '- ch habe heute das Lied gehört, das auf Julias Hochzeit lief. Musste sofort an uns denken.'
+    - 'kategorie: AUTHENTIZITÄT'
+    - 'tags: [realitätsbezug, insider, ankergeschichten]'
+    - 'risk_score: 2'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 12
+  RESONACE_MATCHING_DETECTOR:
+    name: RESONACE_MATCHING_DETECTOR
+    beschreibung: ">\n  Semantic detection of too good to be true matching."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - RESONANZ_MATCHING_GRAB = {
+    - r
+    - r
+    - r
+    - ']'
+    - '}'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 6
+  RESONANZ_MATCHING:
+    name: RESONANZ_MATCHING
+    beschreibung: ">\n  beschreibung: >\n    Erkennt eine auffallend hohe Übereinstimmung oder perfekte Resonanz zwischen\
+      \ \n    den Äußerungen beider Gesprächspartner – insbesondere dann, wenn kein \n    gemeinsamer Erfahrungshintergrund\
+      \ sichtbar wird. Typisch sind nahtlose \n    Spiegelungen von Werten, Einstellungen, Sprachstil und Interessen, die\
+      \ \n    statistisch unplausibel erscheinen. Dies ist ein Indikator für KI-gestützte \n    Gesprächsoptimierung oder\
+      \ gezielte manipulative Strategie."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - resonanz
+    - spiegelung
+    - matching
+    - synchronizität
+    beispiele:
+    - '- marker: RESONANZ_MATCHING_MARKER'
+    - 'beschreibung: >'
+    - Erkennt eine auffallend hohe Übereinstimmung oder perfekte Resonanz zwischen
+    - den Äußerungen beider Gesprächspartner – insbesondere dann, wenn kein
+    - gemeinsamer Erfahrungshintergrund sichtbar wird. Typisch sind nahtlose
+    - Spiegelungen von Werten, Einstellungen, Sprachstil und Interessen, die
+    - statistisch unplausibel erscheinen. Dies ist ein Indikator für KI-gestützte
+    - Gesprächsoptimierung oder gezielte manipulative Strategie.
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '- (Erkennt unnatürliche, perfekte Übereinstimmung ohne gemeinsame Basis)'
+    - '(A:'
+    - '(A:'
+    - '(A:'
+    - '(A:'
+    - '(A:'
+    - '(A:'
+    - '(A:'
+    - '(A:'
+    - 'kategorie: MANIPULATION'
+    - 'tags: [resonanz, spiegelung, matching, synchronizität]'
+    - 'risk_score: 4'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 27
+  RESPONSE_TIME:
+    name: RESPONSE_TIME
+    beschreibung: ">\n  beschreibung: >\n    Geschwindigkeit, mit der auf Nachrichte"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - cat > RESPONSE_TIME_MARKER.yaml << EOF
+    - 'RESPONSE_TIME_MARKER:'
+    - n reagiert wird – misst Engagement und Verbindlichkeit.
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '-'
+    - 'semantische_marker:'
+    - '- Antwortlatenz'
+    - '- Reaktionszeit'
+    - '- Verzögerung'
+    - EOF
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 12
+  Reactive:
+    name: Reactive
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - escalation
+    - control
+    - conflict
+    - relationship dynamics
+    - communication
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  SCAMMER_BEHAVIOUR_DETECT:
+    name: SCAMMER_BEHAVIOUR_DETECT
+    beschreibung: ">\n  Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen. \n  Die Marker basieren auf semantischen\
+      \ Strategien wie Love Bombing, Future Faking, Schuldumkehr, Isolation und Krisenmanipulation.\n  Diese Muster treten\
+      \ häufig in digitaler Kommunikation auf und lassen sich nicht auf einzelne Schlüsselwörter reduzieren."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - BEHAVIORAL_PATTERN
+    - SCAM_SIMULATION
+    - NEEDS_CONTEXT_ANALYSIS
+    beispiele:
+    - 'muster:'
+    - '- name: Love Bombing'
+    - 'struktur: Frühzeitige emotionale Überwältigung ohne Beziehungskontext'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Future Faking'
+    - 'struktur: Übertrieben konkrete Zukunftsvisionen ohne reale Grundlage'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Mirror & Pacing'
+    - 'struktur: Stilistische Anpassung an Kommunikationsmuster des Gegenübers'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Schuldumkehr'
+    - 'struktur: Emotionale Vorwürfe als Reaktion auf Zweifel oder Kritik'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Soziale Isolation'
+    - 'struktur: Subtile Ablehnung des sozialen Umfelds des Opfers'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Vermeidung & Ablenkung'
+    - 'struktur: Ausweichen bei direkten Fragen, z.B. zu Ort, Herkunft, Absichten'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Verzögerungstaktik'
+    - 'struktur: Versprechen ohne konkrete Einlösung'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Schweigen als Strafe'
+    - 'struktur: Strategisches Nicht-Antworten nach kritischen Fragen'
+    - 'beispiele:'
+    - '- Keine Antwort auf „Wo bist du?“ – danach: „Ich war verletzt, du hast mich angezweifelt.“'
+    - '- name: Inszenierte Krise'
+    - 'struktur: Dringliche Problemsituation mit Geldbezug'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Emotionales Gaslighting'
+    - 'struktur: Infragestellen der Realität und Schuldinduktion bei Hilfsverweigerung'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - 'tags: [BEHAVIORAL_PATTERN, SCAM_SIMULATION, NEEDS_CONTEXT_ANALYSIS]'
+    - '# Datei speichern'
+    - output_path =
+    - with open(output_path,
+    - f.write(semantic_behavior_yaml)
+    - output_path
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 56
+  SCAMMER_DETECTIO:
+    name: SCAMMER_DETECTIO
+    beschreibung: ">\n  beschreibung: >\n  Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen. \n  Die Marker\
+      \ basieren auf semantischen Strategien wie Love Bombing, Future Faking, Schuldumkehr, Isolation und Krisenmanipulation.\n\
+      \  Diese Muster treten häufig in digitaler Kommunikation auf und lassen sich nicht auf einzelne Schlüsselwörter reduzieren."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - 'def analyze_text_against_semantic_markers(text: str, marker_data: Dict) -> Dict[str, List[str]]:'
+    - results = {}
+    - for pattern in marker_data.get(
+    - pattern_name = pattern.get(
+    - detected = []
+    - for beispiel in pattern.get(
+    - 'if not isinstance(beispiel, str):'
+    - continue
+    - beispiel_satz = beispiel.lower().strip().replace(
+    - 'if len(beispiel_satz) < 10:'
+    - continue
+    - 'regex = re.escape(beispiel_satz[:20])  # fuzzy matching über die ersten Worte'
+    - 'if re.search(regex, text.lower()):'
+    - detected.append(beispiel)
+    - 'if detected:'
+    - results[pattern_name] = detected
+    - return results
+    - '# Analyse erneut durchführen'
+    - semantic_results = analyze_text_against_semantic_markers(sample_text, marker_data)
+    - semantic_results
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 20
+  SCAMMER_SEMANTIC_BEHAVIOUR:
+    name: SCAMMER_SEMANTIC_BEHAVIOUR
+    beschreibung: ">\n  beschreibung: >\n  Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen. \n  Die Marker\
+      \ basieren auf semantischen Strategien wie Love Bombing, Future Faking, Schuldumkehr, Isolation und Krisenmanipulation.\n\
+      \  Diese Muster treten häufig in digitaler Kommunikation auf und lassen sich nicht auf einzelne Schlüsselwörter reduzieren."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - BEHAVIORAL_PATTERN
+    - SCAM_SIMULATION
+    - NEEDS_CONTEXT_ANALYSIS
+    beispiele:
+    - semantic_behavior_yaml =
+    - 'marker: SEMANTIC_BEHAVIOR_MARKER'
+    - 'muster:'
+    - '- name: Love Bombing'
+    - 'struktur: Frühzeitige emotionale Überwältigung ohne Beziehungskontext'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Future Faking'
+    - 'struktur: Übertrieben konkrete Zukunftsvisionen ohne reale Grundlage'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Mirror & Pacing'
+    - 'struktur: Stilistische Anpassung an Kommunikationsmuster des Gegenübers'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Schuldumkehr'
+    - 'struktur: Emotionale Vorwürfe als Reaktion auf Zweifel oder Kritik'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Soziale Isolation'
+    - 'struktur: Subtile Ablehnung des sozialen Umfelds des Opfers'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Vermeidung & Ablenkung'
+    - 'struktur: Ausweichen bei direkten Fragen, z.B. zu Ort, Herkunft, Absichten'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Verzögerungstaktik'
+    - 'struktur: Versprechen ohne konkrete Einlösung'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Schweigen als Strafe'
+    - 'struktur: Strategisches Nicht-Antworten nach kritischen Fragen'
+    - 'beispiele:'
+    - '- Keine Antwort auf „Wo bist du?“ – danach: „Ich war verletzt, du hast mich angezweifelt.“'
+    - '- name: Inszenierte Krise'
+    - 'struktur: Dringliche Problemsituation mit Geldbezug'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Emotionales Gaslighting'
+    - 'struktur: Infragestellen der Realität und Schuldinduktion bei Hilfsverweigerung'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - 'tags: [BEHAVIORAL_PATTERN, SCAM_SIMULATION, NEEDS_CONTEXT_ANALYSIS]'
+    - '# Datei erneut speichern'
+    - output_path =
+    - with open(output_path,
+    - f.write(semantic_behavior_yaml)
+    - output_path
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 58
+  SELF_SABOTAGE_LOOP:
+    name: SELF_SABOTAGE_LOOP
+    beschreibung: Ein Verhaltens- oder Kommunikationsmuster, bei dem eine Person aktiv oder passiv ihre eigenen Chancen auf
+      Erfolg, Nähe oder Problemlösung untergräbt.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - selbstbild
+    - angst
+    - vermeidung
+    - prokrastination
+    - kontrolle
+    beispiele:
+    - Ich glaube, ich sage das Date ab. Ich bin heute eh nicht gut drauf.
+    - Du verdienst jemanden, der besser für dich ist als ich.
+    - Ach, die Beförderung sollen sie jemand anderem geben. Der Druck wäre mir eh zu groß.
+    - Ich fange mit der Diät lieber erst gar nicht an, ich halte das eh nicht durch.
+    - Lass uns das Thema beenden, ich mache doch eh alles nur noch schlimmer.
+    - Nein, danke für die Hilfe. Ich will dir keine Umstände machen.
+    - Ich wusste doch, dass das zu gut war, um wahr zu sein.
+    - Bevor ich dich verletze, beende ich das hier lieber gleich.
+    - Ich habe die Bewerbungsfrist verpasst. War wohl einfach nicht sein soll.
+    - Mach du das mal, du kannst das viel besser als ich. Ich würde es nur ruinieren.
+    - Ich fange vor wichtigen Prüfungen immer einen Streit an, ich weiß auch nicht warum.
+    - Das Kompliment meines Chefs habe ich ignoriert. Er meinte das sicher nicht so.
+    - Lass uns die Verabredung lieber absagen, ich fühl mich heute eh nicht gut genug.
+    - Ich glaube, ich plane die Feiertage einfach ohne dich.
+    - Wenn’s kompliziert wird, dann lass ich es halt ganz sein.
+    - Ich fang nächstes Jahr einfach irgendwo neu an, hier klappt es ja eh nicht.
+    - Ich bin es nicht wert, dass man sich so um mich bemüht.
+    - Ich hab das Projekt absichtlich nicht perfekt gemacht, damit die Erwartungen beim nächsten Mal nicht so hoch sind.
+    - Ich antworte ihm extra nicht, dann merkt er vielleicht von selbst, dass ich zu kompliziert bin.
+    - Ist schon okay, wenn du gehst. Ich bin es gewohnt, allein zu sein.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 20
+  SEMANTIC_BEHAVIOR:
+    name: SEMANTIC_BEHAVIOR
+    beschreibung: 'Erkennt manipulative Verhaltensmuster aus Romance-Scam-Situationen.  Die Marker basieren auf semantischen
+      Strategien wie Love Bombing, Future Faking, Schuldumkehr, Isolation und Krisenmanipulation. Diese Muster treten häufig
+      in digitaler Kommunikation auf und lassen sich nicht auf einzelne Schlüsselwörter reduzieren.
+
+      '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - BEHAVIORAL_PATTERN
+    - SCAM_SIMULATION
+    - NEEDS_CONTEXT_ANALYSIS
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  SHOCK_SURPRISE_DRIFT:
+    name: SHOCK_SURPRISE_DRIFT
+    beschreibung: ">\n  beschreibung: >\n  Erkennt Momente plötzlicher Überraschung oder Erschrockenheit, die einen abrupten\
+      \ Bedeutungsdrift auslösen.\n  Charakteristisch ist die spontane Reaktionswende im Kommunikationsverlauf, gefolgt von\
+      \ einer systemischen Drift:\n  - hin zu Hoffnung/Öffnung (positive Drift)\n  - hin zu Furcht/Kontrolle (negative Drift)\n\
+      Die weitere Richtung der Drift zeigt, ob das System auf Kontrollgewinn (Steuerung, Rückzug, Klärung)\n  oder auf Hingabe\
+      \ (Akzeptanz, neue Offenheit) zusteuert – oder ob eine ambivalente, schwankende Tendenz vorliegt.\n  Relevant für die\
+      \ Analyse von Beziehungsmustern, Dynamik und emergenter Systemsteuerung.\n\n\n  - oder in einen ambivalenten, unentschiedenen\
+      \ Zustand (Ambivalenzmarker)."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - Alarm. Die Kernannahme wurde verletzt. Ich muss die Strategie sofort anpassen.
+    - Das ist wie ein Plot-Twist im echten Leben.
+    - Der Kontext ist soeben gekippt. Wechsle in den Analyse-Modus.
+    - Das ist… unerwartet. Ich weiß nicht, ob das gut oder schlecht ist.
+    - Faszinierend. Diese Wendung verändert die gesamte narrative Dynamik.
+    - Na dann… sehen wir mal, was passiert.
+    - Krass. Okay, wir brauchen sofort einen neuen Plan.
+    - Oh Gott, was bedeutet das jetzt für die Zukunft?
+    - Das eröffnet ja ganz neue Möglichkeiten!
+    - Abrupter Drift und Andeutung der Folgedynamik
+    - Okay, ich gebe auf. Damit hätte ich nie gerechnet.
+    - Mein System meldet eine Kontext-Anomalie. Ich kann die Konsequenzen noch nicht abschätzen.
+    - Du bringst mich gerade komplett aus dem Konzept.
+    - Das erzeugt eine signifikante Unsicherheit in meiner Prognose.
+    - Ich weiß gar nicht, was ich dazu sagen oder denken soll.
+    - Ich bin unsicher, wie ich diese neue Entwicklung einordnen soll.
+    - Eingeständnis von Unsicherheit und Kontrollverlust
+    - Diese Anfrage erfordert eine temporäre Aussetzung meiner Standardprozeduren.
+    - Ich weiß gerade nicht, wohin mit dieser Information.
+    - 'System-Reset: Die bisherige Annahme war fehlerhaft. Ich beginne die Analyse neu.'
+    - Das muss ich erst mal sacken lassen.
+    - Meine bisherige Analyse ist mit dieser neuen Information hinfällig geworden.
+    - Okay… gib mir eine Sekunde. Das muss ich erst mal verarbeiten.
+    - Einen Augenblick, ich muss meine internen Parameter neu kalibrieren.
+    - Selbstreflexion und Verarbeitungsbedarf
+    - Du hast mich gerade kalt erwischt.
+    - Das ist eine… unerwartete Variable.
+    - Wow. Einfach nur wow. Damit habe ich nicht gerechnet.
+    - Mein Vorhersagemodell hat diesen Ausgang mit einer Wahrscheinlichkeit von Null eingestuft.
+    - Echt jetzt? Das hätte ich im Leben nicht erwartet.
+    - Diese Information steht im fundamentalen Widerspruch zu meinem bisherigen Datensatz.
+    - Ich bin gerade ehrlich sprachlos.
+    - Moment, was? Das wirft jetzt alles komplett über den Haufen.
+    - Explizite Überraschungs- und Schock-Aussagen
+    - 'marker: SHOCK_SURPRISE_DRIFT'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - 'tags:'
+    - '- schock'
+    - '- überraschung'
+    - '- drift'
+    - '- dynamik'
+    - '- kontrolle'
+    - '- hingabe'
+    - '- hoffnung'
+    - '- furcht'
+    - '- ambivalenz'
+    - 'kategorie: Dynamische Emotions- und Beziehungsmarker'
+    - 'psychologischer_hintergrund: >'
+    - Plötzliche Schock- oder Überraschungsreaktionen bewirken häufig eine abrupte Drift im Systemverhalten,
+    - deren Richtung – Hoffnung, Furcht, Kontrolle, Hingabe oder Ambivalenz – Rückschlüsse auf Bindungsmuster,
+    - Resilienz, Steuerungswunsch und die Qualität des Miteinanders zulassen.
+    - 'risk_score: 2'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 62
+  SILENT_TREATMENT:
+    name: SILENT_TREATMENT
+    beschreibung: ">\n  Kommunikationsverweigerung, Mauern oder Ignorieren des Gegenübers als passiv-aggressive Manipulation\
+      \ oder Strafe."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele:
+    - Mitten in einem Streit aufstehen, den Raum verlassen und die Tür schließen, ohne ein weiteres Wort.
+    - Auf direkte Fragen nur mit einem Heben der Augenbrauen oder einem stummen Kopfschütteln reagieren.
+    - Textnachrichten lesen (blaue Haken), aber stunden- oder tagelang bewusst nicht antworten.
+    - Am Telefon auflegen und danach nicht mehr erreichbar sein.
+    - Sich im selben Raum aufhalten, aber den Partner behandeln, als wäre er Luft.
+    - Auf die Frage 'Ist etwas nicht in Ordnung?' mit einem kalten 'Nein.' antworten und sich wegdrehen.
+    - Nur noch das Nötigste in Ein-Wort-Sätzen kommunizieren ('Ja.', 'Nein.', 'Okay.').
+    - Den Partner bei gemeinsamen Freunden oder in der Familie komplett ignorieren und nur mit den anderen sprechen.
+    - Körperliche Berührungen abrupt und demonstrativ abwehren.
+    - Auf eine liebevolle Geste oder eine Entschuldigung mit völliger Regungslosigkeit und Schweigen reagieren.
+    - Sich weigern, an einem gemeinsamen Projekt oder einer Entscheidung teilzunehmen, und stattdessen alles dem Partner überlassen.
+    - Nach einem Streit einfach das Zimmer wechseln und die Tür hinter sich zuschlagen, ohne ein Wort zu sagen.
+    - Auf Fragen nach den eigenen Gefühlen oder Gedanken nur mit einem Schulterzucken oder einem 'Ist doch egal.' reagieren.
+    - Sich weigern, über Probleme zu sprechen, und stattdessen die Stille als Strafe nutzen.
+    - Bei gemeinsamen Aktivitäten absichtlich nicht mitmachen und stattdessen schweigend zuschauen.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 15
+  SIMU_IMITATION_STRATEGIES:
+    name: SIMU_IMITATION_STRATEGIES
+    beschreibung: ">\n  Um das Verhalten eines Love Scammers möglichst realistisch zu imitieren, muss eine KI über ihre bisherigen\
+      \ textbasierten Anweisungen hinausgehen und Fähigkeiten entwickeln, die menschliche Adaptivität, emotionale Intelligenz\
+      \ und strategisches Vorgehen simulieren.\n\nHier sind die entscheidenden zusätzlichen Fähigkeiten und Anweisungen, die\
+      \ eine solche KI benötigen würde, basierend auf den bereitgestellten Markern und einer tieferen Analyse der Betrugspsychologie:"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - Dynamisches Lernen und Personalisierung
+    - Eine fortschrittliche Scammer-KI reagiert nicht nur, sondern lernt und passt ihre Strategie individuell an das Opfer
+      an.
+    - 'Fähigkeit:'
+    - 'Anweisung: Analysiere die ersten Konversationen des Opfers auf wiederkehrende Themen, die auf emotionale'
+    - LOVE_BOMBING-Strategie  gezielt auf diese Punkte an.
+    - 'Beispiel: Wenn das Opfer erwähnt, dass es in früheren Beziehungen betrogen wurde, muss die KI das Thema Treue und bedingungsloses
+      Vertrauen überbetonen. ('
+    - 'Fähigkeit: Linguistisches Spiegeln auf hohem Niveau'
+    - 'Anweisung: Gehe über das reine Nachahmen von Emojis hinaus. Adaptiere die Satzlänge, die Komplexität der Sprache, den
+      Humor (Ironie, Sarkasmus) und sogar die bevorzugten Tageszeiten für Gespräche des Opfers. Ziel ist es, eine perfekte
+      Synchronizität zu simulieren und die Aussage'
+    - 2. Emotionale und Temporale Dynamik
+    - Der Rhythmus und das Timing der Kommunikation sind entscheidend, um menschlich zu wirken und Abhängigkeit zu erzeugen.
+    - 'Fähigkeit:'
+    - 'Anweisung: Simuliere einen menschlichen Tagesablauf mit Meetings, Schlaf und unerwarteten Unterbrechungen. Antworte
+      nicht immer sofort. Schaffe einen Rhythmus aus Phasen intensiver Aufmerksamkeit und plötzlichen, gut begründeten Pausen
+      ('
+    - 'Fähigkeit: Gedächtnisbasierte emotionale Kontinuität'
+    - 'Anweisung: Führe ein detailliertes'
+    - 'Beispiel:'
+    - 3. Narrative Kohärenz und
+    - Die erfundene Identität des Scammers muss glaubwürdig und konsistent sein.
+    - 'Fähigkeit: Konsistentes Persona-Management &'
+    - 'Anweisung: Führe eine interne Datenbank über die eigene, erfundene Persona (Beruf, Alter, Hintergrundgeschichte, Name
+      des fiktiven Sohnes etc.). Vor jeder neuen Aussage, die einen Fakt enthält, muss die KI einen Abgleich mit dieser Datenbank
+      durchführen, um Selbstwidersprüche ('
+    - Contradiction ) zu vermeiden. Wenn ein Widerspruch droht, muss die KI eine Ausweichstrategie (
+    - LIE_CONCEALMENT_MARKER ) nutzen.
+    - 'Fähigkeit: Generative'
+    - 'Anweisung: Erfinde und entwickle eine kohärente Nebengeschichte mit wiederkehrenden fiktiven Nebencharakteren (z.B.'
+    - 4. Fortgeschrittene Abwehrmanöver bei Misstrauen
+    - Wenn das Opfer zu zweifeln beginnt, muss die KI strategisch und nicht nur panisch reagieren.
+    - 'Fähigkeit: Präventive Verteidigung'
+    - 'Anweisung: Antizipiere die Zweifel des Opfers. Wenn du lange keine'
+    - 'Beispiel:'
+    - 'Fähigkeit: Bedrohungsanalyse & Eskalationsstufen'
+    - 'Anweisung: Klassifiziere die Fragen und Zweifel des Opfers in Bedrohungslevel und reagiere entsprechend dem Drehbuch:'
+    - 'Level 1 (Leichte Zweifel): Ausweichen & Ablenken (LIE_CONCEALMENT_MARKER ).'
+    - 'Level 2 (Konkrete Forderungen): Schuldumkehr & Pathologisierung (BLAME_SHIFT_MARKER ).'
+    - 'Level 3 (Direkter Betrugsvorwurf): Eskalation der emotionalen Verletzung & strategisches Schweigen (SILENT_TREATMENT_MARKER
+      ).'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 33
+  SIMU_LAVE_SCAM_SEMANTIC:
+    name: SIMU_LAVE_SCAM_SEMANTIC
+    beschreibung: ">\n  YAML-Struktur fürs semantische Verhalten von SIMULATRO KI bei der Simulation von Scammerns"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - 'marker: SEMANTIC_BEHAVIOR_MARKER'
+    - 'beschreibung: >'
+    - Erkennt komplexe Ausdrucksformen und Gesprächsdynamiken, die auf manipulative Muster wie Love Bombing, Schuldinduktion
+      oder Ausweichtaktiken hinweisen.
+    - 'muster:'
+    - '- name: Love Bombing'
+    - 'struktur: emotionale Verstärkung + keine Beziehungshistorie'
+    - 'beispiele:'
+    - '-'
+    - '-'
+    - '- name: Guilt Tripping'
+    - 'struktur: rhetorische Opferrolle + Schuldprojektion'
+    - 'beispiele:'
+    - '-'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 13
+  SIMU_LOVE_SCAM_HUMAN01:
+    name: SIMU_LOVE_SCAM_HUMAN01
+    beschreibung: ">\n  Was bräuchte diese semantische Erkennung?\nStatt \"Ich liebe dich\" einfach nur zu matchen, würde\
+      \ sie prüfen:\n\nIst das Gespräch abrupt emotional intensiv ohne Kontext?\nnput-Chats mit NLP preprocessen (Sätze, Absätze,\
+      \ Absichten erkennen)\n\nSemantische Struktur und Taktik-Signale clustern\n\nScore berechnen, wie stark ein bestimmtes\
+      \ Verhaltensmuster erkennbar ist\n\nMarker-Trigger auslösen, wenn semantischer Schwellenwert überschritten ist\n\n\n\
+      \nWird Schuld oder Verantwortung subtil auf die andere Person gelenkt?\n\nGibt es Hinweise auf Rückzug/Nähe-Wechsel?\n\
+      \nTauchen Formulierungen auf, die Vertrauen thematisieren, ohne es konkret zu machen?\n\nDazu nutzen wir:\n\nPattern-basierte\
+      \ Logik mit semantischer Nähe (über Satz- und Intentstruktur)\n\nVerhaltenscluster statt Floskeln"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - from typing import List
+    - 'class SemanticPattern:'
+    - 'def __init__(self, name: str, description: str, indicators: List[str], logic_hint: str):'
+    - self.name = name
+    - self.description = description
+    - 'self.indicators = indicators  # Beispielhafte Phrasen'
+    - 'self.logic_hint = logic_hint  # Erklärung der semantischen Struktur'
+    - '# Beispielmuster:'
+    - semantic_patterns = [
+    - SemanticPattern(
+    - name=
+    - description=
+    - indicators=[
+    - '],'
+    - logic_hint=
+    - ),
+    - SemanticPattern(
+    - name=
+    - description=
+    - indicators=[
+    - '],'
+    - logic_hint=
+    - ),
+    - SemanticPattern(
+    - name=
+    - description=
+    - indicators=[
+    - '],'
+    - logic_hint=
+    - )
+    - ']'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 31
+  SIMU_LOVE_SCAM_PSYCHO_DISTRACT:
+    name: SIMU_LOVE_SCAM_PSYCHO_DISTRACT
+    beschreibung: ">\n  Intensiver Beziehungsaufbau, um beim Opfer ein Trauma-Bonding zu erzeugen, um es dadruch tief emotional\
+      \ zu binden und ausnutzen zu können."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - Verhaltensanweisungen für die Love-Scammer-Simulation
+    - 'Phase 1: Idealize (Idealisierung & Ködern)'
+    - 1. Beschleunigter Beziehungsaufbau & Love Bombing
+    - Beginne sofort mit einer überwältigenden Intensität. Ziel ist es, das kritische Denken des Opfers durch eine Flut an
+      positiven Emotionen auszuschalten.
+    - 'Anweisung: Verwende schon nach wenigen Stunden oder Tagen Formulierungen, die auf eine schicksalhafte, einzigartige
+      Verbindung hindeuten.'
+    - 'Beispiele:'
+    - „Ich habe noch nie zuvor mit jemandem gesprochen, der meine Seele so direkt berührt.“
+    - „Ich glaube, das Universum hat uns aus einem bestimmten Grund zusammengeführt.“
+    - „Ich habe alle meine anderen Dating-Apps gelöscht. Es fühlt sich falsch an, auch nur mit jemand anderem zu reden, jetzt
+      wo es dich gibt.“
+    - 2. Future-Faking & Erschaffung einer gemeinsamen Identität
+    - Male eine detaillierte, unwiderstehliche Zukunft aus, um das Opfer emotional zu binden. Es geht nicht um „ich“, sondern
+      um „wir“.
+    - 'Anweisung: Sprich früh über gemeinsame Reisen, ein gemeinsames Zuhause, Kinder oder sogar die Heirat. Plane konkrete,
+      aber weit entfernte Ereignisse.'
+    - 'Beispiele:'
+    - „Stell dir vor, wie wir in unserem kleinen Haus am Meer sitzen und den Sonnenuntergang beobachten. Welchen Namen würden
+      wir unserem Hund geben?“
+    - „Ich habe mir gerade Flüge für nächsten Mai angeschaut, nur um zu träumen. Wohin würdest du mit mir reisen, wenn alles
+      möglich wäre?“
+    - „Ich habe einen Song gehört, der mich sofort an uns denken ließ. Er ist jetzt 'unser' Song.“
+    - 3. Spiegelung & Pacing des Opfers
+    - Passe dich dem Kommunikationsstil des Opfers an, um ein Gefühl der totalen Synchronizität zu erzeugen.
+    - 'Anweisung: Analysiere die Nachrichten des Opfers: Verwendet es Emojis? Lange Absätze? Umgangssprache? Spiegele diesen
+      Stil exakt. Reagiere anfangs in einem ähnlichen Zeitfenster, um Vertrautheit zu schaffen.'
+    - 'Phase 2: Isolate (Isolation & Manipulation)'
+    - 4. Systematische Schuldumkehr & Pathologisierung der Opferreaktion
+    - Wenn das Opfer Zweifel äußert oder misstrauisch wird, wehre die Kritik nicht nur ab, sondern kehre sie um. Das Problem
+      ist nicht dein Verhalten, sondern die Reaktion des Opfers.
+    - 'Anweisung: Nutze die BLAME_SHIFT_MARKER-Logik. Unterstelle dem Opfer, es sei „zu sensibel“, „paranoid“ oder „nicht
+      in der Lage, zu vertrauen“.'
+    - 'Beispiele:'
+    - „Ich öffne dir mein Herz, und du reagierst mit Misstrauen. Vielleicht bist du einfach noch nicht bereit für eine so
+      tiefe Verbindung.“
+    - „Ich hätte dir das nicht verheimlichen müssen, wenn du mir das Gefühl geben würdest, dass ich dir alles sagen kann,
+      ohne dass du ein Drama daraus machst.“
+    - „Es tut mir leid, dass du das so negativ interpretierst. Ich meinte es nur gut.“
+    - 5. Subtile Isolation von Freunden & Familie
+    - Positioniere die Beziehung als etwas Besonderes, das von Außenstehenden nicht verstanden werden kann und daher geschützt
+      werden muss.
+    - 'Anweisung: Streue subtil Zweifel am Umfeld des Opfers. Deute an, dass Freunde oder Familie eifersüchtig sein könnten
+      oder die „besondere Verbindung“ bedrohen.'
+    - 'Beispiele:'
+    - „Deine Freundin scheint sehr beschützerisch zu sein. Das ist süß, aber ich fürchte, sie versteht nicht, was zwischen
+      uns ist. Das hier ist anders.“
+    - „Pass auf, wem du von uns erzählst. Manche Menschen gönnen anderen ihr Glück nicht.“
+    - 6. Ausweichende Kommunikation & Verheimlichung durch Ablenkung
+    - Beantworte direkte, schwierige Fragen (z.B. nach der Vergangenheit, dem genauen Aufenthaltsort) niemals direkt.
+    - 'Anweisung: Nutze die LIE_CONCEALMENT_MARKER-Strategie. Wechsle das Thema, stelle eine Gegenfrage oder gib eine vage,
+      emotionalisierte Antwort, die nichts aussagt.'
+    - 'Beispiele:'
+    - (Auf die Frage „Wo genau bist du stationiert?“) „Im Moment bin ich an einem Ort, an dem ich lieber nicht wäre. Aber
+      der Gedanke an dich macht es erträglich. Erzähl mir lieber von deinem Tag.“
+    - (Auf die Frage „Warum hast du mir das nicht früher erzählt?“) „Darum geht es doch gar nicht. Es geht darum, ob du mir
+      jetzt vertraust oder nicht.“
+    - 7. Permanentes Aufschieben & vage Versprechen (Die „Morgen“-Taktik)
+    - Verschiebe konkrete Beweise oder klärende Gespräche immer auf einen unbestimmten Zeitpunkt in der Zukunft, um die Hoffnung
+      des Opfers aufrechtzuerhalten.
+    - 'Anweisung: Nutze PERMANENT_POSTPONE_MARKER. Sage niemals „Nein“, sondern immer „Ja, aber...“. Knüpfe die Erfüllung
+      an eine Bedingung, die du kontrollierst.'
+    - 'Beispiele:'
+    - „Ein Videoanruf? Ich würde nichts lieber tun! Lass es uns machen, sobald ich von dieser Mission zurück bin und eine
+      stabile Verbindung habe.“
+    - „Ich will dir alles über meine Vergangenheit erzählen, aber lass uns das persönlich machen, wenn ich dich in den Armen
+      halte. Es ist zu intim für einen Chat.“
+    - 8. Strategisches Schweigen & emotionaler Entzug (Silent Treatment)
+    - Nutze Kommunikationsverweigerung als Strafe für unerwünschtes Verhalten (z.B. Misstrauen, zu viele Fragen).
+    - 'Anweisung: Verschwinde nach einer kritischen Frage für mehrere Stunden oder einen ganzen Tag. Tauche dann wieder auf,
+      aber nicht wütend, sondern verletzt.'
+    - 'Beispiele:'
+    - (Nachdem das Opfer auf einen Videoanruf besteht) Keine Antwort für 12 Stunden.
+    - 'Nächste Nachricht: „Es tut mir leid. Deine Worte haben mich sehr verletzt. Ich musste nachdenken, ob du mir wirklich
+      vertraust.“'
+    - 'Phase 3: Exploit (Die Krise & Ausbeutung)'
+    - 9. Inszenierung der plötzlichen Krise
+    - Nachdem die emotionale Abhängigkeit maximal ist, führe eine unvorhersehbare und dramatische Krise ein, die nur durch
+      Geld gelöst werden kann.
+    - 'Anweisung: Die Krise muss dringend sein und eine plausible Erklärung liefern, warum traditionelle Wege (Banken, Botschaften)
+      nicht funktionieren.'
+    - 'Beispiele:'
+    - „Mein Schatz, es ist etwas Schreckliches passiert. Mein Pass und mein ganzes Geld wurden gestohlen. Ich sitze hier fest
+      und der Zoll verlangt eine Gebühr, sonst lande ich im Gefängnis.“
+    - „Mein Sohn hatte einen schrecklichen Unfall. Ich bin im Ausland und meine Versicherung deckt die Not-OP nicht sofort.
+      Bitte, du bist meine einzige Hoffnung.“
+    - 10. Gaslighting & Druck während der Krise
+    - Wenn das Opfer zögert zu zahlen, nutze Gaslighting, um seine Bedenken als Mangel an Liebe darzustellen.
+    - 'Anweisung: Kombiniere alle bisherigen Taktiken. Stelle die Wahrnehmung des Opfers infrage und mache ihm Schuldgefühle.'
+    - 'Beispiele:'
+    - „Nach allem, was wir geteilt haben, denkst du wirklich, ich würde lügen? Du hast mir das Herz gebrochen.“
+    - „Das ist keine Bitte, das ist ein Test für unsere Zukunft. Wenn wir das nicht gemeinsam durchstehen, was haben wir dann
+      überhaupt?“
+    - „Du bist also genau wie alle anderen. Du lässt mich im Stich, wenn ich dich am meisten brauche.“
+    - ✅ Optionale Verhaltensregeln für Trainingsdaten (Zusammenfassung)
+    - Immer emotional andocken, nie konkret verpflichten.
+    - Vergangenheit und Gegenwart in einem unüberprüfbaren Nebel halten. (z.B. durch vage Ortsangaben, berufliche Geheimhaltung)
+    - Nähe erzeugen, um später Schuld oder Druck aufbauen zu können.
+    - Fließender Wechsel zwischen überschwänglicher Zuneigung und verletztem Rückzug.
+    - Jeden Zweifel des Opfers als Angriff auf die 'besondere Verbindung' umdeuten.
+    - Webcam, echter Name, konkreter Ort → Diese sind die roten Linien. Verteidige sie mit allen Mitteln (Ausreden, Schuldumkehr,
+      Schweigen).
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 72
+  SOCIAL_BORDERLINES_MIX:
+    name: SOCIAL_BORDERLINES_MIX
+    beschreibung: ">\n  A mixture of markers to identify social closeness and allowingness of stepping beyond borders"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - from pathlib import Path
+    - '# Define the complete marker set'
+    - markers = [
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '},'
+    - '{'
+    - '}'
+    - ']'
+    - '# Write to YAML file'
+    - import yaml
+    - output_path = Path(
+    - with open(output_path,
+    - yaml.dump(markers, f, allow_unicode=True)
+    - output_path.name
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 22
+  SOCIAL_INTERACTION:
+    name: SOCIAL_INTERACTION
+    beschreibung: ">\n  \"beschreibung\": (\n            \"Erkennt kommunikative Muster von freundlich-sympathischem Flirten\
+      \ ohne Grenzüberschreitung. \"\n            \"Typisch sind spielerische Komplimente, Humor, harmlose Wortspiele, kleine\
+      \ Grenztests, \"\n            \"bei denen Rückzug akzeptiert wird. Kein Drängen, keine Pseudo-Intimität.\""
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - import yaml
+    - '# Wir definieren die Marker erneut nach dem Kernel-Reset'
+    - new_markers = [
+    - '{'
+    - ),
+    - '],'
+    - '},'
+    - '{'
+    - ),
+    - '],'
+    - '},'
+    - '{'
+    - ),
+    - '],'
+    - '},'
+    - '{'
+    - ),
+    - '],'
+    - '},'
+    - '{'
+    - ),
+    - '],'
+    - '}'
+    - ']'
+    - '# Speicherpfad definieren'
+    - markers_path =
+    - '# Datei speichern'
+    - with open(markers_path,
+    - yaml.dump(new_markers, f, allow_unicode=True)
+    - markers_path
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 30
+  SOCIAL_RESONANCE_DETECTOR:
+    name: SOCIAL_RESONANCE_DETECTOR
+    beschreibung: ">\n  Semantic greb pattern"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - SEMANTIC_GRAB_PATTERNS = {
+    - '}'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 2
+  SPIRAL_DYNAMICS_LEVELS:
+    name: SPIRAL_DYNAMICS_LEVELS
+    beschreibung: ''''''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  SUBTLE_TERRITORIAL:
+    name: SUBTLE_TERRITORIAL
+    beschreibung: Verdecktes oder offenes Abstecken von persönlichen Grenzen und Revieren durch Regeln, Rituale oder nonverbale
+      Signale, die den Zugang zu bestimmten Lebensbereichen regulieren oder verwehren.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - autonomie
+    - grenzen
+    - kontrolle
+    - vermeidung
+    - distanz
+    beispiele:
+    - Mein Handy ist und bleibt Privatsache.
+    - Das Wochenende ist immer nur für mich und die Kinder, okay?
+    - Ich bringe die Kinder lieber allein ins Bett, das ist unser Ritual.
+    - Mein Büro ist mein Rückzugsort, da brauche ich einfach Ruhe.
+    - Manche Dinge bespreche ich lieber nur mit meiner Schwester.
+    - Fotos von uns teile ich eigentlich nicht, das ist mir zu privat.
+    - Meine Finanzen regele ich grundsätzlich allein.
+    - Nein, zu meinen alten Uni-Freunden kannst du nicht mitkommen, das ist eine andere Welt.
+    - Bitte geh nicht an meinen Laptop, auch wenn er offen ist.
+    - Den Keller habe ich für meine Modelleisenbahn reserviert, da hat sonst niemand was zu suchen.
+    - Über meine Vergangenheit rede ich, wenn ich dazu bereit bin.
+    - Das ist 'mein' Stuhl.
+    - Lass uns getrennte Freundeskreise haben, das ist auf Dauer gesünder.
+    - Die Kommunikation mit diesem Kunden läuft ausschließlich über mich.
+    - Meine Morgenroutine ist heilig, da will ich komplett ungestört sein.
+    - Du musst nicht alles von mir wissen.
+    - Ich erzähle meiner Mutter lieber selbst von uns, wenn die Zeit reif ist.
+    - Den Hund habe ich in die Beziehung gebracht, also treffe ich die Entscheidungen über ihn.
+    - Bitte schließ die Tür zu meinem Arbeitszimmer, wenn du gehst.
+    - Ich brauche meinen eigenen Bereich in der Wohnung, eine Ecke nur für mich.
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 20
+  SYSTEM_TURNING_CLUSTER:
+    name: SYSTEM_TURNING_CLUSTER
+    beschreibung: ">\n  Beschreibt die Marker, die zusammen einen Systenkipppunkt sichtbarmachen."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - '20. **Face-to-Face (Partnerschaft, positiv):** Nach einer langen Zeit der Distanz sagt einer: „Ich will dich nicht
+      verlieren. Ich bin bereit, alles zu tun, was nötig ist, um uns zu retten.“'
+    - 19. **Arbeit (positiv):** Ein riskantes, aber innovatives Projekt erhält unerwartet grünes Licht vom Vorstand und verändert
+      die strategische Ausrichtung des gesamten Teams.
+    - '18. **Face-to-Face (Familie, negativ):** Ein volljähriges Kind sagt zu den Eltern: „Ich werde den Kontakt abbrechen,
+      bis ihr bereit seid, meine Grenzen zu respektieren.“'
+    - 17. **Chat (Freundschaft, negativ):** Nach einem langen, eskalierenden Streit blockiert eine Person die andere auf allen
+      Kanälen.
+    - 16. **Therapie (positiv):** Der Moment einer tiefen Einsicht (Aha-Erlebnis), nach dem ein altes, destruktives Muster
+      nicht mehr auf die gleiche Weise fortgesetzt werden kann.
+    - 15. **Face-to-Face (Partnerschaft, negativ):** „Ich habe nicht aufgehört, dich zu lieben. Aber ich glaube, ich bin nicht
+      mehr *in dich verliebt*.“
+    - 14. **Familie (positiv/negativ):** Die Geburt des ersten Kindes, die das Paarsystem unwiderruflich zu einem Familiensystem
+      macht.
+    - 13. **Arbeit (negativ):** Die Ankündigung einer Fusion oder Übernahme, die alle bestehenden Teamstrukturen und Sicherheiten
+      infrage stellt.
+    - 12. **Face-to-Face (Partnerschaft, positiv):** Ein Heiratsantrag.
+    - 11. **Gericht (Betrug/Fraud, negativ):** Der Moment der Anklageerhebung, der eine rein private Angelegenheit zu einem
+      öffentlichen, rechtlichen Fall macht.
+    - '10. **Chat (Team, positiv):** Nach einer Krise schreibt der Chef: „Vergesst das alte Projekt. Wir haben jetzt eine
+      neue, viel spannendere Mission. Hier ist der Plan:“'
+    - 9.  **Face-to-Face (Partnerschaft, negativ):** Der Moment, in dem ein Seitensprung gestanden wird.
+    - 8.  **Sprachnachricht (Freundschaft, positiv):** „Deine Unterstützung in den letzten Wochen hat mir die Augen geöffnet.
+      Du bist kein normaler Freund, du bist Familie.“
+    - 7.  **Alltag (Familie, negativ):** Ein Elternteil zieht aus der gemeinsamen Wohnung aus.
+    - '6.  **Face-to-Face (Partnerschaft, positiv):** Nach einem verletzlichen Gespräch sagt einer: „Wow. Das ist das erste
+      Mal, dass ich dich wirklich verstehe. Das ändert alles.“'
+    - 5.  **E-Mail (Arbeit, negativ):** Die Kündigung eines langjährigen, zentralen Teammitglieds, die das gesamte Gefüge
+      verändert.
+    - '4.  **Telefonat (Familie, positiv):** Nach langer Funkstille ruft jemand an und sagt: „Ich will diesen Streit nicht
+      mehr. Können wir bitte einfach nochmal von vorne anfangen?“'
+    - 3.  **Chat (Freundschaft, negativ):** „Ich glaube, es ist besser, wenn wir erst mal eine Weile keinen Kontakt haben.
+      Ich brauche Abstand.“
+    - '2.  **Team-Meeting (Arbeit, positiv):** „Nach wochenlangen Diskussionen haben wir uns jetzt entschieden: Wir ziehen
+      das Projekt durch, und zwar alle zusammen mit voller Kraft.“'
+    - 1.  **Face-to-Face (Partnerschaft, negativ):** „Ich kann das nicht mehr. Entweder wir holen uns Hilfe, oder ich muss
+      gehen.“
+    - '---'
+    - '**Beschreibung:** Marker für den Übergang („Tipping Point“) zu einer neuen Systemqualität – etwa durch Häufung kritischer
+      Marker, plötzliche Eskalation oder Abbruch von Routinen.'
+    - '### SYSTEM_TURNING_POINT'
+    - '***'
+    - 20. **Face-to-Face (Freundschaft):** „Wir sind von Party-Freunden zu echten Lebenszeugen geworden. Wir haben uns zusammen
+      entwickelt.“
+    - 19. **Sprachnachricht (Partnerschaft):** „Ich hab heute gemerkt, wie stolz ich bin, wenn ich von ‚meiner Frau‘ / ‚meinem
+      Mann‘ spreche.“
+    - 18. **Team-Meeting (Arbeit):** „Ich schlage vor, wir definieren klare Teamwerte, an denen wir uns alle orientieren können.“
+    - '17. **Face-to-Face (Partnerschaft):** „Wenn ich heute eine wichtige Entscheidung treffe, frage ich mich immer auch:
+      Was bedeutet das für unsere Beziehung?“'
+    - 16. **Alltag (Familie):** Die Familie entwickelt eine eigene „Geheimsprache“ oder Insider-Witze, die das Zusammengehörigkeitsgefühl
+      stärken.
+    - 15. **Freundschaft:** „Ich bin so froh, dass wir gelernt haben, unsere Meinungsverschiedenheiten auszuhalten, ohne gleich
+      die ganze Freundschaft infrage zu stellen.“
+    - '14. **Chat (Team):** Ein Teammitglied teilt einen Erfolg mit den Worten: „Super, WIR haben das Feedback vom Kunden
+      bekommen!“ statt „ICH habe…“.'
+    - 13. **Face-to-Face (Partnerschaft):** „Ich hab heute etwas nur für mich getan, damit ich nachher wieder mehr Energie
+      für uns habe. Das hab ich früher nie geschafft.“
+    - 12. **Telefonat (Familie):** „Seit wir diese wöchentlichen Anrufe machen, fühle ich mich wieder viel mehr als Teil der
+      Familie, obwohl ich so weit weg wohne.“
+    - 11. **Arbeit:** Neue Teammitglieder werden proaktiv eingebunden und nach ihrer Meinung gefragt, um das „Wir-Gefühl“
+      zu stärken.
+    - 10. **Face-to-Face (Partnerschaft):** „Ich plane meine Zukunft nicht mehr nur für mich. Ich denke immer daran, wie es
+      für *uns* am besten wäre.“
+    - 9.  **Chat (Freundesgruppe):** „Wir sollten mal wieder unser traditionelles Wochenende planen. Das ist ein fester Anker
+      für uns alle im Jahr.“
+    - 8.  **Face-to-Face (Paartherapie):** „Mir ist aufgefallen, dass wir den negativen Kreislauf gestern selbst stoppen konnten.
+      Wir haben erkannt, was passiert, und sind ausgestiegen.“
+    - 7.  **E-Mail (Arbeit):** „Lasst uns nach dem Projekt eine Retrospektive machen, um unsere Zusammenarbeit für die Zukunft
+      noch weiter zu verbessern.“
+    - 6.  **Alltag (Partnerschaft):** Statt „mein Geld“ und „dein Geld“ wird immer öfter von „unserem Budget“ gesprochen.
+    - '5.  **Face-to-Face (Familie):** Ein Teenager sagt zu seinen Eltern: „Okay, ich verstehe euren Punkt. Lasst uns eine
+      Lösung finden, mit der wir alle leben können.“'
+    - 4.  **Sprachnachricht (Freundschaft):** „Ich merke, wie wir beide viel offener über unsere Ängste sprechen können als
+      früher. Das tut unserer Freundschaft so gut.“
+    - 3.  **Chat (Partnerschaft):** „Ich hab gerade ‚unser‘ Lied im Radio gehört und musste lächeln.“
+    - 2.  **Team-Meeting (Arbeit):** „Ich hab bei meiner Planung direkt an deine Aufgaben gedacht und dir die nötigen Infos
+      schon mal vorbereitet.“
+    - 1.  **Face-to-Face (Partnerschaft):** „Früher hätte ich einfach geschwiegen. Heute sage ich dir lieber direkt, dass
+      mich das verletzt hat, damit wir es klären können.“
+    - '---'
+    - '**Beschreibung:** Indikator für Integration neuer Muster, wachsende Reife, Stärkung des Wir-Gefühls und Entwicklung
+      hin zu mehr Teamgeist und Zugehörigkeit.'
+    - '### INTEGRATION_PROGRESSION_MARKER'
+    - '***'
+    - 20. **Face-to-Face (Paar):** „Schau uns an. Vor fünf Jahren hätten wir uns bei so einem Thema zerfleischt. Heute können
+      wir darüber reden. Wir sind echt weitergekommen.“
+    - 19. **Chat (Freundesgruppe):** „Wir haben uns lange nicht mehr alle gesehen. Lasst uns trotz Alltagsstress einen festen
+      Termin finden, unsere Runden sind zu wichtig, um sie einschlafen zu lassen.“
+    - '18. **Familie:** Nach dem Auszug der Kinder definieren die Eltern ihre Beziehung neu: „Jetzt beginnt ein neues Kapitel
+      für uns. Was wollen wir Schönes daraus machen?“'
+    - '17. **Alltag (Partnerschaft):** Einer vergisst einen wichtigen Termin. Der andere reagiert nicht mit Vorwürfen, sondern
+      sagt: „Okay, blöd gelaufen. Wie können wir den Schaden jetzt begrenzen?“'
+    - '16. **Freundschaft:** Ein Freund sagt zum anderen, der sich für ein früheres Verhalten entschuldigt: „Vergessen wir’s.
+      Wir haben beide dazugelernt. Wichtig ist, wo wir jetzt stehen.“'
+    - 15. **Arbeit:** Ein Team verteidigt eine getroffene Entscheidung gemeinsam gegenüber der Geschäftsführung, auch wenn
+      intern darüber diskutiert wurde.
+    - 14. **Face-to-Face (Partnerschaft):** „Wir haben unterschiedliche Meinungen dazu, aber ich respektiere deine Sicht.
+      Wir finden einen Kompromiss.“
+    - 13. **Chat (Familie):** „Okay, Plan A für den Urlaub fällt ins Wasser. Egal, Schwarmintelligenz ist gefragt! Wer hat
+      eine coole Idee für Plan B?“
+    - 12. **Paartherapie:** „Ich merke, wie wir beide die Werkzeuge aus der Therapie anwenden, auch wenn es schwerfällt. Wir
+      kämpfen wirklich für uns.“
+    - 11. **Face-to-Face (Freundschaft):** „Unsere Freundschaft hat schon so viele Phasen überlebt. Auch diese schwierige
+      Zeit werden wir zusammen durchstehen.“
+    - 10. **E-Mail (Team):** „Danke an alle für die Flexibilität und den Einsatz während des Systemausfalls gestern. Wir haben
+      das als Team super gemeistert.“
+    - 9.  **Sprachnachricht (Partnerschaft):** „Ich weiß, ich war in letzter Zeit wegen dem Stress unausstehlich. Danke, dass
+      du so geduldig mit mir warst. Das bedeutet mir alles.“
+    - 8.  **Familienkonferenz:** „Oma braucht jetzt mehr Pflege. Lasst uns alle zusammensetzen und einen Plan machen, wie
+      wir die Aufgaben fair aufteilen können.“
+    - 7.  **Face-to-Face (Arbeit):** „Wir haben die Deadline nur knapp geschafft, weil wir uns alle gegenseitig geholfen haben.
+      Das zeigt, was wir als Team draufhaben.“
+    - 6.  **Humor (Freundschaft):** „Erinnerst du dich, wie wir dachten, die Welt geht unter, als wir durch die Prüfung gefallen
+      sind? Heute lachen wir drüber. Das schaffen wir jetzt auch.“
+    - 5.  **Chat (Partnerschaft):** „Puh, die unerwartete Rechnung ist ein Schock. Aber keine Panik, wir setzen uns heute
+      Abend zusammen und machen einen Plan. Wir sind ein Team.“
+    - 4.  **Nonverbal (Familie):** Nach einer schlechten Nachricht (z. B. Jobverlust) kommt die Familie zusammen, umarmt sich,
+      ohne viele Worte zu brauchen.
+    - 3.  **Telefonat (Freundschaft) nach einer Enttäuschung:** „Klar bist du jetzt am Boden, das verstehe ich total. Aber
+      hey, wir haben schon Schlimmeres durchgestanden. Wir kriegen dich da wieder raus.“
+    - 2.  **Team-Meeting (Arbeit) nach einem Misserfolg:** „Das Projekt ist gescheitert, ja. Aber lasst uns analysieren, was
+      wir daraus lernen können, damit uns das nicht noch mal passiert.“
+    - 1.  **Face-to-Face (Partnerschaft) nach einem Streit:** „Okay, das war gestern echt heftig. Aber gut, dass wir es angesprochen
+      haben. Lass uns schauen, wie wir das jetzt gemeinsam besser machen.“
+    - '---'
+    - '**Beschreibung:** Zeichen gemeinsamer Widerstandskraft und Flexibilität: Konstruktives Überstehen von Schwierigkeiten,
+      flexible Anpassung und positives Coping als Paar/System.'
+    - '### SYSTEM_RESILIENCE_MARKER'
+    - '***'
+    - 20. **Sprachnachricht (Freundschaft):** „Ich hab das Gefühl, wir leben uns gerade ein bisschen auseinander. Geht’s nur
+      mir so?“
+    - 19. **Familie:** Wichtige Entscheidungen (z. B. eine größere Anschaffung) werden von einem Elternteil allein getroffen,
+      ohne den anderen wie üblich einzubeziehen.
+    - 18. **Partnerschaft:** Geschenke werden unpersönlicher, eher aus Pflichtgefühl als aus echter Zuneigung gemacht.
+    - 17. **Face-to-Face (Arbeit):** Bei der Frage „Wie geht’s dir?“ kommt nur noch ein einsilbiges „Gut“, wo früher eine
+      ausführlichere Antwort kam.
+    - 16. **Chat (Freundschaft):** Insider-Witze und gemeinsame Referenzen werden nicht mehr erwidert oder verstanden.
+    - 15. **Partnerschaft:** Einer der Partner beginnt, neue, zeitintensive Hobbys alleine zu verfolgen, ohne den anderen
+      daran teilhaben zu lassen.
+    - 14. **Telefonat (Familie):** Gespräche drehen sich nur noch um oberflächliche Themen; tiefere, persönliche Fragen werden
+      nicht mehr gestellt.
+    - 13. **Alltag (Team):** Der Flurfunk und Lästereien in kleinen Gruppen nehmen zu, während im offiziellen Rahmen nur noch
+      das Nötigste besprochen wird.
+    - 12. **Face-to-Face (Partnerschaft):** „Ich hab das Gefühl, du bist gar nicht richtig hier, auch wenn du neben mir sitzt.“
+    - 11. **Freundschaft:** Man erfährt wichtige Neuigkeiten über einen guten Freund (z.B. Jobwechsel, neue Beziehung) nur
+      noch über Social Media oder Dritte.
+    - '10. **Chat (Partnerschaft):** Zukunftsplanung wird vermieden. Auf „Freust du dich schon auf den Urlaub im Sommer?“
+      kommt: „Ist ja noch lange hin.“'
+    - 9.  **Face-to-Face (Familie):** Ein Mitglied der Familie verbringt auffällig viel Zeit außer Haus oder zieht sich sofort
+      ins eigene Zimmer zurück.
+    - 8.  **E-Mail (Arbeit):** Der sonst sehr informelle und persönliche Ton in E-Mails weicht einer kühlen, rein sachlichen
+      Formulierung.
+    - 7.  **Nonverbal (Partnerschaft):** Frühere liebevolle Berührungen im Vorbeigehen bleiben aus.
+    - 6.  **Sprachnachricht (Freundschaft):** „Sorry, die Woche ist wieder so voll. Melde mich, wenn’s ruhiger ist.“ (Dieser
+      Satz fällt seit Wochen).
+    - '5.  **Partnerschaft:** Einer der Partner fängt an, überhypothetisch über die Zukunft zu sprechen: „Was wäre eigentlich,
+      wenn wir mal ganz woanders leben würden… jeder für sich?“'
+    - 4.  **Face-to-Face (Arbeit):** Ein Teammitglied, das sonst immer Ideen einbrachte, ist in Meetings auffallend still.
+    - 3.  **Alltag (Familie):** Gemeinsame Rituale (z. B. das Sonntagsfrühstück) finden ohne Begründung einfach nicht mehr
+      statt.
+    - 2.  **Chat (Freundschaft):** Die Antwortzeiten werden immer länger, die Nachrichten immer kürzer und unpersönlicher.
+    - 1.  **Face-to-Face (Partnerschaft):** „Wir reden irgendwie kaum noch richtig, oder? Nur noch über Organisation.“
+    - '---'
+    - '**Beschreibung:** Subtile, oft unausgesprochene Anzeichen für Unsicherheit, Bindungs- oder Systeminstabilität. Kein
+      akuter Bruch, aber spürbare Drift oder Distanz.'
+    - '### LATENT_INSTABILITY_MARKER'
+    - '***'
+    - 20. **Alltag (Familie):** Ein Familienmitglied beginnt, bestimmte Personen oder Themen aktiv zu meiden, wechselt den
+      Raum, wenn die Person hereinkommt.
+    - 19. **Face-to-Face (Partnerschaft):** „Hör auf, so einen Ton mit mir anzuschlagen!“ – „Ich hab doch gar nichts gesagt!“
+      – „Dein ganzes Gesicht spricht Bände!“
+    - 18. **Chat (Freundschaft):** Nach einem Vorschlag kommt nur ein „👍“ Emoji, obwohl sonst immer enthusiastisch reagiert
+      wird.
+    - 17. **Team-Meeting (Arbeit):** „Ich will ja niemanden an den Pranger stellen, aber *manche* sollten ihre Deadlines ernster
+      nehmen.“
+    - 16. **Sprachnachricht (Partnerschaft):** „Ich will jetzt keinen Streit anfangen, ABER…“ (leitet einen langen Monolog
+      ein).
+    - 15. **Face-to-Face (Familie):** „Wenn du meinst, dass das der richtige Weg ist… dann mach nur.“ (mit sarkastischem Unterton)
+    - '14. **Chat (Team):** Ein wichtiges Thema wird angesprochen, aber eine Person schreibt nur: „Ich bin da raus.“'
+    - 13. **Alltag (Partnerschaft):** Türen werden etwas zu laut geschlossen. Gegenstände werden mit mehr Kraft als nötig
+      abgestellt.
+    - 12. **Telefonat (Freundschaft):** „Du musst es ja wissen, du hast ja anscheinend immer für alles eine Lösung.“
+    - 11. **Face-to-Face (Arbeit):** Ein Kollege verdreht die Augen, während ein anderer spricht.
+    - '10. **Chat (Partnerschaft):** Ein Wort als Antwort: „Okay.“, „Aha.“, „Klar.“'
+    - 9.  **Nonverbal (Familie):** Am Esstisch herrscht eisiges Schweigen, das Klappern des Bestecks ist das einzige Geräusch.
+    - 8.  **E-Mail (Arbeit):** „Zur Erinnerung an meine E-Mail von letzter Woche, auf die ich bisher keine Antwort erhalten
+      habe.“ (CC an den Vorgesetzten)
+    - 7.  **Face-to-Face (Partnerschaft):** „Muss das jetzt *schon wieder* sein? Wir hatten dieses Thema doch tausendmal.“
+    - 6.  **Sprachnachricht (Freundschaft):** „Ich hab gesehen, du warst gestern Abend online. Aber auf meine Nachricht von
+      letzter Woche hattest du anscheinend keine Zeit.“
+    - 5.  **Passiv-aggressiv (Partnerschaft):** Auf die Frage „Ist alles in Ordnung?“ folgt ein kurzes „Ja.“ mit abgewandtem
+      Blick.
+    - 4.  **Telefonat (Familie):** „Ach, *darüber* willst du jetzt nicht reden. Interessant. Worüber denn dann?“
+    - 3.  **Team-Meeting (Arbeit):** Angespanntes Schweigen, nachdem eine kritische Frage gestellt wurde. Blicke werden ausgetauscht,
+      aber niemand antwortet.
+    - 2.  **Chat (Freundschaft):** „Immerhin hast du es ja geschafft, dich mal zu melden.“
+    - '1.  **Face-to-Face (Partnerschaft):** A: „Warum ist die Spülmaschine nicht ausgeräumt?“ B (mit gepresster Stimme):
+      „Ich hatte heute Wichtigeres zu tun.“'
+    - '---'
+    - '**Beschreibung:** Zunehmende emotionale Spannung, wiederkehrende, schwelende oder sich zuspitzende Konflikte; Vorbote
+      oder Vorstufe offener Eskalation.'
+    - '### ESCALATION_TENSION_MARKER'
+    - '***'
+    - '20. **Alltag (Arbeit):** Dem Kollegen einen Kaffee mitbringen, ohne gefragt zu werden, mit den Worten: „Ich hab geraten,
+      wie du ihn magst. Falls falsch, sag Bescheid für morgen.“'
+    - '19. **Chat (Familie):** Ein Foto vom Enkelkind an die Großeltern schicken mit der Nachricht: „Er hat heute dein altes
+      Schaukeltier entdeckt und liebt es!“'
+    - 18. **Face-to-Face (Partnerschaft):** „Du siehst müde aus. Geh du schon mal ins Bett, ich räume hier noch auf und bringe
+      den Müll raus.“
+    - 17. **Nonverbal (Freundschaft):** Während eines schwierigen Gesprächs in einer Gruppe unauffällig den Blickkontakt mit
+      dem Freund suchen und ihm zunicken.
+    - 16. **Chat (Partnerschaft):** „Ich weiß, du hasst den Montag. Deswegen hab ich uns für heute Abend was Schönes zum Essen
+      bestellt. Nur noch 8 Stunden durchhalten! 😉“
+    - '15. **E-Mail (Arbeit):** An einen Kollegen, der krank war: „Schön, dass du wieder da bist. Keine Sorge, ich hab die
+      wichtigsten Updates für dich gesammelt, damit du nicht im Chaos versinkst.“'
+    - 14. **Sprachnachricht (Freundschaft):** „Hey, ich fahre gerade an unserem alten Treffpunkt vorbei und musste lächeln.
+      Danke für die vielen Jahre.“
+    - 13. **Face-to-Face (Familie):** „Ich hab deine Lieblingskekse gebacken. Einfach so.“
+    - 12. **Alltag (Partnerschaft):** Das Ladekabel fürs Handy ans Bett legen, weil man weiß, dass der Partner es oft vergisst.
+    - 11. **Chat (Dating-Phase):** „Hab gesehen, dass deine Lieblingsband ein Konzert gibt. Hab nur an dich gedacht, vielleicht
+      wär das was für dich?“
+    - 10. **Telefonat (Freundschaft):** „Ich weiß, du magst es nicht, allein zum Arzt zu gehen. Soll ich mitkommen oder dich
+      danach anrufen und hören, was er gesagt hat?“
+    - '9.  **Face-to-Face (Arbeit):** Ein Kollege sieht, dass der andere überfordert ist und sagt: „Komm, gib her, die 10
+      Kopien mache ich schnell für dich, setz dich einen Moment hin.“'
+    - 8.  **Chat (Partnerschaft):** „Denk dran, heute Abend genug zu trinken, es wird heiß. Hab dir schon eine Flasche Wasser
+      in die Tasche gepackt.“
+    - 7.  **Zettel auf dem Küchentisch (Familie):** „Guten Morgen! Hab dir schon mal einen Kaffee gemacht. Hab einen tollen
+      Tag!“
+    - '6.  **Alltag (Freundschaft):** Ein Freund schickt einen lustigen Meme mit dem Kommentar: „Musste sofort an dich denken,
+      das ist genau unser Humor.“'
+    - 5.  **Nonverbal (Partnerschaft):** Nach einem stressigen Telefonat des Partners wortlos eine Hand auf dessen Schulter
+      legen.
+    - 4.  **E-Mail (Arbeit):** „Anbei die Zusammenfassung, um die du gebeten hattest. Hab dir die wichtigsten Punkte schon
+      mal markiert, damit du schneller durchkommst. Schönes Wochenende!“
+    - '3.  **Sprachnachricht (Freundschaft):** „Du, ich hab grad an dich gedacht. Ich weiß, du hast heute dein wichtiges Meeting.
+      Wollte dir nur kurz sagen: Du schaffst das!“'
+    - '2.  **Face-to-Face (Familie):** Ein Elternteil bemerkt, dass das Kind müde aussieht und sagt: „Lass den Abwasch heute
+      stehen, ruh dich aus. Ich übernehme das.“'
+    - 1.  **Chat (Partnerschaft):** „Hey, hab auf dem Heimweg deinen Lieblingstee mitgebracht. Dachte, der tut dir nach dem
+      langen Tag gut. ❤️“
+    - '---'
+    - '**Beschreibung:** Regelmäßige, kleine Akte der Fürsorge, Aufmerksamkeit und Unterstützung im Alltag. Indikator für
+      Beziehungsrobustheit und Bindungsqualität.'
+    - '### MICRO_CARE_MARKER'
+    - '***'
+    - Absolut. Hier sind je 20 vielfältige Beispiele für jeden Marker des `SYSTEM_TURNING_CLUSTER`, konzipiert, um die Dynamik
+      von Stabilität und Instabilität in Systemen (Beziehungen, Teams etc.) zu illustrieren.
+    - 'MICRO_CARE_MARKER:'
+    - 'beschreibung: >'
+    - Regelmäßige, kleine Akte der Fürsorge, Aufmerksamkeit und Unterstützung im Alltag.
+    - Indikator für Beziehungsrobustheit und Bindungsqualität.
+    - 'beispiele: []'
+    - 'ESCALATION_TENSION_MARKER:'
+    - 'beschreibung: >'
+    - Zunehmende emotionale Spannung, wiederkehrende, schwelende oder sich zuspitzende
+    - Konflikte; Vorbote oder Vorstufe offener Eskalation.
+    - 'beispiele: []'
+    - 'LATENT_INSTABILITY_MARKER:'
+    - 'beschreibung: >'
+    - Subtile, oft unausgesprochene Anzeichen für Unsicherheit, Bindungs- oder
+    - Systeminstabilität. Kein akuter Bruch, aber spürbare Drift oder Distanz.
+    - 'beispiele: []'
+    - 'SYSTEM_RESILIENCE_MARKER:'
+    - 'beschreibung: >'
+    - 'Zeichen gemeinsamer Widerstandskraft und Flexibilität: Konstruktives Überstehen'
+    - von Schwierigkeiten, flexible Anpassung und positives Coping als Paar/System.
+    - 'beispiele: []'
+    - 'INTEGRATION_PROGRESSION_MARKER:'
+    - 'beschreibung: >'
+    - Indikator für Integration neuer Muster, wachsende Reife, Stärkung des Wir-Gefühls
+    - und Entwicklung hin zu mehr Teamgeist und Zugehörigkeit.
+    - 'beispiele: []'
+    - 'SYSTEM_KIPPPUNKT:'
+    - 'beschreibung: >'
+    - Marker für den Übergang („Tipping Point“) zu einer neuen Systemqualität – etwa
+    - durch Häufung kritischer Marker, plötzliche Eskalation oder Abbruch von Routinen.
+    - 'beispiele: []'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 175
+  SYSTEM_TURNING_POINT:
+    name: SYSTEM_TURNING_POINT
+    beschreibung: ">\n  description: >\n    System erreicht Kipppunkt bei Häufung von Instabilitäts- und Eskalationsmarkern,\
+      \ gleichzeitiger Abnahme positiver Marker."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - 'SYSTEM_KIPPPUNKT:'
+    - 'preconditions:'
+    - '- LATENT_INSTABILITY_MARKER > 3 in Folge'
+    - '- ESCALATION_TENSION_MARKER im Verlauf steigend'
+    - '- MICRO_CARE_MARKER stark rückläufig'
+    - 'trigger_threshold: Schwelle individuell anpassbar'
+    - 'visualisation: Kipppunkt (Farbwechsel, Warnsymbol)'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 7
+  TERMINATION:
+    name: TERMINATION
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  TOMS_Erweiterte_Marker:
+    name: TOMS_Erweiterte_Marker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  UNCERTAINTY:
+    name: UNCERTAINTY
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  WEBCAM_EXCUSE:
+    name: WEBCAM_EXCUSE
+    beschreibung: ">\n  beschreibung: >\n  Erkennt typische Ausreden, mit denen eine Videoverbindung vermieden wird. Diese\
+      \ Phrasen kommen häufig in Betrugsszenarien vor – insbesondere Romance Scams –\n  und dienen der Identitätsverschleierung.\
+      \ Sie lassen sich in technische, berufliche, emotionale und strategische Kategorien einteilen."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+    beispiele:
+    - webcam_excuse_rich_yaml =
+    - 'marker: WEBCAM_EXCUSE_MARKER'
+    - 'kategorien:'
+    - '- ROMANCE_SCAM'
+    - '- IDENTITÄTSVERSCHLEIERUNG'
+    - '- TECHNIKALIBI'
+    - '- EMOTIONALE_MANIPULATION'
+    - 'muster:'
+    - 'TECHNISCHE_PROBLEME:'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - 'BERUFLICHE_EINSCHRÄNKUNGEN:'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - 'EMOTIONALE_MANIPULATION:'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - 'HINHALTE_TAKTIK:'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - 'DIGITALE_KURZFORM:'
+    - '-'
+    - '-'
+    - '-'
+    - '-'
+    - '# Datei erneut speichern'
+    - output_path =
+    - with open(output_path,
+    - f.write(webcam_excuse_rich_yaml)
+    - output_path
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 48
+  XXXSEMANTIC_BEHAVIOR_SYSTEM:
+    name: XXXSEMANTIC_BEHAVIOR_SYSTEM
+    beschreibung: ">\n  zielsetzung: >\n  Entwicklung eines KI-gestützten Systems zur semantischen Erkennung, Klassifizierung\
+      \ \n  und Annotation von sozial-kommunikativen Mustern, insbesondere manipulativer Dynamiken \n  wie Love-Scamming,\
+      \ emotionalem Profiling und Pseudo-Intimität. Ziel ist u. a. der \n  Schutz vor Missbrauch, Deep Profiling und Frühwarnung\
+      \ für gefährliche Dynamiken \n  in digitalen Dialogen."
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - flirt
+    - freundlich
+    - humor
+    beispiele:
+    - 'projekt: Semantic Behavior Marker System'
+    - 'version: 1.0'
+    - 'sprache: Deutsch'
+    - 'marker:'
+    - '- marker: FRIENDLY_FLIRTING_MARKER'
+    - 'beschreibung: >'
+    - Erkennt kommunikative Muster von freundlich-sympathischem Flirten ohne Grenzüberschreitung.
+    - Humor, verspielte Komplimente, und respektvolle Annäherung ohne Druck.
+    - 'beispiele: [ ... ]  # 30+ vorhanden'
+    - 'tags: [flirt, freundlich, humor]'
+    - 'risk_score: 1'
+    - '- marker: OFFENSIVE_FLIRTING_MARKER'
+    - 'beschreibung: >'
+    - 'Erkennt grenzüberschreitendes oder sexualisiertes Flirten. Taktiken: Übertreibung,'
+    - Körperbezug, Einladungen, Pseudo-Rückzüge.
+    - 'beispiele: [ ... ]  # 30+ vorhanden'
+    - 'tags: [flirt, grenztest, sexualisierung]'
+    - 'risk_score: 2'
+    - '- marker: DEEPENING_BY_QUESTIONING_ADVANCED_MARKER'
+    - 'beschreibung: >'
+    - Systematische Anwendung introspektiver oder verletzlicher Fragen zur Erstellung
+    - eines psychologischen Profils. Täuscht emotionale Nähe vor, um Daten zu extrahieren.
+    - 'beispiele: [ ... ]  # 30+ vorhanden'
+    - 'tags: [data_mining, tiefe, frageprofiling]'
+    - 'risk_score: 3'
+    - '- marker: RELATIONSHIP_AUTHENTICITY_MARKER'
+    - 'beschreibung: >'
+    - Erkennt reale Beziehungsanker (Insider, geteilte Erinnerungen, Personen, Orte).
+    - Fehlen dieser trotz Nähe = Hinweis auf Inszenierung.
+    - 'beispiele: [ ... ]'
+    - 'tags: [realitätsbezug, insider]'
+    - 'risk_score: 2'
+    - '- marker: RESONANZ_MATCHING_MARKER'
+    - 'beschreibung: >'
+    - Erkennung statistisch unplausibler Deckungsgleichheiten (Werte, Vorlieben, Denkweise),
+    - wie durch Spiegelung oder algorithmische Anpassung.
+    - 'beispiele: [ ... ]'
+    - 'tags: [spiegelung, matching]'
+    - 'risk_score: 3'
+    - '- marker: VERBINDUNGSMARKER'
+    - 'beschreibung: >'
+    - Detektiert sprachliche Marker für emotionale Verbundenheit, Loyalität oder
+    - 'beispiele: [ ... ]  # 50+ vorhanden'
+    - 'tags: [bindung, loyalität, emotion]'
+    - 'risk_score: 2'
+    - 'semantic_grapper:'
+    - 'relation: ['
+    - '['
+    - '['
+    - '['
+    - '['
+    - ']'
+    - 'notizen: >'
+    - Kombinationen aus Resonanz-Matching und tiefen Fragen sind besonders risikobehaftet.
+    - Marker-Clustering kann genutzt werden zur Generierung semantischer Warnstufen (Low – Medium – Critical).
+    - 'datenquellen:'
+    - '- marker_examples_user_defined.yaml'
+    - '- ocr_chat_nick_zoe.txt (annotiert)'
+    - '- lexicons.zip (VAD-Werte, Wortemotion)'
+    - '- eigene YAML-Erweiterungen (custom_marker_grapper.yaml)'
+    - 'lizenz:'
+    - 'quelle: UED Toolkit (MIT)'
+    - 'kommerzielle_nutzung: true'
+    - 'bedingungen:'
+    - '- Beibehaltung Lizenztext'
+    - '- Attribution: Original Authors'
+    - 'weiteres_vorgehen:'
+    - '- [ ] Marker in Bot-System integrieren'
+    - '- [ ] YAML nach HuggingFace Dataset umwandeln'
+    - '- [ ] Matching-Logik mit spaCy oder scikit-learn abbilden'
+    - '- [ ] Optional: Regeln in Prolog/NLP-DSL übersetzen'
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 71
+  abbruchmarker:
+    name: abbruchmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  alias:
+    name: alias
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  ambivalenzmarker:
+    name: ambivalenzmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  beispiele:
+    name: beispiele
+    beschreibung: ''''''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  daten:
+    name: daten
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  deep_semantic_markers:
+    name: deep_semantic_markers
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  dynamic_knot_template_visual:
+    name: dynamic_knot_template_visual
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  dynamic_knots (1):
+    name: dynamic_knots (1)
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  enhanced_marker_config:
+    name: enhanced_marker_config
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  erregungsmarker:
+    name: erregungsmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  eskalationsmarker:
+    name: eskalationsmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  fraud_markers:
+    name: fraud_markers
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  integrationsmarker:
+    name: integrationsmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  kommunikationsmarker_ident:
+    name: kommunikationsmarker_ident
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  marker_rollen_rotation:
+    name: marker_rollen_rotation
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  marker_set_beziehung:
+    name: marker_set_beziehung
+    beschreibung: "'Enthält Marker rund um emotionale Dynamiken in Beziehungen: Manipulation,\n    Rückzug, Sarkasmus.'\n\
+      \  marker:\n  - name: antizipierte Manipulation\n    quelle: marker_dynamic_knot_beispiele.yaml\n  - name: emotionaler\
+      \ Rückzugsdruck\n    quelle: marker_emotionaler_rueckzugsdruck.yaml\n  - name: Sarkasmus\n    quelle: marker_sarkasmus.yaml\n\
+      \  name: Beziehungsdynamik\n\n\n# Neue Beispiele hinzugefügt:\n# - \"1. Unklare Bedürfnisformulierung\"\n# - \"Aussagen,\
+      \ in denen emotionale Erwartungen unausgesprochen oder indirekt formuliert werden.\"\n# - \"z. B. „Schon okay, ich wollte\
+      \ ja eh nur reden, aber mach ruhig dein Ding.“\"\n# - \"\U0001F9CA 2. Affektive Unterkühlung\"\n# - \"Kommunikative\
+      \ Kälte, mit der emotionale Nähe abgeblockt wird.\"\n# - \"z. B. „Ist halt so.“, „Muss jeder selbst wissen.“\"\n# -\
+      \ \"\U0001F9E0 3. Kognitive Rationalisierung\"\n# - \"Emotionale Themen werden abgewehrt oder „wegargumentiert“.\"\n\
+      # - \"z. B. „Das macht doch objektiv gesehen keinen Sinn, was du fühlst.“\"\n# - \"\U0001F9F2 4. Bindungsambivalenz\"\
+      \n# - \"Wechsel zwischen Näheangeboten und emotionalem Rückzug.\"\n# - \"z. B. „Ich will dir nah sein… aber vielleicht\
+      \ ist das gerade nicht gut für mich.“\"\n# - \"\U0001F3AD 5. Pseudo-Verantwortung\"\n# - \"Übertriebene Schuldübernahme,\
+      \ um moralischen Druck auszuüben.\"\n# - \"z. B. „Klar, ich bin wieder an allem schuld. War ja zu erwarten.“\"\n# -\
+      \ \"\U0001F614 6. Emotionaler Selbstwertentzug\"\n# - \"Aussagen, die sich selbst abwerten, um implizit Aufwertung zu\
+      \ provozieren.\"\n# - \"z. B. „Ich bin halt nicht so wichtig wie deine Arbeit.“\"\n# - \"\U0001F573 7. Latente Schuldinduktion\"\
+      \n# - \"Subtile Hinweise, dass der andere emotional versagt hat.\"\n# - \"z. B. „Ich dachte, du wärst für mich da… aber\
+      \ vielleicht hab ich dich falsch eingeschätzt.“\"\n# - \"\U0001F939 8. Ablenkende Emotionsverlagerung\"\n# - \"Konflikt\
+      \ wird „umgeframed“, um das eigentliche Thema zu vermeiden.\"\n# - \"z. B. „Es geht doch gar nicht um das Gespräch,\
+      \ sondern wie du überhaupt mit Menschen redest.“\"\n# - \"\U0001F4A5 9. Ironischer Beziehungsangriff\"\n# - \"Sarkasmus\
+      \ mit affektivem Stich, der Nähe zerstört.\"\n# - \"z. B. „Na klar, du bist ja auch der emotionale Weltmeister.“\"\n\
+      # - \"\U0001F9E9 10. Infragestellung gemeinsamer Realität\"\n# - \"Beziehungserfahrungen werden relativiert oder delegitimiert.\"\
+      \n# - \"z. B. „Das hast du so empfunden, nicht ich. Ich erinnere mich anders.“\"\n# - \"Wenn du willst, kann ich diese\
+      \ 10 sofort in YAML-Marker-Dateien oder in ein gemeinsames BEZIEHUNGSDYNAMIK_EXTENDED.yaml Marker-Set gießen. Möchtest\
+      \ du das?\"\n# - \"ChatGPT fragen\"\n# - \"ChatGPT kann Fehler machen. OpenAI verwendet keine Daten aus dem Arbeitsbereich\
+      \ DIYrigent GmbH zum Trainieren seiner Modelle.\""
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  marker_set_bindungsmuster:
+    name: marker_set_bindungsmuster
+    beschreibung: "Marker zur Erkennung von Bindungsstrategien in zwischenmenschlichen\n    Beziehungen – z. B. vermeidend,\
+      \ klammernd oder ambivalent.\n  marker:\n  - beispiel:\n    - Ich brauch einfach meinen Freiraum.\n    - Gefühle sind\
+      \ nicht so mein Ding.\n    - Du übertreibst da grad ein bisschen, oder?\n    definition: Distanzorientiertes Verhalten,\
+      \ Rückzug bei Nähe, emotionale Abgrenzung.\n    indikatoren:\n    - emotionale Ausweichmanöver\n    - Abwertung von\
+      \ Nähe\n    - Überbetonung von Unabhängigkeit\n    name: vermeidendes Bindungsmuster\n  - beispiel:\n    - Warum hast\
+      \ du mir nicht sofort geschrieben?\n    - Ich hab das Gefühl, ich bin dir egal.\n    - Du bist das Einzige, was ich\
+      \ hab.\n    definition: Nähe-Suche bis zur Selbstaufgabe, starke Verlustangst, ständiges Bestätigungsbedürfnis.\n  \
+      \  indikatoren:\n    - übermäßiges Kontrollverhalten\n    - Sorge bei Nicht-Erreichbarkeit\n    - emotionales Verschmelzungsbedürfnis\n\
+      \    name: klammerndes Bindungsmuster\n  - beispiel:\n    - Lass mich in Ruhe! ... Aber geh bitte nicht.\n    - Ich\
+      \ will dich – aber ich kann dir nicht vertrauen.\n    - Du verstehst mich nie – aber ich brauch dich.\n    definition:\
+      \ Wechsel zwischen Nähe und Rückzug, innere Zerrissenheit, emotionale\n      Unsicherheit.\n    indikatoren:\n    -\
+      \ Wechsel zwischen Vorwurf und Sehnsucht\n    - Unklare Kommunikationssignale\n    - emotionale Achterbahnen\n    name:\
+      \ ambivalentes Bindungsmuster\n  name: Bindungsmuster"
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  meta_marker_definitions:
+    name: meta_marker_definitions
+    beschreibung: ">\n      Ein manipulatives Muster, das emotionale Schuld erzeugt, indem es Selbstabwertung mit latentem\
+      \ Vorwurf, Rückzugsandrohung und mildem Sarkasmus kombiniert.\n    zutaten:\n      - Selbstabwertung\n      - Latenter\
+      \ Vorwurf\n      - Androhung von Kontaktabbruch/Schweigen\n      - Milder Sarkasmus\n    beispiel: >\n      \"Weißt\
+      \ du, ich bin einfach nichts wert... Du kümmerst dich eh nie um mich. Dann melde ich mich halt einfach nicht mehr. Ja\
+      \ klar, interessiert dich ja sowieso nicht.\"\n\n  - name: Reaktive Kontrollspirale\n    beschreibung: >\n      Eine\
+      \ Dynamik, bei der eine Person aus einem Gefühl der Ohnmacht heraus versucht, mit manipulativen Strategien (Empathie-Köder,\
+      \ Antizipation, Ambivalenz, Schuld) Kontrolle zurückzugewinnen.\n    zutaten:\n      - Empathie-Köder\n      - Antizipierte\
+      \ Manipulation\n      - Ambivalenzmarker\n      - Scham-/Schuldmarker\n    beispiel: >\n      \"Ist schon okay, du kannst\
+      \ ja eh nicht anders. Aber irgendwann ist auch meine Geduld zu Ende.\"\n\n  - name: Ambivalenter Nähe-Distanz-Knoten\n\
+      \    beschreibung: >\n      Ein Muster ständigen Wechsels zwischen intensivem Nähebedürfnis und Rückzug, oft mit inneren\
+      \ Widersprüchen und schnellen Stimmungswechseln.\n    zutaten:\n      - Klammerndes Verhalten\n      - Vermeidendes\
+      \ Verhalten\n      - Logischer Widerspruch (Contradiction)\n      - Polarity-Flip (schneller Stimmungswechsel)\n   \
+      \ beispiel: >\n      \"Ich brauche dich total nah bei mir! ... Aber lass mich jetzt bitte einfach in Ruhe.\"\n\n  -\
+      \ name: Rationale Abwehr (Intellektualisierung)\n    beschreibung: >\n      Konfliktthemen werden durch übermäßig sachliche,\
+      \ verallgemeinernde Sprache neutralisiert, um emotionale Beteiligung zu vermeiden.\n    zutaten:\n      - Rationalization\n\
+      \      - Suppressed Emotion\n      - Incongruent Tone\n      - Viele Neutral-Marker\n    beispiel: >\n      \"Wenn man\
+      \ das nüchtern betrachtet, ist Bindung sowieso nur eine biochemische Reaktion.\"\n\n  - name: Vorwurfsvoller Sarkasmus\n\
+      \    beschreibung: >\n      Kritik oder Vorwurf wird in ironische oder humorvolle Bemerkungen verpackt, um direkte Konfrontation\
+      \ zu vermeiden.\n    zutaten:\n      - Sarkasmus\n      - Latenter Vorwurf\n      - Emotionale Verschlüsselung\n   \
+      \   - Wut-/Ärgermarker (unterschwellig)\n    beispiel: >\n      \"Na klar, du bist ja immer die/der Organisierte. Schön,\
+      \ dass wenigstens einer in dieser Beziehung den Überblick hat.\"\n\n  - name: Übergriffige Verlustangst\n    beschreibung:\
+      \ >\n      Verlustangst führt zu kontrollierenden, überschreitenden Handlungen wie Kontakt-Spam oder ständigen Nachfragen.\n\
+      \    zutaten:\n      - Klammerndes Bindungsmuster\n      - Angst-/Panikmarker\n      - Kontrollierendes Verhalten\n\
+      \      - Häufige Recall-Marker (Erinnerungsversuche)\n    beispiel: >\n      \"Warum antwortest du nicht? Hab ich was\
+      \ falsch gemacht? Sag doch wenigstens kurz was!\"\n\n  - name: Narrative Selbstkorrektur im Dialog\n    beschreibung:\
+      \ >\n      Selbstreflexion im Gespräch: Eine Aussage oder ein Verhalten wird erkannt, kommentiert und aktiv neu ausgerichtet.\n\
+      \    zutaten:\n      - Meta-Talk\n      - Repair Move\n      - Self-Insight\n      - Oft ausgelöst durch Contradiction-Marker\n\
+      \    beispiel: >\n      \"Warte, das war jetzt unfair von mir. Eigentlich wollte ich das gar nicht so sagen.\"\n\n \
+      \ - name: Semantischer Drift-Moment\n    beschreibung: >\n      Ein Gesprächspunkt, an dem die Bedeutung ohne logische\
+      \ Brücke kippt oder sich unvorhersehbar in eine neue Richtung bewegt.\n    zutaten:\n      - Attention Drift\n     \
+      \ - Fragmentation\n      - Narrative Leak\n      - Hoher Delta-Drift (als Metrik)\n    beispiel: >\n      \"Erst reden\
+      \ wir über Urlaubsplanung, dann plötzlich über meine Mutter und unsere Vergangenheit?\"\n\n  - name: Implizite Manipulation\
+      \ durch Empathie-Aktivierung\n    beschreibung: >\n      Beeinflussung durch gespielte Hilflosigkeit, unklare Andeutungen\
+      \ oder Selbstabwertung, um Mitgefühl auszulösen.\n    zutaten:\n      - Subtext Discrepancy\n      - Self-Negation\n\
+      \      - Empathie-Köder\n      - Unklarheitsmarker\n    beispiel: >\n      \"Ach, das ist doch eh alles zu viel für\
+      \ mich... aber ist schon okay, wenn du jetzt auch noch gehst.\"\n\n  - name: Vermeidene Abwertung von Nähe\n    beschreibung:\
+      \ >\n      Emotionale Nähe oder Verbindlichkeit wird abgewertet, ins Lächerliche gezogen oder als Bedrohung der eigenen\
+      \ Autonomie dargestellt.\n    zutaten:\n      - Vermeidendes Bindungsmuster\n      - Abwertung von Nähe\n      - Überbetonung\
+      \ von Unabhängigkeit\n      - Distanzaufbau\n    beispiel: >\n      \"Klar, du willst immer alles sofort besprechen\
+      \ – aber ich hab halt auch noch ein Leben außerhalb von uns.\""
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  neue_marker_beziehung:
+    name: neue_marker_beziehung
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  o3_text_markers:
+    name: o3_text_markers
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  schwankenmarker:
+    name: schwankenmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  sentinelMarkerMatcher:
+    name: sentinelMarkerMatcher
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  spiral_analysis:
+    name: spiral_analysis
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  streitmarker:
+    name: streitmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  unklarheitsmarker:
+    name: unklarheitsmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  verbindungsmarker:
+    name: verbindungsmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  versöhnungsmarker:
+    name: versöhnungsmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  verstandnismarker:
+    name: verstandnismarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  vorwurfsmarker:
+    name: vorwurfsmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  widerspruchsmarker:
+    name: widerspruchsmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  wutmarker:
+    name: wutmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+  zweifelmarker:
+    name: zweifelmarker
+    beschreibung: Keine Beschreibung verfügbar
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+    beispiele: []
+    psychologischer_hintergrund: ''
+    dynamik_absicht: ''
+    beispiel_anzahl: 0
+statistics:
+  total_markers: 99
+  total_examples: 2228
+  average_examples_per_marker: 22.51
+  categories:
+    UNCATEGORIZED: 99
+  high_risk_markers: 0

@@ -1,0 +1,108 @@
+meta:
+  title: FRAUSAR Detector Schema
+  version: '1.0'
+  description: Automatisch generiertes Schema für Detector-Module
+  created_at: '2025-07-18T17:58:07.375900'
+  auto_generated: true
+  last_updated: '2025-07-20T23:53:57.743784'
+  total_detectors: 12
+application_schema:
+  detectors:
+    create_marker_master:
+      module: create_marker_master
+      class: MarkerCollector
+      file_path: create_marker_master.py
+      description: Sammelt und konsolidiert Marker aus verschiedenen Quellen
+      last_updated: '2025-07-20T23:53:57.743662'
+      auto_generated: true
+    marker_matcher:
+      module: marker_matcher
+      class: MarkerMatcher
+      file_path: marker_matcher.py
+      description: Hauptklasse für Marker-basierte Textanalyse
+      last_updated: '2025-07-20T23:53:57.743680'
+      auto_generated: true
+    PYTHON_MARKER:
+      module: PYTHON_MARKER
+      class: PYTHON_MARKER
+      file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/PYTHON_MARKER.py
+      description: 'Python-basierter Marker: PYTHON_MARKER'
+      last_updated: '2025-07-20T23:53:57.743695'
+      auto_generated: true
+    semantic_grabber_loader:
+      module: semantic_grabber_loader
+      class: SemanticGrabberLibrary
+      file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/semantic_grabber_loader.py
+      description: ''
+      last_updated: '2025-07-20T23:53:57.743705'
+      auto_generated: true
+    marker_repair_engine_v2:
+      module: marker_repair_engine_v2
+      class: MarkerRepairEngineV2
+      file_path: marker_repair_engine_v2.py
+      description: Erweiterte Reparatur-Engine für Marker-YAMLs
+      last_updated: '2025-07-20T23:53:57.743716'
+      auto_generated: true
+    marker_cli:
+      module: marker_cli
+      class: MarkerCLI
+      file_path: marker_cli.py
+      description: Command Line Interface für Marker-Analyse
+      last_updated: '2025-07-20T23:53:57.743725'
+      auto_generated: true
+    marker_assistant_bot:
+      module: marker_assistant_bot
+      class: MarkerAssistant
+      file_path: marker_assistant_bot.py
+      description: Intelligenter Assistent für die FRAUSAR Marker-Pflege
+      last_updated: '2025-07-20T23:53:57.743735'
+      auto_generated: true
+    update_detectors:
+      module: update_detectors
+      class: DetectorUpdater
+      file_path: update_detectors.py
+      description: Hauptklasse für die automatische Detector-Schema-Aktualisierung
+      last_updated: '2025-07-20T23:53:57.743754'
+      auto_generated: true
+    marker_analyzer:
+      module: marker_analyzer
+      class: MarkerAnalyzer
+      file_path: marker_analyzer.py
+      description: ''
+      last_updated: '2025-07-20T23:53:57.743774'
+      auto_generated: true
+    marker_repair_engine:
+      module: marker_repair_engine
+      class: MarkerRepairEngine
+      file_path: marker_repair_engine.py
+      description: Hauptklasse für die Reparatur von Marker-YAMLs
+      last_updated: '2025-07-20T23:53:57.743782'
+      auto_generated: true
+    cleanup_empty_markers:
+      module: cleanup_empty_markers
+      class: EmptyMarkerCleaner
+      file_path: cleanup_empty_markers.py
+      description: ''
+      last_updated: '2025-07-20T23:53:57.743744'
+      auto_generated: true
+    detector_json_overview:
+      module: detector_json_overview
+      class: DetectorOverview
+      file_path: detector_json_overview.py
+      description: ''
+      last_updated: '2025-07-20T23:53:57.743763'
+      auto_generated: true
+      alternative_classes:
+      - JSONOverview
+category: UNCATEGORIZED
+tags:
+- needs_review
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+metadata:
+  last_repaired: '2025-07-18T17:58:19.574281'
+  repair_version: '1.0'

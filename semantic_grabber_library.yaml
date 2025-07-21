@@ -1,109 +1,1043 @@
 semantic_grabbers:
-  AUTO_SEM_20250714_34BE:
+  AUTO_SEM_20250721_22AD:
+    beschreibung: Automatisch erstellt für A_IF_YOU_WANT.yaml
+    examples:
+    - Können wir machen – aber nur, wenn du willst.
+    - Ich würd dich gern sehen… falls es dir passt.
+    - Wie du magst, ich bin offen.
+    - Ich will dich nicht drängen.
+    - Deine Entscheidung – ich richte mich nach dir.
+    patterns:
+    - Können wir machen – aber nur, wenn du willst.
+    - Ich würd dich gern sehen… falls es dir passt.
+    - Wie du magst, ich bin offen.
+    - Ich will dich nicht drängen.
+    - Deine Entscheidung – ich richte mich nach dir.
+    created_from: A_IF_YOU_WANT.yaml
+    created_at: '2025-07-21T14:02:50.462616'
+  AUTO_SEM_20250721_38D7:
+    beschreibung: Automatisch erstellt für MM_FLIRT_DANCE_DRIFT.yaml
+    examples:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    patterns:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    created_from: MM_FLIRT_DANCE_DRIFT.yaml
+    created_at: '2025-07-21T14:02:50.481901'
+  AUTO_SEM_20250721_818B:
+    beschreibung: Automatisch erstellt für C_SECRET_BONDING.yaml
+    examples:
+    - ChatGPT fragen
+    - „Nur wir zwei haben den Schlüssel zur Schließfachbox – vergiss das nicht.“
+    - „Keiner darf mitbekommen, dass der Deal morgen früh fixiert wird.“
+    - „Sobald der Upload durch ist, löschen wir alles vom Server.“
+    - „Speicher meine Nummer unter einem anderen Namen, falls wer guckt.“
+    - „Greif nur im Inkognito-Fenster auf die Cloud-Datei zu.“
+    - „Erzähl niemandem, dass wir den Prototyp heute schon getestet haben.“
+    - „Nachts um drei, Hinterhof rechts – keine Fotos, keine Stories.“
+    - „Verwisch bitte den Chat-Verlauf, sobald du’s gelesen hast.“
+    - „Ich schick dir die Koordinaten später über Signal.“
+    patterns:
+    - ChatGPT fragen
+    - „Nur wir zwei haben den Schlüssel zur Schließfachbox – vergiss das nicht.“
+    - „Keiner darf mitbekommen, dass der Deal morgen früh fixiert wird.“
+    - „Sobald der Upload durch ist, löschen wir alles vom Server.“
+    - „Speicher meine Nummer unter einem anderen Namen, falls wer guckt.“
+    - „Greif nur im Inkognito-Fenster auf die Cloud-Datei zu.“
+    - „Erzähl niemandem, dass wir den Prototyp heute schon getestet haben.“
+    - „Nachts um drei, Hinterhof rechts – keine Fotos, keine Stories.“
+    - „Verwisch bitte den Chat-Verlauf, sobald du’s gelesen hast.“
+    - „Ich schick dir die Koordinaten später über Signal.“
+    created_from: C_SECRET_BONDING.yaml
+    created_at: '2025-07-21T14:02:50.486226'
+  AUTO_SEM_20250721_ECDC:
+    beschreibung: Automatisch erstellt für A_APPEAL_TO_AUTHORITY.yaml
+    examples:
+    - Laut einer Studie ist dies die effektivste Methode.
+    - Wie Dr. Weber in seiner Forschung gezeigt hat, ist diese Technik sehr zuverlässig.
+    - Die WHO hat deutlich gemacht, dass diese Maßnahme notwendig ist.
+    - Der Minister betonte die Wichtigkeit dieser Entscheidung.
+    - Experten warnen vor den Folgen.
+    - Dies wurde in zahlreichen wissenschaftlichen Studien belegt.
+    patterns:
+    - Laut einer Studie ist dies die effektivste Methode.
+    - Wie Dr. Weber in seiner Forschung gezeigt hat, ist diese Technik sehr zuverlässig.
+    - Die WHO hat deutlich gemacht, dass diese Maßnahme notwendig ist.
+    - Der Minister betonte die Wichtigkeit dieser Entscheidung.
+    - Experten warnen vor den Folgen.
+    - Dies wurde in zahlreichen wissenschaftlichen Studien belegt.
+    created_from: A_APPEAL_TO_AUTHORITY.yaml
+    created_at: '2025-07-21T14:02:50.491475'
+  AUTO_SEM_20250721_F41C:
+    beschreibung: Automatisch erstellt für A_ORG.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    patterns:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    created_from: A_ORG.yaml
+    created_at: '2025-07-21T14:02:50.497213'
+  AUTO_SEM_20250721_A3F2:
+    beschreibung: Automatisch erstellt für A_CRITICISM_ATTACK.yaml
+    examples:
+    - 👿 angry face with horns
+    - 😠 angry face
+    - 😤 face with look of triumph
+    - 🤬 face with symbols on mouth
+    - 😡 face with steam from nose
+    - 😡 WUT & FRUSTRATION
+    - 😬 grimacing face
+    - 😑 expressionless face
+    - 🙄 face with rolling eyes
+    - 😒 unamused face
+    patterns:
+    - 👿 angry face with horns
+    - 😠 angry face
+    - 😤 face with look of triumph
+    - 🤬 face with symbols on mouth
+    - 😡 face with steam from nose
+    - 😡 WUT & FRUSTRATION
+    - 😬 grimacing face
+    - 😑 expressionless face
+    - 🙄 face with rolling eyes
+    - 😒 unamused face
+    created_from: A_CRITICISM_ATTACK.yaml
+    created_at: '2025-07-21T14:02:50.502879'
+  AUTO_SEM_20250721_5662:
+    beschreibung: Automatisch erstellt für A_BLAME_SHIFT.yaml
+    examples:
+    - Nicht meine Schuld, du hast mich nicht informiert.
+    - Wärst du früher dran gewesen, gäb’s das Problem nicht.
+    - Wenn du pünktlich wärst, müssten wir jetzt nicht diskutieren.
+    - Wegen dir haben wir Verspätung.
+    - Du hast das komplett falsch vorbereitet.
+    - Nicht ich bin schuld, du hast das falsch verstanden.
+    - Du hast mir nie gesagt, wie das geht.
+    - Wenn du besser aufgepasst hättest…
+    - Wärst du nicht so unaufmerksam, wären wir fertig.
+    - Du hast den Termin verpasst, nicht ich.
+    patterns:
+    - Nicht meine Schuld, du hast mich nicht informiert.
+    - Wärst du früher dran gewesen, gäb’s das Problem nicht.
+    - Wenn du pünktlich wärst, müssten wir jetzt nicht diskutieren.
+    - Wegen dir haben wir Verspätung.
+    - Du hast das komplett falsch vorbereitet.
+    - Nicht ich bin schuld, du hast das falsch verstanden.
+    - Du hast mir nie gesagt, wie das geht.
+    - Wenn du besser aufgepasst hättest…
+    - Wärst du nicht so unaufmerksam, wären wir fertig.
+    - Du hast den Termin verpasst, nicht ich.
+    created_from: A_BLAME_SHIFT.yaml
+    created_at: '2025-07-21T14:02:50.509626'
+  AUTO_SEM_20250721_2CA7:
+    beschreibung: Automatisch erstellt für A_BRO_LIKE_CALLING.yaml
+    examples:
+    - Digga, was geht?
+    - Brudi, ich vermiss dich!
+    - Alter, du bist der Beste!
+    - Ey du Vogel, ich feier dich.
+    - Schatzi, komm klar jetzt 😂
+    patterns:
+    - Digga, was geht?
+    - Brudi, ich vermiss dich!
+    - Alter, du bist der Beste!
+    - Ey du Vogel, ich feier dich.
+    - Schatzi, komm klar jetzt 😂
+    created_from: A_BRO_LIKE_CALLING.yaml
+    created_at: '2025-07-21T14:02:50.516144'
+  AUTO_SEM_20250721_172F:
+    beschreibung: Automatisch erstellt für _HIGH_LOC_DENSITY.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    patterns:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    created_from: _HIGH_LOC_DENSITY.yaml
+    created_at: '2025-07-21T14:02:50.522449'
+  AUTO_SEM_20250721_B058:
+    beschreibung: Automatisch erstellt für S_CRITICISM_DEFENSIVENESS_LOOP.yaml
+    examples:
+    - 'iexamples:'
+    - '- '
+    patterns:
+    - 'iexamples:'
+    - '- '
+    created_from: S_CRITICISM_DEFENSIVENESS_LOOP.yaml
+    created_at: '2025-07-21T14:02:50.528737'
+  AUTO_SEM_20250721_0472:
+    beschreibung: Automatisch erstellt für C_FRIENDSHIP_SIGNALING.yaml
+    examples:
+    - Weißt du noch, wie wir damals im Regen gefeiert haben?
+    - Du bist und bleibst mein Lieblingsidiot.
+    - Egal was passiert, ich steh hinter dir, klar?
+    - Du kennst mich doch – ich brauch drei Tage zum Antworten 😂
+    - Nur du darfst mich so nennen, Alter.
+    patterns:
+    - Weißt du noch, wie wir damals im Regen gefeiert haben?
+    - Du bist und bleibst mein Lieblingsidiot.
+    - Egal was passiert, ich steh hinter dir, klar?
+    - Du kennst mich doch – ich brauch drei Tage zum Antworten 😂
+    - Nur du darfst mich so nennen, Alter.
+    created_from: C_FRIENDSHIP_SIGNALING.yaml
+    created_at: '2025-07-21T14:02:50.534562'
+  AUTO_SEM_20250721_4EA0:
+    beschreibung: Automatisch erstellt für A_LOC.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    patterns:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    created_from: A_LOC.yaml
+    created_at: '2025-07-21T14:02:50.540524'
+  AUTO_SEM_20250721_0419:
+    beschreibung: Automatisch erstellt für C_SVT_MESSAGE_INCONGRUENCE.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    patterns:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    created_from: C_SVT_MESSAGE_INCONGRUENCE.yaml
+    created_at: '2025-07-21T14:02:50.546541'
+  AUTO_SEM_20250721_9F61:
+    beschreibung: Automatisch erstellt für MM_SELF_PROTECTION_DECEPTION.yaml
+    examples:
+    - 'A: '
+    patterns:
+    - 'A: '
+    created_from: MM_SELF_PROTECTION_DECEPTION.yaml
+    created_at: '2025-07-21T14:02:50.552423'
+  AUTO_SEM_20250721_AF99:
+    beschreibung: Automatisch erstellt für S_HIGH_SIMILARITY_DUPLICATE.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    patterns:
+    - 'examples:'
+    - '- '
+    created_from: S_HIGH_SIMILARITY_DUPLICATE.yaml
+    created_at: '2025-07-21T14:02:50.558418'
+  AUTO_SEM_20250721_AC62:
+    beschreibung: Automatisch erstellt für MM_MEANING_CRISIS.yaml
+    examples:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    patterns:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    created_from: MM_MEANING_CRISIS.yaml
+    created_at: '2025-07-21T14:02:50.564402'
+  AUTO_SEM_20250721_1014:
+    beschreibung: Automatisch erstellt für A_DAILY_GREETING.yaml
+    examples:
+    - Guten Morgen! Hoffe, du hast gut geschlafen.
+    - Gute Nacht, träum was Schönes.
+    - Schönen Abend dir noch!
+    - Morgen 😊 Wie läuft’s bei dir?
+    - Nacht 🌙 Wir schreiben morgen.
+    patterns:
+    - Guten Morgen! Hoffe, du hast gut geschlafen.
+    - Gute Nacht, träum was Schönes.
+    - Schönen Abend dir noch!
+    - Morgen 😊 Wie läuft’s bei dir?
+    - Nacht 🌙 Wir schreiben morgen.
+    created_from: A_DAILY_GREETING.yaml
+    created_at: '2025-07-21T14:02:50.570464'
+  AUTO_SEM_20250721_1F8D:
+    beschreibung: Automatisch erstellt für MM_RELATIONAL_STABILITY_FRIENDSHIP.yaml
+    examples:
+    - 'A: '
+    patterns:
+    - 'A: '
+    created_from: MM_RELATIONAL_STABILITY_FRIENDSHIP.yaml
+    created_at: '2025-07-21T14:02:50.576782'
+  AUTO_SEM_20250721_0F47:
+    beschreibung: Automatisch erstellt für MM_INFORMATION_DENSITY.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    patterns:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    created_from: MM_INFORMATION_DENSITY.yaml
+    created_at: '2025-07-21T14:02:50.583155'
+  AUTO_SEM_20250721_82E6:
+    beschreibung: Automatisch erstellt für C_SOFT_COMMITMENT.yaml
+    examples:
+    - Ich würd dich echt gern sehen – aber nur, wenn das für dich grad okay ist.
+    - Wenn du Lust hast, ich wär da – aber kein Druck.
+    - Sag du einfach, ich bin flexibel.
+    - Ich wär offen für ein Treffen – aber nur, wenn du magst.
+    - Ich misch mich nicht ein – aber wär schön, dich zu sehen.
+    patterns:
+    - Ich würd dich echt gern sehen – aber nur, wenn das für dich grad okay ist.
+    - Wenn du Lust hast, ich wär da – aber kein Druck.
+    - Sag du einfach, ich bin flexibel.
+    - Ich wär offen für ein Treffen – aber nur, wenn du magst.
+    - Ich misch mich nicht ein – aber wär schön, dich zu sehen.
+    created_from: C_SOFT_COMMITMENT.yaml
+    created_at: '2025-07-21T14:02:50.589723'
+  AUTO_SEM_20250721_45AC:
+    beschreibung: Automatisch erstellt für A_DEFENSIVENESS_SHIFT.yaml
+    examples:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    patterns:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    created_from: A_DEFENSIVENESS_SHIFT.yaml
+    created_at: '2025-07-21T14:02:50.596666'
+  AUTO_SEM_20250721_AE29:
+    beschreibung: Automatisch erstellt für C_SELF_PROTECTION_TACTICS.yaml
+    examples:
+    - 'A: '
+    patterns:
+    - 'A: '
+    created_from: C_SELF_PROTECTION_TACTICS.yaml
+    created_at: '2025-07-21T14:02:50.603861'
+  AUTO_SEM_20250721_D8A0:
+    beschreibung: Automatisch erstellt für C_ADAPTIVE_POLARIZATION.yaml
+    examples:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    patterns:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    created_from: C_ADAPTIVE_POLARIZATION.yaml
+    created_at: '2025-07-21T14:02:50.611369'
+  AUTO_SEM_20250721_F184:
+    beschreibung: Automatisch erstellt für S_INTERACTIVE_STONEWALLING.yaml
+    examples:
+    - 'Sprecher B: '
+    - ohne Handys, nur wir beide?
+    - Wie wäre es, wenn wir einmal pro Woche einen festen Date-Abend einführen –
+    - Jeden Abend sitzen wir nur noch vor unseren Bildschirmen.
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - Wäre super, wenn du sagst, ob du dabei bist, damit ich final buchen kann.
+    - sogar Aktivitäten wie Kajakfahren und eine Weinprobe.
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    patterns:
+    - 'Sprecher B: '
+    - ohne Handys, nur wir beide?
+    - Wie wäre es, wenn wir einmal pro Woche einen festen Date-Abend einführen –
+    - Jeden Abend sitzen wir nur noch vor unseren Bildschirmen.
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - Wäre super, wenn du sagst, ob du dabei bist, damit ich final buchen kann.
+    - sogar Aktivitäten wie Kajakfahren und eine Weinprobe.
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    created_from: S_INTERACTIVE_STONEWALLING.yaml
+    created_at: '2025-07-21T14:02:50.618922'
+  AUTO_SEM_20250721_ECF4:
+    beschreibung: Automatisch erstellt für A_PER.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    patterns:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    created_from: A_PER.yaml
+    created_at: '2025-07-21T14:02:50.626986'
+  AUTO_SEM_20250721_ED86:
+    beschreibung: Automatisch erstellt für C_ENTITY_RICH_TOPIC.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    patterns:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    created_from: C_ENTITY_RICH_TOPIC.yaml
+    created_at: '2025-07-21T14:02:50.635275'
+  AUTO_SEM_20250721_0D14:
+    beschreibung: Automatisch erstellt für A_SCARCITY_TIMER.yaml
+    examples:
+    - Das ist ein zeitlich limitiertes Sonderangebot nur für unsere treuesten Kunden.
+    - Beeilen Sie sich, der Countdown läuft und das Angebot endet bald.
+    - Diese Aktion ist streng limitiert und gilt nur, solange der Vorrat reicht.
+    - Nutzen Sie Ihre letzte Chance, die Tickets zum Frühbucherpreis zu bekommen.
+    - '- Das exklusive Angebot gilt nur für kurze Zeit!'
+    patterns:
+    - Das ist ein zeitlich limitiertes Sonderangebot nur für unsere treuesten Kunden.
+    - Beeilen Sie sich, der Countdown läuft und das Angebot endet bald.
+    - Diese Aktion ist streng limitiert und gilt nur, solange der Vorrat reicht.
+    - Nutzen Sie Ihre letzte Chance, die Tickets zum Frühbucherpreis zu bekommen.
+    - '- Das exklusive Angebot gilt nur für kurze Zeit!'
+    created_from: A_SCARCITY_TIMER.yaml
+    created_at: '2025-07-21T14:02:50.643745'
+  AUTO_SEM_20250721_6FBE:
+    beschreibung: Automatisch erstellt für S_RESPONSIBILITY_SHIFT.yaml
+    examples:
+    - Also ich bin da – aber wie du willst.
+    - Ich überlass dir die Entscheidung.
+    - Falls du Lust hast, können wir was machen.
+    - Ich will dir da nichts vorschreiben.
+    - Du entscheidest, ich bin flexibel.
+    patterns:
+    - Also ich bin da – aber wie du willst.
+    - Ich überlass dir die Entscheidung.
+    - Falls du Lust hast, können wir was machen.
+    - Ich will dir da nichts vorschreiben.
+    - Du entscheidest, ich bin flexibel.
+    created_from: S_RESPONSIBILITY_SHIFT.yaml
+    created_at: '2025-07-21T14:02:50.654783'
+  AUTO_SEM_20250721_F533:
+    beschreibung: Automatisch erstellt für MM_RELATIONAL_DELEGATION.yaml
+    examples:
+    - 'A: '
+    patterns:
+    - 'A: '
+    created_from: MM_RELATIONAL_DELEGATION.yaml
+    created_at: '2025-07-21T14:02:50.664113'
+  AUTO_SEM_20250721_EF3C:
+    beschreibung: Automatisch erstellt für A_MISC.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    patterns:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    created_from: A_MISC.yaml
+    created_at: '2025-07-21T14:02:50.673627'
+  AUTO_SEM_20250721_28C7:
+    beschreibung: Automatisch erstellt für A_MIXED_SCRIPT_TOKEN.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    patterns:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    created_from: A_MIXED_SCRIPT_TOKEN.yaml
+    created_at: '2025-07-21T14:02:50.683407'
+  AUTO_SEM_20250721_D9D8:
+    beschreibung: Automatisch erstellt für S_BLAME_SHIFT_RESPONSE.yaml
+    examples:
+    - Ach komm, teilweise ist da was dran, aber übertreib nicht – wärst du besser
+      vorbereitet gewesen.
+    - Nicht meine Schuld, das ist wirklich keine große Sache.
+    - Wegen dir lief’s schief, aber halb so wild.
+    - Wenn du es genau nimmst, wärst du dran gewesen – war doch nur Spaß.
+    - Nicht ich hab’s vermasselt, du bildest dir das nur ein.
+    patterns:
+    - Ach komm, teilweise ist da was dran, aber übertreib nicht – wärst du besser
+      vorbereitet gewesen.
+    - Nicht meine Schuld, das ist wirklich keine große Sache.
+    - Wegen dir lief’s schief, aber halb so wild.
+    - Wenn du es genau nimmst, wärst du dran gewesen – war doch nur Spaß.
+    - Nicht ich hab’s vermasselt, du bildest dir das nur ein.
+    created_from: S_BLAME_SHIFT_RESPONSE.yaml
+    created_at: '2025-07-21T14:02:50.693324'
+  AUTO_SEM_20250721_90D3:
+    beschreibung: Automatisch erstellt für S_HIGH_PERSON_DENSIT.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- id: '
+    - 'level: 2'
+    - 'version: '
+    - 'author: '
+    patterns:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- id: '
+    - 'level: 2'
+    - 'version: '
+    - 'author: '
+    created_from: S_HIGH_PERSON_DENSIT.yaml
+    created_at: '2025-07-21T14:02:50.703764'
+  AUTO_SEM_20250721_F692:
+    beschreibung: Automatisch erstellt für C_INNER_EMPTINESS.yaml
+    examples:
+    - 'examples:'
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - '- |'
+    patterns:
+    - 'examples:'
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - '- |'
+    created_from: C_INNER_EMPTINESS.yaml
+    created_at: '2025-07-21T14:02:50.714965'
+  AUTO_SEM_20250721_7F51:
+    beschreibung: Automatisch erstellt für S_SUSTAINED_CONTACT.yaml
+    examples:
+    - Guten Morgen! Hoffe, du hast gut geschlafen.
+    - Gute Nacht, wir schreiben morgen.
+    - Schönen Abend dir noch!
+    - Morgen 😊 Wie war dein Tag gestern?
+    - Nacht 🌙 Freu mich schon auf morgen.
+    patterns:
+    - Guten Morgen! Hoffe, du hast gut geschlafen.
+    - Gute Nacht, wir schreiben morgen.
+    - Schönen Abend dir noch!
+    - Morgen 😊 Wie war dein Tag gestern?
+    - Nacht 🌙 Freu mich schon auf morgen.
+    created_from: S_SUSTAINED_CONTACT.yaml
+    created_at: '2025-07-21T14:02:50.726545'
+  AUTO_SEM_20250721_6257:
+    beschreibung: Automatisch erstellt für S_CARING_FRIEND_EXPRESSIONS.yaml
+    examples:
+    - Pass auf dich auf, du Spinner.
+    - Ich hab dich echt lieb, Mann.
+    - Wenn du was brauchst, meld dich – ehrlich.
+    - Wär nicht dasselbe ohne dich, du Lappen.
+    - Ich will einfach, dass’s dir gut geht.
+    patterns:
+    - Pass auf dich auf, du Spinner.
+    - Ich hab dich echt lieb, Mann.
+    - Wenn du was brauchst, meld dich – ehrlich.
+    - Wär nicht dasselbe ohne dich, du Lappen.
+    - Ich will einfach, dass’s dir gut geht.
+    created_from: S_CARING_FRIEND_EXPRESSIONS.yaml
+    created_at: '2025-07-21T14:02:50.737673'
+  AUTO_SEM_20250721_895C:
+    beschreibung: Automatisch erstellt für FLIRT_DRIFT_DETECTIO.yaml
+    examples:
+    - from collections import deque, Counter
+    - from datetime import timedelta
+    - import numpy as np
+    - '# ---------- Kerndetektor ----------'
+    - def detect_flirt_drift(chats, marker_lookup,
+    - window_days=10,
+    - min_hits=4,
+    - 'openness_slope_min=0.15):'
+    - 'chats:   iterable[dict]   [{id, ts, text, markers:[ids]}] chronologisch'
+    - 'returns: (bool, span, diagnostics)'
+    patterns:
+    - from collections import deque, Counter
+    - from datetime import timedelta
+    - import numpy as np
+    - '# ---------- Kerndetektor ----------'
+    - def detect_flirt_drift(chats, marker_lookup,
+    - window_days=10,
+    - min_hits=4,
+    - 'openness_slope_min=0.15):'
+    - 'chats:   iterable[dict]   [{id, ts, text, markers:[ids]}] chronologisch'
+    - 'returns: (bool, span, diagnostics)'
+    created_from: FLIRT_DRIFT_DETECTIO.yaml
+    created_at: '2025-07-21T14:02:50.749045'
+  AUTO_SEM_20250721_CE38:
+    beschreibung: Automatisch erstellt für A_SVT_APPELL_DIREKT.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    patterns:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    created_from: A_SVT_APPELL_DIREKT.yaml
+    created_at: '2025-07-21T14:02:50.760874'
+  AUTO_SEM_20250721_1972:
+    beschreibung: Typische, wiederkehrende Grußformeln zu bestimmten Tageszeiten.
+    examples:
+    - Good morning NAME.
+    - Hey, hast du  gut geschlafen?
+    - Ich wünsche dir  einen schönen guten Morgen
+    - gut geschlafen?
+    - Wie war deine Nacht?
+    - Hast du schöne Träume gehabt?
+    patterns:
+    - Good morning NAME.
+    - Hey, hast du  gut geschlafen?
+    - Ich wünsche dir  einen schönen guten Morgen
+    - gut geschlafen?
+    - Wie war deine Nacht?
+    - Hast du schöne Träume gehabt?
+    created_from: A_ROUTINE_GREETING
+    created_at: '2025-07-21T18:31:15.066960'
+  AUTO_SEM_20250721_359E:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-21T18:35:50.950009'
+  AUTO_SEM_20250721_5A85:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-21T18:37:15.405655'
+  AUTO_SEM_20250721_DC94:
+    beschreibung: Phrasen, die ein Gefühl der Verbundenheit direkt ausdrücken.
+    examples: []
+    patterns: []
+    created_from: A_FEELING_CONNECTION_MARKER
+    created_at: '2025-07-21T18:44:37.823067'
+  AUTO_SEM_20250721_209C:
+    beschreibung: Verwendung der Metapher 'Team', um Zusammengehörigkeit zu beschreiben.
+    examples: []
+    patterns: []
+    created_from: A_TEAM_METAPHOR_MARKER
+    created_at: '2025-07-21T18:44:50.515616'
+  AUTO_SEM_20250721_1CFF:
+    beschreibung: 'Erkennt Aussagen, die die emotionale Verbindung, den Zusammenhalt
+      oder die Wichtigkeit der Beziehung explizit thematisieren und positiv bewerten.
+      [cite_start]Indikator für sichere Bindungsmuster. [cite: 769]'
+    examples:
+    - &id001
+      de: Ich schätze unsere Verbindung mehr, als du vielleicht denkst.
+      en: I appreciate our connection more than you might think.
+    - &id002
+      de: Egal was kommt, ich weiß, dass wir ein Team sind.
+      en: No matter what comes, I know that we are a team.
+    - &id003
+      de: Ich fühle mich bei dir einfach verstanden, wir sind auf einer Wellenlänge.
+      en: I just feel understood by you, we're on the same wavelength.
+    - &id004
+      de: Es tut gut zu wissen, dass ich dich an meiner Seite habe.
+      en: It feels good to know I have you by my side.
+    - &id005
+      de: Unsere Freundschaft ist mir echt heilig.
+      en: Our friendship is truly sacred to me.
+    - &id006
+      de: Ich merke immer wieder, wie stark das Band zwischen uns ist.
+      en: I notice again and again how strong the bond between us is.
+    - &id007
+      de: Ich bin so froh, dass wir uns so gut verstehen.
+      en: I'm so glad that we get along so well.
+    - &id008
+      de: Mit dir fühlt sich alles einfacher an, weil wir das zusammen durchstehen.
+      en: With you, everything feels easier because we get through it together.
+    - &id009
+      de: Fühle mich dir gerade sehr nah.
+      en: I'm feeling very close to you right now.
+    - &id010
+      de: Du bist mein Fels in der Brandung, zusammen schaffen wir alles.
+      en: You are my rock, together we can do anything.
+    patterns:
+    - *id001
+    - *id002
+    - *id003
+    - *id004
+    - *id005
+    - *id006
+    - *id007
+    - *id008
+    - *id009
+    - *id010
+    created_from: S_EXPLICIT_CONNECTION
+    created_at: '2025-07-21T18:45:21.496423'
+  AUTO_SEM_20250721_1684:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-21T18:50:39.504019'
+  AUTO_SEM_20250721_A197:
     beschreibung: Automatisch erkannt aus ID_MARKER
     examples: []
     patterns: []
     created_from: ID_MARKER
-    created_at: '2025-07-14T18:29:28.306322'
-  AUTO_SEM_20250714_5ADB:
+    created_at: '2025-07-21T18:50:53.046443'
+  AUTO_SEM_20250721_CAD3:
     beschreibung: Automatisch erkannt aus ID_MARKER
     examples: []
     patterns: []
     created_from: ID_MARKER
-    created_at: '2025-07-14T18:29:28.310237'
-  AUTO_SEM_20250714_C458:
+    created_at: '2025-07-21T18:51:12.308757'
+  AUTO_SEM_20250721_BE66:
     beschreibung: Automatisch erkannt aus ID_MARKER
     examples: []
     patterns: []
     created_from: ID_MARKER
-    created_at: '2025-07-14T18:29:28.318010'
-  AUTO_SEM_20250714_F781:
-    beschreibung: Automatisch erkannt aus ID_MARKER
+    created_at: '2025-07-21T18:51:28.506141'
+  AUTO_SEM_20250721_95BD:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
     examples: []
     patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-14T18:29:28.325322'
-  AUTO_SEM_20250714_831E:
-    beschreibung: Automatisch erkannt aus ID_MARKER
+    created_from: -_ID_MARKER
+    created_at: '2025-07-21T18:52:52.953550'
+  AUTO_SEM_20250721_C61F:
+    beschreibung: Ausdrücke, die Wissen, Kontrolle oder Sicherheit signalisieren.
+    examples:
+    - I usually know what I want.
+    - Ich bin mir echt sicher, dass das klappt 💪.
+    - I know exactly how this will go 🔥.
+    - Normalerweise hab ich das im Griff 😉.
+    - Eigentlich weiß ich ganz genau, was los ist.
+    - Usually I’m totally on top of things 👍.
+    - Eigentlich weiß ich’s 😏
+    patterns:
+    - I usually know what I want.
+    - Ich bin mir echt sicher, dass das klappt 💪.
+    - I know exactly how this will go 🔥.
+    - Normalerweise hab ich das im Griff 😉.
+    - Eigentlich weiß ich ganz genau, was los ist.
+    - Usually I’m totally on top of things 👍.
+    - Eigentlich weiß ich’s 😏
+    created_from: A_CERTAINTY_PHRASE
+    created_at: '2025-07-21T18:54:03.902716'
+  AUTO_SEM_20250721_D963:
+    beschreibung: Ausdrücke, die Nichtwissen, Zweifel oder Unsicherheit signalisieren.
+    examples:
+    - but in relationship - I don't know.
+    - Ich weiß nicht 🤷‍♂️, vielleicht morgen?
+    - Kein Plan, bin unsicher...
+    - I'm not sure about that tbh.
+    - I don't know 🤔, feels weird.
+    - Ich bin unsicher, was du meinst.
+    - I dunno, kinda lost here.
+    patterns:
+    - but in relationship - I don't know.
+    - Ich weiß nicht 🤷‍♂️, vielleicht morgen?
+    - Kein Plan, bin unsicher...
+    - I'm not sure about that tbh.
+    - I don't know 🤔, feels weird.
+    - Ich bin unsicher, was du meinst.
+    - I dunno, kinda lost here.
+    created_from: A_UNCERTAINTY_PHRASE
+    created_at: '2025-07-21T18:54:41.408946'
+  AUTO_SEM_20250721_31CE:
+    beschreibung: Wörter, die einen Gegensatz oder Widerspruch einleiten.
+    examples:
+    - '..., but in relationship...'
+    - Ich will kommen, aber ich schaff's vielleicht nicht.
+    - I'd love to go, however I'm broke.
+    - Er sagt ja, andererseits klingt das komisch.
+    - I like the idea, but I'm not convinced.
+    - Wir könnten gehen, jedoch regnet es.
+    - Sounds fun, but I'm exhausted.
+    patterns:
+    - '..., but in relationship...'
+    - Ich will kommen, aber ich schaff's vielleicht nicht.
+    - I'd love to go, however I'm broke.
+    - Er sagt ja, andererseits klingt das komisch.
+    - I like the idea, but I'm not convinced.
+    - Wir könnten gehen, jedoch regnet es.
+    - Sounds fun, but I'm exhausted.
+    created_from: A_CONTRAST_CONJUNCTION
+    created_at: '2025-07-21T18:55:19.319518'
+  AUTO_SEM_20250721_B2EE:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
     examples: []
     patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-14T18:29:28.331785'
-  AUTO_SEM_20250714_8395:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-14T18:29:28.337927'
-  AUTO_SEM_20250714_7E7B:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-14T18:29:28.342750'
-  AUTO_SEM_20250714_E350:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-14T18:29:28.347607'
-  AUTO_SEM_20250714_D13C:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-14T18:33:22.112451'
-  AUTO_SEM_20250714_E32B:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-14T20:33:17.541703'
-  AUTO_SEM_20250714_E0D0:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-14T20:33:45.375156'
-  AUTO_SEM_20250714_9E8B:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-14T20:34:11.661392'
-  AUTO_SEM_20250714_8FBB:
-    beschreibung: 'Automatisch erkannt aus #_--------_META_(SYSTEMIC_VOLATILITY_MARKER'
-    examples: []
-    patterns: []
-    created_from: '#_--------_META_(SYSTEMIC_VOLATILITY_MARKER'
-    created_at: '2025-07-14T20:34:25.062301'
-  AUTO_SEM_20250716_A9E0:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-16T12:02:11.307617'
-  AUTO_SEM_20250716_67E4:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-16T12:02:40.179844'
-  AUTO_SEM_20250716_6610:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-16T12:03:03.038285'
-  AUTO_SEM_20250716_5360:
-    beschreibung: 'Automatisch erkannt aus #_--------_META_(SYSTEMIC_VOLATILITY_MARKER'
-    examples: []
-    patterns: []
-    created_from: '#_--------_META_(SYSTEMIC_VOLATILITY_MARKER'
-    created_at: '2025-07-16T12:05:20.350726'
-  AUTO_SEM_20250716_9A69:
-    beschreibung: Automatisch erkannt aus ID_MARKER
-    examples: []
-    patterns: []
-    created_from: ID_MARKER
-    created_at: '2025-07-16T12:05:36.282307'
+    created_from: -_ID_MARKER
+    created_at: '2025-07-21T18:55:42.008824'
+  AUTO_SEM_20250721_9B2E:
+    beschreibung: 'Erkennt Aussagen, die die emotionale Verbindung, den Zusammenhalt
+
+      oder die Wichtigkeit der Beziehung explizit thematisieren und positiv
+
+      bewerten. [cite_start]Indikator für sichere Bindungsmuster. [cite: 769]'
+    examples:
+    - &id011
+      de: Ich schätze unsere Verbindung mehr, als du vielleicht denkst.
+      en: I appreciate our connection more than you might think.
+    - &id012
+      de: Egal was kommt, ich weiß, dass wir ein Team sind.
+      en: No matter what comes, I know that we are a team.
+    - &id013
+      de: Ich fühle mich bei dir einfach verstanden, wir sind auf einer Wellenlänge.
+      en: I just feel understood by you, we're on the same wavelength.
+    - &id014
+      de: Es tut gut zu wissen, dass ich dich an meiner Seite habe.
+      en: It feels good to know I have you by my side.
+    - &id015
+      de: Unsere Freundschaft ist mir echt heilig.
+      en: Our friendship is truly sacred to me.
+    - &id016
+      de: Ich merke immer wieder, wie stark das Band zwischen uns ist.
+      en: I notice again and again how strong the bond between us is.
+    - &id017
+      de: Ich bin so froh, dass wir uns so gut verstehen.
+      en: I'm so glad that we get along so well.
+    - &id018
+      de: Mit dir fühlt sich alles einfacher an, weil wir das zusammen durchstehen.
+      en: With you, everything feels easier because we get through it together.
+    - &id019
+      de: Fühle mich dir gerade sehr nah.
+      en: I'm feeling very close to you right now.
+    - &id020
+      de: Du bist mein Fels in der Brandung, zusammen schaffen wir alles.
+      en: You are my rock, together we can do anything.
+    patterns:
+    - *id011
+    - *id012
+    - *id013
+    - *id014
+    - *id015
+    - *id016
+    - *id017
+    - *id018
+    - *id019
+    - *id020
+    created_from: S_EXPLICIT_CONNECTION
+    created_at: '2025-07-21T18:56:08.666655'
+  AUTO_SEM_20250721_6F44:
+    beschreibung: 'Erkennt Aussagen, die die emotionale Verbindung, den Zusammenhalt
+
+      oder die Wichtigkeit der Beziehung explizit thematisieren und positiv
+
+      bewerten.Indikator für sichere Bindungsmuster.'
+    examples:
+    - &id021
+      de: Ich schätze unsere Verbindung mehr, als du vielleicht denkst.
+      en: I appreciate our connection more than you might think.
+    - &id022
+      de: Egal was kommt, ich weiß, dass wir ein Team sind.
+      en: No matter what comes, I know that we are a team.
+    - &id023
+      de: Ich fühle mich bei dir einfach verstanden, wir sind auf einer Wellenlänge.
+      en: I just feel understood by you, we're on the same wavelength.
+    - &id024
+      de: Es tut gut zu wissen, dass ich dich an meiner Seite habe.
+      en: It feels good to know I have you by my side.
+    - &id025
+      de: Unsere Freundschaft ist mir echt heilig.
+      en: Our friendship is truly sacred to me.
+    - &id026
+      de: Ich merke immer wieder, wie stark das Band zwischen uns ist.
+      en: I notice again and again how strong the bond between us is.
+    - &id027
+      de: Ich bin so froh, dass wir uns so gut verstehen.
+      en: I'm so glad that we get along so well.
+    - &id028
+      de: Mit dir fühlt sich alles einfacher an, weil wir das zusammen durchstehen.
+      en: With you, everything feels easier because we get through it together.
+    - &id029
+      de: Fühle mich dir gerade sehr nah.
+      en: I'm feeling very close to you right now.
+    - &id030
+      de: Du bist mein Fels in der Brandung, zusammen schaffen wir alles.
+      en: You are my rock, together we can do anything.
+    patterns:
+    - *id021
+    - *id022
+    - *id023
+    - *id024
+    - *id025
+    - *id026
+    - *id027
+    - *id028
+    - *id029
+    - *id030
+    created_from: S_EXPLICIT_CONNECTION
+    created_at: '2025-07-21T18:56:43.923012'
+  AUTO_SEM_20250721_14AC:
+    beschreibung: 'Erkennt Aussagen, die die emotionale Verbindung, den Zusammenhalt
+
+      oder die Wichtigkeit der Beziehung explizit thematisieren und positiv
+
+      bewerten.Indikator für sichere Bindungsmuster.'
+    examples:
+    - &id031
+      de: Ich schätze unsere Verbindung mehr, als du vielleicht denkst.
+      en: I appreciate our connection more than you might think.
+    - &id032
+      de: Egal was kommt, ich weiß, dass wir ein Team sind.
+      en: No matter what comes, I know that we are a team.
+    - &id033
+      de: Ich fühle mich bei dir einfach verstanden, wir sind auf einer Wellenlänge.
+      en: I just feel understood by you, we're on the same wavelength.
+    - &id034
+      de: Es tut gut zu wissen, dass ich dich an meiner Seite habe.
+      en: It feels good to know I have you by my side.
+    - &id035
+      de: Unsere Freundschaft ist mir echt heilig.
+      en: Our friendship is truly sacred to me.
+    - &id036
+      de: Ich merke immer wieder, wie stark das Band zwischen uns ist.
+      en: I notice again and again how strong the bond between us is.
+    - &id037
+      de: Ich bin so froh, dass wir uns so gut verstehen.
+      en: I'm so glad that we get along so well.
+    - &id038
+      de: Mit dir fühlt sich alles einfacher an, weil wir das zusammen durchstehen.
+      en: With you, everything feels easier because we get through it together.
+    - &id039
+      de: Fühle mich dir gerade sehr nah.
+      en: I'm feeling very close to you right now.
+    - &id040
+      de: Du bist mein Fels in der Brandung, zusammen schaffen wir alles.
+      en: You are my rock, together we can do anything.
+    patterns:
+    - *id031
+    - *id032
+    - *id033
+    - *id034
+    - *id035
+    - *id036
+    - *id037
+    - *id038
+    - *id039
+    - *id040
+    created_from: S_EXPLICIT_CONNECTION
+    created_at: '2025-07-21T18:57:27.043049'

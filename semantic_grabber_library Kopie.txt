@@ -1,0 +1,27 @@
+semantic_grabbers:
+  AUTO_SEM_20250720_079A:
+    beschreibung: "'Exklusiver, vor Dritten verborgener Interaktionsraum.\n\n  '"
+    examples:
+    - ChatGPT fragen
+    - „Nur wir zwei haben den Schlüssel zur Schließfachbox – vergiss das nicht.“
+    - „Keiner darf mitbekommen, dass der Deal morgen früh fixiert wird.“
+    - „Sobald der Upload durch ist, löschen wir alles vom Server.“
+    - „Speicher meine Nummer unter einem anderen Namen, falls wer guckt.“
+    - „Greif nur im Inkognito-Fenster auf die Cloud-Datei zu.“
+    - „Erzähl niemandem, dass wir den Prototyp heute schon getestet haben.“
+    - „Nachts um drei, Hinterhof rechts – keine Fotos, keine Stories.“
+    - „Verwisch bitte den Chat-Verlauf, sobald du’s gelesen hast.“
+    - „Ich schick dir die Koordinaten später über Signal.“
+    patterns:
+    - ChatGPT fragen
+    - „Nur wir zwei haben den Schlüssel zur Schließfachbox – vergiss das nicht.“
+    - „Keiner darf mitbekommen, dass der Deal morgen früh fixiert wird.“
+    - „Sobald der Upload durch ist, löschen wir alles vom Server.“
+    - „Speicher meine Nummer unter einem anderen Namen, falls wer guckt.“
+    - „Greif nur im Inkognito-Fenster auf die Cloud-Datei zu.“
+    - „Erzähl niemandem, dass wir den Prototyp heute schon getestet haben.“
+    - „Nachts um drei, Hinterhof rechts – keine Fotos, keine Stories.“
+    - „Verwisch bitte den Chat-Verlauf, sobald du’s gelesen hast.“
+    - „Ich schick dir die Koordinaten später über Signal.“
+    created_from: C_SECRET_BONDING.yaml
+    created_at: '2025-07-20T23:54:29.918320'
