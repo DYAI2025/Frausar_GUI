@@ -1661,12 +1661,12 @@ class FRAUSARGUI:
                     marker_name = marker_dict.get('id') or marker_dict.get('marker') or marker_dict.get('marker_name') or 'UNKNOWN_MARKER'
                     description = marker_dict.get('beschreibung') or marker_dict.get('description', '')
                     examples = marker_dict.get('beispiele') or marker_dict.get('examples', [])
-                    rules = marker_dict.get('rules', []) # KORREKTUR: Rules sicher extrahieren
+                    rules = marker_dict.get('rules', [])
                     result = {
                         'name': marker_name,
-                        'description': description.strip(),
+                        'description': description.strip() if isinstance(description, str) else description,
                         'examples': examples,
-                        'rules': rules, # KORREKTUR: Rules zum Ergebnis hinzufügen
+                        'rules': rules,
                         'semantic_grabber_id': marker_dict.get('semantische_grabber_id') or marker_dict.get('semantic_grabber_id')
                     }
                     # Erzeuge bzw. verknüpfe Semantic-Grabber analog zur bisherigen Logik
@@ -1690,23 +1690,25 @@ class FRAUSARGUI:
                 # Prüfe auf verschiedene mögliche Feldnamen für den Marker-Namen
                 if any(k in data for k in ['marker', 'marker_name', 'id']):
                     marker_name = data.get('marker') or data.get('marker_name') or data.get('id') or 'UNKNOWN_MARKER'
+                    description = data.get('beschreibung') or data.get('description', '')
                     result = {
                         'name': marker_name,
-                        'description': (data.get('beschreibung') or data.get('description', '')).strip(),
+                        'description': description.strip() if isinstance(description, str) else description,
                         'examples': data.get('beispiele') or data.get('examples', []),
-                        'rules': data.get('rules', []), # KORREKTUR: Rules sicher extrahieren
+                        'rules': data.get('rules', []),
                         'semantic_grabber_id': data.get('semantische_grabber_id') or data.get('semantic_grabber_id')
                     }
                 else:
                     # Alternatives Format: NAME als Key
                     marker_name = list(data.keys())[0]
                     marker_data = data[marker_name]
+                    description = marker_data.get('beschreibung') or marker_data.get('description', '')
 
                     result = {
                         'name': marker_name,
-                        'description': (marker_data.get('beschreibung') or marker_data.get('description', '')).strip(),
+                        'description': description.strip() if isinstance(description, str) else description,
                         'examples': marker_data.get('beispiele') or marker_data.get('examples', []),
-                        'rules': marker_data.get('rules', []), # KORREKTUR: Rules sicher extrahieren
+                        'rules': marker_data.get('rules', []),
                         'semantic_grabber_id': marker_data.get('semantische_grabber_id') or marker_data.get('semantic_grabber_id')
                     }
 

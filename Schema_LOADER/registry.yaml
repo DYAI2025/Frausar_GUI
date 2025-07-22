@@ -1,0 +1,45 @@
+schemas:
+  - id: REL_CRISIS            # Kurzcode
+    name: "Beziehungsanalyse – Krisenmanagement"
+    template_file: "templates/chunk_gap_scan_template.yaml"
+    focus_tags: ["relationship", "crisis", "attachment"]
+    default_detectors:
+      - DETECT_EMOTIONAL_MANIPULATION
+      - DETECT_ESCALATION_MARKERS
+      - S_INTERACTIVE_STONEWALLING
+    description: >
+      Prüft Lücken, Rückzug und Eskalationen in Beziehungskrisen.
+      Fokussiert auf die Dynamik von Nähe und Distanz.
+
+  - id: CAREER_NETWORK
+    name: "Karriereanalyse – Netzwerk & Status"
+    template_file: "templates/chunk_need_probe_template.yaml"
+    focus_tags: ["career", "network", "status", "power"]
+    default_detectors:
+      - NetworkCentralityDetector
+      - PowerLanguageScanner
+      - C_ADAPTIVE_POLARIZATION
+    description: >
+      Quantifiziert Positionierung und Einfluss in beruflichen Chats.
+      Erkennt Machtdynamiken und Bedürfnis nach Bestätigung.
+
+  - id: DEEP_PROFILE
+    name: "Tiefenprofil über längeren Zeitraum"
+    template_file: "templates/interim_deep_profile_template.yaml"
+    focus_tags: ["long_term", "profile", "development"]
+    default_detectors:
+      - EmotionDynamicsDetector
+      - MM_RELATIONAL_DELEGATION
+    description: >
+      Analysiert die Entwicklung von Beziehungs-Metriken über einen
+      längeren Zeitraum, um Muster aufzudecken.
+
+  - id: FULL_ANALYSIS
+    name: "Umfassende Chunk-Analyse"
+    template_file: "templates/chunk_analysis_template.yaml"
+    focus_tags: ["comprehensive", "full", "all_axes"]
+    default_detectors:
+      - "ALL" # Placeholder to signify all available detectors
+    description: >
+      Ein umfassendes Schema, das alle Aspekte einer Konversation
+      in einem einzelnen Chunk beleuchtet. 

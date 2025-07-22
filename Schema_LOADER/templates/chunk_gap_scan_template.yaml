@@ -1,0 +1,17 @@
+chunk_gap_scan:
+  chunk_id: 0
+  gap_snapshot:
+    unanswered_questions: 0
+    delayed_replies: 0
+    missing_reassurance: false         # Detektor schlägt an, wenn true
+  silence_patterns:
+    - marker: A_DELAYED_REPLY
+      count: 0
+    - marker: S_INTERACTIVE_STONEWALLING
+      count: 0
+  attachment_shift:
+    axis_intimacy_vs_distance: 0.0   # –1 … +1, negative Werte = Distanz
+  interpretation_marker_based: |
+    # Beispiel: Mehrfach unerwiderte Nachfragen → erhöhtes Rückzugssignal.
+  validity_checks:
+    - "Marker-Counts gegen Raw-Log geprüft" 

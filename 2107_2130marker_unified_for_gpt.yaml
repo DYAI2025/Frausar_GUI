@@ -1,9 +1,9 @@
 meta:
   title: FRAUSAR Marker-System - Komplette Bestandsaufnahme
   description: Alle Love Scammer Erkennungsmarker in einem einheitlichen Format
-  generated_at: '2025-07-22T01:29:04.875871'
+  generated_at: '2025-07-21T21:31:51.179098'
   version: '2.0'
-  total_markers: 113
+  total_markers: 79
   purpose: GPT-Analyse und Bestandsaufnahme
 risk_levels:
   green: Kein oder nur unkritischer Marker
@@ -202,35 +202,6 @@ markers:
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags: []
-  A_SUBTLE_SARCASM.yaml:
-    name: A_SUBTLE_SARCASM.yaml
-    beschreibung: ">\n  Subtiler Sarkasmus/Ironie zur verdeckten Abwertung."
-    beispiele:
-    - Na toll, der Drucker streikt wieder – danke für nichts.
-    - Schön für dich, dass du Urlaub machen kannst, während wir schuften.
-    - War ja klar, dass du das letzte Stück Kuchen nimmst.
-    - Wie nett von dir, heute mal pünktlich zu erscheinen.
-    - Muss ja schön sein, den Luxus einer Pause zu haben.
-    - Na super, schon wieder ein Update mitten im Meeting.
-    - Schön, dass du Zeit hattest, meine Nachricht zu ignorieren.
-    - War ja klar, dass der Held des Tages du bist.
-    - Wie nett von dir, mich *nachträglich* einzuladen.
-    - Muss ja schön sein, wenn alles immer nach Plan läuft – deinem Plan.
-    - Na toll, jetzt ist der Kaffee auch noch leer. Fantastisch.
-    - Schön für dich, dass dein Projekt fertig ist. Wir anderen lieben Deadlines.
-    - War ja klar, dass genau *dein* Thema Überlänge bekommt.
-    - Wie nett von dir, mir erst nach drei Erinnerungen zu antworten.
-    - Muss ja schön sein, immer recht zu haben.
-    - Na super, stromert mein Laptop – bestens organisiert, wie immer.
-    - Schön, dass du die Regeln machst, wir folgen gerne.
-    - War ja klar, dass der Fehler im System und nie bei dir liegt.
-    - Wie nett, dass du auch mal kurz reinschaust – Prominenz im Chat!
-    - Muss ja schön sein, wenn Probleme sich vor dir selbst lösen.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   C_SUSTAINED_CONTACT.yaml:
     name: C_SUSTAINED_CONTACT.yaml
     beschreibung: "'Ungewöhnlich hohe Kommunikationsfrequenz (≥ 3/Woche) länger als\
@@ -285,74 +256,17 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  A_TOGETHERNESS_TERMS.yaml:
-    name: A_TOGETHERNESS_TERMS.yaml
-    beschreibung: ">\n  Words emphasizing the ‘we’ feeling and shared identity."
-    beispiele:
-    - Wir beide schaffen das schon.
-    - The two of us can handle this.
-    - Lass uns das zusammen machen.
-    - Let’s do this together.
-    - Das ist unsere kleine Tradition.
-    - That’s our little tradition.
-    - Gemeinsam sind wir stark.
-    - Together we’re strong.
-    - Wir sind einfach ein gutes Team.
-    - We’re simply a great team.
-    - Our playlist needs a new anthem.
-    - Team us, all the way.
-    - We’ve got this in the bag.
-    - Let’s tackle it as a unit.
-    - Our weekend itinerary looks epic.
-    - We can brainstorm over coffee.
-    - As a team, nothing stops us.
-    - Our shared google doc is ready.
-    - Together, we make deadlines cry.
-    - We both know this routine by heart.
-    - Our inside jokes keep multiplying.
-    - We’re co-captains of this chaos.
-    - Our vibe is unmatched.
-    - We could write a book about us.
-    - Let’s celebrate our win tonight.
-    - Our combined skills are unstoppable.
-    - We’ll split the tasks and conquer.
-    - Our plan, our rules.
-    - We rise, we shine—together.
-    - As teammates in life, we rock.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   A_UNCERTAINTY_PHRASE.yaml:
     name: A_UNCERTAINTY_PHRASE.yaml
-    beschreibung: "'Ausdrücke, die Nichtwissen, Zweifel oder Unsicherheit signalisieren.\n\
-      \n  '"
-    beispiele: []
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags: []
-  S_SECURE_CHILDHOOD_REF.yaml:
-    name: S_SECURE_CHILDHOOD_REF.yaml
-    beschreibung: ">\n  Ko‑Vorkommen von mindestens zwei POSITIVE_CAREGIVER‑Markern\n\
-      innerhalb von drei Sätzen; Negativ‑ oder Unsicherheits‑Marker\ndürfen höchstens\
-      \ einmal auftreten."
+    beschreibung: ">\n  Ausdrücke, die Nichtwissen, Zweifel oder Unsicherheit signalisieren."
     beispiele:
-    - Meine Mutter war immer für mich da und mein Vater hat mich unterstützt.
-    - Wir lasen jeden Abend gemeinsam und ich fühlte mich geborgen.
-    - Ich wusste stets, dass ich zu meinen Eltern kommen konnte.
-    - Selbst wenn ich Fehler machte, wurde ich liebevoll begleitet.
-    - Die Sonntagsfrühstücke gaben mir ein Gefühl von Stabilität.
-    - In schwierigen Zeiten standen meine Eltern fest hinter mir.
-    - Lob und Ermutigung begleiteten meine Schulzeit konstant.
-    - Familienurlaube waren voller Nähe und Spaß.
-    - Elternabende besuchten meine Eltern immer gemeinsam.
-    - Zuhause durfte ich meine Gefühle offen zeigen.
-    - Ich erinnere mich an endlose Vorlese‑Abende im Wohnzimmer.
-    - Bei Krankheit wurde ich umsorgt und getröstet.
-    - Mein Opa war ein stetiger Ruhepol, der mich verstand.
-    - Freundschaften wurden gefördert, nicht kontrolliert.
-    - Fehler galten als Lernchance, nicht als Makel.
+    - but in relationship - I don't know.
+    - Ich weiß nicht 🤷‍♂️, vielleicht morgen?
+    - Kein Plan, bin unsicher...
+    - I'm not sure about that tbh.
+    - I don't know 🤔, feels weird.
+    - Ich bin unsicher, was du meinst.
+    - I dunno, kinda lost here.
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags:
@@ -360,19 +274,29 @@ markers:
     - needs_review
   ID.yaml:
     name: ID.yaml
-    beschreibung: ''''''
+    beschreibung: '>'
     beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
-    tags: []
+    tags:
+    - neu_erstellt
+    - needs_review
   A_CERTAINTY_PHRASE.yaml:
     name: A_CERTAINTY_PHRASE.yaml
-    beschreibung: "'Ausdrücke, die Wissen, Kontrolle oder Sicherheit signalisieren.\n\
-      \n  '"
-    beispiele: []
+    beschreibung: ">\n  Ausdrücke, die Wissen, Kontrolle oder Sicherheit signalisieren."
+    beispiele:
+    - I usually know what I want.
+    - Ich bin mir echt sicher, dass das klappt 💪.
+    - I know exactly how this will go 🔥.
+    - Normalerweise hab ich das im Griff 😉.
+    - Eigentlich weiß ich ganz genau, was los ist.
+    - Usually I’m totally on top of things 👍.
+    - Eigentlich weiß ich’s 😏
     kategorie: UNCATEGORIZED
     risk_score: 1
-    tags: []
+    tags:
+    - neu_erstellt
+    - needs_review
   S_EMO_VOLATILE_WINDOW.yaml:
     name: S_EMO_VOLATILE_WINDOW.yaml
     beschreibung: ">\n  Semantic marker for high emotional volatility: valence standard\n\
@@ -456,26 +380,6 @@ markers:
     beschreibung: ">\n  Atomic Marker für Schuldumkehr-Formulierungen (Blame Shifting),\n\
       die Verantwortung abweisen und auf das Gegenüber projizieren."
     beispiele:
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - '- '
-    - Wenn du nicht immer so spät wärst, hätten wir das Problem nicht.
     - Nicht meine Schuld, du hast mich nicht informiert.
     - Wärst du früher dran gewesen, gäb’s das Problem nicht.
     - Wenn du pünktlich wärst, müssten wir jetzt nicht diskutieren.
@@ -491,17 +395,6 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  S_RESONANZ_AUF_KOSENAME.yaml:
-    name: S_RESONANZ_AUF_KOSENAME.yaml
-    beschreibung: ">\n  A positive response immediately following the use of a pet\
-      \ name."
-    beispiele:
-    - 'A: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   C_SYMBOLIC_SUPPORT_FIELD.yaml:
     name: C_SYMBOLIC_SUPPORT_FIELD.yaml
     beschreibung: Keine Beschreibung verfügbar
@@ -511,31 +404,6 @@ markers:
     tags:
     - '"symbolic"'
     - '"support"'
-  C_ATTACHMENT_STYLE_AVOIDANT.yaml:
-    name: C_ATTACHMENT_STYLE_AVOIDANT.yaml
-    beschreibung: ">\n  Aktiv, wenn AVOIDANT_CHILDHOOD_REFERENCE ≥2‑mal\nim 20‑Nachrichten‑Fenster\
-      \ auftaucht; gleichzeitige\nSecure‑Cluster deaktivieren diesen Marker."
-    beispiele:
-    - Der Sprecher betont wiederholt, alleine klargekommen zu sein.
-    - Kindheit wird als 'früh erwachsen' geschildert.
-    - Hilfe­losigkeit wird verneint, Selbständigkeit glorifiziert.
-    - Elterliche Abwesenheit wird nüchtern, ohne Emotion, erwähnt.
-    - Gefühlsäußerungen werden minimiert oder als Schwäche angesehen.
-    - Sätze wie 'brauche niemanden' häufen sich.
-    - Lob wird als unwichtig oder peinlich dargestellt.
-    - Bindungen zu Freunden wichtiger als zu Familie.
-    - Konflikte werden durch Rückzug gelöst, nicht durch Dialog.
-    - Erfolg wird auf eigene Leistung, nie auf Unterstützung zurückgeführt.
-    - Der Sprecher lacht über 'anhängliche' Menschen.
-    - Erinnerungen an Krankheit zeigen Selbstversorgung.
-    - Fehler werden verschwiegen, um unabhängiges Image zu wahren.
-    - Eltern werden sachlich, aber distanziert beschrieben.
-    - Zusammenhalt wird als 'Später erst gelernt' betont.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json:
     name: WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json
     beschreibung: Keine Beschreibung verfügbar
@@ -550,31 +418,6 @@ markers:
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags: []
-  A_SELF_RELIANCE_EARLY.yaml:
-    name: A_SELF_RELIANCE_EARLY.yaml
-    beschreibung: ">\n  Formulierungen, die betonen, dass das Kind früh erwachsen\n\
-      oder eigenständig sein musste (Indikator für vermeidend‑distanzierende\nBindungsstrategien)."
-    beispiele:
-    - Ich musste schnell erwachsen werden, weil niemand sonst da war.
-    - Schon mit zehn habe ich mich selbst um mein Abendessen gekümmert.
-    - Ich verließ mich lieber auf mich als auf andere.
-    - Mit zwölf habe ich meine kleinen Geschwister versorgt.
-    - Verantwortung lag früh auf meinen Schultern.
-    - Ich war praktisch selbstständig seit der Grundschule.
-    - Urlaub organisierte ich mir als Teenager alleine.
-    - Hausaufgaben? Da habe ich nie Hilfe erwartet.
-    - Ich lernte, Probleme allein zu lösen.
-    - Andere fanden mich immer 'reif für mein Alter'.
-    - Gefühle behielt ich für mich, das war sicherer.
-    - Ich fragte ungern nach Hilfe – war schon Gewohnheit.
-    - Selbst Geburtstagsfeiern habe ich geplant, nicht meine Eltern.
-    - Ich erinnere mich, wie ich Arzttermine alleine machte.
-    - Wenn etwas kaputtging, reparierte ich es einfach selbst.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   A_BRO_LIKE_CALLING.yaml:
     name: A_BRO_LIKE_CALLING.yaml
     beschreibung: ">\n  Direktanreden oder Spitznamen, die eine freundschaftlich-vertraute\
@@ -627,16 +470,6 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  C_WACHSENDE_VERBINDUNG.yaml:
-    name: C_WACHSENDE_VERBINDUNG.yaml
-    beschreibung: ">\n  Pattern of repeated joint future planning plus expressed anticipation."
-    beispiele:
-    - 'A: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   _HIGH_LOC_DENSITY.yaml:
     name: _HIGH_LOC_DENSITY.yaml
     beschreibung: ">\n  - id: \"S_HIGH_LOC_DENSITY\"\n  level: 2\n  version: \"1.0.0\"\
@@ -683,16 +516,6 @@ markers:
     - '"escalation"'
     - '"feedback_loop"'
     - '"origin_author:John_Gottman"'
-  C_ETABLIERTE_INTIMITAET_UND_RESONANZ.yaml:
-    name: C_ETABLIERTE_INTIMITAET_UND_RESONANZ.yaml
-    beschreibung: ">\n  Stable pattern of regular pet-names & resonance."
-    beispiele:
-    - 'A: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   A_EMOJI_SUPPORT.yaml:
     name: A_EMOJI_SUPPORT.yaml
     beschreibung: Keine Beschreibung verfügbar
@@ -764,61 +587,6 @@ markers:
     - 'A (-0.80): “Everything is falling apart.”'
     - 'B (-0.70): “This is the worst news I could get.”'
     - 'A (-0.73): “I’m so disappointed and drained.”'
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  C_ATTACHMENT_STYLE_ANXIOUS.yaml:
-    name: C_ATTACHMENT_STYLE_ANXIOUS.yaml
-    beschreibung: ">\n  Aktiv, wenn ANXIOUS_CHILDHOOD_REFERENCE ≥2‑mal\nim 20‑Nachrichten‑Fenster\
-      \ erscheint."
-    beispiele:
-    - Der Sprecher verwendet häufig Worte wie 'Angst', 'unsicher', 'nie gewusst'.
-    - Erinnerungen zeigen große Stimmungsschwankungen der Eltern.
-    - Zuneigung wird als unberechenbar beschrieben.
-    - Versprechen wurden gegeben und gebrochen – Trauer folgt.
-    - Der Sprecher erwartet instinktiv Ablehnung.
-    - Emotionale Nähe wird ersehnt, aber zugleich gefürchtet.
-    - Kleinste Zeichen von Distanz lösen Sorge aus.
-    - Schlafprobleme werden mit elterlichen Streits verknüpft.
-    - Erinnerungen an entschuldigungs­getriebenes Verhalten ('Es tut mir leid, dass
-      ich existiere').
-    - Bindungen wirken abhängig und überbetont.
-    - Körperliche Symptome (Bauchweh) vor familiären Ereignissen.
-    - Vorfreude und Enttäuschung wechseln abrupt.
-    - Erwachsenen­beziehungen spiegeln ängstliche Muster wider.
-    - Eltern werden zugleich idealisiert und kritisiert.
-    - 'Fazit: ''Ich brauche Nähe, aber traue ihr nicht.'''
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  A_DEVALUING_STATEMENT.yaml:
-    name: A_DEVALUING_STATEMENT.yaml
-    beschreibung: ">\n  Abwertung/Lächerlichmachen von Gefühlen oder Handlungen."
-    beispiele:
-    - Deine Sorge ist doch lächerlich.
-    - Stell dich nicht so an, war nur ein Spaß.
-    - Wenn du damit nicht klarkommst, ist das dein Problem.
-    - Übertreib mal nicht, so schlimm war's nicht.
-    - Das ist doch kindisch, ehrlich jetzt.
-    - Hör auf zu jammern, du Drama‑Queen.
-    - So sensibel? Ernsthaft?
-    - Das Thema ist nicht der Rede wert.
-    - Du heulst wegen jeder Kleinigkeit.
-    - Deine Prioritäten sind wirklich seltsam.
-    - Echt jetzt, dafür machst du Stress?
-    - Du bist aber empfindlich heute.
-    - Das klingt nach Luxusproblem.
-    - Kannst du bitte erwachsen werden?
-    - Es nervt, wie du dich anstellst.
-    - Reg dich ab, das war harmlos.
-    - Typisch, dass du gleich theater machst.
-    - Boah, deine Grenzen sind echt weich.
-    - Du tust so, als ginge es um Leben und Tod.
-    - Ist doch alles halb so wild.
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags:
@@ -977,46 +745,6 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  S_INITIATIVE_GEMEINSAME_ZUKUNFT.yaml:
-    name: S_INITIATIVE_GEMEINSAME_ZUKUNFT.yaml
-    beschreibung: ">\n  A proposal for a shared future activity that includes bonding\
-      \ language."
-    beispiele:
-    - Sollen wir zusammen unseren nächsten Urlaub planen?
-    - Shall we plan our next vacation together?
-    - Wie wärs, wenn wir beide am Wochenende wegfahren?
-    - How about the two of us go away this weekend?
-    - Lass uns gemeinsam überlegen, was wir im Sommer machen.
-    - Let’s think together about what to do this summer.
-    - Wollen wir am Freitag unsere Serie weiterschauen?
-    - Want to continue our series on Friday?
-    - Ich fänds schön, wenn wir zusammen das Konzert besuchen.
-    - I’d love it if we went to the concert together.
-    - Let’s book our train tickets as a team.
-    - Shall we both start learning Spanish this fall?
-    - How about we co-host a dinner for friends next month?
-    - Let’s map out our fitness goals together.
-    - Want us to volunteer at the shelter this weekend?
-    - We could plan our joint birthday bash tonight.
-    - Shall we design our living room layout on Saturday?
-    - Let’s schedule bi-weekly date nights.
-    - How about setting up a shared savings goal?
-    - Let’s draft our travel bucket list together.
-    - Want to sign up for the half-marathon as a duo?
-    - We could cook through that recipe book as a challenge.
-    - Let’s plan a surprise for your sister—our project!
-    - Shall we start a tiny balcony garden together?
-    - Let’s enroll in that dance course, just the two of us.
-    - How about building a Lego set side-by-side?
-    - Let’s brainstorm our holiday card photo ideas.
-    - We could set aside Sundays for joint study sessions.
-    - Want to co-write a short story this winter?
-    - Let’s curate a gallery wall of our memories.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   A_SVT_BEZIEHUNG_DU_BOTSCHAFT.yaml:
     name: A_SVT_BEZIEHUNG_DU_BOTSCHAFT.yaml
     beschreibung: "'Identifiziert ''Du-Botschaften'', die dem Empfänger Eigenschaften\
@@ -1049,73 +777,6 @@ markers:
       \ Schutzangeboten \noder selbstironischem Bezug."
     beispiele:
     - 'A: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  S_PASSIVE_AGGRESSIVE_ATTACK.yaml:
-    name: S_PASSIVE_AGGRESSIVE_ATTACK.yaml
-    beschreibung: ">\n  Subtiler Sarkasmus + verdeckte Anspielung in einer Message."
-    beispiele:
-    - War ja klar, *immer* vergisst du die Deadline – schön gemacht.
-    - Schön für dich, dass du *ständig* perfekt bist.
-    - Na toll, *jedes Mal* passiert dir so was.
-    - Wie nett von dir, *nie* pünktlich zu sein.
-    - Muss ja schön sein, wenn man *immer* Recht hat.
-    - War ja klar, dass du *typisch* wieder alles an dich reißt.
-    - Schön für dich, du hast es heute sogar *einmal* geschafft zuzuhören.
-    - Na super, *immer* bist du der Held des Tages.
-    - Wie nett von dir, *ständig* Ausreden zu finden.
-    - Muss ja schön sein, wenn du *nie* was falsch machst.
-    - War ja klar, du bist *immer* der, der es besser weiß.
-    - Schön, *jedes Mal* derselbe Zirkus mit dir.
-    - Na toll, *nie* kriegst du’s hin, die Küche sauber zu lassen.
-    - Wie nett, dass du *ständig* meine Hinweise ignorierst.
-    - Muss ja schön sein, wenn dein *typisch* chaotischer Stil funktioniert.
-    - War ja klar, *immer* Drama, wenn du dabei bist.
-    - Schön für dich, das *jedes Mal* auf mich abzuwälzen.
-    - Na super, *immer* bist du im Mittelpunkt – großartig.
-    - Wie nett, dass du *nie* Fehler zugibst.
-    - Muss ja schön sein, wenn du *ständig* Applaus erwartest.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  MM_DESTRUCTIVE_CONFLICT_DYNAMICS.yaml:
-    name: MM_DESTRUCTIVE_CONFLICT_DYNAMICS.yaml
-    beschreibung: ">\n  Meta‑Syndrom aus indirekter Konfliktvermeidung oder Dominanzmustern."
-    beispiele:
-    - Person A feuert binnen zwei Tagen sieben passive Aggressions‑Marker, Person B
-      reagiert defensiv → Cluster C_INDIRECT_CONFLICT_AVOIDANCE aktiv, Meta löst aus.
-    - Dauerhaft destruktive Kritik und Machtbeschlüsse von A → C_DOMINANCE_BEHAVIOR_PATTERN
-      aktiv → Meta meldet hochriskante Dynamik.
-    - 'Wechsel: Schuldumkehr‑Schleife + Abwertung, dann Schweigen → beide Cluster
-      aktiv, Meta >1.'
-    - Chat‑Analyse zeigt 4 Guilt‑Twists, 3 Unilateral Decisions im Fenster → Meta.
-    - 'Sprint‑Retro eskaliert: Attack, Withdrawal, Power Play – offene Diskussion
-      unmöglich → Meta.'
-    - 'Domestic Chat: tägliche ''Immer …''‑Vorwürfe + ''Ich habe entschieden …'' →
-      destruktive Beziehungsstruktur erkannt.'
-    - 'Arbeits‑Thread: Passiv‑Aggressive Kommentare, Schweigen, Verdrehung → Konflikt
-      stagniert → Meta.'
-    - 'Freundschafts‑DMs: ständige Ironie + Rückzug, dann Schuldumkehr → Meta warnt,
-      Bindung brüchig.'
-    - 'Projekt‑Gruppe: Chef macht Alleingänge, wertet Team ab; Team reagiert mit Offended
-      Silence → Meta.'
-    - Paartherapie‑Log zeigt beide Cluster alternierend → höchste Eskalationsstufe
-      erkannt.
-    - 'Longitudinale Analyse: 8 Wochen destruktive Muster, kein offener Dialog.'
-    - 'Warn‑Dashboard: rotes Blinken bei MM_DESTRUCTIVE_CONFLICT_DYNAMICS.'
-    - System schlägt De‑Escalation‑Prompt vor.
-    - Meta‑Score 0.92 → akute Gefahr der Beziehungsabbrüche.
-    - 'Bericht: gestaute Konflikte, Machtgefälle, Gaslighting – Meta bestätigt.'
-    - Kombi aus Dominanz + Schuldumkehr – systemische Dysbalance.
-    - Indirekte Angriffe führen zu Rückzug, dann Power Play – Kreislauf.
-    - Coach‑Interface zeigt line chart der Cluster‑Aktivierungen mit Peaks.
-    - Meta aktiviert Notfall‑Intervention im Chat‑Bot.
-    - 'Fallbeispiel im Seminar: Live‑Analyse demonstriert Meta‑Marker.'
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags:
@@ -1216,43 +877,19 @@ markers:
     - '"origin_author:John_Gottman"'
   A_FEELING_CONNECTION.yaml:
     name: A_FEELING_CONNECTION.yaml
-    beschreibung: "'Phrasen, die ein Gefühl der Verbundenheit direkt ausdrücken.\n\
-      \n  '"
+    beschreibung: ">\n  Phrasen, die ein Gefühl der Verbundenheit direkt ausdrücken."
     beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
-    tags: []
+    tags:
+    - neu_erstellt
+    - needs_review
   C_SELF_PROTECTION_TACTICS.yaml:
     name: C_SELF_PROTECTION_TACTICS.yaml
     beschreibung: ">\n  Cluster-Marker, der typische Selbstschutz- und Täuschungsstrategien\
       \ erfasst:\nTeilwahrheiten, Verharmlosung, Gaslighting und nonverbale Abwertung."
     beispiele:
     - 'A: '
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  A_NEGATIVE_CAREGIVER.yaml:
-    name: A_NEGATIVE_CAREGIVER.yaml
-    beschreibung: ">\n  Direkte Aussagen über emotionale oder physische Abwesenheit,\n\
-      Vernachlässigung oder Kälte der Bezugspersonen."
-    beispiele:
-    - Ich war als Kind meistens allein nach der Schule.
-    - Meine Eltern hatten nie Zeit, mir zuzuhören.
-    - Wenn ich geweint habe, interessierte es niemanden.
-    - Zu Hause war es emotional kalt und distanziert.
-    - Es gab keine Umarmungen, wenn etwas weh tat.
-    - Ich erinnere mich kaum an Lob von meinen Eltern.
-    - Oft wusste niemand, wo ich abends war.
-    - Hausaufgaben musste ich völlig alleine schaffen.
-    - Geburtstage wurden selten gefeiert, es war normal.
-    - Bei Krankheit musste ich mich selbst versorgen.
-    - Ich wurde ignoriert, wenn ich etwas erzählen wollte.
-    - 'Probleme wurden heruntergespielt: ''Stell dich nicht so an''.'
-    - Papa war ständig auf Geschäftsreise, Mama überfordert.
-    - Wir haben nie Familienurlaube gemacht, jeder war für sich.
-    - Ich fühlte mich überflüssig in meinem eigenen Zuhause.
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags:
@@ -1305,46 +942,6 @@ markers:
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags: []
-  A_INVITING_RESONANCE.yaml:
-    name: A_INVITING_RESONANCE.yaml
-    beschreibung: ">\n  Explicit verbal signals of empathy, validation, or strong\
-      \ agreement."
-    beispiele:
-    - Ich verstehe dich vollkommen.
-    - I completely understand you.
-    - Wow, das geht mir genauso.
-    - Wow, I feel the same.
-    - Danke, dass du das mit mir teilst.
-    - Thanks for sharing that with me.
-    - Genau! Das ist der Punkt.
-    - Exactly! That’s the point.
-    - Wir sind da echt auf einer Wellenlänge.
-    - We’re totally on the same wavelength.
-    - That makes perfect sense to me.
-    - I hear you, and I’m with you.
-    - Same here—totally relate.
-    - Absolutely, couldn’t agree more.
-    - Thanks for putting that into words.
-    - I get exactly what you mean.
-    - Yes! That’s exactly how I feel.
-    - I appreciate you saying that.
-    - Right, I was thinking the same thing.
-    - I can really feel where you’re coming from.
-    - So true! Couldn’t have said it better.
-    - 100 %, that resonates.
-    - Glad I’m not the only one who thinks so.
-    - That’s spot-on, thank you.
-    - I totally vibe with that.
-    - Big yes to everything you just said.
-    - That hit home for me.
-    - I value your honesty—it mirrors my thoughts.
-    - Completely with you on this.
-    - You read my mind!
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   S_INTERACTIVE_STONEWALLING.yaml:
     name: S_INTERACTIVE_STONEWALLING.yaml
     beschreibung: ">\n  id: S_INTERACTIVE_STONEWALLING"
@@ -1393,99 +990,21 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  A_POSITIVE_RESONANCE.yaml:
-    name: A_POSITIVE_RESONANCE.yaml
-    beschreibung: ">\n  Explicit verbal signals of empathy, validation, or strong\
-      \ agreement."
-    beispiele:
-    - Ich verstehe dich vollkommen.
-    - I completely understand you.
-    - Wow, das geht mir genauso.
-    - Wow, I feel the same.
-    - Danke, dass du das mit mir teilst.
-    - Thanks for sharing that with me.
-    - Genau! Das ist der Punkt.
-    - Exactly! That’s the point.
-    - Wir sind da echt auf einer Wellenlänge.
-    - We’re totally on the same wavelength.
-    - That makes perfect sense to me.
-    - I hear you, and I’m with you.
-    - Same here—totally relate.
-    - Absolutely, couldn’t agree more.
-    - Thanks for putting that into words.
-    - I get exactly what you mean.
-    - Yes! That’s exactly how I feel.
-    - I appreciate you saying that.
-    - Right, I was thinking the same thing.
-    - I can really feel where you’re coming from.
-    - So true! Couldn’t have said it better.
-    - 100 %, that resonates.
-    - Glad I’m not the only one who thinks so.
-    - That’s spot-on, thank you.
-    - I totally vibe with that.
-    - Big yes to everything you just said.
-    - That hit home for me.
-    - I value your honesty—it mirrors my thoughts.
-    - Completely with you on this.
-    - You read my mind!
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  MM_POSITIVE_KO_REGULATION.yaml:
-    name: MM_POSITIVE_KO_REGULATION.yaml
-    beschreibung: ">\n  Meta-marker for strong, healthy relationship dynamics."
-    beispiele:
-    - Ein Gesprächsverlauf über mehrere Tage, der durchgängig von gemeinsamer Urlaubsplanung
-      und liebevollen Kosenamen geprägt ist.
-    - A multi-day chat full of joint vacation planning and affectionate pet names
-      throughout.
-    - Eine Sequenz, in der ein Partner einen Zukunftswunsch äußert, der andere resonant
-      antwortet und sie konkrete Pläne schmieden, begleitet von 'darling' & Co.
-    - A sequence where one partner states a future wish, the other resonates, they
-      craft concrete plans, all while using pet names like 'darling'.
-    - Weekly logs show constant we-language, joint plans, and mutual hype—meta fires.
-    - 'Chat history: alternating anticipation messages and cozy nicknames triggering
-      both clusters.'
-    - Four days of planning a road trip plus daily 'sweetheart' resonance—co-regulation
-      confirmed.
-    - 'Couple’s thread: every morning a pet name + proposal for new shared routine.'
-    - 'Analysis window: 6 joint-future initiatives, 5 positive pet-name responses—strong
-      bond.'
-    - Therapist transcript flags meta when partners validate and plan together repeatedly.
-    - Vacation board screenshot exchange + 'we got this' talk—system labels positive
-      co-regulation.
-    - Even under stress they fall back to 'team us' language and immediate empathy
-      replies.
-    - Planning renovation together with constant 'love' affirmations across 15 messages.
-    - Long-distance pair share countdown widgets, pet names, and mutual excitement—meta
-      green.
-    - 'Daily check-ins: anticipation for weekend + ''babe'' resonance loop recognized.'
-    - Joint calendar edits plus encouraging nicknames light up bonding dashboard.
-    - Sprint retrospective shows couple organizing chores collaboratively, praising
-      each other.
-    - 'Meta monitors 10-message window: two clusters active—scores peak.'
-    - 'Recorded voice notes: shared future dreams with laughter and pet-name warmth.'
-    - Their conflict resolution includes planning a treat together and thanking each
-      other—meta hits.
-    - Chatbot detects continuous secure bond—suggests celebrating milestones.
-    - 'Evening recap: planning, pet names, resonance—positive loop maintained.'
-    - Weekend summary illustrates balanced initiative and empathy exchanges.
-    - 'System output: ‘Relationship resilience high—co-regulation stable.’'
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   A_ROUTINE_GREETING.yaml:
     name: A_ROUTINE_GREETING.yaml
-    beschreibung: "'Typische, wiederkehrende Grußformeln zu bestimmten Tageszeiten.\n\
-      \n  '"
-    beispiele: []
+    beschreibung: ">\n  Typische, wiederkehrende Grußformeln zu bestimmten Tageszeiten."
+    beispiele:
+    - Good morning NAME.
+    - Hey, hast du  gut geschlafen?
+    - Ich wünsche dir  einen schönen guten Morgen
+    - gut geschlafen?
+    - Wie war deine Nacht?
+    - Hast du schöne Träume gehabt?
     kategorie: UNCATEGORIZED
     risk_score: 1
-    tags: []
+    tags:
+    - neu_erstellt
+    - needs_review
   C_EMO_INSTABILITY.yaml:
     name: C_EMO_INSTABILITY.yaml
     beschreibung: ">\n  Cluster marker for emotional turbulence, triggered when any\
@@ -1498,76 +1017,6 @@ markers:
     - 'Voice journal day: extreme mood hops in short span.'
     - 'Group DM: laughter then anger then euphoria – one speaker.'
     - Customer support ticket shows drastic tone oscillations.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  A_AUSDRUCK_VORFREUDE.yaml:
-    name: A_AUSDRUCK_VORFREUDE.yaml
-    beschreibung: ">\n  Detects phrases that explicitly express anticipation of shared\
-      \ future time."
-    beispiele:
-    - Ich freue mich riesig auf unser Wochenende!
-    - I’m super excited about our weekend!
-    - Kann es kaum erwarten, dich wiederzusehen.
-    - Can’t wait to see you again.
-    - Hoffentlich ist bald Freitag.
-    - Hopefully Friday comes soon.
-    - Das wird sicher super mit dir allein.
-    - It’s going to be great with just you and me.
-    - Ich zähl schon die Stunden, bis du da bist.
-    - I’m literally counting the hours until you’re here.
-    - I’m already looking forward to Saturday brunch with you.
-    - Only three sleeps left until our road trip!
-    - Counting down the minutes to our movie night.
-    - Really hope next week flies by so our hike gets here.
-    - Thursday can’t come soon enough—coffee date pending!
-    - Just scheduled the call; buzzing for it already.
-    - Honestly, picturing us on that beach keeps me motivated.
-    - I keep refreshing the calendar—vacay soon!
-    - Tomorrow’s concert with you is my whole personality right now.
-    - Every time I think of Sunday breakfast together, I smile.
-    - Flight’s booked—now the wait begins!
-    - Can’t stop thinking about our first dance lesson.
-    - Only two meetings stand between me and our pizza night.
-    - Been day-dreaming about our camping trip all morning.
-    - Hope the week speeds up—we’ve got adventures pending.
-    - Just bought the tickets; now the suspense is killing me.
-    - Tell Monday to hurry, I need that coffee catch-up.
-    - The idea of us binge-watching the show makes the day better.
-    - I love having something with you to look forward to.
-    - Alarm is set early—I don’t want to waste a minute of our day out.
-    - I’m hyped for the surprise you hinted at on Friday!
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  A_GENERALIZED_ACCUSATION.yaml:
-    name: A_GENERALIZED_ACCUSATION.yaml
-    beschreibung: ">\n  Absolute Vorwürfe mit 'immer', 'nie', 'ständig'."
-    beispiele:
-    - Immer machst du so ein Drama.
-    - Nie hörst du richtig zu.
-    - Ständig bist du am Handy.
-    - Typisch für dich, alles zu spät zu erledigen.
-    - Jedes Mal das Gleiche mit dir.
-    - Immer vergisst du wichtige Details.
-    - Nie kannst du dich entscheiden.
-    - Ständig findest du Ausreden.
-    - Typisch, dass du jetzt wieder abtauchst.
-    - Jedes Mal musst du Recht haben.
-    - Immer drehst du die Dinge, wie sie dir passen.
-    - Nie sieht man von dir Eigeninitiative.
-    - Ständig nörgelst du an allem herum.
-    - Typisch für dich, anderen die Schuld zu geben.
-    - Jedes Mal wenn's ernst wird, kneifst du.
-    - Immer bist du der Letzte, der sich meldet.
-    - Nie lässt du mich ausreden.
-    - Ständig unterbrichst du mich.
-    - Typisch, du übertreibst wieder maßlos.
-    - Jedes Mal zerstörst du die Stimmung.
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags:
@@ -1641,35 +1090,6 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  A_OFFENDED_SILENCE.yaml:
-    name: A_OFFENDED_SILENCE.yaml
-    beschreibung: ">\n  Einsilbige/nonverbale Reaktionen, die Gekränktheit andeuten."
-    beispiele:
-    - 'A: ''Alles okay?'' – B: ''...'''
-    - 'A: ''Danke fürs Bescheid sagen.'' – B: ''k.'''
-    - 'A: ''Hast du den Fehler behoben?'' – B: ''aha'''
-    - 'A: ''Ich liebe dich.'' – B: ''mhm'''
-    - 'A: ''War nicht böse gemeint.'' – B: ''passt schon'''
-    - '*schweigt* und tippt nicht mehr.'
-    - 'Reaktion: ''...   '' (drei Punkte, sonst nichts).'
-    - 'A: ''Kommst du mit?'' – B: ''k.'' und offline.'
-    - 'A: ''Magst du reden?'' – B: ''...'' – Chat beendet.'
-    - 'A: ''Alles gut zwischen uns?'' – B: ''mhm'' – Status auf beschäftigt.'
-    - B sendet nur einen einzelnen Punkt '.'
-    - 'A: ''War wichtig für mich.'' – B reagiert mit ''aha''.'
-    - 'A: ''Brauche dein Feedback.'' – B: ''*schweigt*'' seit Stunden.'
-    - '''Okay.'' – ohne Emoji, ohne Kontext.'
-    - '''Schon gut.'' – Konversation endet abrupt.'
-    - 'A: ''Kann ich helfen?'' – B: ''...'' tippt, löscht, schweigt.'
-    - Auf ausführliche Nachricht folgt nur 'k.'
-    - B reagiert nur mit einem GIF des Schulterzuckens.
-    - '''Passt.'' – einziger Satz nach langem Streit.'
-    - 'A: ''Wie fühlst du dich?'' – B: ''mhm'' – kein weiteres Wort.'
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   S_RESPONSIBILITY_SHIFT.yaml:
     name: S_RESPONSIBILITY_SHIFT.yaml
     beschreibung: ">\n  Bedeutungsgruppe indirekter Verantwortungstransfers, bei denen\
@@ -1681,31 +1101,6 @@ markers:
     - Falls du Lust hast, können wir was machen.
     - Ich will dir da nichts vorschreiben.
     - Du entscheidest, ich bin flexibel.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  S_ANXIOUS_CHILDHOOD_REF.yaml:
-    name: S_ANXIOUS_CHILDHOOD_REF.yaml
-    beschreibung: ">\n  Auftreten von ≥2 UNPREDICTABLE_CAREGIVER und ≤1 POSITIVE_CAREGIVER\n\
-      in derselben Nachrichtensequenz."
-    beispiele:
-    - Ich hatte Angst vor Papas Stimmung – mal lobte er mich, mal ignorierte er mich.
-    - Liebe gab es, aber nur an guten Tagen; an schlechten herrschte Schweigen.
-    - Mama wechselte von Umarmung zu Anschreien innerhalb von Minuten.
-    - Ich konnte nie einschätzen, ob meine Geschichten Interesse oder Ärger wecken.
-    - Versprechen wurden oft plötzlich gebrochen, das war schlimm.
-    - Belohnungen kamen überraschend, Strafen genauso.
-    - Manchmal bekam ich Geschenke, am nächsten Tag wurde ich beschuldigt.
-    - Ich lag nachts wach, weil ich den nächsten Ausbruch fürchtete.
-    - Zu viel Freude zeigen riskierte Ärger, also war ich vorsichtig.
-    - Sicher fühlte ich mich nur, wenn alle schliefen.
-    - Manche Wochen waren harmonisch, dann wieder stürmisch.
-    - Ein Tag Umarmung, der nächste kalte Distanz – das verwirrte mich.
-    - Ich lernte, mich ständig zu entschuldigen, um Ärger zu dämpfen.
-    - Meine Noten bestimmten Papas Laune – unberechenbar.
-    - Lob fühlte sich unsicher an, weil ich den Stimmungsumschwung erwartete.
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags:
@@ -1773,62 +1168,6 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  S_DESTRUCTIVE_CRITICISM.yaml:
-    name: S_DESTRUCTIVE_CRITICISM.yaml
-    beschreibung: ">\n  Verallgemeinernder Vorwurf + Abwertung in einem Satz."
-    beispiele:
-    - Immer machst du so ein Drama, das ist doch lächerlich.
-    - Nie hörst du zu, stell dich nicht so an.
-    - Ständig bist du am Jammern, das ist kindisch.
-    - Jedes Mal das Gleiche, dein Problem, nicht meins.
-    - Typisch für dich, sofort übertreiben.
-    - Immer vergisst du was, echt peinlich.
-    - Nie kannst du einfach funktionieren, hör auf zu heulen.
-    - Ständig suchst du Ausreden, lächerlich.
-    - Immer bist du chaotisch, das nervt.
-    - Nie hast du Plan B, total kindisch.
-    - Ständig willst du Sonderbehandlung, lächerlich.
-    - Immer bringst du uns in Stress, stell dich nicht so an.
-    - Nie checkst du das Offensichtliche, echt traurig.
-    - Ständig verspätet, wie im Kindergarten.
-    - Immer Drama, nie Lösung, nervt!
-    - Nie kannst du Verantwortung übernehmen, kindisch.
-    - Ständig Fehler, einfach lächerlich.
-    - Immer das Opfer spielen, hör doch auf.
-    - Nie zufrieden, immer Theater – dein Problem.
-    - Typisch, alles emotional aufblasen, so kindisch.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  C_ATTACHMENT_STYLE_SECURE.yaml:
-    name: C_ATTACHMENT_STYLE_SECURE.yaml
-    beschreibung: ">\n  Aktiv, wenn SECURE_CHILDHOOD_REFERENCE mindestens zweimal\n\
-      in einem 20‑Nachrichten‑Fenster feuert und keine gegensätzlichen\nCluster aktiv\
-      \ sind."
-    beispiele:
-    - Der Sprecher schildert konsequent stabile, liebevolle Erinnerungen ohne größere
-      Brüche.
-    - Mehrere Passagen beschreiben verlässliche Fürsorge und offene Kommunikation.
-    - Positive Elternbeispiele wiederholen sich über verschiedene Themen.
-    - Kaum Hinweise auf Angst oder Selbstüberlassung – Ruhe dominiert.
-    - Narrativ betont gegenseitiges Vertrauen und Unterstützung.
-    - Es wird mehrfach erwähnt, dass 'Fehler okay waren'.
-    - Konflikte werden als lösbar dargestellt, nicht bedrohlich.
-    - Familienrituale (z.B. Abendessen, Spiele) ziehen sich durch die Erzählung.
-    - Lob, Ermutigung und Trost werden konkret beschrieben.
-    - Der Sprecher nutzt häufig das Wort 'Geborgenheit'.
-    - Beim Thema Schule wird Wertschätzung statt Druck genannt.
-    - Körperliche Nähe (Umarmungen) wird selbstverständlich erwähnt.
-    - Eltern werden als 'Zuhörer' statt Richter skizziert.
-    - Freundschaften wurden unterstützt, nicht kontrolliert.
-    - 'Fazit des Sprechers: ''Ich hatte eine schöne Kindheit''.'
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   A_MIXED_SCRIPT_TOKEN.yaml:
     name: A_MIXED_SCRIPT_TOKEN.yaml
     beschreibung: ">\n  id: \"A_MIXED_SCRIPT_TOKEN\""
@@ -1847,126 +1186,6 @@ markers:
     - '"phishing"'
     - '"spam"'
     - '"origin_source:Stanza"'
-  A_FEIGNED_FORGETFULNESS.yaml:
-    name: A_FEIGNED_FORGETFULNESS.yaml
-    beschreibung: ">\n  Vorgeschobenes Vergessen, um Verantwortung zu vermeiden."
-    beispiele:
-    - Oh, hab ich vergessen, das Protokoll zu schicken – mach ich gleich.
-    - Die Frist? Ups, total übersehen. Mein Fehler.
-    - Hatte es auf dem Zettel, aber dann kam was dazwischen.
-    - Sorry, nicht geschafft, die Präsentation zu finalisieren.
-    - Ich wollt’s echt machen, hab’s einfach nicht mehr dran gedacht.
-    - Ganz ehrlich, der Task war weg aus meinem Kopf.
-    - Uff, Kalenderfehler – hab den Call komplett verdrängt.
-    - Ah, stimmt, die Rechnung. Liegt irgendwo in meinen Mails.
-    - Wollte einkaufen, aber der Tag war so chaotisch.
-    - Sorry, hab ich verschwitzt, den Hund rauszulassen.
-    - Total untergegangen im Stress – sorry.
-    - War auf meiner Liste, ehrlich. Dann kam ein Notfall rein.
-    - Ich dacht, du wolltest das übernehmen, hab’s deshalb liegenlassen.
-    - War überzeugt, ich hätte das Ticket schon geschlossen.
-    - Ups, Meetinglink vergessen zu schicken – jetzt aber!
-    - Die Doku? Joa, nicht mehr dran gedacht, war viel los.
-    - Wollte antworten, aber Akku leer, dann vergessen.
-    - Kam leider nicht mehr dazu, tut mir leid.
-    - War der Meinung, ich hätte dich informiert – scheinbar doch nicht.
-    - Hatte ‘nen Reminder, aber der hat nicht geklingelt.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  S_POWER_PLAY.yaml:
-    name: S_POWER_PLAY.yaml
-    beschreibung: ">\n  Einseitige Entscheidung + gleichzeitige Abwertung."
-    beispiele:
-    - Ich habe entschieden, dass wir das Geld investieren. Deine Zweifel sind doch
-      lächerlich.
-    - Wir machen das jetzt so. Stell dich nicht so an.
-    - Das ist keine Diskussion, dein Problem, wenn du’s nicht checkst.
-    - Ich hab das schon gebucht. Übertreib mal nicht mit deinen Bedenken.
-    - Da gibt’s nichts zu reden, das ist doch kindisch.
-    - Ich habe entschieden, dass wir umziehen. Deine Sorge ist lächerlich.
-    - Wir fahren morgen früh, stell dich nicht so an.
-    - Ich hab das gekündigt. Dein Drama ist überflüssig.
-    - Thema erledigt, kindisch, dass du nachhakst.
-    - Plan steht. Hör auf zu jammern.
-    - Ich hab den Termin gesetzt. Deine Einwände? Kindisch.
-    - Wir ändern die Strategie. Lächerlich, dass du jetzt Panik schiebst.
-    - Ich hab schon unterschrieben. Stell dich nicht so an.
-    - Diskussion beendet, deine Emotionen sind peinlich.
-    - Ich setz das so um. Wenn du Angst hast, ist das dein Problem.
-    - Entschieden. Kindisch, dass du Widerstand leistest.
-    - Ich regel das alleine. Lächerlich, wie du dich aufregst.
-    - Wir nutzen das Tool. Deine Skepsis ist kindisch.
-    - Vertrag ist fix. Hör auf zu übertreiben.
-    - Ich hab alles arrangiert. Deine Bedenken sind Drama.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  C_DOMINANCE_BEHAVIOR_PATTERN.yaml:
-    name: C_DOMINANCE_BEHAVIOR_PATTERN.yaml
-    beschreibung: ">\n  Wiederholte destruktive Kritik + Machtentscheidungen in 25\
-      \ Nachrichten."
-    beispiele:
-    - 'Mo: ''Immer zu spät, kindisch.'' – Mi: ''Ich habe entschieden, wir ändern den
-      Zeitplan.'''
-    - Chatlog zeigt abwechselnd Generalvorwürfe und einseitige Anweisungen.
-    - Erst 'Nie hörst du zu', dann 'Diskussion beendet, Plan steht'.
-    - '30‑Min‑Call: fünf globale Vorwürfe, zwei Machtansagen.'
-    - 'Kombi: ''Ständig Chaos'' + ''Ich setz das jetzt um''.'
-    - Immer Drama‑Vorwurf → Tool‑Wechsel ohne Abstimmung.
-    - 'Sitzung: Abwertung des Teams, sofortige Alleingänge.'
-    - '''Immer Fehler'' → ''Ich hab Release verschoben, fertig''.'
-    - 'Sequenz: Kritik, Machtbeschluss, Kritik, Machtbeschluss.'
-    - '''Nie lieferst du Qualität'' + ''Ich hab Leitung übernommen''.'
-    - 'Slack: destruktive Kritik, dann Task reassigned ohne Rücksprache.'
-    - '''Immer Jammer'' → ''Urlaub storniert, keine Diskussion''.'
-    - 'Treffen: Vorwurf Tirade, dann Unilateral Decision.'
-    - 'Protokoll: fünf Kritik‑Sätze, Abschluss ''Ich entscheide das''.'
-    - 'Muster über zwei Wochen: Dauerkritik + Befehle.'
-    - '''Ständig versagst du'' → ''ich kündige Vertrag, Thema durch''.'
-    - 'Whip‑Chat: Generalisierung, Abwertung, Planerzwingung.'
-    - 'Stand‑Up: ''Immer Probleme'' → ''Wir setzen Deadline vor.'''
-    - 'Email: Großer Vorwurf, danach ''Budget ist gekürzt, fertig''.'
-    - Analyse erkennt Pattern >2 innerhalb 25 Nachrichten.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  S_GUILT_TWIST.yaml:
-    name: S_GUILT_TWIST.yaml
-    beschreibung: ">\n  Rechtfertigung + sofortige Schuldumkehr an Empfänger."
-    beispiele:
-    - Ich wollte doch nur helfen, aber wenn du immer so empfindlich bist, kann man
-      ja gar nichts sagen.
-    - Das war nicht meine Absicht, aber du hast das Ganze doch provoziert.
-    - Ich hab es nur gut gemeint. Wegen dir ist es jetzt kompliziert.
-    - Ich dachte, ich helfe. Selber schuld, wenn du das falsch verstehst.
-    - Ich wollte dich entlasten, doch du lässt mich nicht.
-    - Ich hatte es gut gemeint, aber du stellst dich quer.
-    - Ich dachte, das wäre nett. Weil du aber gleich explodierst, geht alles schief.
-    - Ich wollte nur das Beste. Du machst es mit deiner Kritik kaputt.
-    - War doch gut gemeint, aber wenn du immer dagegen bist...
-    - Meine Absicht war positiv. Du übertreibst und drehst alles um.
-    - Ich versuche zu helfen; du reagierst unnötig aggressiv.
-    - Eigentlich wollt ich stressfreie Lösung, doch du ziehst Drama auf.
-    - Ich mein's gut, du siehst nur Negatives.
-    - Hab nur dein Wohl im Sinn – du sabotierst dich selbst.
-    - Ich versuch, Ordnung zu schaffen. Du bringst Chaos rein.
-    - Dachte, das erleichtert dir was, aber du meckerst.
-    - Ich handle aus Liebe, du aus Misstrauen.
-    - Meine Intention klar, dein Verhalten unklar.
-    - Will was Gutes, du siehst Angriff.
-    - Hab nur reagiert, weil du vorher so ungenau warst.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   selbst_evaluative_muster.yaml:
     name: selbst_evaluative_muster.yaml
     beschreibung: "Erkennt Muster, bei denen ein System oder Sprecher versucht, die\
@@ -2024,39 +1243,16 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  A_POSITIVE_CAREGIVER.yaml:
-    name: A_POSITIVE_CAREGIVER.yaml
-    beschreibung: ">\n  Explizite Formulierungen, die verlässliche, unterstützende\
-      \ Fürsorge­personen\nin der Kindheit beschreiben (sicheres Bindungserleben)."
-    beispiele:
-    - Meine Mutter war wirklich immer für mich da, egal was passierte.
-    - Ich erinnere mich, wie mein Vater mich unterstützt hat, wenn ich Angst hatte.
-    - Wir haben jeden Abend zusammen gelesen; das war unser Ritual.
-    - Zu Hause war es so warm und sicher, ich fühlte mich geborgen.
-    - Meine Eltern haben mir das Gefühl gegeben, wertvoll zu sein.
-    - Ich konnte immer zu meinen Eltern kommen, wenn etwas schiefging.
-    - Es gab feste Gute‑Nacht‑Küsse, das hat mir Halt gegeben.
-    - Mein Opa hat mir Geduld beigebracht und war immer ruhig.
-    - Wenn ich traurig war, wurde ich sofort in den Arm genommen.
-    - Meine Mutter hat jedes meiner Bilder gelobt.
-    - Wir hatten sonntags Familienfrühstück, das war mir heilig.
-    - 'Ich wusste: Selbst wenn ich Mist baue, lieben sie mich.'
-    - Papa hat mir bei Mathe geholfen, ohne zu schimpfen.
-    - Meine Eltern lobten nicht nur Noten, sondern Mühe.
-    - Ich durfte Fehler machen und wurde trotzdem ermutigt.
+  A_TEAM_METAPHOR.yaml:
+    name: A_TEAM_METAPHOR.yaml
+    beschreibung: ">\n  Verwendung der Metapher 'Team', um Zusammengehörigkeit zu\
+      \ beschreiben."
+    beispiele: []
     kategorie: UNCATEGORIZED
     risk_score: 1
     tags:
     - neu_erstellt
     - needs_review
-  A_TEAM_METAPHOR.yaml:
-    name: A_TEAM_METAPHOR.yaml
-    beschreibung: "'Verwendung der Metapher ''Team'', um Zusammengehörigkeit zu beschreiben.\n\
-      \n  '"
-    beispiele: []
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags: []
   C_SELF_DISCLOSURE.yaml:
     name: C_SELF_DISCLOSURE.yaml
     beschreibung: ">\n  Cluster-Wrapper für Atomic A_SELF_DISCLOSURE, um Offenlegungen\n\
@@ -2159,77 +1355,6 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  C_INDIRECT_CONFLICT_AVOIDANCE.yaml:
-    name: C_INDIRECT_CONFLICT_AVOIDANCE.yaml
-    beschreibung: ">\n  Wiederholt passiv‑aggressive Angriffe, Rückzug oder Schuldumkehr\
-      \ in 20 Nachrichten."
-    beispiele:
-    - 'Sequenz: subtile Spitze → Schweigen → Schuldumkehr – alles binnen eines Abends.'
-    - 'Montag: ''Na toll, immer Fehler.'' – Dienstag: ''Vergessen.'' + ''...'''
-    - 'Chat 1: Sarkastischer Kommentar. Chat 2: Rechtfertigung + Blame. Chat 3: Schweigen.'
-    - 'Drei Tage: Angriff, Ausrede, Angriff – Konflikt nie direkt.'
-    - Sarkasmus in Voice‑Note, danach Stille, dann 'Ich wollte nur helfen, du bist
-      sensibel.'
-    - 'Wiederholt: ''Schön für dich.'' → ''Hab verplant.'' → Schuld an Empfänger.'
-    - Spitze am Morgen, Schweigen mittags, Schuldumkehr abends.
-    - 'Meeting‑Chat: Ironie, vergessene Aufgabe, ''du schuld''.'
-    - Zwei Angriffe + ein Rückzug in 15 Nachrichten.
-    - 'Chronik einer Woche: fünfmal passive Aggression, kein offenes Gespräch.'
-    - 'Abwechselnd: Sarkasmus ‑ Rechtfertigung ‑ Schweigen (Pattern).'
-    - Täglich ein sarkastischer Kommentar, gefolgt von karger Antwort.
-    - '''War ja klar'' → Ticket vergessen → ''wegen dir''.'
-    - 'Ironischer Gruß, vergessene Datei, Schuldzuweisung: Schleife.'
-    - Rundmail mit Spitze, dann Offended Silence im Thread.
-    - 'Mehrere Reaktionszyklen: Hilfevortäuschung + Vorwurf.'
-    - 'Statusbericht: Passiv‑aggressiv, später ''mhm''.'
-    - 'Private Message: ''Ich wollte nur...'' + ''Du provozierst das.'''
-    - Konflikt zieht sich, keiner spricht Klartext.
-    - Analyse markiert Pattern >2 innerhalb 20 Nachrichten.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  A_JOINT_PLANNING.yaml:
-    name: A_JOINT_PLANNING.yaml
-    beschreibung: ">\n  Detects phrases that actively propose or initiate a shared\
-      \ activity."
-    beispiele:
-    - Wollen wir am Samstag ins Kino gehen?
-    - Wanna go to the movies on Saturday?
-    - Lass uns unseren Urlaub für den Sommer planen.
-    - Let’s plan our summer vacation.
-    - Hast du Lust auf einen Spaziergang heute Abend?
-    - Fancy a walk this evening?
-    - Wie wärs, wenn wir mal wieder kochen?
-    - How about cooking together again?
-    - Sollen wir zusammen die Serie weiterschauen?
-    - Shall we continue the series together?
-    - Feel like hitting the museum this weekend?
-    - Let’s map out our New Year trip tonight.
-    - Want to co-work at the café tomorrow morning?
-    - How about we try that new sushi place Friday?
-    - Should we sign up for a pottery class?
-    - What do you think of hosting game night at ours?
-    - Let’s schedule a monthly budget check together.
-    - Fancy a spontaneous road trip next month?
-    - Want to join me for sunrise yoga on the beach?
-    - Let’s create a shared playlist for the drive.
-    - Shall we test that bread recipe Sunday?
-    - How about planning a surprise picnic for your mom?
-    - We could sketch out a garden layout this afternoon.
-    - Interested in booking the escape-room deal I found?
-    - Let’s set a date for our photo shoot downtown.
-    - Up for volunteering together at the shelter?
-    - Want to draft our goals for the next quarter?
-    - How about organising a chill movie marathon?
-    - Shall we brainstorm our podcast outline tonight?
-    - Let’s join the weekend hackathon as a duo.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   S_SUSTAINED_CONTACT.yaml:
     name: S_SUSTAINED_CONTACT.yaml
     beschreibung: ">\n  Semantische Gruppe von Mustern, die regelmäßige, routinierte\
@@ -2321,62 +1446,6 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  A_UNILATERAL_DECISION.yaml:
-    name: A_UNILATERAL_DECISION.yaml
-    beschreibung: ">\n  Einseitige Entscheidungen ohne Konsens."
-    beispiele:
-    - Ich habe entschieden, dass wir am Wochenende zu meinen Eltern fahren.
-    - Wir machen das jetzt so und fertig.
-    - Das ist keine Diskussion mehr.
-    - Ich habe das schon gebucht, Thema durch.
-    - Da gibt es nichts zu reden, Plan steht.
-    - Ich hab den Vertrag unterschrieben, passt.
-    - Ab morgen ändern wir die Arbeitszeiten – entschieden.
-    - Ich hab das Menü gewählt, Überraschung.
-    - Wir ziehen um, Ende.
-    - Ich hab das Meeting verlegt, steht fest.
-    - Kostenlimit ist gestrichen, Deal.
-    - Ich hab dein Ticket storniert, brauchst du nicht.
-    - Brauch deine Zustimmung nicht, hab’s geregelt.
-    - Urlaubsplanung ist fertig, check deine Mails.
-    - Ich kündige den Vertrag, Punkt.
-    - Wir setzen das neue Tool ein – Beschluss.
-    - Ich hab schon zugesagt, du kommst mit.
-    - Die Farben hab ich gewählt, passt perfekt.
-    - Ich entscheide das hier, nicht du.
-    - Wir fahren jetzt los – Diskussion beendet.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  MM_ATTACHMENT_PROFILE.yaml:
-    name: MM_ATTACHMENT_PROFILE.yaml
-    beschreibung: ">\n  Meta‑Marker, der das dominante Bindungsmuster eines Sprechers\n\
-      auswählt, sobald mindestens ein Attachment‑Cluster (Secure,\nAvoidant oder Anxious)\
-      \ in drei aufeinander folgenden Analyse‑Chunks\naktiv bleibt."
-    beispiele:
-    - Nach Langzeit­analyse zeigt der Sprecher konsistent sichere Muster.
-    - Drei Gesprächssegmente hintereinander aktivieren Avoidant‑Cluster → Profil =
-      vermeidend.
-    - Secure‑ und Anxious‑Cluster wechseln, doch Anxious überwiegt drei Chunks lang.
-    - 'System meldet: ''Dominanter Stil: Secure (p = 0.82)''.'
-    - Profilergebnis wird als Feature an Coaching‑Modul übergeben.
-    - 'Dashboard: grüner Balken bei Secure, rote Warnung aus.'
-    - Bei Avoidant‑Profil werden Empathie‑Prompts verstärkt.
-    - Anxious‑Profil löst Stabilitäts‑Intervention im Chatbot aus.
-    - Historic‑Graph zeigt Schwenk von Anxious → Secure nach Therapie.
-    - Keine Cluster‑Dominanz = Profil 'Unresolved', meldet Meta‑Marker.
-    - Profilwechsel wird mit Zeit­stempel geloggt.
-    - Userdaten werden anonymisiert für Forschungszwecke exportiert.
-    - Meta‑Marker fließt in Matching‑Engine für Beziehungstipps ein.
-    - 'Edge‑Case: gleichzeitige Aktivierung zweier Cluster → Warnung.'
-    - Coach‑Dashboard zeigt Meta‑Score 0.67 (Secure).
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   FLIRT_DRIFT_DETECTIO.yaml:
     name: FLIRT_DRIFT_DETECTIO.yaml
     beschreibung: ">\n  # ---------- Hilfsfunktionen ----------\ndef openness_score(msg):\n\
@@ -2432,56 +1501,6 @@ markers:
     tags:
     - neu_erstellt
     - needs_review
-  A_UNPREDICTABLE_CAREGIVER.yaml:
-    name: A_UNPREDICTABLE_CAREGIVER.yaml
-    beschreibung: ">\n  Aussagen über wechselhafte, inkonsistente oder ängstigende\n\
-      Reaktionen der Bindungsperson (Anzeichen für ängstliche Bindung)."
-    beispiele:
-    - Ich wusste nie, wie meine Mutter auf Noten reagiert – Jubel oder Schweigen.
-    - Papa war mal liebevoll, mal eiskalt, ohne erkennbaren Grund.
-    - Ich hatte Angst vor Papas Stimmungen nach der Arbeit.
-    - Ihre Laune wechselte ständig, das machte mich nervös.
-    - 'Keine Verlässlichkeit: Lob am Montag, Kritik am Dienstag.'
-    - Als Kind war jeder Abend unberechenbar.
-    - Manchmal bekam ich Umarmungen, manchmal Schweigen.
-    - Ich lernte, Gesichter zu lesen, um Ärger zu meiden.
-    - Hausregeln änderten sich je nach Stimmung.
-    - Fehler wurden mal ignoriert, mal hart bestraft.
-    - Ich schlief oft wach, weil ich Ärger fürchtete.
-    - Ein Versprechen wurde gegeben und nie eingehalten.
-    - Belohnung und Strafe lagen dicht beieinander.
-    - Ich war ständig in Alarmbereitschaft.
-    - Liebe schien an Bedingungen geknüpft.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
-  S_AVOIDANT_CHILDHOOD_REF.yaml:
-    name: S_AVOIDANT_CHILDHOOD_REF.yaml
-    beschreibung: ">\n  Kombination aus ≥1 SELF_RELIANCE_EARLY und ≥1 NEGATIVE_CAREGIVER\n\
-      innerhalb von fünf Sätzen."
-    beispiele:
-    - Ich musste früh Verantwortung übernehmen, weil meine Eltern keine Zeit hatten.
-    - Schon als Kind kochte ich allein, da zu Hause niemand da war.
-    - Hausaufgaben machte ich selbstständig; Hilfe gab es nicht.
-    - Ich verließ mich lieber auf mich, meine Eltern hörten selten zu.
-    - Geburtstage organisierte ich, weil sie es vergaßen.
-    - Ich lernte, Probleme alleine zu lösen, Aufmerksamkeit war rar.
-    - Mit zwölf kümmerte ich mich um meine Schwester, Eltern arbeiteten.
-    - Urlaub? Hatte keiner geplant, also blieb ich daheim.
-    - Lob bekam ich kaum, also suchte ich es nicht mehr.
-    - Ich installierte mir selbst das Fahrradlicht – Papa war beschäftigt.
-    - Wenn ich krank war, machte ich mir Tee und ging zur Schule.
-    - Ich war 'erstaunlich reif', sagte jeder – musste ich sein.
-    - Schon als Teenie verdiente ich eigenes Geld, um unabhängig zu sein.
-    - Freunde waren wichtiger als Familie; da gab es Halt.
-    - Gefühle zeigen? Habe ich mir abgewöhnt, brachte ja nichts.
-    kategorie: UNCATEGORIZED
-    risk_score: 1
-    tags:
-    - neu_erstellt
-    - needs_review
   A_SVT_APPELL_DIREKT.yaml:
     name: A_SVT_APPELL_DIREKT.yaml
     beschreibung: ">\n  id: \"A_SVT_APPELL_DIREKT\""
@@ -2500,19 +1519,17 @@ markers:
     - '"aufforderung"'
     - '"origin_author:Schulz-von-Thun"'
 statistics:
-  total_markers: 113
-  total_examples: 1233
-  average_examples_per_marker: 10.91
+  total_markers: 79
+  total_examples: 600
+  average_examples_per_marker: 7.59
   categories:
-    UNCATEGORIZED: 113
+    UNCATEGORIZED: 79
   markers_without_examples:
   - -_ID.yaml
   - ID.json
   - WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.yaml
   - C_SUSTAINED_CONTACT.yaml
-  - A_UNCERTAINTY_PHRASE.yaml
   - ID.yaml
-  - A_CERTAINTY_PHRASE.yaml
   - C_SYMBOLIC_SUPPORT_FIELD.yaml
   - WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json
   - A_APPEAL_TO_AUTHORITY.json
@@ -2526,14 +1543,13 @@ statistics:
   - PYTHON.py
   - S_HIGH_PRESSURE_DEMAND.yaml
   - A_FEELING_CONNECTION.yaml
-  - A_ROUTINE_GREETING.yaml
   - S_HIGH_PRESSURE_DEMAND.json
   - -ID.yaml
   - selbst_evaluative_muster.yaml
   - C_FLIRTING_DYNAMICS.yaml
   - A_TEAM_METAPHOR.yaml
   - selbst_evaluative_muster.json
-  coverage_score: 76.1
+  coverage_score: 69.6
 category: UNCATEGORIZED
 tags:
 - needs_review
@@ -2544,5 +1560,5 @@ examples:
 - AUTO_GENERATED_EXAMPLE_4
 - AUTO_GENERATED_EXAMPLE_5
 metadata:
-  last_repaired: '2025-07-22T02:04:54.510251'
+  last_repaired: '2025-07-21T21:32:12.275797'
   repair_version: '1.0'

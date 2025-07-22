@@ -5,35 +5,35 @@ application_schema:
       class: PYTHON_MARKER
       file_path: 21070000unified_detectors.py
       description: 'Sehr grobe Heuristik: je mehr Self-Disclosure-Marker, desto höher.'
-      last_updated: '2025-07-21T18:53:32.398449'
+      last_updated: '2025-07-22T02:31:34.297451'
       auto_generated: true
     PYTHON_MARKER:
       module: PYTHON_MARKER
       class: PYTHON_MARKER
       file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/PYTHON_MARKER.py
       description: 'Python-basierter Marker: PYTHON_MARKER'
-      last_updated: '2025-07-21T18:53:32.398333'
+      last_updated: '2025-07-22T00:40:15.339607'
       auto_generated: true
     cleanup_empty_markers:
       module: cleanup_empty_markers
       class: EmptyMarkerCleaner
       file_path: cleanup_empty_markers.py
       description: ''
-      last_updated: '2025-07-21T18:53:32.398401'
+      last_updated: '2025-07-22T02:31:34.297403'
       auto_generated: true
     create_marker_master:
       module: create_marker_master
       class: MarkerCollector
       file_path: create_marker_master.py
       description: Sammelt und konsolidiert Marker aus verschiedenen Quellen
-      last_updated: '2025-07-21T18:53:32.398304'
+      last_updated: '2025-07-22T02:31:34.297374'
       auto_generated: true
     detect_creator:
       module: detect_creator
       class: DetectCreator
       file_path: detect_creator.py
       description: Klasse für die robuste Erstellung von DETECT.py Dateien
-      last_updated: '2025-07-21T18:53:32.398392'
+      last_updated: '2025-07-22T02:31:34.297384'
       auto_generated: true
     detect_emotional_manipulation:
       auto_generated: true
@@ -101,7 +101,7 @@ application_schema:
       class: DetectorOverview
       file_path: detector_json_overview.py
       description: ''
-      last_updated: '2025-07-21T18:53:32.398430'
+      last_updated: '2025-07-22T02:31:34.297431'
       auto_generated: true
       alternative_classes:
       - JSONOverview
@@ -110,56 +110,56 @@ application_schema:
       class: MarkerAnalyzer
       file_path: marker_analyzer.py
       description: ''
-      last_updated: '2025-07-21T18:53:32.398460'
+      last_updated: '2025-07-22T02:31:34.297460'
       auto_generated: true
     marker_assistant_bot:
       module: marker_assistant_bot
       class: MarkerAssistant
       file_path: marker_assistant_bot.py
       description: Intelligenter Assistent für die FRAUSAR Marker-Pflege
-      last_updated: '2025-07-21T18:53:32.398383'
+      last_updated: '2025-07-22T02:31:34.297364'
       auto_generated: true
     marker_cli:
       module: marker_cli
       class: MarkerCLI
       file_path: marker_cli.py
       description: Command Line Interface für Marker-Analyse
-      last_updated: '2025-07-21T18:53:32.398374'
+      last_updated: '2025-07-22T02:31:34.297352'
       auto_generated: true
     marker_matcher:
       module: marker_matcher
       class: MarkerMatcher
       file_path: marker_matcher.py
       description: Hauptklasse für Marker-basierte Textanalyse
-      last_updated: '2025-07-21T18:53:32.398321'
+      last_updated: '2025-07-22T02:31:34.297394'
       auto_generated: true
     marker_repair_engine:
       module: marker_repair_engine
       class: MarkerRepairEngine
       file_path: marker_repair_engine.py
       description: Hauptklasse für die Reparatur von Marker-YAMLs
-      last_updated: '2025-07-21T18:53:32.398470'
+      last_updated: '2025-07-22T02:31:34.297478'
       auto_generated: true
     marker_repair_engine_v2:
       module: marker_repair_engine_v2
       class: MarkerRepairEngineV2
       file_path: marker_repair_engine_v2.py
       description: Erweiterte Reparatur-Engine für Marker-YAMLs
-      last_updated: '2025-07-21T18:53:32.398365'
+      last_updated: '2025-07-22T02:31:34.297334'
       auto_generated: true
     semantic_grabber_loader:
       module: semantic_grabber_loader
       class: SemanticGrabberLibrary
       file_path: ../ALL_SEMANTIC_MARKER_TXT/ALL_NEWMARKER01/_python/semantic_grabber_loader.py
       description: ''
-      last_updated: '2025-07-21T18:53:32.398355'
+      last_updated: '2025-07-22T00:40:15.339618'
       auto_generated: true
     update_detectors:
       module: update_detectors
       class: DetectorUpdater
       file_path: update_detectors.py
       description: Hauptklasse für die automatische Detector-Schema-Aktualisierung
-      last_updated: '2025-07-21T18:53:32.398410'
+      last_updated: '2025-07-22T02:31:34.297413'
       auto_generated: true
     wish_detector:
       module: wish_detector
@@ -173,14 +173,21 @@ application_schema:
       class: MarkerMatcherV2
       file_path: marker_matcherv2.py
       description: Hauptklasse für schema-gesteuerte, Marker-basierte Textanalyse
-      last_updated: '2025-07-21T18:53:32.398420'
+      last_updated: '2025-07-22T02:31:34.297422'
       auto_generated: true
     2107_1400unified_detectors:
       module: 2107_1400unified_detectors
       class: PYTHON_MARKER
       file_path: 2107_1400unified_detectors.py
       description: 'Sehr grobe Heuristik: je mehr Self-Disclosure-Marker, desto höher.'
-      last_updated: '2025-07-21T18:53:32.398440'
+      last_updated: '2025-07-22T02:31:34.297442'
+      auto_generated: true
+    2107_2130unified_detectors:
+      module: 2107_2130unified_detectors
+      class: PYTHON_MARKER
+      file_path: 2107_2130unified_detectors.py
+      description: 'Sehr grobe Heuristik: je mehr Self-Disclosure-Marker, desto höher.'
+      last_updated: '2025-07-22T02:31:34.297469'
       auto_generated: true
 category: UNCATEGORIZED
 examples:
@@ -193,9 +200,9 @@ meta:
   auto_generated: true
   created_at: '2025-07-18T17:58:07.375900'
   description: Automatisch generiertes Schema für Detector-Module
-  last_updated: '2025-07-21T18:53:32.398471'
+  last_updated: '2025-07-22T02:31:34.297479'
   title: FRAUSAR Detector Schema
-  total_detectors: 24
+  total_detectors: 25
   version: '1.0'
 metadata:
   last_repaired: '2025-07-18T17:58:19.574281'

@@ -1,0 +1,2063 @@
+# FRAUSAR Marker-System - Vereinheitlichte Bestandsaufnahme für GPT
+# Diese Datei enthält ALLE Marker in einem einheitlichen Format
+# Generiert am: 2025-07-22 02:31:56
+# ====================================================================
+
+meta:
+  title: FRAUSAR Marker-System - Komplette Bestandsaufnahme
+  description: Alle Love Scammer Erkennungsmarker in einem einheitlichen Format
+  generated_at: '2025-07-22T02:31:56.057730'
+  version: '2.0'
+  total_markers: 122
+  purpose: GPT-Analyse und Bestandsaufnahme
+risk_levels:
+  green: Kein oder nur unkritischer Marker
+  yellow: 1-2 moderate Marker, erste Drift erkennbar
+  blinking: 3+ Marker oder ein Hochrisiko-Marker, klare Drift/Manipulation
+  red: Hochrisiko-Kombination, massive Drift/Manipulation
+markers:
+  -_ID.yaml:
+    name: -_ID.yaml
+    beschreibung: ''''''
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  ID.json:
+    name: ID.json
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_IF_YOU_WANT.yaml:
+    name: A_IF_YOU_WANT.yaml
+    beschreibung: ">\n  Typische Formulierungen, die Entscheidungsverantwortung höflich oder indirekt\nan das Gegenüber delegieren."
+    beispiele:
+    - Können wir machen – aber nur, wenn du willst.
+    - Ich würd dich gern sehen… falls es dir passt.
+    - Wie du magst, ich bin offen.
+    - Ich will dich nicht drängen.
+    - Deine Entscheidung – ich richte mich nach dir.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  MM_FLIRT_DANCE_DRIFT.yaml:
+    name: MM_FLIRT_DANCE_DRIFT.yaml
+    beschreibung: "'Verdichtete Sequenz aus Flirt-, Ambivalenz-, Rapid-Disclosure- und\n  Soft-Commitment-Mustern mit wachsender\
+      \ Intensität bei fehlender Definition.\n\n  '"
+    beispiele:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- Donnerstag: '
+    - '- Mittwoch: Kurze, witzige Meme-Antwort.'
+    - '- Dienstag: Keine Reaktion.'
+    - '- Montag: 10-Minuten-Voicenote mit tiefen Geständnissen.'
+    - '*Dynamik in Voicenotes:*'
+    - '- |'
+    - 'A: '
+    - '*Dann*'
+    - 'A: *keine Antwort für einen Tag*'
+    - 'B: '
+    - 'A: '
+    - '*Später*'
+    - 'B: '
+    - 'A: '
+    - '*Dialog über eine Woche:*'
+    - '- |'
+    - 'Tag 3: '
+    - 'Tag 2: '
+    - 'Tag 1: '
+    - '*Komprimiertes Beispiel über 3 Tage:*'
+    - '- |'
+    - 'B: '
+    - '*Am Folgetag...*'
+    - 'B: '
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'B: '
+    - 'A: '
+    - '*Am nächsten Tag ist B kurz angebunden.*'
+    - 'B: '
+    - 'A: '
+    - '*Zwei Tage später...*'
+    - 'A: '
+    - '- |'
+    - '- Zwei Tage später: '
+    - '- Kurz davor der Rückzug: '
+    - '- Vorschlag für ein Treffen (SOFT_COMMITMENT).'
+    - '- Intensive, tagelange Chats mit viel Humor und Offenheit (SUSTAINED_CONTACT, RAPID_SELF_DISCLOSURE).'
+    - '*Szenario '
+    - '- |'
+    - 'B: '
+    - 'A: '
+    - A & B (beide in Beziehungen) schreiben täglich (SUSTAINED_CONTACT).
+    - '*Szenario '
+    - '- |'
+    - '- Dann eine Nachricht: '
+    - '- Darauf folgt ein Tag Funkstille (ADAPTIVE_POLARIZATION).'
+    - '- Ein tiefes Geständnis über eine vergangene Verletzung (RAPID_SELF_DISCLOSURE).'
+    - '- Tägliche Guten-Morgen-Nachrichten (SUSTAINED_CONTACT).'
+    - '*Szenario über 2 Wochen:*'
+    - '- |'
+    - 'B: '
+    - 'A: '
+    - '*Woche 2: Ein Treffen wird vage in Aussicht gestellt, aber nie fixiert.*'
+    - '- |'
+    - 'B: '
+    - 'A: '
+    - '*Woche 1: Tägliches, intensives Schreiben.*'
+    - '- |'
+    - 'B: '
+    - 'A: '
+    - Tag 24
+    - '- |'
+    - '*Funkstille → plötzlich 15-Minuten-Voicenote voller Sehnsucht* B: '
+    - Tag 17
+    - '- |'
+    - 'B: '
+    - 'A: '
+    - Tag 10, nachts
+    - '- |'
+    - 'B: '
+    - Tag 9
+    - '- |'
+    - 'B: '
+    - 'A: '
+    - Tag 8
+    - '- |'
+    - '*gleicher Tag, spät abends* B: '
+    - '- |'
+    - 'B: '
+    - 'A: '
+    - Tag 6
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - Tag 5
+    - '- |'
+    - 'A: '
+    - Tag 3
+    - '- |'
+    - 'B: '
+    - 'A: '
+    - Tag 1
+    - '- |'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  C_SECRET_BONDING.yaml:
+    name: C_SECRET_BONDING.yaml
+    beschreibung: "'Exklusiver, vor Dritten verborgener Interaktionsraum.\n\n  '"
+    beispiele:
+    - ChatGPT fragen
+    - „Nur wir zwei haben den Schlüssel zur Schließfachbox – vergiss das nicht.“
+    - „Keiner darf mitbekommen, dass der Deal morgen früh fixiert wird.“
+    - „Sobald der Upload durch ist, löschen wir alles vom Server.“
+    - „Speicher meine Nummer unter einem anderen Namen, falls wer guckt.“
+    - „Greif nur im Inkognito-Fenster auf die Cloud-Datei zu.“
+    - „Erzähl niemandem, dass wir den Prototyp heute schon getestet haben.“
+    - „Nachts um drei, Hinterhof rechts – keine Fotos, keine Stories.“
+    - „Verwisch bitte den Chat-Verlauf, sobald du’s gelesen hast.“
+    - „Ich schick dir die Koordinaten später über Signal.“
+    - „Unser Codewort bleibt streng unter uns, klar?“
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_APPEAL_TO_AUTHORITY.yaml:
+    name: A_APPEAL_TO_AUTHORITY.yaml
+    beschreibung: ">\n  id: A_APPEAL_TO_AUTHORITY\nErkennt rhetorische Muster, bei denen Autoritäten, Experten oder Institutionen\
+      \ als Quelle für eine Aussage genannt werden, um deren Gültigkeit oder Überzeugungskraft zu erhöhen. Der Marker zielt\
+      \ auf typische Formen des *Appeal to Authority*-Arguments und kann im Kontext von Überzeugung, Manipulation oder Argumentationsanalyse\
+      \ eingesetzt werden."
+    beispiele:
+    - Laut einer Studie ist dies die effektivste Methode.
+    - Wie Dr. Weber in seiner Forschung gezeigt hat, ist diese Technik sehr zuverlässig.
+    - Die WHO hat deutlich gemacht, dass diese Maßnahme notwendig ist.
+    - Der Minister betonte die Wichtigkeit dieser Entscheidung.
+    - Experten warnen vor den Folgen.
+    - Dies wurde in zahlreichen wissenschaftlichen Studien belegt.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.yaml:
+    name: WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.yaml
+    beschreibung: ''''''
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  S_HOPEFUL_DRIVING_TONE.yaml:
+    name: S_HOPEFUL_DRIVING_TONE.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"semantic"'
+    - '"emotion"'
+    - '"hopeful"'
+    - '"motivating"'
+  S_POSITIVE_INITIATIVE.yaml:
+    name: S_POSITIVE_INITIATIVE.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"cluster"'
+    - '"initiative"'
+    - '"proactive"'
+    - '"solution_oriented"'
+    - '"positive"'
+  A_SUBTLE_SARCASM.yaml:
+    name: A_SUBTLE_SARCASM.yaml
+    beschreibung: "'Subtiler Sarkasmus/Ironie zur verdeckten Abwertung.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  C_SUSTAINED_CONTACT.yaml:
+    name: C_SUSTAINED_CONTACT.yaml
+    beschreibung: "'Ungewöhnlich hohe Kommunikationsfrequenz (≥ 3/Woche) länger als zwei\n  Monate ohne äußeren Sachzwang.\n\
+      \n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  MM_EMOTION_DYNAMICS_RISK.yaml:
+    name: MM_EMOTION_DYNAMICS_RISK.yaml
+    beschreibung: ">\n  Meta-marker signalling high emotional volatility risk when at least\none EMO_INSTABILITY cluster is\
+      \ active in the current analysis chunk."
+    beispiele:
+    - Three volatility events this hour – meta risk flagged.
+    - Polarity flip + variance spike prompt escalation alert.
+    - Dashboard lights red on EMOTION_DYNAMICS_RISK during crisis call.
+    - Monitoring shows EMO_INSTABILITY cluster repeatedly.
+    - High-risk flag sent to coaching module for intervention.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  C_AUTONOMOUS_FIELD_STRUCTURING.yaml:
+    name: C_AUTONOMOUS_FIELD_STRUCTURING.yaml
+    beschreibung: ">\n  Cluster-Marker, der anzeigt, dass ein Sprecher ein stabiles,\nfunktional geordnetes Innenfeld („autonomes\
+      \ Feld“) aufbaut,\ndas sowohl tagesaktuell als auch zukunftsorientiert strukturiert ist.\nDies geschieht durch fortlaufende\
+      \ Selbstoffenbarung, integrierte\nSelbstregulation und sachlichen Informationsaustausch."
+    beispiele:
+    - 'A erläutert seine Tagesziele („Heute priorisiere ich X, weil …“),
+
+      reflektiert ihre langfristige Rolle („In sechs Monaten möchte ich …“)
+
+      und tauscht gezielt Fakten zur Umsetzung mit dem Team aus.'
+    - 'Sprecher B beschreibt persönliche Werte, verbindet sie mit
+
+      konkreten Projektplänen und fordert präzise Daten zum nächsten Schritt an.'
+    - '„Mir ist wichtig, dass ich täglich lerne; deshalb plane ich,
+
+      jeden Abend den Fortschritt zu reflektieren …“ (Selbstoffenbarung + Planung)'
+    - 'B fasst seine Emotionen in Worte, zeigt, wie er sie reguliert
+
+      („Ich atme kurz durch und sortiere die Gedanken“) und fragt anschließend
+
+      nach Ressourcen für die morgige Präsentation.'
+    - 'Kontinuierliche Updates: innere Prioritäten → konkrete Aktionen →
+
+      Rückfrage nach Informationen, alles innerhalb eines Chat-Blocks.'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_TOGETHERNESS_TERMS.yaml:
+    name: A_TOGETHERNESS_TERMS.yaml
+    beschreibung: "'Words emphasizing the ‘we’ feeling and shared identity.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_UNCERTAINTY_PHRASE.yaml:
+    name: A_UNCERTAINTY_PHRASE.yaml
+    beschreibung: "'Ausdrücke, die Nichtwissen, Zweifel oder Unsicherheit signalisieren.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  S_SECURE_CHILDHOOD_REF.yaml:
+    name: S_SECURE_CHILDHOOD_REF.yaml
+    beschreibung: ">\n  Ko‑Vorkommen von mindestens zwei POSITIVE_CAREGIVER‑Markern\ninnerhalb von drei Sätzen; Negativ‑ oder\
+      \ Unsicherheits‑Marker\ndürfen höchstens einmal auftreten."
+    beispiele:
+    - Meine Mutter war immer für mich da und mein Vater hat mich unterstützt.
+    - Wir lasen jeden Abend gemeinsam und ich fühlte mich geborgen.
+    - Ich wusste stets, dass ich zu meinen Eltern kommen konnte.
+    - Selbst wenn ich Fehler machte, wurde ich liebevoll begleitet.
+    - Die Sonntagsfrühstücke gaben mir ein Gefühl von Stabilität.
+    - In schwierigen Zeiten standen meine Eltern fest hinter mir.
+    - Lob und Ermutigung begleiteten meine Schulzeit konstant.
+    - Familienurlaube waren voller Nähe und Spaß.
+    - Elternabende besuchten meine Eltern immer gemeinsam.
+    - Zuhause durfte ich meine Gefühle offen zeigen.
+    - Ich erinnere mich an endlose Vorlese‑Abende im Wohnzimmer.
+    - Bei Krankheit wurde ich umsorgt und getröstet.
+    - Mein Opa war ein stetiger Ruhepol, der mich verstand.
+    - Freundschaften wurden gefördert, nicht kontrolliert.
+    - Fehler galten als Lernchance, nicht als Makel.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  ID.yaml:
+    name: ID.yaml
+    beschreibung: ''''''
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_CERTAINTY_PHRASE.yaml:
+    name: A_CERTAINTY_PHRASE.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"sicherheit"'
+    - '"kontrolle"'
+    - '"kognition"'
+  S_EMO_VOLATILE_WINDOW.yaml:
+    name: S_EMO_VOLATILE_WINDOW.yaml
+    beschreibung: ">\n  Semantic marker for high emotional volatility: valence standard\ndeviation ≥ 0.45 within any 10-message\
+      \ window for the same speaker."
+    beispiele:
+    - 'Valence series: 0.7, -0.6, 0.65, -0.55 – extreme swings.'
+    - A shifts from euphoria to despair within five posts.
+    - 'Chat: “Amazing!” → “Terrible!” → “Awesome!” → “Ugh…”'
+    - Stand-up mood graph shows wild spikes hour to hour.
+    - 'Voice mood: laughing, sobbing, laughing again inside 10 mins.'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_ORG.yaml:
+    name: A_ORG.yaml
+    beschreibung: ">\n  id: \"A_ORG\"\n  level: 1\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at: \"2025-07-18\"\
+      \n  status: \"draft\"\n  lang: \"de\"\n  name: \"ORGANIZATION_ENTITY\"\n  description: \"Token wurde als Organisations-Entität\
+      \ getaggt.\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_CRITICISM_ATTACK.yaml:
+    name: A_CRITICISM_ATTACK.yaml
+    beschreibung: ">\n  id: A_CRITICISM_ATTACK"
+    beispiele:
+    - 👿 angry face with horns
+    - 😠 angry face
+    - 😤 face with look of triumph
+    - 🤬 face with symbols on mouth
+    - 😡 face with steam from nose
+    - 😡 WUT & FRUSTRATION
+    - 😬 grimacing face
+    - 😑 expressionless face
+    - 🙄 face with rolling eyes
+    - 😒 unamused face
+    - 😒 GENERVT & PASSIV-AGGRESSIV
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - 'examples:'
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"gottman"'
+    - '"criticism"'
+    - '"communication"'
+    - '"origin_author:John_Gottman"'
+  A_EMOTIONAL_INVALIDATION.yaml:
+    name: A_EMOTIONAL_INVALIDATION.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - atomic
+    - emotional_invalidation
+    - gaslighting
+    - manipulation
+  A_BLAME_SHIFT.yaml:
+    name: A_BLAME_SHIFT.yaml
+    beschreibung: ">\n  Atomic Marker für Schuldumkehr-Formulierungen (Blame Shifting),\ndie Verantwortung abweisen und auf\
+      \ das Gegenüber projizieren."
+    beispiele:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - Wenn du nicht immer so spät wärst, hätten wir das Problem nicht.
+    - Nicht meine Schuld, du hast mich nicht informiert.
+    - Wärst du früher dran gewesen, gäb’s das Problem nicht.
+    - Wenn du pünktlich wärst, müssten wir jetzt nicht diskutieren.
+    - Wegen dir haben wir Verspätung.
+    - Du hast das komplett falsch vorbereitet.
+    - Nicht ich bin schuld, du hast das falsch verstanden.
+    - Du hast mir nie gesagt, wie das geht.
+    - Wenn du besser aufgepasst hättest…
+    - Wärst du nicht so unaufmerksam, wären wir fertig.
+    - Du hast den Termin verpasst, nicht ich.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_RESONANZ_AUF_KOSENAME.yaml:
+    name: S_RESONANZ_AUF_KOSENAME.yaml
+    beschreibung: ">\n  A positive response immediately following the use of a pet name."
+    beispiele:
+    - 'A: '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  C_SYMBOLIC_SUPPORT_FIELD.yaml:
+    name: C_SYMBOLIC_SUPPORT_FIELD.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"symbolic"'
+    - '"support"'
+  C_ATTACHMENT_STYLE_AVOIDANT.yaml:
+    name: C_ATTACHMENT_STYLE_AVOIDANT.yaml
+    beschreibung: ">\n  Aktiv, wenn AVOIDANT_CHILDHOOD_REFERENCE ≥2‑mal\nim 20‑Nachrichten‑Fenster auftaucht; gleichzeitige\n\
+      Secure‑Cluster deaktivieren diesen Marker."
+    beispiele:
+    - Der Sprecher betont wiederholt, alleine klargekommen zu sein.
+    - Kindheit wird als 'früh erwachsen' geschildert.
+    - Hilfe­losigkeit wird verneint, Selbständigkeit glorifiziert.
+    - Elterliche Abwesenheit wird nüchtern, ohne Emotion, erwähnt.
+    - Gefühlsäußerungen werden minimiert oder als Schwäche angesehen.
+    - Sätze wie 'brauche niemanden' häufen sich.
+    - Lob wird als unwichtig oder peinlich dargestellt.
+    - Bindungen zu Freunden wichtiger als zu Familie.
+    - Konflikte werden durch Rückzug gelöst, nicht durch Dialog.
+    - Erfolg wird auf eigene Leistung, nie auf Unterstützung zurückgeführt.
+    - Der Sprecher lacht über 'anhängliche' Menschen.
+    - Erinnerungen an Krankheit zeigen Selbstversorgung.
+    - Fehler werden verschwiegen, um unabhängiges Image zu wahren.
+    - Eltern werden sachlich, aber distanziert beschrieben.
+    - Zusammenhalt wird als 'Später erst gelernt' betont.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json:
+    name: WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_APPEAL_TO_AUTHORITY.json:
+    name: A_APPEAL_TO_AUTHORITY.json
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_SELF_RELIANCE_EARLY.yaml:
+    name: A_SELF_RELIANCE_EARLY.yaml
+    beschreibung: ">\n  Formulierungen, die betonen, dass das Kind früh erwachsen\noder eigenständig sein musste (Indikator\
+      \ für vermeidend‑distanzierende\nBindungsstrategien)."
+    beispiele:
+    - Ich musste schnell erwachsen werden, weil niemand sonst da war.
+    - Schon mit zehn habe ich mich selbst um mein Abendessen gekümmert.
+    - Ich verließ mich lieber auf mich als auf andere.
+    - Mit zwölf habe ich meine kleinen Geschwister versorgt.
+    - Verantwortung lag früh auf meinen Schultern.
+    - Ich war praktisch selbstständig seit der Grundschule.
+    - Urlaub organisierte ich mir als Teenager alleine.
+    - Hausaufgaben? Da habe ich nie Hilfe erwartet.
+    - Ich lernte, Probleme allein zu lösen.
+    - Andere fanden mich immer 'reif für mein Alter'.
+    - Gefühle behielt ich für mich, das war sicherer.
+    - Ich fragte ungern nach Hilfe – war schon Gewohnheit.
+    - Selbst Geburtstagsfeiern habe ich geplant, nicht meine Eltern.
+    - Ich erinnere mich, wie ich Arzttermine alleine machte.
+    - Wenn etwas kaputtging, reparierte ich es einfach selbst.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_BRO_LIKE_CALLING.yaml:
+    name: A_BRO_LIKE_CALLING.yaml
+    beschreibung: ">\n  Direktanreden oder Spitznamen, die eine freundschaftlich-vertraute Ebene \nsignalisieren, oft verspielt,\
+      \ neckisch oder liebevoll."
+    beispiele:
+    - Digga, was geht?
+    - Brudi, ich vermiss dich!
+    - Alter, du bist der Beste!
+    - Ey du Vogel, ich feier dich.
+    - Schatzi, komm klar jetzt 😂
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_EMO_SLOPE_DOWN.yaml:
+    name: S_EMO_SLOPE_DOWN.yaml
+    beschreibung: ">\n  Semantic marker for a consistently falling valence (slope ≤ -0.10)\nacross three consecutive messages\
+      \ within a 15-message window."
+    beispiele:
+    - '0.50 → 0.25 → -0.05: enthusiastic to flat to gloomy.'
+    - 'B: “Feeling great!” → “Bit tired.” → “Actually, awful now.”'
+    - Meeting log shows morale sliding each status update.
+    - Valence tumbles from 0.3 to -0.4 in three texts.
+    - 'Voice notes: cheerful, then neutral, then defeated tone.'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  NAME.yaml:
+    name: NAME.yaml
+    beschreibung: ''''''
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  S_EMO_CONTRAST_DRIFT.yaml:
+    name: S_EMO_CONTRAST_DRIFT.yaml
+    beschreibung: ">\n  Semantic marker for sharp polarity flip: valence ≥ 0.5 followed by\n≤ -0.5 within three turns (or\
+      \ vice versa) for the same speaker."
+    beispiele:
+    - 'A: 0.65 (“Great!”) → -0.60 (“Everything sucks…”) within 3 lines.'
+    - Call log starts euphoric, ends despondent before hang-up.
+    - 'Morning: “Best day!” Noon: “Why bother?”'
+    - 'Voice: bright tone to tearful sighs quickly.'
+    - Status updates flip from celebration to crisis in minutes.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  C_WACHSENDE_VERBINDUNG.yaml:
+    name: C_WACHSENDE_VERBINDUNG.yaml
+    beschreibung: ">\n  Pattern of repeated joint future planning plus expressed anticipation."
+    beispiele:
+    - 'A: '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  _HIGH_LOC_DENSITY.yaml:
+    name: _HIGH_LOC_DENSITY.yaml
+    beschreibung: ">\n  - id: \"S_HIGH_LOC_DENSITY\"\n  level: 2\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at:\
+      \ \"2025-07-18\"\n  status: \"draft\"\n  lang: \"de\"\n  name: \"HIGH_LOC_DENSITY\"\n  description: \"Hohe Dichte an\
+      \ Orts-Entitäten in einem Textabschnitt.\"\n  composed_of:\n    - type: atomic\n      marker_ids: [\"A_LOC\"]\n  rules:\n\
+      \    - type: frequency\n      threshold: 4\n      scope: \"token_window\"\n      value: 100"
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_EXPLICIT_CONNECTION.yaml:
+    name: S_EXPLICIT_CONNECTION.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"semantisch"'
+    - '"verbindung"'
+    - '"nähe"'
+    - '"intimität"'
+    - '"wertschätzung"'
+    - '"sichere bindung"'
+  A_PASSIVE_AGGRESIVE.yaml:
+    name: A_PASSIVE_AGGRESIVE.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - atomic
+    - passive_aggressive
+    - manipulation
+    - tension
+  S_CRITICISM_DEFENSIVENESS_LOOP.yaml:
+    name: S_CRITICISM_DEFENSIVENESS_LOOP.yaml
+    beschreibung: ">\n  d: S_CRITICISM_DEFENSIVENESS_LOOP"
+    beispiele:
+    - 'iexamples:'
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"gottman"'
+    - '"escalation"'
+    - '"feedback_loop"'
+    - '"origin_author:John_Gottman"'
+  A_EMOJI_SUPPORT.yaml:
+    name: A_EMOJI_SUPPORT.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"emoji"'
+    - '"validation"'
+    - '"support"'
+  C_FRIENDSHIP_SIGNALING.yaml:
+    name: C_FRIENDSHIP_SIGNALING.yaml
+    beschreibung: ">\n  Cluster-Marker für sprachliche Signale, die Zugehörigkeit, Vertrautheit und \nfreundschaftliche Nähe\
+      \ erzeugen. Oft durch Anspielungen, geteilte Geschichte, \nNicknames oder ironische Zuneigung ausgedrückt."
+    beispiele:
+    - Weißt du noch, wie wir damals im Regen gefeiert haben?
+    - Du bist und bleibst mein Lieblingsidiot.
+    - Egal was passiert, ich steh hinter dir, klar?
+    - Du kennst mich doch – ich brauch drei Tage zum Antworten 😂
+    - Nur du darfst mich so nennen, Alter.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_CONTRAST_CONJUNCTION.yaml:
+    name: A_CONTRAST_CONJUNCTION.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"konjunktion"'
+    - '"gegensatz"'
+    - '"widerspruch"'
+  A_SYMBOL_LANGUAGES.yaml:
+    name: A_SYMBOL_LANGUAGES.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"symbol"'
+    - '"piktogramm"'
+    - '"implizit"'
+  A_EMO_HIGH_VALENCE.yaml:
+    name: A_EMO_HIGH_VALENCE.yaml
+    beschreibung: ">\n  Atomic marker fired when the EmotionDynamics detector assigns\na valence score ≥ 0.6 (strongly positive)\
+      \ to a single utterance."
+    beispiele:
+    - 'A (valence 0.72): “That news just made my day!”'
+    - 'B (0.80): “I’m absolutely thrilled about the promotion.”'
+    - 'A (0.65): “Everything is going wonderfully right now.”'
+    - 'B (0.70): “Couldn’t be happier with the results!”'
+    - 'A (0.78): “Life is fantastic this week.”'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_EMO_LOW_VALENCE.yaml:
+    name: A_EMO_LOW_VALENCE.yaml
+    beschreibung: ">\n  Atomic marker fired when the EmotionDynamics detector assigns\na valence score ≤ -0.6 (strongly negative)\
+      \ to a single utterance."
+    beispiele:
+    - 'A (-0.75): “Nothing seems to matter anymore.”'
+    - 'B (-0.68): “I feel utterly hopeless today.”'
+    - 'A (-0.80): “Everything is falling apart.”'
+    - 'B (-0.70): “This is the worst news I could get.”'
+    - 'A (-0.73): “I’m so disappointed and drained.”'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  C_ATTACHMENT_STYLE_ANXIOUS.yaml:
+    name: C_ATTACHMENT_STYLE_ANXIOUS.yaml
+    beschreibung: ">\n  Aktiv, wenn ANXIOUS_CHILDHOOD_REFERENCE ≥2‑mal\nim 20‑Nachrichten‑Fenster erscheint."
+    beispiele:
+    - Der Sprecher verwendet häufig Worte wie 'Angst', 'unsicher', 'nie gewusst'.
+    - Erinnerungen zeigen große Stimmungsschwankungen der Eltern.
+    - Zuneigung wird als unberechenbar beschrieben.
+    - Versprechen wurden gegeben und gebrochen – Trauer folgt.
+    - Der Sprecher erwartet instinktiv Ablehnung.
+    - Emotionale Nähe wird ersehnt, aber zugleich gefürchtet.
+    - Kleinste Zeichen von Distanz lösen Sorge aus.
+    - Schlafprobleme werden mit elterlichen Streits verknüpft.
+    - Erinnerungen an entschuldigungs­getriebenes Verhalten ('Es tut mir leid, dass ich existiere').
+    - Bindungen wirken abhängig und überbetont.
+    - Körperliche Symptome (Bauchweh) vor familiären Ereignissen.
+    - Vorfreude und Enttäuschung wechseln abrupt.
+    - Erwachsenen­beziehungen spiegeln ängstliche Muster wider.
+    - Eltern werden zugleich idealisiert und kritisiert.
+    - 'Fazit: ''Ich brauche Nähe, aber traue ihr nicht.'''
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_DEVALUING_STATEMENT.yaml:
+    name: A_DEVALUING_STATEMENT.yaml
+    beschreibung: "'Abwertung/Lächerlichmachen von Gefühlen oder Handlungen.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_LOC.yaml:
+    name: A_LOC.yaml
+    beschreibung: ">\n  id: \"A_LOC\"\n  level: 1\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at: \"2025-07-18\"\
+      \n  status: \"draft\"\n  lang: \"de\"\n  name: \"LOCATION_ENTITY\"\n  description: \"Token wurde als Orts-Entität getaggt.\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  C_SVT_MESSAGE_INCONGRUENCE.yaml:
+    name: C_SVT_MESSAGE_INCONGRUENCE.yaml
+    beschreibung: ">\n  id: \"C_SVT_MESSAGE_INCONGRUENCE\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"schulz_von_thun"'
+    - '"inkongruenz"'
+    - '"systemtemperatur"'
+    - '"konflikt"'
+    - '"origin_author:Schulz-von-Thun"'
+  C_EMO_VOLATILE_WINDOW.yaml:
+    name: C_EMO_VOLATILE_WINDOW.yaml
+    beschreibung: ">\n  Cluster-Wrapper für semantischen Marker S_EMO_VOLATILE_WINDOW,\num ihn in Meta-Marker integrieren\
+      \ zu können."
+    beispiele:
+    - Valenzreihe springt 0.7→-0.6→0.6.
+    - Chat schwankt stark zwischen Euphorie und Frust.
+    - 'Voice-Log: Lachen – Weinen – Lachen in <10 Min.'
+    - 'Ticket: “Yay!” gefolgt von “Ugh…” und wieder “Yay!”'
+    - Tägliche Stimmungskurve zeigt Zacken.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  MM_SELF_PROTECTION_DECEPTION.yaml:
+    name: MM_SELF_PROTECTION_DECEPTION.yaml
+    beschreibung: ">\n  Meta-Marker für das übergeordnete Muster einer erlernten\nSelbstschutzstrategie, die auf Teilwahrheiten,\
+      \ Verharmlosung und\nGaslighting basiert, um Verantwortung zu vermeiden."
+    beispiele:
+    - 'A: '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  AKUSTISCHE_KOHÄRENZ.yaml:
+    name: AKUSTISCHE_KOHÄRENZ.yaml
+    beschreibung: ">\n  import yaml\n\n# Definition des Meta-Markers \"Akustischer Kohärenzbruch\"\nacoustic_marker = {\n\
+      \    \"set_name\": \"selbst_evaluative_muster\",\n    \"marker_list\": [\n        {\n            \"name\": \"Akustischer\
+      \ Kohärenzbruch\",\n            \"typ\": \"Modalitätskonflikt / Kontextdissonanz\",\n            \"beschreibung\": (\n\
+      \                \"Erkennt Spannungen zwischen gesprochener Sprache und begleitenden Umgebungsgeräuschen. \"\n     \
+      \           \"Ein Bruch entsteht, wenn die auditive Kulisse der Situation widerspricht – etwa Nähe im Ton, \"\n    \
+      \            \"aber Distanz im Raumklang (z. B. Schritte weggehen, Türschlag).\"\n            ),\n            \"beispiele\"\
+      : [\n                \"„Ich bin ganz bei dir.“ (gleichzeitig: entfernte Schritte, knallende Tür)\",\n              \
+      \  \"„Das macht nichts.“ (gleichzeitig: tiefer Seufzer, Stille danach)\",\n                \"„Erzähl ruhig.“ (während\
+      \ im Hintergrund Unruhe oder Unterbrechung hörbar ist)\"\n            ],\n            \"indikator\": [\n           \
+      \     \"Sprache deutet Nähe, Geräusch signalisiert Distanz\",\n                \"Gesagte Bedeutung wird durch Kontextgeräusch\
+      \ untergraben\",\n                \"Emotionaler Subtext liegt in der akustischen Szene, nicht im Wort\"\n          \
+      \  ],\n            \"funktion\": [\n                \"löst Marker-Driftprüfung aus\",\n                \"kann Selbsttäuschung\
+      \ oder taktische Kommunikation markieren\",\n                \"triggert semantische Tiefenanalyse über Modalitätsgrenzen\
+      \ hinweg\"\n            ]\n        }\n    ]\n}\n\n# Speicherpfad\npath = \"/mnt/data/selbst_evaluative_muster.yaml\"\
+      \n\n# Vorhandene Datei laden und erweitern\nwith open(path, \"r\", encoding=\"utf-8\") as f:\n    existing_set = yaml.safe_load(f)\n\
+      \nexisting_set[\"marker_list\"].append(acoustic_marker[\"marker_list\"][0])\n\n# Datei aktualisieren\nwith open(path,\
+      \ \"w\", encoding=\"utf-8\") as f:\n    yaml.dump(existing_set, f, allow_unicode=True)\n\npath"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_CALL_TO_ACTION.yaml:
+    name: A_CALL_TO_ACTION.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"atomic"'
+    - '"action"'
+    - '"imperative"'
+    - '"pragmatic"'
+  A_REALITY_SHIFT.yaml:
+    name: A_REALITY_SHIFT.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - atomic
+    - reality_shift
+    - denial
+    - cognitive_dissonance
+  S_HIGH_SIMILARITY_DUPLICATE.yaml:
+    name: S_HIGH_SIMILARITY_DUPLICATE.yaml
+    beschreibung: ">\n  id: S_HIGH_SIMILARITY_DUPLICATE"
+    beispiele:
+    - 'examples:'
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"semantic_similarity"'
+    - '"embedding"'
+    - '"origin_source:SAS_Paper"'
+  MM_MEANING_CRISIS.yaml:
+    name: MM_MEANING_CRISIS.yaml
+    beschreibung: ">\n  - id: \"MM_MEANING_CRISIS\"\n  level: 4\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at:\
+      \ \"2025-07-14\"\n  status: \"draft\"\n  lang: \"de\"\n  name: \"Meaning Crisis\"\n  description: |\n    Übergeordnetes\
+      \ Syndrom, das sich durch anhaltende Antriebslosigkeit,\n    innere Leere und generelles Desinteresse auszeichnet und\
+      \ auf eine mögliche\n    Sinnkrise (meaning crisis) hindeuten kann.\n  composed_of:\n    - type: cluster\n      marker_ids:\
+      \ [\"C_INNER_EMPTINESS\", \"C_SOCIAL_WITHDRAWAL\"]  # vorausgesetzt, C_SOCIAL_WITHDRAWAL existiert\n  trigger_threshold:\
+      \ 1\n  scoring:\n    weight: 1.8\n    priority: \"high\"\n  tags:\n    - \"meaning-crisis\"\n    - \"meta\"\n    - \"\
+      depression\"\n    - \"early-warning\""
+    beispiele:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_INITIATIVE_GEMEINSAME_ZUKUNFT.yaml:
+    name: S_INITIATIVE_GEMEINSAME_ZUKUNFT.yaml
+    beschreibung: "'A proposal for a shared future activity that includes bonding language.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_SVT_BEZIEHUNG_DU_BOTSCHAFT.yaml:
+    name: A_SVT_BEZIEHUNG_DU_BOTSCHAFT.yaml
+    beschreibung: "'Identifiziert ''Du-Botschaften'', die dem Empfänger Eigenschaften oder\n  Schuld zuweisen und somit die\
+      \ Beziehungsebene stark belasten.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_DAILY_GREETING.yaml:
+    name: A_DAILY_GREETING.yaml
+    beschreibung: ">\n  Alltägliche Begrüßungs- und Verabschiedungsformeln, die regelmäßigen Kontakt\nund Routine im Chat\
+      \ signalisieren."
+    beispiele:
+    - Guten Morgen! Hoffe, du hast gut geschlafen.
+    - Gute Nacht, träum was Schönes.
+    - Schönen Abend dir noch!
+    - Morgen 😊 Wie läuft’s bei dir?
+    - Nacht 🌙 Wir schreiben morgen.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  MM_RELATIONAL_STABILITY_FRIENDSHIP.yaml:
+    name: MM_RELATIONAL_STABILITY_FRIENDSHIP.yaml
+    beschreibung: ">\n  Meta-Marker zur Erkennung stabilisierender, bindungsbezogener Sprachmuster \nin Freundschaften. Aktiv\
+      \ bei wiederholter Bezugnahme auf Loyalität, gemeinsame \nGeschichte, humorvolle Intimität und Fürsorge. Oft gepaart\
+      \ mit Schutzangeboten \noder selbstironischem Bezug."
+    beispiele:
+    - 'A: '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_POSITIVE_RESONANCE_ON_PET_NAME.yaml:
+    name: S_POSITIVE_RESONANCE_ON_PET_NAME.yaml
+    beschreibung: ">\n  Positive response immediately following a pet name."
+    beispiele:
+    - "de: |\n  A: "
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_PASSIVE_AGGRESSIVE_ATTACK.yaml:
+    name: S_PASSIVE_AGGRESSIVE_ATTACK.yaml
+    beschreibung: "'Subtiler Sarkasmus + verdeckte Anspielung in einer Message.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  MM_DESTRUCTIVE_CONFLICT_DYNAMICS.yaml:
+    name: MM_DESTRUCTIVE_CONFLICT_DYNAMICS.yaml
+    beschreibung: "'Meta‑Syndrom aus indirekter Konfliktvermeidung oder Dominanzmustern.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  MM_INFORMATION_DENSITY.yaml:
+    name: MM_INFORMATION_DENSITY.yaml
+    beschreibung: ">\n  id: \"MM_INFORMATION_DENSITY\"\n  level: 4\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at:\
+      \ \"2025-07-18\"\n  status: \"draft\"\n  lang: \"de\"\n  name: \"INFORMATION_DENSITY\"\n  description: |\n    Übergeordneter\
+      \ Marker für hohe Informationsdichte,\n    ausgelöst durch mindestens einen Entity-Rich-Cluster.\n  composed_of:\n \
+      \   - type: cluster\n      marker_ids: [\"C_ENTITY_RICH_TOPIC\"]\n  trigger_threshold: 1"
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  PYTHON.py:
+    name: PYTHON.py
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  C_SOFT_COMMITMENT.yaml:
+    name: C_SOFT_COMMITMENT.yaml
+    beschreibung: ">\n  Cluster-Marker für ambivalente, aber weich-positive Beziehungsangebote, bei denen\nVerantwortung für\
+      \ Nähe oder Initiative auf das Gegenüber verschoben wird."
+    beispiele:
+    - Ich würd dich echt gern sehen – aber nur, wenn das für dich grad okay ist.
+    - Wenn du Lust hast, ich wär da – aber kein Druck.
+    - Sag du einfach, ich bin flexibel.
+    - Ich wär offen für ein Treffen – aber nur, wenn du magst.
+    - Ich misch mich nicht ein – aber wär schön, dich zu sehen.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_HIGH_PRESSURE_DEMAND.yaml:
+    name: S_HIGH_PRESSURE_DEMAND.yaml
+    beschreibung: "'id: S_HIGH_PRESSURE_DEMAND\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_DEFENSIVENESS_SHIFT.yaml:
+    name: A_DEFENSIVENESS_SHIFT.yaml
+    beschreibung: ">\n  id: A_DEFENSIVENESS_SHIFT"
+    beispiele:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - 'examples:'
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"gottman"'
+    - '"defensiveness"'
+    - '"communication"'
+    - '"origin_author:John_Gottman"'
+  A_FEELING_CONNECTION.yaml:
+    name: A_FEELING_CONNECTION.yaml
+    beschreibung: "'Phrasen, die ein Gefühl der Verbundenheit direkt ausdrücken.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  C_SELF_PROTECTION_TACTICS.yaml:
+    name: C_SELF_PROTECTION_TACTICS.yaml
+    beschreibung: ">\n  Cluster-Marker, der typische Selbstschutz- und Täuschungsstrategien erfasst:\nTeilwahrheiten, Verharmlosung,\
+      \ Gaslighting und nonverbale Abwertung."
+    beispiele:
+    - 'A: '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_NEGATIVE_CAREGIVER.yaml:
+    name: A_NEGATIVE_CAREGIVER.yaml
+    beschreibung: ">\n  Direkte Aussagen über emotionale oder physische Abwesenheit,\nVernachlässigung oder Kälte der Bezugspersonen."
+    beispiele:
+    - Ich war als Kind meistens allein nach der Schule.
+    - Meine Eltern hatten nie Zeit, mir zuzuhören.
+    - Wenn ich geweint habe, interessierte es niemanden.
+    - Zu Hause war es emotional kalt und distanziert.
+    - Es gab keine Umarmungen, wenn etwas weh tat.
+    - Ich erinnere mich kaum an Lob von meinen Eltern.
+    - Oft wusste niemand, wo ich abends war.
+    - Hausaufgaben musste ich völlig alleine schaffen.
+    - Geburtstage wurden selten gefeiert, es war normal.
+    - Bei Krankheit musste ich mich selbst versorgen.
+    - Ich wurde ignoriert, wenn ich etwas erzählen wollte.
+    - 'Probleme wurden heruntergespielt: ''Stell dich nicht so an''.'
+    - Papa war ständig auf Geschäftsreise, Mama überfordert.
+    - Wir haben nie Familienurlaube gemacht, jeder war für sich.
+    - Ich fühlte mich überflüssig in meinem eigenen Zuhause.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  C_ADAPTIVE_POLARIZATION.yaml:
+    name: C_ADAPTIVE_POLARIZATION.yaml
+    beschreibung: "'Annäherung ↔ Distanz in schneller Folge.\n\n  '"
+    beispiele:
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_INVITING_RESONANCE.yaml:
+    name: A_INVITING_RESONANCE.yaml
+    beschreibung: "'Explicit verbal signals of empathy, validation, or strong agreement.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  S_INTERACTIVE_STONEWALLING.yaml:
+    name: S_INTERACTIVE_STONEWALLING.yaml
+    beschreibung: ">\n  id: S_INTERACTIVE_STONEWALLING"
+    beispiele:
+    - 'Sprecher B: '
+    - ohne Handys, nur wir beide?
+    - Wie wäre es, wenn wir einmal pro Woche einen festen Date-Abend einführen –
+    - Jeden Abend sitzen wir nur noch vor unseren Bildschirmen.
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - Wäre super, wenn du sagst, ob du dabei bist, damit ich final buchen kann.
+    - sogar Aktivitäten wie Kajakfahren und eine Weinprobe.
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - damit sie sich nicht so allein fühlt. Das würde mir enorm viel bedeuten.
+    - Ich dachte, vielleicht könntest du mich begleiten oder zumindest danach bei ihr vorbeischauen,
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - Kannst du dir das bitte ansehen und Feedback geben, bevor ich es einreiche?
+    - und eine Präsentation gebaut, damit das Management die Risiken sofort sieht.
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - Könnten wir bitte gemeinsam einen konkreten Plan machen, wie wir die Aufgaben besser verteilen?
+    - Mir fehlt deine Unterstützung, besonders wenn es um die Kinder geht.
+    - 'Sprecher A: '
+    - 'examples:'
+    - '- |-'
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - '- |-'
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - '- |-'
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - '- |-'
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - '- |-'
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_POSITIVE_RESONANCE.yaml:
+    name: A_POSITIVE_RESONANCE.yaml
+    beschreibung: "'Explicit verbal signals of empathy, validation, or strong agreement.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_ROUTINE_GREETING.yaml:
+    name: A_ROUTINE_GREETING.yaml
+    beschreibung: "'Typische, wiederkehrende Grußformeln zu bestimmten Tageszeiten.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  C_EMO_INSTABILITY.yaml:
+    name: C_EMO_INSTABILITY.yaml
+    beschreibung: ">\n  Cluster marker for emotional turbulence, triggered when any volatile\nor polarity-flip semantic marker\
+      \ occurs within a 12-message window."
+    beispiele:
+    - 'A’s chat: wild swings (0.7 → -0.6 → 0.65) and polarity flip detected
+
+      inside ten lines – cluster fires.'
+    - Rapid switches + high variance during team retro → instability.
+    - 'Voice journal day: extreme mood hops in short span.'
+    - 'Group DM: laughter then anger then euphoria – one speaker.'
+    - Customer support ticket shows drastic tone oscillations.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_AUSDRUCK_VORFREUDE.yaml:
+    name: A_AUSDRUCK_VORFREUDE.yaml
+    beschreibung: "'Detects phrases that explicitly express anticipation of shared future\n  time.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_GENERALIZED_ACCUSATION.yaml:
+    name: A_GENERALIZED_ACCUSATION.yaml
+    beschreibung: "'Absolute Vorwürfe mit ''immer'', ''nie'', ''ständig''.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  S_HIGH_PRESSURE_DEMAND.json:
+    name: S_HIGH_PRESSURE_DEMAND.json
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  -ID.yaml:
+    name: -ID.yaml
+    beschreibung: ''''''
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_PER.yaml:
+    name: A_PER.yaml
+    beschreibung: ">\n  - id: \"A_PER\"\n  level: 1\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at: \"2025-07-18\"\
+      \n  status: \"draft\"\n  lang: \"de\"\n  name: \"PERSON_ENTITY\"\n  description: \"Token wurde als Personen-Entität\
+      \ getaggt.\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  C_ENTITY_RICH_TOPIC.yaml:
+    name: C_ENTITY_RICH_TOPIC.yaml
+    beschreibung: ">\n  - id: \"C_ENTITY_RICH_TOPIC\"\n  level: 3\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at:\
+      \ \"2025-07-18\"\n  status: \"draft\"\n  lang: \"de\"\n  name: \"ENTITY_RICH_TOPIC\"\n  description: |\n    Erfasst\
+      \ Texte, in denen verschiedene Entity-Typen (Person, Organisation, Ort)\n    in hoher Dichte gemischt auftreten.\n \
+      \ composed_of:\n    - type: semantic\n      marker_ids:\n        - \"S_HIGH_PERSON_DENSITY\"\n        - \"S_HIGH_ORG_DENSITY\"\
+      \n        - \"S_HIGH_LOC_DENSITY\"\n  activation_logic: \"any\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_SCARCITY_TIMER.yaml:
+    name: A_SCARCITY_TIMER.yaml
+    beschreibung: ">\n  id: A_SCARCITY_TIMER"
+    beispiele:
+    - Das ist ein zeitlich limitiertes Sonderangebot nur für unsere treuesten Kunden.
+    - Beeilen Sie sich, der Countdown läuft und das Angebot endet bald.
+    - Diese Aktion ist streng limitiert und gilt nur, solange der Vorrat reicht.
+    - Nutzen Sie Ihre letzte Chance, die Tickets zum Frühbucherpreis zu bekommen.
+    - '- Das exklusive Angebot gilt nur für kurze Zeit!'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_HOPEFUL_FORWARD_LOOKING.yaml:
+    name: A_HOPEFUL_FORWARD_LOOKING.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"atomic"'
+    - '"optimism"'
+    - '"hope"'
+    - '"future"'
+  A_OFFENDED_SILENCE.yaml:
+    name: A_OFFENDED_SILENCE.yaml
+    beschreibung: "'Einsilbige/nonverbale Reaktionen, die Gekränktheit andeuten.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  S_RESPONSIBILITY_SHIFT.yaml:
+    name: S_RESPONSIBILITY_SHIFT.yaml
+    beschreibung: ">\n  Bedeutungsgruppe indirekter Verantwortungstransfers, bei denen die Entscheidung \ndem Gegenüber überlassen\
+      \ wird, um sich nicht festlegen zu müssen."
+    beispiele:
+    - Also ich bin da – aber wie du willst.
+    - Ich überlass dir die Entscheidung.
+    - Falls du Lust hast, können wir was machen.
+    - Ich will dir da nichts vorschreiben.
+    - Du entscheidest, ich bin flexibel.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_ANXIOUS_CHILDHOOD_REF.yaml:
+    name: S_ANXIOUS_CHILDHOOD_REF.yaml
+    beschreibung: ">\n  Auftreten von ≥2 UNPREDICTABLE_CAREGIVER und ≤1 POSITIVE_CAREGIVER\nin derselben Nachrichtensequenz."
+    beispiele:
+    - Ich hatte Angst vor Papas Stimmung – mal lobte er mich, mal ignorierte er mich.
+    - Liebe gab es, aber nur an guten Tagen; an schlechten herrschte Schweigen.
+    - Mama wechselte von Umarmung zu Anschreien innerhalb von Minuten.
+    - Ich konnte nie einschätzen, ob meine Geschichten Interesse oder Ärger wecken.
+    - Versprechen wurden oft plötzlich gebrochen, das war schlimm.
+    - Belohnungen kamen überraschend, Strafen genauso.
+    - Manchmal bekam ich Geschenke, am nächsten Tag wurde ich beschuldigt.
+    - Ich lag nachts wach, weil ich den nächsten Ausbruch fürchtete.
+    - Zu viel Freude zeigen riskierte Ärger, also war ich vorsichtig.
+    - Sicher fühlte ich mich nur, wenn alle schliefen.
+    - Manche Wochen waren harmonisch, dann wieder stürmisch.
+    - Ein Tag Umarmung, der nächste kalte Distanz – das verwirrte mich.
+    - Ich lernte, mich ständig zu entschuldigen, um Ärger zu dämpfen.
+    - Meine Noten bestimmten Papas Laune – unberechenbar.
+    - Lob fühlte sich unsicher an, weil ich den Stimmungsumschwung erwartete.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_EMO_MEAN_LOW.yaml:
+    name: S_EMO_MEAN_LOW.yaml
+    beschreibung: ">\n  Semantic marker when average valence ≤ -0.4 across a sliding\nwindow of 8 messages, indicating sustained\
+      \ low mood."
+    beispiele:
+    - Eight consecutive texts all score ≤ -0.45 valence.
+    - 'A keeps saying: “Drained… still bad… nothing helps.”'
+    - Daily check-ins show persistent negative mood all week.
+    - 'Voice diary: monotone complaints every entry.'
+    - 'Project chat: recurring gloom in status updates.'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  MM_RELATIONAL_DELEGATION.yaml:
+    name: MM_RELATIONAL_DELEGATION.yaml
+    beschreibung: ">\n  Meta-Marker für wiederkehrende Muster relationaler Verantwortungsauslagerung, \nmeist verbunden mit\
+      \ Ambivalenz, Schutz vor Zurückweisung oder indirekter Machtausübung."
+    beispiele:
+    - 'A: '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_MISC.yaml:
+    name: A_MISC.yaml
+    beschreibung: ">\n  id: \"A_MISC\"\n  level: 1\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at: \"2025-07-18\"\
+      \n  status: \"draft\"\n  lang: \"de\"\n  name: \"MISCELLANEOUS_ENTITY\"\n  description: \"Token wurde als sonstige Eigennamen-Entität\
+      \ (Produkt, Event, Werk o. Ä.) getaggt.\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '-'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_EMO_SLOPE_UP.yaml:
+    name: S_EMO_SLOPE_UP.yaml
+    beschreibung: ">\n  Semantic marker triggered when a speaker’s valence shows a\nconsistently rising trend (positive slope\
+      \ ≥ +0.10 per message)\nacross at least three consecutive messages within a 15-message window."
+    beispiele:
+    - '0.15 → 0.32 → 0.56: A’s mood lifts with each chat message.'
+    - 'A: “I’m okay.” → “Actually, feeling better.” → “I’m great!”'
+    - 'Valence: 0.05, 0.20, 0.42 – clear upward slope detected.'
+    - Team lead gets progressively more optimistic during stand-up.
+    - 'Rising cheer in voice notes: neutral → pleased → excited.'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_DESTRUCTIVE_CRITICISM.yaml:
+    name: S_DESTRUCTIVE_CRITICISM.yaml
+    beschreibung: "'Verallgemeinernder Vorwurf + Abwertung in einem Satz.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  C_ATTACHMENT_STYLE_SECURE.yaml:
+    name: C_ATTACHMENT_STYLE_SECURE.yaml
+    beschreibung: ">\n  Aktiv, wenn SECURE_CHILDHOOD_REFERENCE mindestens zweimal\nin einem 20‑Nachrichten‑Fenster feuert\
+      \ und keine gegensätzlichen\nCluster aktiv sind."
+    beispiele:
+    - Der Sprecher schildert konsequent stabile, liebevolle Erinnerungen ohne größere Brüche.
+    - Mehrere Passagen beschreiben verlässliche Fürsorge und offene Kommunikation.
+    - Positive Elternbeispiele wiederholen sich über verschiedene Themen.
+    - Kaum Hinweise auf Angst oder Selbstüberlassung – Ruhe dominiert.
+    - Narrativ betont gegenseitiges Vertrauen und Unterstützung.
+    - Es wird mehrfach erwähnt, dass 'Fehler okay waren'.
+    - Konflikte werden als lösbar dargestellt, nicht bedrohlich.
+    - Familienrituale (z.B. Abendessen, Spiele) ziehen sich durch die Erzählung.
+    - Lob, Ermutigung und Trost werden konkret beschrieben.
+    - Der Sprecher nutzt häufig das Wort 'Geborgenheit'.
+    - Beim Thema Schule wird Wertschätzung statt Druck genannt.
+    - Körperliche Nähe (Umarmungen) wird selbstverständlich erwähnt.
+    - Eltern werden als 'Zuhörer' statt Richter skizziert.
+    - Freundschaften wurden unterstützt, nicht kontrolliert.
+    - 'Fazit des Sprechers: ''Ich hatte eine schöne Kindheit''.'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_MIXED_SCRIPT_TOKEN.yaml:
+    name: A_MIXED_SCRIPT_TOKEN.yaml
+    beschreibung: ">\n  id: \"A_MIXED_SCRIPT_TOKEN\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"obfuscation"'
+    - '"mixed_script"'
+    - '"phishing"'
+    - '"spam"'
+    - '"origin_source:Stanza"'
+  A_FEIGNED_FORGETFULNESS.yaml:
+    name: A_FEIGNED_FORGETFULNESS.yaml
+    beschreibung: "'Vorgeschobenes Vergessen, um Verantwortung zu vermeiden.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  S_POWER_PLAY.yaml:
+    name: S_POWER_PLAY.yaml
+    beschreibung: "'Einseitige Entscheidung + gleichzeitige Abwertung.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  C_DOMINANCE_BEHAVIOR_PATTERN.yaml:
+    name: C_DOMINANCE_BEHAVIOR_PATTERN.yaml
+    beschreibung: "'Wiederholte destruktive Kritik + Machtentscheidungen in 25 Nachrichten.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  S_GUILT_TWIST.yaml:
+    name: S_GUILT_TWIST.yaml
+    beschreibung: "'Rechtfertigung + sofortige Schuldumkehr an Empfänger.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  selbst_evaluative_muster.yaml:
+    name: selbst_evaluative_muster.yaml
+    beschreibung: "Erkennt Muster, bei denen ein System oder Sprecher versucht, die Stimmigkeit\n    seiner eigenen Aussagen\
+      \ zu überprüfen – nicht durch äußere Korrektur, sondern\n    durch Vergleich interner Bedeutungszustände.\n  funktion:\n\
+      \  - triggert Selbstanpassung\n  - prüft Markercluster auf interne Widersprüche\n  - aktiviert Kontextprüfung, bevor\
+      \ neue Marker gesetzt werden\n  indikator:\n  - semantische Selbstreferenz\n  - Vergleich zwischen Input und späterem\
+      \ Output\n  - Suche nach Kohärenz in Sequenzen\n  name: Interne Konsistenzschleife\n  typ: Selbstbewertung / Kohärenz\n\
+      - beispiele:\n  - '„Ich bin ganz bei dir.“ (gleichzeitig: entfernte Schritte, knallende Tür)'\n  - '„Das macht nichts.“\
+      \ (gleichzeitig: tiefer Seufzer, Stille danach)'\n  - „Erzähl ruhig.“ (während im Hintergrund Unruhe oder Unterbrechung\
+      \ hörbar ist)\n  beschreibung: Erkennt Spannungen zwischen gesprochener Sprache und begleitenden\n    Umgebungsgeräuschen.\
+      \ Ein Bruch entsteht, wenn die auditive Kulisse der Situation\n    widerspricht – etwa Nähe im Ton, aber Distanz im\
+      \ Raumklang (z. B. Schritte weggehen,\n    Türschlag).\n  funktion:\n  - löst Marker-Driftprüfung aus\n  - kann Selbsttäuschung\
+      \ oder taktische Kommunikation markieren\n  - triggert semantische Tiefenanalyse über Modalitätsgrenzen hinweg\n  indikator:\n\
+      \  - Sprache deutet Nähe, Geräusch signalisiert Distanz\n  - Gesagte Bedeutung wird durch Kontextgeräusch untergraben\n\
+      \  - Emotionaler Subtext liegt in der akustischen Szene, nicht im Wort\n  name: Akustischer Kohärenzbruch\n  typ: Modalitätskonflikt\
+      \ / Kontextdissonanz"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - needs_review
+  S_BLAME_SHIFT_RESPONSE.yaml:
+    name: S_BLAME_SHIFT_RESPONSE.yaml
+    beschreibung: ">\n  Semantischer Marker, wenn eine Schuldumkehr-Phrase (A_BLAME_SHIFT)\nkombiniert mit einer Verharmlosung\
+      \ (A_DOWNPLAYING) oder Gaslighting (A_GASLIGHT)\nin derselben Nachricht vorkommt."
+    beispiele:
+    - Ach komm, teilweise ist da was dran, aber übertreib nicht – wärst du besser vorbereitet gewesen.
+    - Nicht meine Schuld, das ist wirklich keine große Sache.
+    - Wegen dir lief’s schief, aber halb so wild.
+    - Wenn du es genau nimmst, wärst du dran gewesen – war doch nur Spaß.
+    - Nicht ich hab’s vermasselt, du bildest dir das nur ein.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  C_FLIRTING_DYNAMICS.yaml:
+    name: C_FLIRTING_DYNAMICS.yaml
+    beschreibung: ">\n  Bündelt die wichtigsten Teilaspekte eines fortgeschrittenen Flirt-Dialogs: von harmlos-freundlichem\
+      \ Necking über offensive Anspielungen bis hin zu Soft-Commitment-Versprechen, ambivalenter Polarisierung und latenten\
+      \ Erwartungshaltungen.  Erfasst wird die typische Drift-Achse zwischen spielerischer Nähe, verdeckter Erwartung und\
+      \ bewusstem Hinhalten."
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_POSITIVE_CAREGIVER.yaml:
+    name: A_POSITIVE_CAREGIVER.yaml
+    beschreibung: ">\n  Explizite Formulierungen, die verlässliche, unterstützende Fürsorge­personen\nin der Kindheit beschreiben\
+      \ (sicheres Bindungserleben)."
+    beispiele:
+    - Meine Mutter war wirklich immer für mich da, egal was passierte.
+    - Ich erinnere mich, wie mein Vater mich unterstützt hat, wenn ich Angst hatte.
+    - Wir haben jeden Abend zusammen gelesen; das war unser Ritual.
+    - Zu Hause war es so warm und sicher, ich fühlte mich geborgen.
+    - Meine Eltern haben mir das Gefühl gegeben, wertvoll zu sein.
+    - Ich konnte immer zu meinen Eltern kommen, wenn etwas schiefging.
+    - Es gab feste Gute‑Nacht‑Küsse, das hat mir Halt gegeben.
+    - Mein Opa hat mir Geduld beigebracht und war immer ruhig.
+    - Wenn ich traurig war, wurde ich sofort in den Arm genommen.
+    - Meine Mutter hat jedes meiner Bilder gelobt.
+    - Wir hatten sonntags Familienfrühstück, das war mir heilig.
+    - 'Ich wusste: Selbst wenn ich Mist baue, lieben sie mich.'
+    - Papa hat mir bei Mathe geholfen, ohne zu schimpfen.
+    - Meine Eltern lobten nicht nur Noten, sondern Mühe.
+    - Ich durfte Fehler machen und wurde trotzdem ermutigt.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_TEAM_METAPHOR.yaml:
+    name: A_TEAM_METAPHOR.yaml
+    beschreibung: "'Verwendung der Metapher ''Team'', um Zusammengehörigkeit zu beschreiben.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  C_SELF_DISCLOSURE.yaml:
+    name: C_SELF_DISCLOSURE.yaml
+    beschreibung: ">\n  Cluster-Wrapper für Atomic A_SELF_DISCLOSURE, um Offenlegungen\n(persönliche Infos, Gefühle) als kombinationsfähige\
+      \ Einheit\nabzubilden."
+    beispiele:
+    - „Mir geht’s echt mies, weil …“
+    - „Ich habe Angst, dass …“
+    - „Persönlich belastet mich X.“
+    - „Letzte Nacht konnte ich nicht schlafen.“
+    - '„Ich gestehe: Ich bin überfordert.“'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_HIGH_PERSON_DENSIT.yaml:
+    name: S_HIGH_PERSON_DENSIT.yaml
+    beschreibung: ">\n  id: \"S_HIGH_PERSON_DENSITY\"\n  level: 2\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at:\
+      \ \"2025-07-18\"\n  status: \"draft\"\n  lang: \"de\"\n  name: \"HIGH_PERSON_DENSITY\"\n  description: \"Hohe Dichte\
+      \ an Personen-Entitäten in einem Textabschnitt.\"\n  composed_of:\n    - type: atomic\n      marker_ids: [\"A_PER\"\
+      ]\n  rules:\n    - type: frequency\n      threshold: 5\n      scope: \"token_window\"\n      value: 100"
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- id: '
+    - 'level: 2'
+    - 'version: '
+    - 'author: '
+    - 'created_at: '
+    - 'status: '
+    - 'lang: '
+    - 'name: '
+    - 'description: '
+    - 'composed_of:'
+    - '- type: atomic'
+    - 'marker_ids: ['
+    - 'rules:'
+    - '- type: frequency'
+    - 'threshold: 4'
+    - 'scope: '
+    - 'value: 100'
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  selbst_evaluative_muster.json:
+    name: selbst_evaluative_muster.json
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  C_INNER_EMPTINESS.yaml:
+    name: C_INNER_EMPTINESS.yaml
+    beschreibung: ">\n  - id: \"C_INNER_EMPTINESS\"\n  level: 3\n  version: \"1.0.0\"\n  author: \"auto_gpt\"\n  created_at:\
+      \ \"2025-07-14\"\n  status: \"draft\"\n  lang: \"de\"\n  name: \"Inner Emptiness\"\n  description: |\n    Erfasst ein\
+      \ Muster von wiederkehrenden apathischen und lustlosen Reaktionen,\n    das auf eine zugrundeliegende innere Leere hindeutet.\n\
+      \  composed_of:\n    - type: semantic\n      marker_ids: [\"S_APATHETIC_REACTION\"]\n  activation_logic: \"S_APATHETIC_REACTION\"\
+      \n  rules:\n    - type: frequency\n      threshold: 2\n      scope: \"conversation_chunk\"\n      value: 20\n  scoring:\n\
+      \    weight: 1.3\n    priority: \"mid\"\n  meta_marker: [\"MM_MEANING_CRISIS\"]\n  tags:\n    - \"inner-emptiness\"\n\
+      \    - \"lack-of-motivation\"\n    - \"cluster\"\n    - \"emotion\""
+    beispiele:
+    - 'examples:'
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'A: '
+    - 'B: '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  C_GROWING_CONNECTION_CLUSTER.yaml:
+    name: C_GROWING_CONNECTION_CLUSTER.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"cluster"'
+    - '"bonding"'
+    - '"commitment"'
+  A_ANTICIPATION_EXPRESSION.yaml:
+    name: A_ANTICIPATION_EXPRESSION.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"atomic"'
+    - '"optimism"'
+    - '"anticipation"'
+    - '"future"'
+  C_INDIRECT_CONFLICT_AVOIDANCE.yaml:
+    name: C_INDIRECT_CONFLICT_AVOIDANCE.yaml
+    beschreibung: "'Wiederholt passiv‑aggressive Angriffe, Rückzug oder Schuldumkehr in\n  20 Nachrichten.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  A_JOINT_PLANNING.yaml:
+    name: A_JOINT_PLANNING.yaml
+    beschreibung: "'Detects phrases that actively propose or initiate a shared activity.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  S_SUSTAINED_CONTACT.yaml:
+    name: S_SUSTAINED_CONTACT.yaml
+    beschreibung: ">\n  Semantische Gruppe von Mustern, die regelmäßige, routinierte Kontaktaufnahme\nüber Tage und Wochen\
+      \ hinweg signalisieren."
+    beispiele:
+    - Guten Morgen! Hoffe, du hast gut geschlafen.
+    - Gute Nacht, wir schreiben morgen.
+    - Schönen Abend dir noch!
+    - Morgen 😊 Wie war dein Tag gestern?
+    - Nacht 🌙 Freu mich schon auf morgen.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  MM_MICRO_VALIDATION_LOOP.yaml:
+    name: MM_MICRO_VALIDATION_LOOP.yaml
+    beschreibung: ">\n  Meta-Marker für mikro-symmetrisches Kontaktfeld: Symbolische\nUnterstützung (Emojis/Symbole) PLUS\
+      \ vorsichtige Validierung\nUND gleichzeitige Selbstdistanzierung. Aktiv, wenn beide\nCluster C_SYMBOLIC_SUPPORT_FIELD\
+      \ und C_MICRO_VALIDATION_LOOP\nin einem 10-Nachrichten-Fenster auftreten."
+    beispiele:
+    - 'A sendet „Passt das? 😊“ + „Wenn nicht, sag’s offen.↔“
+
+      → beide Cluster aktiv → Meta feuert.'
+    - 'Wechsel aus ❤️-Emoji und „Stimmt das für dich?“,
+
+      begleitet von „Wenn es zu viel ist, sag Stopp.“'
+    - ↔ + „Nur falls ok für dich …“ nach Boundary-Hinweis.
+    - Kurzes 👍, dann „Gib Bescheid, falls du Distanz brauchst.“
+    - 'Gespräch: Emoji-Bestätigung, sofortige Nachfrage
+
+      nach Komfortzone → Mikro-Validation-Loop.'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_CARING_FRIEND_EXPRESSIONS.yaml:
+    name: S_CARING_FRIEND_EXPRESSIONS.yaml
+    beschreibung: ">\n  Bedeutungsgruppe von Sätzen, die Fürsorge, Freundschaft und emotionale \nVerbundenheit signalisieren\
+      \ – oft durch Humor, Neckerei oder direkte \nZuneigungsbekundung."
+    beispiele:
+    - Pass auf dich auf, du Spinner.
+    - Ich hab dich echt lieb, Mann.
+    - Wenn du was brauchst, meld dich – ehrlich.
+    - Wär nicht dasselbe ohne dich, du Lappen.
+    - Ich will einfach, dass’s dir gut geht.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  C_THERAPEUTIC_MIRRORING.yaml:
+    name: C_THERAPEUTIC_MIRRORING.yaml
+    beschreibung: ">\n  Cluster-Marker für Prozesse, bei denen emotionale Entwicklung\nnicht in direkter Beziehung, sondern\
+      \ durch reflektierte Distanz\nund externe Spiegelung entsteht. Kennzeichnend sind ausgeprägte\ntherapeutische Selbstreflexion\
+      \ in Kombination mit aktiver\nGrenzverhandlung."
+    beispiele:
+    - 'A beschreibt distanziert eigene Gefühle („Wenn ich das von außen
+
+      betrachte, sehe ich …“) und setzt dabei klare Grenzen
+
+      („Ich möchte keine Ratschläge, nur Feedback, wie das wirkt“).'
+    - 'B reflektiert vergangene Reaktionen analytisch und fragt: „Spiegelt
+
+      das, was ich sage, meine Verantwortung oder projiziere ich?“ —
+
+      gleichzeitig legt er fest, was er teilen möchte.'
+    - 'Im Chat mit Coach: detaillierte Selbstanalyse, gefolgt von Bitten
+
+      um neutrales Spiegeln anstatt emotionaler Unterstützung; B betont
+
+      persönliche Autonomiegrenzen.'
+    - 'Sitzungstranskript: Klient formuliert Beobachtung über das eigene
+
+      Verhalten, bittet Therapeuten um Spiegelung, lehnt aber
+
+      Beziehungsangebote („Ich brauche Abstand, keine Nähe“) ab.'
+    - 'Diskurs: „Ich erkenne, dass ich hier Angst projiziere; bestätige
+
+      mir bitte, ob das nachvollziehbar klingt.“ Gleichzeitig verhandelt
+
+      A, wie viel Tiefe das Gespräch haben darf.'
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_UNILATERAL_DECISION.yaml:
+    name: A_UNILATERAL_DECISION.yaml
+    beschreibung: "'Einseitige Entscheidungen ohne Konsens.\n\n  '"
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags: []
+  MM_ATTACHMENT_PROFILE.yaml:
+    name: MM_ATTACHMENT_PROFILE.yaml
+    beschreibung: ">\n  Meta‑Marker, der das dominante Bindungsmuster eines Sprechers\nauswählt, sobald mindestens ein Attachment‑Cluster\
+      \ (Secure,\nAvoidant oder Anxious) in drei aufeinander folgenden Analyse‑Chunks\naktiv bleibt."
+    beispiele:
+    - Nach Langzeit­analyse zeigt der Sprecher konsistent sichere Muster.
+    - Drei Gesprächssegmente hintereinander aktivieren Avoidant‑Cluster → Profil = vermeidend.
+    - Secure‑ und Anxious‑Cluster wechseln, doch Anxious überwiegt drei Chunks lang.
+    - 'System meldet: ''Dominanter Stil: Secure (p = 0.82)''.'
+    - Profilergebnis wird als Feature an Coaching‑Modul übergeben.
+    - 'Dashboard: grüner Balken bei Secure, rote Warnung aus.'
+    - Bei Avoidant‑Profil werden Empathie‑Prompts verstärkt.
+    - Anxious‑Profil löst Stabilitäts‑Intervention im Chatbot aus.
+    - Historic‑Graph zeigt Schwenk von Anxious → Secure nach Therapie.
+    - Keine Cluster‑Dominanz = Profil 'Unresolved', meldet Meta‑Marker.
+    - Profilwechsel wird mit Zeit­stempel geloggt.
+    - Userdaten werden anonymisiert für Forschungszwecke exportiert.
+    - Meta‑Marker fließt in Matching‑Engine für Beziehungstipps ein.
+    - 'Edge‑Case: gleichzeitige Aktivierung zweier Cluster → Warnung.'
+    - Coach‑Dashboard zeigt Meta‑Score 0.67 (Secure).
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  FLIRT_DRIFT_DETECTIO.yaml:
+    name: FLIRT_DRIFT_DETECTIO.yaml
+    beschreibung: ">\n  # ---------- Hilfsfunktionen ----------\ndef openness_score(msg):\n    \"\"\"Sehr grobe Heuristik:\
+      \ je mehr Self-Disclosure-Marker, desto höher.\"\"\"\n    return (\n        2 * msg.count(\"A_RAPID_SELF_DISCLOSURE\"\
+      )\n        + 1 * msg.count(\"A_SOFT_FLIRT\")\n        + 0.5 * msg.count(\"A_SOFT_COMMITMENT\")\n    )\n\ndef time_diff(t1,\
+      \ t2):\n    return abs((t2 - t1).total_seconds())"
+    beispiele:
+    - from collections import deque, Counter
+    - from datetime import timedelta
+    - import numpy as np
+    - '# ---------- Kerndetektor ----------'
+    - def detect_flirt_drift(chats, marker_lookup,
+    - window_days=10,
+    - min_hits=4,
+    - 'openness_slope_min=0.15):'
+    - 'chats:   iterable[dict]   [{id, ts, text, markers:[ids]}] chronologisch'
+    - 'returns: (bool, span, diagnostics)'
+    - W = timedelta(days=window_days)
+    - 'buf   = deque()          # Sliding-window-Puffer'
+    - 'hits  = []               # Zeitstempel relevanter Treffer'
+    - 'scores= []               # Offenheits-Scores'
+    - flirt_clusters = {
+    - 'for msg in chats:'
+    - ts   = msg[
+    - mset = set(marker_lookup[msg[
+    - '# ----- relevanter Treffer? -----'
+    - 'if mset & flirt_clusters:'
+    - buf.append((ts, msg))
+    - hits.append(ts)
+    - scores.append(openness_score(mset))
+    - '# ----- Fenster trimmen -----'
+    - 'while hits and time_diff(hits[0], ts) > W.total_seconds():'
+    - hits.pop(0)
+    - scores.pop(0)
+    - buf.popleft()
+    - '# ----- Trigger-Kriterien prüfen -----'
+    - 'if len(hits) >= min_hits:'
+    - '# Offenheits-Steigung (Simple Linear Regression auf Score-Zeit)'
+    - times = np.arange(len(scores))
+    - 'if len(scores) > 1:'
+    - slope = np.polyfit(times, scores, 1)[0]
+    - 'else:'
+    - slope = 0
+    - freq_steigt = len(hits) >= min_hits
+    - 'if slope > openness_slope_min and freq_steigt:'
+    - diagnostics = {
+    - '}'
+    - return True, list(buf), diagnostics
+    - return False, [], {}
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_UNPREDICTABLE_CAREGIVER.yaml:
+    name: A_UNPREDICTABLE_CAREGIVER.yaml
+    beschreibung: ">\n  Aussagen über wechselhafte, inkonsistente oder ängstigende\nReaktionen der Bindungsperson (Anzeichen\
+      \ für ängstliche Bindung)."
+    beispiele:
+    - Ich wusste nie, wie meine Mutter auf Noten reagiert – Jubel oder Schweigen.
+    - Papa war mal liebevoll, mal eiskalt, ohne erkennbaren Grund.
+    - Ich hatte Angst vor Papas Stimmungen nach der Arbeit.
+    - Ihre Laune wechselte ständig, das machte mich nervös.
+    - 'Keine Verlässlichkeit: Lob am Montag, Kritik am Dienstag.'
+    - Als Kind war jeder Abend unberechenbar.
+    - Manchmal bekam ich Umarmungen, manchmal Schweigen.
+    - Ich lernte, Gesichter zu lesen, um Ärger zu meiden.
+    - Hausregeln änderten sich je nach Stimmung.
+    - Fehler wurden mal ignoriert, mal hart bestraft.
+    - Ich schlief oft wach, weil ich Ärger fürchtete.
+    - Ein Versprechen wurde gegeben und nie eingehalten.
+    - Belohnung und Strafe lagen dicht beieinander.
+    - Ich war ständig in Alarmbereitschaft.
+    - Liebe schien an Bedingungen geknüpft.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  S_AVOIDANT_CHILDHOOD_REF.yaml:
+    name: S_AVOIDANT_CHILDHOOD_REF.yaml
+    beschreibung: ">\n  Kombination aus ≥1 SELF_RELIANCE_EARLY und ≥1 NEGATIVE_CAREGIVER\ninnerhalb von fünf Sätzen."
+    beispiele:
+    - Ich musste früh Verantwortung übernehmen, weil meine Eltern keine Zeit hatten.
+    - Schon als Kind kochte ich allein, da zu Hause niemand da war.
+    - Hausaufgaben machte ich selbstständig; Hilfe gab es nicht.
+    - Ich verließ mich lieber auf mich, meine Eltern hörten selten zu.
+    - Geburtstage organisierte ich, weil sie es vergaßen.
+    - Ich lernte, Probleme alleine zu lösen, Aufmerksamkeit war rar.
+    - Mit zwölf kümmerte ich mich um meine Schwester, Eltern arbeiteten.
+    - Urlaub? Hatte keiner geplant, also blieb ich daheim.
+    - Lob bekam ich kaum, also suchte ich es nicht mehr.
+    - Ich installierte mir selbst das Fahrradlicht – Papa war beschäftigt.
+    - Wenn ich krank war, machte ich mir Tee und ging zur Schule.
+    - Ich war 'erstaunlich reif', sagte jeder – musste ich sein.
+    - Schon als Teenie verdiente ich eigenes Geld, um unabhängig zu sein.
+    - Freunde waren wichtiger als Familie; da gab es Halt.
+    - Gefühle zeigen? Habe ich mir abgewöhnt, brachte ja nichts.
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - neu_erstellt
+    - needs_review
+  A_SVT_APPELL_DIREKT.yaml:
+    name: A_SVT_APPELL_DIREKT.yaml
+    beschreibung: ">\n  id: \"A_SVT_APPELL_DIREKT\""
+    beispiele:
+    - 'examples:'
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    - '- '
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"schulz_von_thun"'
+    - '"appellebene"'
+    - '"aufforderung"'
+    - '"origin_author:Schulz-von-Thun"'
+  S_ACTION_ORIENTED_SPEECH.yaml:
+    name: S_ACTION_ORIENTED_SPEECH.yaml
+    beschreibung: Keine Beschreibung verfügbar
+    beispiele: []
+    kategorie: UNCATEGORIZED
+    risk_score: 1
+    tags:
+    - '"semantic"'
+    - '"style"'
+    - '"pragmatic"'
+    - '"action_oriented"'
+statistics:
+  total_markers: 122
+  total_examples: 768
+  average_examples_per_marker: 6.3
+  categories:
+    UNCATEGORIZED: 122
+  markers_without_examples:
+  - -_ID.yaml
+  - ID.json
+  - WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.yaml
+  - S_HOPEFUL_DRIVING_TONE.yaml
+  - S_POSITIVE_INITIATIVE.yaml
+  - A_SUBTLE_SARCASM.yaml
+  - C_SUSTAINED_CONTACT.yaml
+  - A_TOGETHERNESS_TERMS.yaml
+  - A_UNCERTAINTY_PHRASE.yaml
+  - ID.yaml
+  - A_CERTAINTY_PHRASE.yaml
+  - A_EMOTIONAL_INVALIDATION.yaml
+  - C_SYMBOLIC_SUPPORT_FIELD.yaml
+  - WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F.json
+  - A_APPEAL_TO_AUTHORITY.json
+  - NAME.yaml
+  - S_EXPLICIT_CONNECTION.yaml
+  - A_PASSIVE_AGGRESIVE.yaml
+  - A_EMOJI_SUPPORT.yaml
+  - A_CONTRAST_CONJUNCTION.yaml
+  - A_SYMBOL_LANGUAGES.yaml
+  - A_DEVALUING_STATEMENT.yaml
+  - AKUSTISCHE_KOHÄRENZ.yaml
+  - A_CALL_TO_ACTION.yaml
+  - A_REALITY_SHIFT.yaml
+  - S_INITIATIVE_GEMEINSAME_ZUKUNFT.yaml
+  - A_SVT_BEZIEHUNG_DU_BOTSCHAFT.yaml
+  - S_PASSIVE_AGGRESSIVE_ATTACK.yaml
+  - MM_DESTRUCTIVE_CONFLICT_DYNAMICS.yaml
+  - PYTHON.py
+  - S_HIGH_PRESSURE_DEMAND.yaml
+  - A_FEELING_CONNECTION.yaml
+  - A_INVITING_RESONANCE.yaml
+  - A_POSITIVE_RESONANCE.yaml
+  - A_ROUTINE_GREETING.yaml
+  - A_AUSDRUCK_VORFREUDE.yaml
+  - A_GENERALIZED_ACCUSATION.yaml
+  - S_HIGH_PRESSURE_DEMAND.json
+  - -ID.yaml
+  - A_HOPEFUL_FORWARD_LOOKING.yaml
+  - A_OFFENDED_SILENCE.yaml
+  - S_DESTRUCTIVE_CRITICISM.yaml
+  - A_FEIGNED_FORGETFULNESS.yaml
+  - S_POWER_PLAY.yaml
+  - C_DOMINANCE_BEHAVIOR_PATTERN.yaml
+  - S_GUILT_TWIST.yaml
+  - selbst_evaluative_muster.yaml
+  - C_FLIRTING_DYNAMICS.yaml
+  - A_TEAM_METAPHOR.yaml
+  - selbst_evaluative_muster.json
+  - C_GROWING_CONNECTION_CLUSTER.yaml
+  - A_ANTICIPATION_EXPRESSION.yaml
+  - C_INDIRECT_CONFLICT_AVOIDANCE.yaml
+  - A_JOINT_PLANNING.yaml
+  - A_UNILATERAL_DECISION.yaml
+  - S_ACTION_ORIENTED_SPEECH.yaml
+  coverage_score: 54.1

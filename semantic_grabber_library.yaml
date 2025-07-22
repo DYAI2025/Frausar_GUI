@@ -1041,3 +1041,1646 @@ semantic_grabbers:
     - *id040
     created_from: S_EXPLICIT_CONNECTION
     created_at: '2025-07-21T18:57:27.043049'
+  AUTO_SEM_20250721_BE63:
+    beschreibung: Erkennt Wörter und Phrasen, die Optimismus, Aufbruch und zukünftige
+      Möglichkeiten signalisieren.
+    examples:
+    - &id041
+      de: Ich sehe da eine echte Chance für uns.
+      en: I see a real opportunity for us there.
+    patterns:
+    - *id041
+    created_from: A_HOPEFUL_FORWARD_LOOKING
+    created_at: '2025-07-21T19:23:35.717618'
+  AUTO_SEM_20250721_85CB:
+    beschreibung: Erkennt Wörter und Phrasen, die Optimismus, Aufbruch und zukünftige
+      Möglichkeiten signalisieren.
+    examples:
+    - &id042
+      de: Ich sehe da eine echte Chance für uns.
+      en: I see a real opportunity for us there.
+    patterns:
+    - *id042
+    created_from: A_HOPEFUL_FORWARD_LOOKING
+    created_at: '2025-07-21T19:24:36.386780'
+  AUTO_SEM_20250721_0EFA:
+    beschreibung: 'Erkennt Aussagen, die die emotionale Verbindung, den Zusammenhalt
+
+      oder die Wichtigkeit der Beziehung explizit thematisieren und positiv
+
+      bewerten. [cite_start]Indikator für sichere Bindungsmuster. [cite: 769]'
+    examples:
+    - &id043
+      de: Ich schätze unsere Verbindung mehr, als du vielleicht denkst.
+      en: I appreciate our connection more than you might think.
+    - &id044
+      de: Egal was kommt, ich weiß, dass wir ein Team sind.
+      en: No matter what comes, I know that we are a team.
+    - &id045
+      de: Ich fühle mich bei dir einfach verstanden, wir sind auf einer Wellenlänge.
+      en: I just feel understood by you, we're on the same wavelength.
+    - &id046
+      de: Es tut gut zu wissen, dass ich dich an meiner Seite habe.
+      en: It feels good to know I have you by my side.
+    - &id047
+      de: Unsere Freundschaft ist mir echt heilig.
+      en: Our friendship is truly sacred to me.
+    - &id048
+      de: Ich merke immer wieder, wie stark das Band zwischen uns ist.
+      en: I notice again and again how strong the bond between us is.
+    - &id049
+      de: Ich bin so froh, dass wir uns so gut verstehen.
+      en: I'm so glad that we get along so well.
+    - &id050
+      de: Mit dir fühlt sich alles einfacher an, weil wir das zusammen durchstehen.
+      en: With you, everything feels easier because we get through it together.
+    - &id051
+      de: Fühle mich dir gerade sehr nah.
+      en: I'm feeling very close to you right now.
+    - &id052
+      de: Du bist mein Fels in der Brandung, zusammen schaffen wir alles.
+      en: You are my rock, together we can do anything.
+    patterns:
+    - *id043
+    - *id044
+    - *id045
+    - *id046
+    - *id047
+    - *id048
+    - *id049
+    - *id050
+    - *id051
+    - *id052
+    created_from: S_EXPLICIT_CONNECTION
+    created_at: '2025-07-21T19:24:56.202540'
+  AUTO_SEM_20250722_8920:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-22T00:16:16.544045'
+  AUTO_SEM_20250722_638E:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-22T00:19:26.774061'
+  AUTO_SEM_20250722_F527:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-22T00:24:15.456065'
+  AUTO_SEM_20250722_AC2B:
+    beschreibung: Detects words/phrases signalling optimism, fresh starts and future
+      possibilities.
+    examples:
+    - &id053
+      de: Ich sehe da eine echte Chance für uns.
+      en: I see a real opportunity for us there.
+    - &id054
+      de: Das klingt nach einer großartigen Möglichkeit, etwas Neues zu starten.
+      en: That sounds like a great opportunity to start something new.
+    - &id055
+      de: Hier steckt so viel ungenutztes Potential drin.
+      en: There's so much untapped potential in this.
+    - &id056
+      de: Weiter geht’s, wir können das nächste Level erreichen.
+      en: Let's move forward; we can reach the next level.
+    - &id057
+      de: Da geht noch was – wir sind längst nicht am Ende.
+      en: There's still more ahead – we're nowhere near done.
+    - &id058
+      de: Das bietet uns unzählige Chancen für Wachstum.
+      en: This offers us countless chances for growth.
+    - &id059
+      de: Ich spüre den Aufbruch in der Luft.
+      en: I can feel a fresh start in the air.
+    - &id060
+      de: Diese Möglichkeit dürfen wir nicht verpassen.
+      en: We must not miss this opportunity.
+    - &id061
+      de: Der Markt eröffnet gerade neue Potenziale.
+      en: The market is opening up new potentials right now.
+    - &id062
+      de: Lasst uns nach vorne schauen, da warten Möglichkeiten.
+      en: Let's look ahead; opportunities are waiting.
+    patterns:
+    - *id053
+    - *id054
+    - *id055
+    - *id056
+    - *id057
+    - *id058
+    - *id059
+    - *id060
+    - *id061
+    - *id062
+    created_from: A_HOPEFUL_FORWARD_LOOKING
+    created_at: '2025-07-22T00:38:15.433103'
+  AUTO_SEM_20250722_7788:
+    beschreibung: Detects words/phrases signalling optimism, fresh starts and future
+      possibilities.
+    examples:
+    - &id063
+      de: Ich sehe da eine echte Chance für uns.
+      en: I see a real opportunity for us there.
+    - &id064
+      de: Das klingt nach einer großartigen Möglichkeit, etwas Neues zu starten.
+      en: That sounds like a great opportunity to start something new.
+    - &id065
+      de: Hier steckt so viel ungenutztes Potential drin.
+      en: There's so much untapped potential in this.
+    - &id066
+      de: Weiter geht’s, wir können das nächste Level erreichen.
+      en: Let's move forward; we can reach the next level.
+    - &id067
+      de: Da geht noch was – wir sind längst nicht am Ende.
+      en: There's still more ahead – we're nowhere near done.
+    - &id068
+      de: Das bietet uns unzählige Chancen für Wachstum.
+      en: This offers us countless chances for growth.
+    - &id069
+      de: Ich spüre den Aufbruch in der Luft.
+      en: I can feel a fresh start in the air.
+    - &id070
+      de: Diese Möglichkeit dürfen wir nicht verpassen.
+      en: We must not miss this opportunity.
+    - &id071
+      de: Der Markt eröffnet gerade neue Potenziale.
+      en: The market is opening up new potentials right now.
+    - &id072
+      de: Lasst uns nach vorne schauen, da warten Möglichkeiten.
+      en: Let's look ahead; opportunities are waiting.
+    patterns:
+    - *id063
+    - *id064
+    - *id065
+    - *id066
+    - *id067
+    - *id068
+    - *id069
+    - *id070
+    - *id071
+    - *id072
+    created_from: A_HOPEFUL_FORWARD_LOOKING
+    created_at: '2025-07-22T00:38:25.875558'
+  AUTO_SEM_20250722_A49D:
+    beschreibung: Detects words/phrases signalling optimism, fresh starts and future
+      possibilities.
+    examples:
+    - &id073
+      de: Ich sehe da eine echte Chance für uns.
+      en: I see a real opportunity for us there.
+    - &id074
+      de: Das klingt nach einer großartigen Möglichkeit, etwas Neues zu starten.
+      en: That sounds like a great opportunity to start something new.
+    - &id075
+      de: Hier steckt so viel ungenutztes Potential drin.
+      en: There's so much untapped potential in this.
+    - &id076
+      de: Weiter geht’s, wir können das nächste Level erreichen.
+      en: Let's move forward; we can reach the next level.
+    - &id077
+      de: Da geht noch was – wir sind längst nicht am Ende.
+      en: There's still more ahead – we're nowhere near done.
+    - &id078
+      de: Das bietet uns unzählige Chancen für Wachstum.
+      en: This offers us countless chances for growth.
+    - &id079
+      de: Ich spüre den Aufbruch in der Luft.
+      en: I can feel a fresh start in the air.
+    - &id080
+      de: Diese Möglichkeit dürfen wir nicht verpassen.
+      en: We must not miss this opportunity.
+    - &id081
+      de: Der Markt eröffnet gerade neue Potenziale.
+      en: The market is opening up new potentials right now.
+    - &id082
+      de: Lasst uns nach vorne schauen, da warten Möglichkeiten.
+      en: Let's look ahead; opportunities are waiting.
+    patterns:
+    - *id073
+    - *id074
+    - *id075
+    - *id076
+    - *id077
+    - *id078
+    - *id079
+    - *id080
+    - *id081
+    - *id082
+    created_from: A_HOPEFUL_FORWARD_LOOKING
+    created_at: '2025-07-22T00:38:49.371011'
+  AUTO_SEM_20250722_D61E:
+    beschreibung: Detects imperative, activating phrases that prompt immediate concrete
+      action.
+    examples:
+    - &id083
+      de: Lass uns das sofort machen.
+      en: Let's do this immediately.
+    - &id084
+      de: Packen wir's an, bevor der Tag rum ist.
+      en: Let's tackle it before the day is over.
+    - &id085
+      de: Loslegen, keine Zeit verlieren!
+      en: Start now, no time to waste!
+    - &id086
+      de: Mach es fertig, direkt.
+      en: Get it done right away.
+    - &id087
+      de: Setzen wir den Plan um, noch heute.
+      en: Let's implement the plan today.
+    - &id088
+      de: Tun wir den nächsten Schritt, sofort.
+      en: Let's take the next step right now.
+    - &id089
+      de: Anpacken statt diskutieren, bitte.
+      en: Handle it instead of discussing, please.
+    - &id090
+      de: Jetzt erst recht, wir gehen es an.
+      en: Now more than ever, let's go for it.
+    - &id091
+      de: Gib mir die Aufgabe, ich erledige sie sofort.
+      en: Give me the task; I'll handle it immediately.
+    - &id092
+      de: Direkt starten, keine Ausreden.
+      en: Start directly, no excuses.
+    patterns:
+    - *id083
+    - *id084
+    - *id085
+    - *id086
+    - *id087
+    - *id088
+    - *id089
+    - *id090
+    - *id091
+    - *id092
+    created_from: A_CALL_TO_ACTION
+    created_at: '2025-07-22T00:38:49.403849'
+  AUTO_SEM_20250722_300A:
+    beschreibung: Positive, dynamic, motivating tone focused on future chances and
+      potential.
+    examples:
+    - &id093
+      de: Ich glaube, da geht noch richtig was für uns.
+      en: I believe there's still a lot of potential for us.
+    - &id094
+      de: Das ist die perfekte Möglichkeit, alles zu ändern.
+      en: This is the perfect opportunity to change everything.
+    - &id095
+      de: Ich sehe so viele neue Chancen am Horizont.
+      en: I see so many new chances on the horizon.
+    - &id096
+      de: Okay, das ist ein Rückschlag, aber jetzt erst recht!
+      en: Okay, that's a setback, but now more than ever!
+    - &id097
+      de: Das fühlt sich wie ein echter Aufbruch an.
+      en: This feels like a real new beginning.
+    - &id098
+      de: Wir haben unendlich viele Möglichkeiten, wenn wir nur wollen.
+      en: We have endless possibilities if we just want to.
+    - &id099
+      de: Lass uns nach vorne schauen, die besten Zeiten kommen noch.
+      en: Let's look ahead; the best times are yet to come.
+    - &id100
+      de: Ich bin total hoffnungsvoll, was dieses Projekt angeht.
+      en: I'm totally hopeful about this project.
+    - &id101
+      de: Das ist unsere Chance, es besser zu machen.
+      en: This is our chance to do it better.
+    - &id102
+      de: Vergiss das Alte, hier beginnt ein neues Kapitel.
+      en: Forget the old stuff; a new chapter begins here.
+    patterns:
+    - *id093
+    - *id094
+    - *id095
+    - *id096
+    - *id097
+    - *id098
+    - *id099
+    - *id100
+    - *id101
+    - *id102
+    created_from: S_HOPEFUL_DRIVING_TONE
+    created_at: '2025-07-22T00:38:49.430537'
+  AUTO_SEM_20250722_EA2B:
+    beschreibung: Pragmatic, energetic phrasing aimed at immediate concrete execution.
+    examples:
+    - &id103
+      de: Okay, genug geredet, lass uns das jetzt einfach machen.
+      en: Okay, enough talk, let's just do it now.
+    - &id104
+      de: Was ist der erste konkrete Schritt, den wir umsetzen können?
+      en: What is the first concrete step we can implement?
+    - &id105
+      de: Ich würde vorschlagen, wir packen das direkt morgen früh an.
+      en: I suggest we tackle this first thing tomorrow morning.
+    - &id106
+      de: Keine Ausreden mehr. Wir legen jetzt los.
+      en: No more excuses. We're starting now.
+    - &id107
+      de: Lass uns das Problem in kleine, machbare Aufgaben aufteilen.
+      en: Let's break the problem down into small, doable tasks.
+    - &id108
+      de: Ich mach das sofort fertig.
+      en: I'll get it done immediately.
+    - &id109
+      de: Wir müssen das jetzt tun, nicht nächste Woche.
+      en: We have to do this now, not next week.
+    - &id110
+      de: Was brauchen wir, um direkt loslegen zu können?
+      en: What do we need to get started right away?
+    - &id111
+      de: Reden wir nicht drüber, machen wir's einfach.
+      en: Let's not talk about it; let's just do it.
+    - &id112
+      de: Okay, Plan steht. Zeit, ihn umzusetzen.
+      en: Okay, plan is set. Time to execute it.
+    patterns:
+    - *id103
+    - *id104
+    - *id105
+    - *id106
+    - *id107
+    - *id108
+    - *id109
+    - *id110
+    - *id111
+    - *id112
+    created_from: S_ACTION_ORIENTED_SPEECH
+    created_at: '2025-07-22T00:38:49.457346'
+  AUTO_SEM_20250722_BB53:
+    beschreibung: Combines hopeful emotional tone with immediate action language.
+    examples:
+    - &id113
+      de: Ich sehe hier eine riesige Chance für uns. Lass uns direkt am Montag einen
+        Plan machen.
+      en: I see a huge opportunity for us here. Let's make a plan first thing on Monday.
+    - &id114
+      de: Da geht noch was! Wir sollten das Projekt sofort neu aufsetzen.
+      en: There's still potential! We should restart the project immediately.
+    - &id115
+      de: Das ist die perfekte Möglichkeit, um zu wachsen. Ich fange direkt an, die
+        ersten Schritte zu skizzieren.
+      en: This is the perfect opportunity to grow. I'll start sketching out the first
+        steps right away.
+    - &id116
+      de: 'A: Das fühlt sich wie ein echter Aufbruch an. B: Ja, total! Lass uns das
+        Momentum nutzen und es anpacken.'
+      en: 'A: This feels like a real new beginning. B: Yes, totally! Let''s use the
+        momentum and tackle it.'
+    - &id117
+      de: Jetzt erst recht! Ich recherchiere sofort, welche konkreten Alternativen
+        wir haben.
+      en: Now more than ever! I'll immediately research what concrete alternatives
+        we have.
+    - &id118
+      de: Ich bin total hoffnungsvoll. Was ist das Erste, was wir tun müssen, um loszulegen?
+      en: I'm totally hopeful. What's the first thing we need to do to get started?
+    - &id119
+      de: Vergessen wir die alten Probleme. Das ist eine neue Chance, lass sie uns
+        umsetzen.
+      en: Let's forget the old problems. This is a new chance; let's make it happen.
+    - &id120
+      de: Diese Möglichkeit bekommen wir nur einmal. Wir sollten das sofort machen.
+      en: We only get this opportunity once. We should do it immediately.
+    - &id121
+      de: Ich spüre den Aufbruch. Lass uns nicht länger warten, sondern direkt handeln.
+      en: I can feel the new beginning. Let's not wait any longer—let's act right
+        now.
+    - &id122
+      de: Weiter geht's! Ich übernehme die Organisation für den ersten Schritt.
+      en: Let's move on! I'll take over organizing the first step.
+    patterns:
+    - *id113
+    - *id114
+    - *id115
+    - *id116
+    - *id117
+    - *id118
+    - *id119
+    - *id120
+    - *id121
+    - *id122
+    created_from: C_POSITIVE_INITIATIVE
+    created_at: '2025-07-22T00:38:49.485040'
+  AUTO_SEM_20250722_4399:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-22T01:33:22.773862'
+  AUTO_SEM_20250722_F6D7:
+    beschreibung: Detects words/phrases signalling optimism, fresh starts and future
+      possibilities.
+    examples:
+    - &id123
+      de: Ich sehe da eine echte Chance für uns.
+      en: I see a real opportunity for us there.
+    - &id124
+      de: Das klingt nach einer großartigen Möglichkeit, etwas Neues zu starten.
+      en: That sounds like a great opportunity to start something new.
+    - &id125
+      de: Hier steckt so viel ungenutztes Potential drin.
+      en: There's so much untapped potential in this.
+    - &id126
+      de: Weiter geht’s, wir können das nächste Level erreichen.
+      en: Let's move forward; we can reach the next level.
+    - &id127
+      de: Da geht noch was – wir sind längst nicht am Ende.
+      en: There's still more ahead – we're nowhere near done.
+    - &id128
+      de: Das bietet uns unzählige Chancen für Wachstum.
+      en: This offers us countless chances for growth.
+    - &id129
+      de: Ich spüre den Aufbruch in der Luft.
+      en: I can feel a fresh start in the air.
+    - &id130
+      de: Diese Möglichkeit dürfen wir nicht verpassen.
+      en: We must not miss this opportunity.
+    - &id131
+      de: Der Markt eröffnet gerade neue Potenziale.
+      en: The market is opening up new potentials right now.
+    - &id132
+      de: Lasst uns nach vorne schauen, da warten Möglichkeiten.
+      en: Let's look ahead; opportunities are waiting.
+    patterns:
+    - *id123
+    - *id124
+    - *id125
+    - *id126
+    - *id127
+    - *id128
+    - *id129
+    - *id130
+    - *id131
+    - *id132
+    created_from: A_HOPEFUL_FORWARD_LOOKING
+    created_at: '2025-07-22T01:48:15.359529'
+  AUTO_SEM_20250722_2193:
+    beschreibung: Detects imperative, activating phrases that prompt immediate concrete
+      action.
+    examples:
+    - &id133
+      de: Lass uns das sofort machen.
+      en: Let's do this immediately.
+    - &id134
+      de: Packen wir's an, bevor der Tag rum ist.
+      en: Let's tackle it before the day is over.
+    - &id135
+      de: Loslegen, keine Zeit verlieren!
+      en: Start now, no time to waste!
+    - &id136
+      de: Mach es fertig, direkt.
+      en: Get it done right away.
+    - &id137
+      de: Setzen wir den Plan um, noch heute.
+      en: Let's implement the plan today.
+    - &id138
+      de: Tun wir den nächsten Schritt, sofort.
+      en: Let's take the next step right now.
+    - &id139
+      de: Anpacken statt diskutieren, bitte.
+      en: Handle it instead of discussing, please.
+    - &id140
+      de: Jetzt erst recht, wir gehen es an.
+      en: Now more than ever, let's go for it.
+    - &id141
+      de: Gib mir die Aufgabe, ich erledige sie sofort.
+      en: Give me the task; I'll handle it immediately.
+    - &id142
+      de: Direkt starten, keine Ausreden.
+      en: Start directly, no excuses.
+    patterns:
+    - *id133
+    - *id134
+    - *id135
+    - *id136
+    - *id137
+    - *id138
+    - *id139
+    - *id140
+    - *id141
+    - *id142
+    created_from: A_CALL_TO_ACTION
+    created_at: '2025-07-22T01:49:15.592073'
+  AUTO_SEM_20250722_8882:
+    beschreibung: Positive, dynamic, motivating tone focused on future chances and
+      potential.
+    examples:
+    - &id143
+      de: Ich glaube, da geht noch richtig was für uns.
+      en: I believe there's still a lot of potential for us.
+    - &id144
+      de: Das ist die perfekte Möglichkeit, alles zu ändern.
+      en: This is the perfect opportunity to change everything.
+    - &id145
+      de: Ich sehe so viele neue Chancen am Horizont.
+      en: I see so many new chances on the horizon.
+    - &id146
+      de: Okay, das ist ein Rückschlag, aber jetzt erst recht!
+      en: Okay, that's a setback, but now more than ever!
+    - &id147
+      de: Das fühlt sich wie ein echter Aufbruch an.
+      en: This feels like a real new beginning.
+    - &id148
+      de: Wir haben unendlich viele Möglichkeiten, wenn wir nur wollen.
+      en: We have endless possibilities if we just want to.
+    - &id149
+      de: Lass uns nach vorne schauen, die besten Zeiten kommen noch.
+      en: Let's look ahead; the best times are yet to come.
+    - &id150
+      de: Ich bin total hoffnungsvoll, was dieses Projekt angeht.
+      en: I'm totally hopeful about this project.
+    - &id151
+      de: Das ist unsere Chance, es besser zu machen.
+      en: This is our chance to do it better.
+    - &id152
+      de: Vergiss das Alte, hier beginnt ein neues Kapitel.
+      en: Forget the old stuff; a new chapter begins here.
+    patterns:
+    - *id143
+    - *id144
+    - *id145
+    - *id146
+    - *id147
+    - *id148
+    - *id149
+    - *id150
+    - *id151
+    - *id152
+    created_from: S_HOPEFUL_DRIVING_TONE
+    created_at: '2025-07-22T01:51:15.951749'
+  AUTO_SEM_20250722_FC99:
+    beschreibung: Automatisch erkannt aus ID_MARKER
+    examples: []
+    patterns: []
+    created_from: ID_MARKER
+    created_at: '2025-07-22T02:01:55.578743'
+  AUTO_SEM_20250722_CF40:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-22T02:03:34.611400'
+  AUTO_SEM_20250722_604D:
+    beschreibung: Detects subtle communicative patterns indicating that a fundamental
+      change in reality or in the relationship is looming (or already happening) but
+      has not yet been consciously accepted. Typical cues include denial, suppressed
+      fears, mild disorientation, and small ruptures in interaction that are ignored
+      until the shift becomes irreversible. :contentReference[oaicite:0]{index=0}
+    examples:
+    - &id153
+      de: Es fühlt sich irgendwie anders an, aber ich weiß nicht warum.
+      en: Something feels different, but I don’t know why.
+    - &id154
+      de: Eigentlich ist doch alles in Ordnung, oder?
+      en: Everything’s fine, isn’t it?
+    - &id155
+      de: Ich will darüber nicht nachdenken, lass uns einfach so weitermachen.
+      en: I don’t want to think about it; let’s just keep going as we are.
+    - &id156
+      de: Vielleicht bilde ich mir das alles nur ein.
+      en: Maybe I’m just imagining all of this.
+    - &id157
+      de: Lass uns nicht über Dinge sprechen, die noch gar nicht passiert sind.
+      en: Let’s not talk about things that haven’t even happened.
+    - &id158
+      de: Es ist sicher alles nur eine Phase.
+      en: I’m sure it’s just a phase.
+    - &id159
+      de: Irgendwas hat sich verändert, ohne dass ich es benennen kann.
+      en: Something has changed, though I can’t put my finger on it.
+    - &id160
+      de: Mir kommt alles vertraut vor, und doch stimmt etwas nicht.
+      en: Everything feels familiar, yet something’s off.
+    - &id161
+      de: Kann sein, dass ich übertreibe, aber es fühlt sich komisch an.
+      en: Maybe I’m overreacting, but it feels strange.
+    - &id162
+      de: Lass uns nicht verrückt machen, es bleibt bestimmt wie immer.
+      en: Let’s not freak out; I’m sure it’ll stay the same.
+    patterns:
+    - *id153
+    - *id154
+    - *id155
+    - *id156
+    - *id157
+    - *id158
+    - *id159
+    - *id160
+    - *id161
+    - *id162
+    created_from: A_REALITY_SHIFT
+    created_at: '2025-07-22T02:10:57.251708'
+  AUTO_SEM_20250722_A2FF:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-22T02:21:30.239941'
+  AUTO_SEM_20250722_AFF8:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-22T02:21:52.336029'
+  AUTO_SEM_20250722_671D:
+    beschreibung: Automatisch erkannt aus ID_MARKER
+    examples: []
+    patterns: []
+    created_from: ID_MARKER
+    created_at: '2025-07-22T02:22:22.004358'
+  AUTO_SEM_20250722_505F:
+    beschreibung: Automatisch erkannt aus -_ID_MARKER
+    examples: []
+    patterns: []
+    created_from: -_ID_MARKER
+    created_at: '2025-07-22T02:23:00.505160'
+  AUTO_SEM_20250722_317F:
+    beschreibung: Automatisch erstellt für A_IF_YOU_WANT.yaml
+    examples:
+    - Können wir machen – aber nur, wenn du willst.
+    - Ich würd dich gern sehen… falls es dir passt.
+    - Wie du magst, ich bin offen.
+    - Ich will dich nicht drängen.
+    - Deine Entscheidung – ich richte mich nach dir.
+    patterns:
+    - Können wir machen – aber nur, wenn du willst.
+    - Ich würd dich gern sehen… falls es dir passt.
+    - Wie du magst, ich bin offen.
+    - Ich will dich nicht drängen.
+    - Deine Entscheidung – ich richte mich nach dir.
+    created_from: A_IF_YOU_WANT.yaml
+    created_at: '2025-07-22T02:25:52.887568'
+  AUTO_SEM_20250722_CA01:
+    beschreibung: Automatisch erstellt für C_SECRET_BONDING.yaml
+    examples:
+    - ChatGPT fragen
+    - „Nur wir zwei haben den Schlüssel zur Schließfachbox – vergiss das nicht.“
+    - „Keiner darf mitbekommen, dass der Deal morgen früh fixiert wird.“
+    - „Sobald der Upload durch ist, löschen wir alles vom Server.“
+    - „Speicher meine Nummer unter einem anderen Namen, falls wer guckt.“
+    - „Greif nur im Inkognito-Fenster auf die Cloud-Datei zu.“
+    - „Erzähl niemandem, dass wir den Prototyp heute schon getestet haben.“
+    - „Nachts um drei, Hinterhof rechts – keine Fotos, keine Stories.“
+    - „Verwisch bitte den Chat-Verlauf, sobald du’s gelesen hast.“
+    - „Ich schick dir die Koordinaten später über Signal.“
+    patterns:
+    - ChatGPT fragen
+    - „Nur wir zwei haben den Schlüssel zur Schließfachbox – vergiss das nicht.“
+    - „Keiner darf mitbekommen, dass der Deal morgen früh fixiert wird.“
+    - „Sobald der Upload durch ist, löschen wir alles vom Server.“
+    - „Speicher meine Nummer unter einem anderen Namen, falls wer guckt.“
+    - „Greif nur im Inkognito-Fenster auf die Cloud-Datei zu.“
+    - „Erzähl niemandem, dass wir den Prototyp heute schon getestet haben.“
+    - „Nachts um drei, Hinterhof rechts – keine Fotos, keine Stories.“
+    - „Verwisch bitte den Chat-Verlauf, sobald du’s gelesen hast.“
+    - „Ich schick dir die Koordinaten später über Signal.“
+    created_from: C_SECRET_BONDING.yaml
+    created_at: '2025-07-22T02:25:52.972691'
+  AUTO_SEM_20250722_C6C4:
+    beschreibung: Automatisch erstellt für A_APPEAL_TO_AUTHORITY.yaml
+    examples:
+    - Laut einer Studie ist dies die effektivste Methode.
+    - Wie Dr. Weber in seiner Forschung gezeigt hat, ist diese Technik sehr zuverlässig.
+    - Die WHO hat deutlich gemacht, dass diese Maßnahme notwendig ist.
+    - Der Minister betonte die Wichtigkeit dieser Entscheidung.
+    - Experten warnen vor den Folgen.
+    - Dies wurde in zahlreichen wissenschaftlichen Studien belegt.
+    patterns:
+    - Laut einer Studie ist dies die effektivste Methode.
+    - Wie Dr. Weber in seiner Forschung gezeigt hat, ist diese Technik sehr zuverlässig.
+    - Die WHO hat deutlich gemacht, dass diese Maßnahme notwendig ist.
+    - Der Minister betonte die Wichtigkeit dieser Entscheidung.
+    - Experten warnen vor den Folgen.
+    - Dies wurde in zahlreichen wissenschaftlichen Studien belegt.
+    created_from: A_APPEAL_TO_AUTHORITY.yaml
+    created_at: '2025-07-22T02:25:53.007262'
+  AUTO_SEM_20250722_9D93:
+    beschreibung: Automatisch erstellt für MM_EMOTION_DYNAMICS_RISK.yaml
+    examples:
+    - Three volatility events this hour – meta risk flagged.
+    - Polarity flip + variance spike prompt escalation alert.
+    - Dashboard lights red on EMOTION_DYNAMICS_RISK during crisis call.
+    - Monitoring shows EMO_INSTABILITY cluster repeatedly.
+    - High-risk flag sent to coaching module for intervention.
+    patterns:
+    - Three volatility events this hour – meta risk flagged.
+    - Polarity flip + variance spike prompt escalation alert.
+    - Dashboard lights red on EMOTION_DYNAMICS_RISK during crisis call.
+    - Monitoring shows EMO_INSTABILITY cluster repeatedly.
+    - High-risk flag sent to coaching module for intervention.
+    created_from: MM_EMOTION_DYNAMICS_RISK.yaml
+    created_at: '2025-07-22T02:25:53.040521'
+  AUTO_SEM_20250722_F0B4:
+    beschreibung: Automatisch erstellt für C_AUTONOMOUS_FIELD_STRUCTURING.yaml
+    examples:
+    - 'A erläutert seine Tagesziele („Heute priorisiere ich X, weil …“),
+
+      reflektiert ihre langfristige Rolle („In sechs Monaten möchte ich …“)
+
+      und tauscht gezielt Fakten zur Umsetzung mit dem Team aus.'
+    - 'Sprecher B beschreibt persönliche Werte, verbindet sie mit
+
+      konkreten Projektplänen und fordert präzise Daten zum nächsten Schritt an.'
+    - '„Mir ist wichtig, dass ich täglich lerne; deshalb plane ich,
+
+      jeden Abend den Fortschritt zu reflektieren …“ (Selbstoffenbarung + Planung)'
+    - 'B fasst seine Emotionen in Worte, zeigt, wie er sie reguliert
+
+      („Ich atme kurz durch und sortiere die Gedanken“) und fragt anschließend
+
+      nach Ressourcen für die morgige Präsentation.'
+    - 'Kontinuierliche Updates: innere Prioritäten → konkrete Aktionen →
+
+      Rückfrage nach Informationen, alles innerhalb eines Chat-Blocks.'
+    patterns:
+    - 'A erläutert seine Tagesziele („Heute priorisiere ich X, weil …“),
+
+      reflektiert ihre langfristige Rolle („In sechs Monaten möchte ich …“)
+
+      und tauscht gezielt Fakten zur Umsetzung mit dem Team aus.'
+    - 'Sprecher B beschreibt persönliche Werte, verbindet sie mit
+
+      konkreten Projektplänen und fordert präzise Daten zum nächsten Schritt an.'
+    - '„Mir ist wichtig, dass ich täglich lerne; deshalb plane ich,
+
+      jeden Abend den Fortschritt zu reflektieren …“ (Selbstoffenbarung + Planung)'
+    - 'B fasst seine Emotionen in Worte, zeigt, wie er sie reguliert
+
+      („Ich atme kurz durch und sortiere die Gedanken“) und fragt anschließend
+
+      nach Ressourcen für die morgige Präsentation.'
+    - 'Kontinuierliche Updates: innere Prioritäten → konkrete Aktionen →
+
+      Rückfrage nach Informationen, alles innerhalb eines Chat-Blocks.'
+    created_from: C_AUTONOMOUS_FIELD_STRUCTURING.yaml
+    created_at: '2025-07-22T02:25:53.073560'
+  AUTO_SEM_20250722_2A6C:
+    beschreibung: Automatisch erstellt für S_SECURE_CHILDHOOD_REF.yaml
+    examples:
+    - Meine Mutter war immer für mich da und mein Vater hat mich unterstützt.
+    - Wir lasen jeden Abend gemeinsam und ich fühlte mich geborgen.
+    - Ich wusste stets, dass ich zu meinen Eltern kommen konnte.
+    - Selbst wenn ich Fehler machte, wurde ich liebevoll begleitet.
+    - Die Sonntagsfrühstücke gaben mir ein Gefühl von Stabilität.
+    - In schwierigen Zeiten standen meine Eltern fest hinter mir.
+    - Lob und Ermutigung begleiteten meine Schulzeit konstant.
+    - Familienurlaube waren voller Nähe und Spaß.
+    - Elternabende besuchten meine Eltern immer gemeinsam.
+    - Zuhause durfte ich meine Gefühle offen zeigen.
+    patterns:
+    - Meine Mutter war immer für mich da und mein Vater hat mich unterstützt.
+    - Wir lasen jeden Abend gemeinsam und ich fühlte mich geborgen.
+    - Ich wusste stets, dass ich zu meinen Eltern kommen konnte.
+    - Selbst wenn ich Fehler machte, wurde ich liebevoll begleitet.
+    - Die Sonntagsfrühstücke gaben mir ein Gefühl von Stabilität.
+    - In schwierigen Zeiten standen meine Eltern fest hinter mir.
+    - Lob und Ermutigung begleiteten meine Schulzeit konstant.
+    - Familienurlaube waren voller Nähe und Spaß.
+    - Elternabende besuchten meine Eltern immer gemeinsam.
+    - Zuhause durfte ich meine Gefühle offen zeigen.
+    created_from: S_SECURE_CHILDHOOD_REF.yaml
+    created_at: '2025-07-22T02:25:53.107346'
+  AUTO_SEM_20250722_FF50:
+    beschreibung: Automatisch erstellt für S_EMO_VOLATILE_WINDOW.yaml
+    examples:
+    - 'Valence series: 0.7, -0.6, 0.65, -0.55 – extreme swings.'
+    - A shifts from euphoria to despair within five posts.
+    - 'Chat: “Amazing!” → “Terrible!” → “Awesome!” → “Ugh…”'
+    - Stand-up mood graph shows wild spikes hour to hour.
+    - 'Voice mood: laughing, sobbing, laughing again inside 10 mins.'
+    patterns:
+    - 'Valence series: 0.7, -0.6, 0.65, -0.55 – extreme swings.'
+    - A shifts from euphoria to despair within five posts.
+    - 'Chat: “Amazing!” → “Terrible!” → “Awesome!” → “Ugh…”'
+    - Stand-up mood graph shows wild spikes hour to hour.
+    - 'Voice mood: laughing, sobbing, laughing again inside 10 mins.'
+    created_from: S_EMO_VOLATILE_WINDOW.yaml
+    created_at: '2025-07-22T02:25:53.141819'
+  AUTO_SEM_20250722_CD70:
+    beschreibung: Automatisch erstellt für A_CRITICISM_ATTACK.yaml
+    examples:
+    - 👿 angry face with horns
+    - 😠 angry face
+    - 😤 face with look of triumph
+    - 🤬 face with symbols on mouth
+    - 😡 face with steam from nose
+    - 😡 WUT & FRUSTRATION
+    - 😬 grimacing face
+    - 😑 expressionless face
+    - 🙄 face with rolling eyes
+    - 😒 unamused face
+    patterns:
+    - 👿 angry face with horns
+    - 😠 angry face
+    - 😤 face with look of triumph
+    - 🤬 face with symbols on mouth
+    - 😡 face with steam from nose
+    - 😡 WUT & FRUSTRATION
+    - 😬 grimacing face
+    - 😑 expressionless face
+    - 🙄 face with rolling eyes
+    - 😒 unamused face
+    created_from: A_CRITICISM_ATTACK.yaml
+    created_at: '2025-07-22T02:25:53.179172'
+  AUTO_SEM_20250722_2872:
+    beschreibung: Automatisch erstellt für C_ATTACHMENT_STYLE_AVOIDANT.yaml
+    examples:
+    - Der Sprecher betont wiederholt, alleine klargekommen zu sein.
+    - Kindheit wird als 'früh erwachsen' geschildert.
+    - Hilfe­losigkeit wird verneint, Selbständigkeit glorifiziert.
+    - Elterliche Abwesenheit wird nüchtern, ohne Emotion, erwähnt.
+    - Gefühlsäußerungen werden minimiert oder als Schwäche angesehen.
+    - Sätze wie 'brauche niemanden' häufen sich.
+    - Lob wird als unwichtig oder peinlich dargestellt.
+    - Bindungen zu Freunden wichtiger als zu Familie.
+    - Konflikte werden durch Rückzug gelöst, nicht durch Dialog.
+    - Erfolg wird auf eigene Leistung, nie auf Unterstützung zurückgeführt.
+    patterns:
+    - Der Sprecher betont wiederholt, alleine klargekommen zu sein.
+    - Kindheit wird als 'früh erwachsen' geschildert.
+    - Hilfe­losigkeit wird verneint, Selbständigkeit glorifiziert.
+    - Elterliche Abwesenheit wird nüchtern, ohne Emotion, erwähnt.
+    - Gefühlsäußerungen werden minimiert oder als Schwäche angesehen.
+    - Sätze wie 'brauche niemanden' häufen sich.
+    - Lob wird als unwichtig oder peinlich dargestellt.
+    - Bindungen zu Freunden wichtiger als zu Familie.
+    - Konflikte werden durch Rückzug gelöst, nicht durch Dialog.
+    - Erfolg wird auf eigene Leistung, nie auf Unterstützung zurückgeführt.
+    created_from: C_ATTACHMENT_STYLE_AVOIDANT.yaml
+    created_at: '2025-07-22T02:25:53.219782'
+  AUTO_SEM_20250722_8B54:
+    beschreibung: Automatisch erstellt für A_SELF_RELIANCE_EARLY.yaml
+    examples:
+    - Ich musste schnell erwachsen werden, weil niemand sonst da war.
+    - Schon mit zehn habe ich mich selbst um mein Abendessen gekümmert.
+    - Ich verließ mich lieber auf mich als auf andere.
+    - Mit zwölf habe ich meine kleinen Geschwister versorgt.
+    - Verantwortung lag früh auf meinen Schultern.
+    - Ich war praktisch selbstständig seit der Grundschule.
+    - Urlaub organisierte ich mir als Teenager alleine.
+    - Hausaufgaben? Da habe ich nie Hilfe erwartet.
+    - Ich lernte, Probleme allein zu lösen.
+    - Andere fanden mich immer 'reif für mein Alter'.
+    patterns:
+    - Ich musste schnell erwachsen werden, weil niemand sonst da war.
+    - Schon mit zehn habe ich mich selbst um mein Abendessen gekümmert.
+    - Ich verließ mich lieber auf mich als auf andere.
+    - Mit zwölf habe ich meine kleinen Geschwister versorgt.
+    - Verantwortung lag früh auf meinen Schultern.
+    - Ich war praktisch selbstständig seit der Grundschule.
+    - Urlaub organisierte ich mir als Teenager alleine.
+    - Hausaufgaben? Da habe ich nie Hilfe erwartet.
+    - Ich lernte, Probleme allein zu lösen.
+    - Andere fanden mich immer 'reif für mein Alter'.
+    created_from: A_SELF_RELIANCE_EARLY.yaml
+    created_at: '2025-07-22T02:25:53.255754'
+  AUTO_SEM_20250722_8FAF:
+    beschreibung: Automatisch erstellt für A_BRO_LIKE_CALLING.yaml
+    examples:
+    - Digga, was geht?
+    - Brudi, ich vermiss dich!
+    - Alter, du bist der Beste!
+    - Ey du Vogel, ich feier dich.
+    - Schatzi, komm klar jetzt 😂
+    patterns:
+    - Digga, was geht?
+    - Brudi, ich vermiss dich!
+    - Alter, du bist der Beste!
+    - Ey du Vogel, ich feier dich.
+    - Schatzi, komm klar jetzt 😂
+    created_from: A_BRO_LIKE_CALLING.yaml
+    created_at: '2025-07-22T02:25:53.292159'
+  AUTO_SEM_20250722_33F5:
+    beschreibung: Automatisch erstellt für S_EMO_SLOPE_DOWN.yaml
+    examples:
+    - '0.50 → 0.25 → -0.05: enthusiastic to flat to gloomy.'
+    - 'B: “Feeling great!” → “Bit tired.” → “Actually, awful now.”'
+    - Meeting log shows morale sliding each status update.
+    - Valence tumbles from 0.3 to -0.4 in three texts.
+    - 'Voice notes: cheerful, then neutral, then defeated tone.'
+    patterns:
+    - '0.50 → 0.25 → -0.05: enthusiastic to flat to gloomy.'
+    - 'B: “Feeling great!” → “Bit tired.” → “Actually, awful now.”'
+    - Meeting log shows morale sliding each status update.
+    - Valence tumbles from 0.3 to -0.4 in three texts.
+    - 'Voice notes: cheerful, then neutral, then defeated tone.'
+    created_from: S_EMO_SLOPE_DOWN.yaml
+    created_at: '2025-07-22T02:25:53.328791'
+  AUTO_SEM_20250722_AFCB:
+    beschreibung: Automatisch erstellt für S_EMO_CONTRAST_DRIFT.yaml
+    examples:
+    - 'A: 0.65 (“Great!”) → -0.60 (“Everything sucks…”) within 3 lines.'
+    - Call log starts euphoric, ends despondent before hang-up.
+    - 'Morning: “Best day!” Noon: “Why bother?”'
+    - 'Voice: bright tone to tearful sighs quickly.'
+    - Status updates flip from celebration to crisis in minutes.
+    patterns:
+    - 'A: 0.65 (“Great!”) → -0.60 (“Everything sucks…”) within 3 lines.'
+    - Call log starts euphoric, ends despondent before hang-up.
+    - 'Morning: “Best day!” Noon: “Why bother?”'
+    - 'Voice: bright tone to tearful sighs quickly.'
+    - Status updates flip from celebration to crisis in minutes.
+    created_from: S_EMO_CONTRAST_DRIFT.yaml
+    created_at: '2025-07-22T02:25:53.365838'
+  AUTO_SEM_20250722_5319:
+    beschreibung: Automatisch erstellt für S_CRITICISM_DEFENSIVENESS_LOOP.yaml
+    examples:
+    - 'iexamples:'
+    - '- '
+    patterns:
+    - 'iexamples:'
+    - '- '
+    created_from: S_CRITICISM_DEFENSIVENESS_LOOP.yaml
+    created_at: '2025-07-22T02:25:53.408023'
+  AUTO_SEM_20250722_DCC5:
+    beschreibung: Automatisch erstellt für C_FRIENDSHIP_SIGNALING.yaml
+    examples:
+    - Weißt du noch, wie wir damals im Regen gefeiert haben?
+    - Du bist und bleibst mein Lieblingsidiot.
+    - Egal was passiert, ich steh hinter dir, klar?
+    - Du kennst mich doch – ich brauch drei Tage zum Antworten 😂
+    - Nur du darfst mich so nennen, Alter.
+    patterns:
+    - Weißt du noch, wie wir damals im Regen gefeiert haben?
+    - Du bist und bleibst mein Lieblingsidiot.
+    - Egal was passiert, ich steh hinter dir, klar?
+    - Du kennst mich doch – ich brauch drei Tage zum Antworten 😂
+    - Nur du darfst mich so nennen, Alter.
+    created_from: C_FRIENDSHIP_SIGNALING.yaml
+    created_at: '2025-07-22T02:25:53.445877'
+  AUTO_SEM_20250722_54C5:
+    beschreibung: Automatisch erstellt für A_EMO_HIGH_VALENCE.yaml
+    examples:
+    - 'A (valence 0.72): “That news just made my day!”'
+    - 'B (0.80): “I’m absolutely thrilled about the promotion.”'
+    - 'A (0.65): “Everything is going wonderfully right now.”'
+    - 'B (0.70): “Couldn’t be happier with the results!”'
+    - 'A (0.78): “Life is fantastic this week.”'
+    patterns:
+    - 'A (valence 0.72): “That news just made my day!”'
+    - 'B (0.80): “I’m absolutely thrilled about the promotion.”'
+    - 'A (0.65): “Everything is going wonderfully right now.”'
+    - 'B (0.70): “Couldn’t be happier with the results!”'
+    - 'A (0.78): “Life is fantastic this week.”'
+    created_from: A_EMO_HIGH_VALENCE.yaml
+    created_at: '2025-07-22T02:25:53.483854'
+  AUTO_SEM_20250722_B48E:
+    beschreibung: Automatisch erstellt für A_EMO_LOW_VALENCE.yaml
+    examples:
+    - 'A (-0.75): “Nothing seems to matter anymore.”'
+    - 'B (-0.68): “I feel utterly hopeless today.”'
+    - 'A (-0.80): “Everything is falling apart.”'
+    - 'B (-0.70): “This is the worst news I could get.”'
+    - 'A (-0.73): “I’m so disappointed and drained.”'
+    patterns:
+    - 'A (-0.75): “Nothing seems to matter anymore.”'
+    - 'B (-0.68): “I feel utterly hopeless today.”'
+    - 'A (-0.80): “Everything is falling apart.”'
+    - 'B (-0.70): “This is the worst news I could get.”'
+    - 'A (-0.73): “I’m so disappointed and drained.”'
+    created_from: A_EMO_LOW_VALENCE.yaml
+    created_at: '2025-07-22T02:25:53.522486'
+  AUTO_SEM_20250722_0547:
+    beschreibung: Automatisch erstellt für C_ATTACHMENT_STYLE_ANXIOUS.yaml
+    examples:
+    - Der Sprecher verwendet häufig Worte wie 'Angst', 'unsicher', 'nie gewusst'.
+    - Erinnerungen zeigen große Stimmungsschwankungen der Eltern.
+    - Zuneigung wird als unberechenbar beschrieben.
+    - Versprechen wurden gegeben und gebrochen – Trauer folgt.
+    - Der Sprecher erwartet instinktiv Ablehnung.
+    - Emotionale Nähe wird ersehnt, aber zugleich gefürchtet.
+    - Kleinste Zeichen von Distanz lösen Sorge aus.
+    - Schlafprobleme werden mit elterlichen Streits verknüpft.
+    - Erinnerungen an entschuldigungs­getriebenes Verhalten ('Es tut mir leid, dass
+      ich existiere').
+    - Bindungen wirken abhängig und überbetont.
+    patterns:
+    - Der Sprecher verwendet häufig Worte wie 'Angst', 'unsicher', 'nie gewusst'.
+    - Erinnerungen zeigen große Stimmungsschwankungen der Eltern.
+    - Zuneigung wird als unberechenbar beschrieben.
+    - Versprechen wurden gegeben und gebrochen – Trauer folgt.
+    - Der Sprecher erwartet instinktiv Ablehnung.
+    - Emotionale Nähe wird ersehnt, aber zugleich gefürchtet.
+    - Kleinste Zeichen von Distanz lösen Sorge aus.
+    - Schlafprobleme werden mit elterlichen Streits verknüpft.
+    - Erinnerungen an entschuldigungs­getriebenes Verhalten ('Es tut mir leid, dass
+      ich existiere').
+    - Bindungen wirken abhängig und überbetont.
+    created_from: C_ATTACHMENT_STYLE_ANXIOUS.yaml
+    created_at: '2025-07-22T02:25:53.561061'
+  AUTO_SEM_20250722_E053:
+    beschreibung: Automatisch erstellt für C_EMO_VOLATILE_WINDOW.yaml
+    examples:
+    - Valenzreihe springt 0.7→-0.6→0.6.
+    - Chat schwankt stark zwischen Euphorie und Frust.
+    - 'Voice-Log: Lachen – Weinen – Lachen in <10 Min.'
+    - 'Ticket: “Yay!” gefolgt von “Ugh…” und wieder “Yay!”'
+    - Tägliche Stimmungskurve zeigt Zacken.
+    patterns:
+    - Valenzreihe springt 0.7→-0.6→0.6.
+    - Chat schwankt stark zwischen Euphorie und Frust.
+    - 'Voice-Log: Lachen – Weinen – Lachen in <10 Min.'
+    - 'Ticket: “Yay!” gefolgt von “Ugh…” und wieder “Yay!”'
+    - Tägliche Stimmungskurve zeigt Zacken.
+    created_from: C_EMO_VOLATILE_WINDOW.yaml
+    created_at: '2025-07-22T02:25:53.605164'
+  AUTO_SEM_20250722_9633:
+    beschreibung: Automatisch erstellt für S_HIGH_SIMILARITY_DUPLICATE.yaml
+    examples:
+    - 'examples:'
+    - '- '
+    patterns:
+    - 'examples:'
+    - '- '
+    created_from: S_HIGH_SIMILARITY_DUPLICATE.yaml
+    created_at: '2025-07-22T02:25:53.647204'
+  AUTO_SEM_20250722_2DE1:
+    beschreibung: Automatisch erstellt für A_DAILY_GREETING.yaml
+    examples:
+    - Guten Morgen! Hoffe, du hast gut geschlafen.
+    - Gute Nacht, träum was Schönes.
+    - Schönen Abend dir noch!
+    - Morgen 😊 Wie läuft’s bei dir?
+    - Nacht 🌙 Wir schreiben morgen.
+    patterns:
+    - Guten Morgen! Hoffe, du hast gut geschlafen.
+    - Gute Nacht, träum was Schönes.
+    - Schönen Abend dir noch!
+    - Morgen 😊 Wie läuft’s bei dir?
+    - Nacht 🌙 Wir schreiben morgen.
+    created_from: A_DAILY_GREETING.yaml
+    created_at: '2025-07-22T02:25:53.689408'
+  AUTO_SEM_20250722_DC58:
+    beschreibung: Automatisch erstellt für S_POSITIVE_RESONANCE_ON_PET_NAME.yaml
+    examples:
+    - "de: |\n  A: "
+    patterns:
+    - "de: |\n  A: "
+    created_from: S_POSITIVE_RESONANCE_ON_PET_NAME.yaml
+    created_at: '2025-07-22T02:25:53.732231'
+  AUTO_SEM_20250722_7F73:
+    beschreibung: Automatisch erstellt für C_SOFT_COMMITMENT.yaml
+    examples:
+    - Ich würd dich echt gern sehen – aber nur, wenn das für dich grad okay ist.
+    - Wenn du Lust hast, ich wär da – aber kein Druck.
+    - Sag du einfach, ich bin flexibel.
+    - Ich wär offen für ein Treffen – aber nur, wenn du magst.
+    - Ich misch mich nicht ein – aber wär schön, dich zu sehen.
+    patterns:
+    - Ich würd dich echt gern sehen – aber nur, wenn das für dich grad okay ist.
+    - Wenn du Lust hast, ich wär da – aber kein Druck.
+    - Sag du einfach, ich bin flexibel.
+    - Ich wär offen für ein Treffen – aber nur, wenn du magst.
+    - Ich misch mich nicht ein – aber wär schön, dich zu sehen.
+    created_from: C_SOFT_COMMITMENT.yaml
+    created_at: '2025-07-22T02:25:53.774936'
+  AUTO_SEM_20250722_4C7B:
+    beschreibung: Automatisch erstellt für A_NEGATIVE_CAREGIVER.yaml
+    examples:
+    - Ich war als Kind meistens allein nach der Schule.
+    - Meine Eltern hatten nie Zeit, mir zuzuhören.
+    - Wenn ich geweint habe, interessierte es niemanden.
+    - Zu Hause war es emotional kalt und distanziert.
+    - Es gab keine Umarmungen, wenn etwas weh tat.
+    - Ich erinnere mich kaum an Lob von meinen Eltern.
+    - Oft wusste niemand, wo ich abends war.
+    - Hausaufgaben musste ich völlig alleine schaffen.
+    - Geburtstage wurden selten gefeiert, es war normal.
+    - Bei Krankheit musste ich mich selbst versorgen.
+    patterns:
+    - Ich war als Kind meistens allein nach der Schule.
+    - Meine Eltern hatten nie Zeit, mir zuzuhören.
+    - Wenn ich geweint habe, interessierte es niemanden.
+    - Zu Hause war es emotional kalt und distanziert.
+    - Es gab keine Umarmungen, wenn etwas weh tat.
+    - Ich erinnere mich kaum an Lob von meinen Eltern.
+    - Oft wusste niemand, wo ich abends war.
+    - Hausaufgaben musste ich völlig alleine schaffen.
+    - Geburtstage wurden selten gefeiert, es war normal.
+    - Bei Krankheit musste ich mich selbst versorgen.
+    created_from: A_NEGATIVE_CAREGIVER.yaml
+    created_at: '2025-07-22T02:25:53.821709'
+  AUTO_SEM_20250722_0E5F:
+    beschreibung: Automatisch erstellt für S_INTERACTIVE_STONEWALLING.yaml
+    examples:
+    - 'Sprecher B: '
+    - ohne Handys, nur wir beide?
+    - Wie wäre es, wenn wir einmal pro Woche einen festen Date-Abend einführen –
+    - Jeden Abend sitzen wir nur noch vor unseren Bildschirmen.
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - Wäre super, wenn du sagst, ob du dabei bist, damit ich final buchen kann.
+    - sogar Aktivitäten wie Kajakfahren und eine Weinprobe.
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    patterns:
+    - 'Sprecher B: '
+    - ohne Handys, nur wir beide?
+    - Wie wäre es, wenn wir einmal pro Woche einen festen Date-Abend einführen –
+    - Jeden Abend sitzen wir nur noch vor unseren Bildschirmen.
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    - Wäre super, wenn du sagst, ob du dabei bist, damit ich final buchen kann.
+    - sogar Aktivitäten wie Kajakfahren und eine Weinprobe.
+    - 'Sprecher A: '
+    - 'Sprecher B: '
+    created_from: S_INTERACTIVE_STONEWALLING.yaml
+    created_at: '2025-07-22T02:25:53.865320'
+  AUTO_SEM_20250722_CADF:
+    beschreibung: Automatisch erstellt für C_EMO_INSTABILITY.yaml
+    examples:
+    - 'A’s chat: wild swings (0.7 → -0.6 → 0.65) and polarity flip detected
+
+      inside ten lines – cluster fires.'
+    - Rapid switches + high variance during team retro → instability.
+    - 'Voice journal day: extreme mood hops in short span.'
+    - 'Group DM: laughter then anger then euphoria – one speaker.'
+    - Customer support ticket shows drastic tone oscillations.
+    patterns:
+    - 'A’s chat: wild swings (0.7 → -0.6 → 0.65) and polarity flip detected
+
+      inside ten lines – cluster fires.'
+    - Rapid switches + high variance during team retro → instability.
+    - 'Voice journal day: extreme mood hops in short span.'
+    - 'Group DM: laughter then anger then euphoria – one speaker.'
+    - Customer support ticket shows drastic tone oscillations.
+    created_from: C_EMO_INSTABILITY.yaml
+    created_at: '2025-07-22T02:25:53.906998'
+  AUTO_SEM_20250722_8FCA:
+    beschreibung: Automatisch erstellt für A_SCARCITY_TIMER.yaml
+    examples:
+    - Das ist ein zeitlich limitiertes Sonderangebot nur für unsere treuesten Kunden.
+    - Beeilen Sie sich, der Countdown läuft und das Angebot endet bald.
+    - Diese Aktion ist streng limitiert und gilt nur, solange der Vorrat reicht.
+    - Nutzen Sie Ihre letzte Chance, die Tickets zum Frühbucherpreis zu bekommen.
+    - '- Das exklusive Angebot gilt nur für kurze Zeit!'
+    patterns:
+    - Das ist ein zeitlich limitiertes Sonderangebot nur für unsere treuesten Kunden.
+    - Beeilen Sie sich, der Countdown läuft und das Angebot endet bald.
+    - Diese Aktion ist streng limitiert und gilt nur, solange der Vorrat reicht.
+    - Nutzen Sie Ihre letzte Chance, die Tickets zum Frühbucherpreis zu bekommen.
+    - '- Das exklusive Angebot gilt nur für kurze Zeit!'
+    created_from: A_SCARCITY_TIMER.yaml
+    created_at: '2025-07-22T02:25:53.954227'
+  AUTO_SEM_20250722_01BD:
+    beschreibung: Automatisch erstellt für S_RESPONSIBILITY_SHIFT.yaml
+    examples:
+    - Also ich bin da – aber wie du willst.
+    - Ich überlass dir die Entscheidung.
+    - Falls du Lust hast, können wir was machen.
+    - Ich will dir da nichts vorschreiben.
+    - Du entscheidest, ich bin flexibel.
+    patterns:
+    - Also ich bin da – aber wie du willst.
+    - Ich überlass dir die Entscheidung.
+    - Falls du Lust hast, können wir was machen.
+    - Ich will dir da nichts vorschreiben.
+    - Du entscheidest, ich bin flexibel.
+    created_from: S_RESPONSIBILITY_SHIFT.yaml
+    created_at: '2025-07-22T02:25:53.996844'
+  AUTO_SEM_20250722_FCE8:
+    beschreibung: Automatisch erstellt für S_ANXIOUS_CHILDHOOD_REF.yaml
+    examples:
+    - Ich hatte Angst vor Papas Stimmung – mal lobte er mich, mal ignorierte er mich.
+    - Liebe gab es, aber nur an guten Tagen; an schlechten herrschte Schweigen.
+    - Mama wechselte von Umarmung zu Anschreien innerhalb von Minuten.
+    - Ich konnte nie einschätzen, ob meine Geschichten Interesse oder Ärger wecken.
+    - Versprechen wurden oft plötzlich gebrochen, das war schlimm.
+    - Belohnungen kamen überraschend, Strafen genauso.
+    - Manchmal bekam ich Geschenke, am nächsten Tag wurde ich beschuldigt.
+    - Ich lag nachts wach, weil ich den nächsten Ausbruch fürchtete.
+    - Zu viel Freude zeigen riskierte Ärger, also war ich vorsichtig.
+    - Sicher fühlte ich mich nur, wenn alle schliefen.
+    patterns:
+    - Ich hatte Angst vor Papas Stimmung – mal lobte er mich, mal ignorierte er mich.
+    - Liebe gab es, aber nur an guten Tagen; an schlechten herrschte Schweigen.
+    - Mama wechselte von Umarmung zu Anschreien innerhalb von Minuten.
+    - Ich konnte nie einschätzen, ob meine Geschichten Interesse oder Ärger wecken.
+    - Versprechen wurden oft plötzlich gebrochen, das war schlimm.
+    - Belohnungen kamen überraschend, Strafen genauso.
+    - Manchmal bekam ich Geschenke, am nächsten Tag wurde ich beschuldigt.
+    - Ich lag nachts wach, weil ich den nächsten Ausbruch fürchtete.
+    - Zu viel Freude zeigen riskierte Ärger, also war ich vorsichtig.
+    - Sicher fühlte ich mich nur, wenn alle schliefen.
+    created_from: S_ANXIOUS_CHILDHOOD_REF.yaml
+    created_at: '2025-07-22T02:25:54.039758'
+  AUTO_SEM_20250722_CA6F:
+    beschreibung: Automatisch erstellt für S_EMO_MEAN_LOW.yaml
+    examples:
+    - Eight consecutive texts all score ≤ -0.45 valence.
+    - 'A keeps saying: “Drained… still bad… nothing helps.”'
+    - Daily check-ins show persistent negative mood all week.
+    - 'Voice diary: monotone complaints every entry.'
+    - 'Project chat: recurring gloom in status updates.'
+    patterns:
+    - Eight consecutive texts all score ≤ -0.45 valence.
+    - 'A keeps saying: “Drained… still bad… nothing helps.”'
+    - Daily check-ins show persistent negative mood all week.
+    - 'Voice diary: monotone complaints every entry.'
+    - 'Project chat: recurring gloom in status updates.'
+    created_from: S_EMO_MEAN_LOW.yaml
+    created_at: '2025-07-22T02:25:54.083422'
+  AUTO_SEM_20250722_B23B:
+    beschreibung: Automatisch erstellt für S_EMO_SLOPE_UP.yaml
+    examples:
+    - '0.15 → 0.32 → 0.56: A’s mood lifts with each chat message.'
+    - 'A: “I’m okay.” → “Actually, feeling better.” → “I’m great!”'
+    - 'Valence: 0.05, 0.20, 0.42 – clear upward slope detected.'
+    - Team lead gets progressively more optimistic during stand-up.
+    - 'Rising cheer in voice notes: neutral → pleased → excited.'
+    patterns:
+    - '0.15 → 0.32 → 0.56: A’s mood lifts with each chat message.'
+    - 'A: “I’m okay.” → “Actually, feeling better.” → “I’m great!”'
+    - 'Valence: 0.05, 0.20, 0.42 – clear upward slope detected.'
+    - Team lead gets progressively more optimistic during stand-up.
+    - 'Rising cheer in voice notes: neutral → pleased → excited.'
+    created_from: S_EMO_SLOPE_UP.yaml
+    created_at: '2025-07-22T02:25:54.132198'
+  AUTO_SEM_20250722_8101:
+    beschreibung: Automatisch erstellt für C_ATTACHMENT_STYLE_SECURE.yaml
+    examples:
+    - Der Sprecher schildert konsequent stabile, liebevolle Erinnerungen ohne größere
+      Brüche.
+    - Mehrere Passagen beschreiben verlässliche Fürsorge und offene Kommunikation.
+    - Positive Elternbeispiele wiederholen sich über verschiedene Themen.
+    - Kaum Hinweise auf Angst oder Selbstüberlassung – Ruhe dominiert.
+    - Narrativ betont gegenseitiges Vertrauen und Unterstützung.
+    - Es wird mehrfach erwähnt, dass 'Fehler okay waren'.
+    - Konflikte werden als lösbar dargestellt, nicht bedrohlich.
+    - Familienrituale (z.B. Abendessen, Spiele) ziehen sich durch die Erzählung.
+    - Lob, Ermutigung und Trost werden konkret beschrieben.
+    - Der Sprecher nutzt häufig das Wort 'Geborgenheit'.
+    patterns:
+    - Der Sprecher schildert konsequent stabile, liebevolle Erinnerungen ohne größere
+      Brüche.
+    - Mehrere Passagen beschreiben verlässliche Fürsorge und offene Kommunikation.
+    - Positive Elternbeispiele wiederholen sich über verschiedene Themen.
+    - Kaum Hinweise auf Angst oder Selbstüberlassung – Ruhe dominiert.
+    - Narrativ betont gegenseitiges Vertrauen und Unterstützung.
+    - Es wird mehrfach erwähnt, dass 'Fehler okay waren'.
+    - Konflikte werden als lösbar dargestellt, nicht bedrohlich.
+    - Familienrituale (z.B. Abendessen, Spiele) ziehen sich durch die Erzählung.
+    - Lob, Ermutigung und Trost werden konkret beschrieben.
+    - Der Sprecher nutzt häufig das Wort 'Geborgenheit'.
+    created_from: C_ATTACHMENT_STYLE_SECURE.yaml
+    created_at: '2025-07-22T02:25:54.177087'
+  AUTO_SEM_20250722_C7EC:
+    beschreibung: Automatisch erstellt für S_BLAME_SHIFT_RESPONSE.yaml
+    examples:
+    - Ach komm, teilweise ist da was dran, aber übertreib nicht – wärst du besser
+      vorbereitet gewesen.
+    - Nicht meine Schuld, das ist wirklich keine große Sache.
+    - Wegen dir lief’s schief, aber halb so wild.
+    - Wenn du es genau nimmst, wärst du dran gewesen – war doch nur Spaß.
+    - Nicht ich hab’s vermasselt, du bildest dir das nur ein.
+    patterns:
+    - Ach komm, teilweise ist da was dran, aber übertreib nicht – wärst du besser
+      vorbereitet gewesen.
+    - Nicht meine Schuld, das ist wirklich keine große Sache.
+    - Wegen dir lief’s schief, aber halb so wild.
+    - Wenn du es genau nimmst, wärst du dran gewesen – war doch nur Spaß.
+    - Nicht ich hab’s vermasselt, du bildest dir das nur ein.
+    created_from: S_BLAME_SHIFT_RESPONSE.yaml
+    created_at: '2025-07-22T02:25:54.224883'
+  AUTO_SEM_20250722_7EFE:
+    beschreibung: Automatisch erstellt für A_POSITIVE_CAREGIVER.yaml
+    examples:
+    - Meine Mutter war wirklich immer für mich da, egal was passierte.
+    - Ich erinnere mich, wie mein Vater mich unterstützt hat, wenn ich Angst hatte.
+    - Wir haben jeden Abend zusammen gelesen; das war unser Ritual.
+    - Zu Hause war es so warm und sicher, ich fühlte mich geborgen.
+    - Meine Eltern haben mir das Gefühl gegeben, wertvoll zu sein.
+    - Ich konnte immer zu meinen Eltern kommen, wenn etwas schiefging.
+    - Es gab feste Gute‑Nacht‑Küsse, das hat mir Halt gegeben.
+    - Mein Opa hat mir Geduld beigebracht und war immer ruhig.
+    - Wenn ich traurig war, wurde ich sofort in den Arm genommen.
+    - Meine Mutter hat jedes meiner Bilder gelobt.
+    patterns:
+    - Meine Mutter war wirklich immer für mich da, egal was passierte.
+    - Ich erinnere mich, wie mein Vater mich unterstützt hat, wenn ich Angst hatte.
+    - Wir haben jeden Abend zusammen gelesen; das war unser Ritual.
+    - Zu Hause war es so warm und sicher, ich fühlte mich geborgen.
+    - Meine Eltern haben mir das Gefühl gegeben, wertvoll zu sein.
+    - Ich konnte immer zu meinen Eltern kommen, wenn etwas schiefging.
+    - Es gab feste Gute‑Nacht‑Küsse, das hat mir Halt gegeben.
+    - Mein Opa hat mir Geduld beigebracht und war immer ruhig.
+    - Wenn ich traurig war, wurde ich sofort in den Arm genommen.
+    - Meine Mutter hat jedes meiner Bilder gelobt.
+    created_from: A_POSITIVE_CAREGIVER.yaml
+    created_at: '2025-07-22T02:25:54.270497'
+  AUTO_SEM_20250722_0F08:
+    beschreibung: Automatisch erstellt für C_SELF_DISCLOSURE.yaml
+    examples:
+    - „Mir geht’s echt mies, weil …“
+    - „Ich habe Angst, dass …“
+    - „Persönlich belastet mich X.“
+    - „Letzte Nacht konnte ich nicht schlafen.“
+    - '„Ich gestehe: Ich bin überfordert.“'
+    patterns:
+    - „Mir geht’s echt mies, weil …“
+    - „Ich habe Angst, dass …“
+    - „Persönlich belastet mich X.“
+    - „Letzte Nacht konnte ich nicht schlafen.“
+    - '„Ich gestehe: Ich bin überfordert.“'
+    created_from: C_SELF_DISCLOSURE.yaml
+    created_at: '2025-07-22T02:25:54.316698'
+  AUTO_SEM_20250722_B44A:
+    beschreibung: Automatisch erstellt für C_INNER_EMPTINESS.yaml
+    examples:
+    - 'examples:'
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - '- |'
+    patterns:
+    - 'examples:'
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - 'A: '
+    - 'B: '
+    - '- |'
+    - 'A: '
+    - 'B: '
+    - '- |'
+    created_from: C_INNER_EMPTINESS.yaml
+    created_at: '2025-07-22T02:25:54.365679'
+  AUTO_SEM_20250722_EA1E:
+    beschreibung: Automatisch erstellt für S_SUSTAINED_CONTACT.yaml
+    examples:
+    - Guten Morgen! Hoffe, du hast gut geschlafen.
+    - Gute Nacht, wir schreiben morgen.
+    - Schönen Abend dir noch!
+    - Morgen 😊 Wie war dein Tag gestern?
+    - Nacht 🌙 Freu mich schon auf morgen.
+    patterns:
+    - Guten Morgen! Hoffe, du hast gut geschlafen.
+    - Gute Nacht, wir schreiben morgen.
+    - Schönen Abend dir noch!
+    - Morgen 😊 Wie war dein Tag gestern?
+    - Nacht 🌙 Freu mich schon auf morgen.
+    created_from: S_SUSTAINED_CONTACT.yaml
+    created_at: '2025-07-22T02:25:54.412508'
+  AUTO_SEM_20250722_2D83:
+    beschreibung: Automatisch erstellt für MM_MICRO_VALIDATION_LOOP.yaml
+    examples:
+    - 'A sendet „Passt das? 😊“ + „Wenn nicht, sag’s offen.↔“
+
+      → beide Cluster aktiv → Meta feuert.'
+    - 'Wechsel aus ❤️-Emoji und „Stimmt das für dich?“,
+
+      begleitet von „Wenn es zu viel ist, sag Stopp.“'
+    - ↔ + „Nur falls ok für dich …“ nach Boundary-Hinweis.
+    - Kurzes 👍, dann „Gib Bescheid, falls du Distanz brauchst.“
+    - 'Gespräch: Emoji-Bestätigung, sofortige Nachfrage
+
+      nach Komfortzone → Mikro-Validation-Loop.'
+    patterns:
+    - 'A sendet „Passt das? 😊“ + „Wenn nicht, sag’s offen.↔“
+
+      → beide Cluster aktiv → Meta feuert.'
+    - 'Wechsel aus ❤️-Emoji und „Stimmt das für dich?“,
+
+      begleitet von „Wenn es zu viel ist, sag Stopp.“'
+    - ↔ + „Nur falls ok für dich …“ nach Boundary-Hinweis.
+    - Kurzes 👍, dann „Gib Bescheid, falls du Distanz brauchst.“
+    - 'Gespräch: Emoji-Bestätigung, sofortige Nachfrage
+
+      nach Komfortzone → Mikro-Validation-Loop.'
+    created_from: MM_MICRO_VALIDATION_LOOP.yaml
+    created_at: '2025-07-22T02:25:54.460043'
+  AUTO_SEM_20250722_97AB:
+    beschreibung: Automatisch erstellt für S_CARING_FRIEND_EXPRESSIONS.yaml
+    examples:
+    - Pass auf dich auf, du Spinner.
+    - Ich hab dich echt lieb, Mann.
+    - Wenn du was brauchst, meld dich – ehrlich.
+    - Wär nicht dasselbe ohne dich, du Lappen.
+    - Ich will einfach, dass’s dir gut geht.
+    patterns:
+    - Pass auf dich auf, du Spinner.
+    - Ich hab dich echt lieb, Mann.
+    - Wenn du was brauchst, meld dich – ehrlich.
+    - Wär nicht dasselbe ohne dich, du Lappen.
+    - Ich will einfach, dass’s dir gut geht.
+    created_from: S_CARING_FRIEND_EXPRESSIONS.yaml
+    created_at: '2025-07-22T02:25:54.507710'
+  AUTO_SEM_20250722_CD6A:
+    beschreibung: Automatisch erstellt für C_THERAPEUTIC_MIRRORING.yaml
+    examples:
+    - 'A beschreibt distanziert eigene Gefühle („Wenn ich das von außen
+
+      betrachte, sehe ich …“) und setzt dabei klare Grenzen
+
+      („Ich möchte keine Ratschläge, nur Feedback, wie das wirkt“).'
+    - 'B reflektiert vergangene Reaktionen analytisch und fragt: „Spiegelt
+
+      das, was ich sage, meine Verantwortung oder projiziere ich?“ —
+
+      gleichzeitig legt er fest, was er teilen möchte.'
+    - 'Im Chat mit Coach: detaillierte Selbstanalyse, gefolgt von Bitten
+
+      um neutrales Spiegeln anstatt emotionaler Unterstützung; B betont
+
+      persönliche Autonomiegrenzen.'
+    - 'Sitzungstranskript: Klient formuliert Beobachtung über das eigene
+
+      Verhalten, bittet Therapeuten um Spiegelung, lehnt aber
+
+      Beziehungsangebote („Ich brauche Abstand, keine Nähe“) ab.'
+    - 'Diskurs: „Ich erkenne, dass ich hier Angst projiziere; bestätige
+
+      mir bitte, ob das nachvollziehbar klingt.“ Gleichzeitig verhandelt
+
+      A, wie viel Tiefe das Gespräch haben darf.'
+    patterns:
+    - 'A beschreibt distanziert eigene Gefühle („Wenn ich das von außen
+
+      betrachte, sehe ich …“) und setzt dabei klare Grenzen
+
+      („Ich möchte keine Ratschläge, nur Feedback, wie das wirkt“).'
+    - 'B reflektiert vergangene Reaktionen analytisch und fragt: „Spiegelt
+
+      das, was ich sage, meine Verantwortung oder projiziere ich?“ —
+
+      gleichzeitig legt er fest, was er teilen möchte.'
+    - 'Im Chat mit Coach: detaillierte Selbstanalyse, gefolgt von Bitten
+
+      um neutrales Spiegeln anstatt emotionaler Unterstützung; B betont
+
+      persönliche Autonomiegrenzen.'
+    - 'Sitzungstranskript: Klient formuliert Beobachtung über das eigene
+
+      Verhalten, bittet Therapeuten um Spiegelung, lehnt aber
+
+      Beziehungsangebote („Ich brauche Abstand, keine Nähe“) ab.'
+    - 'Diskurs: „Ich erkenne, dass ich hier Angst projiziere; bestätige
+
+      mir bitte, ob das nachvollziehbar klingt.“ Gleichzeitig verhandelt
+
+      A, wie viel Tiefe das Gespräch haben darf.'
+    created_from: C_THERAPEUTIC_MIRRORING.yaml
+    created_at: '2025-07-22T02:25:54.555676'
+  AUTO_SEM_20250722_083A:
+    beschreibung: Automatisch erstellt für MM_ATTACHMENT_PROFILE.yaml
+    examples:
+    - Nach Langzeit­analyse zeigt der Sprecher konsistent sichere Muster.
+    - Drei Gesprächssegmente hintereinander aktivieren Avoidant‑Cluster → Profil =
+      vermeidend.
+    - Secure‑ und Anxious‑Cluster wechseln, doch Anxious überwiegt drei Chunks lang.
+    - 'System meldet: ''Dominanter Stil: Secure (p = 0.82)''.'
+    - Profilergebnis wird als Feature an Coaching‑Modul übergeben.
+    - 'Dashboard: grüner Balken bei Secure, rote Warnung aus.'
+    - Bei Avoidant‑Profil werden Empathie‑Prompts verstärkt.
+    - Anxious‑Profil löst Stabilitäts‑Intervention im Chatbot aus.
+    - Historic‑Graph zeigt Schwenk von Anxious → Secure nach Therapie.
+    - Keine Cluster‑Dominanz = Profil 'Unresolved', meldet Meta‑Marker.
+    patterns:
+    - Nach Langzeit­analyse zeigt der Sprecher konsistent sichere Muster.
+    - Drei Gesprächssegmente hintereinander aktivieren Avoidant‑Cluster → Profil =
+      vermeidend.
+    - Secure‑ und Anxious‑Cluster wechseln, doch Anxious überwiegt drei Chunks lang.
+    - 'System meldet: ''Dominanter Stil: Secure (p = 0.82)''.'
+    - Profilergebnis wird als Feature an Coaching‑Modul übergeben.
+    - 'Dashboard: grüner Balken bei Secure, rote Warnung aus.'
+    - Bei Avoidant‑Profil werden Empathie‑Prompts verstärkt.
+    - Anxious‑Profil löst Stabilitäts‑Intervention im Chatbot aus.
+    - Historic‑Graph zeigt Schwenk von Anxious → Secure nach Therapie.
+    - Keine Cluster‑Dominanz = Profil 'Unresolved', meldet Meta‑Marker.
+    created_from: MM_ATTACHMENT_PROFILE.yaml
+    created_at: '2025-07-22T02:25:54.604495'
+  AUTO_SEM_20250722_92DD:
+    beschreibung: Automatisch erstellt für FLIRT_DRIFT_DETECTIO.yaml
+    examples:
+    - from collections import deque, Counter
+    - from datetime import timedelta
+    - import numpy as np
+    - '# ---------- Kerndetektor ----------'
+    - def detect_flirt_drift(chats, marker_lookup,
+    - window_days=10,
+    - min_hits=4,
+    - 'openness_slope_min=0.15):'
+    - 'chats:   iterable[dict]   [{id, ts, text, markers:[ids]}] chronologisch'
+    - 'returns: (bool, span, diagnostics)'
+    patterns:
+    - from collections import deque, Counter
+    - from datetime import timedelta
+    - import numpy as np
+    - '# ---------- Kerndetektor ----------'
+    - def detect_flirt_drift(chats, marker_lookup,
+    - window_days=10,
+    - min_hits=4,
+    - 'openness_slope_min=0.15):'
+    - 'chats:   iterable[dict]   [{id, ts, text, markers:[ids]}] chronologisch'
+    - 'returns: (bool, span, diagnostics)'
+    created_from: FLIRT_DRIFT_DETECTIO.yaml
+    created_at: '2025-07-22T02:25:54.654488'
+  AUTO_SEM_20250722_0791:
+    beschreibung: Automatisch erstellt für A_UNPREDICTABLE_CAREGIVER.yaml
+    examples:
+    - Ich wusste nie, wie meine Mutter auf Noten reagiert – Jubel oder Schweigen.
+    - Papa war mal liebevoll, mal eiskalt, ohne erkennbaren Grund.
+    - Ich hatte Angst vor Papas Stimmungen nach der Arbeit.
+    - Ihre Laune wechselte ständig, das machte mich nervös.
+    - 'Keine Verlässlichkeit: Lob am Montag, Kritik am Dienstag.'
+    - Als Kind war jeder Abend unberechenbar.
+    - Manchmal bekam ich Umarmungen, manchmal Schweigen.
+    - Ich lernte, Gesichter zu lesen, um Ärger zu meiden.
+    - Hausregeln änderten sich je nach Stimmung.
+    - Fehler wurden mal ignoriert, mal hart bestraft.
+    patterns:
+    - Ich wusste nie, wie meine Mutter auf Noten reagiert – Jubel oder Schweigen.
+    - Papa war mal liebevoll, mal eiskalt, ohne erkennbaren Grund.
+    - Ich hatte Angst vor Papas Stimmungen nach der Arbeit.
+    - Ihre Laune wechselte ständig, das machte mich nervös.
+    - 'Keine Verlässlichkeit: Lob am Montag, Kritik am Dienstag.'
+    - Als Kind war jeder Abend unberechenbar.
+    - Manchmal bekam ich Umarmungen, manchmal Schweigen.
+    - Ich lernte, Gesichter zu lesen, um Ärger zu meiden.
+    - Hausregeln änderten sich je nach Stimmung.
+    - Fehler wurden mal ignoriert, mal hart bestraft.
+    created_from: A_UNPREDICTABLE_CAREGIVER.yaml
+    created_at: '2025-07-22T02:25:54.704488'
+  AUTO_SEM_20250722_5347:
+    beschreibung: Automatisch erstellt für S_AVOIDANT_CHILDHOOD_REF.yaml
+    examples:
+    - Ich musste früh Verantwortung übernehmen, weil meine Eltern keine Zeit hatten.
+    - Schon als Kind kochte ich allein, da zu Hause niemand da war.
+    - Hausaufgaben machte ich selbstständig; Hilfe gab es nicht.
+    - Ich verließ mich lieber auf mich, meine Eltern hörten selten zu.
+    - Geburtstage organisierte ich, weil sie es vergaßen.
+    - Ich lernte, Probleme alleine zu lösen, Aufmerksamkeit war rar.
+    - Mit zwölf kümmerte ich mich um meine Schwester, Eltern arbeiteten.
+    - Urlaub? Hatte keiner geplant, also blieb ich daheim.
+    - Lob bekam ich kaum, also suchte ich es nicht mehr.
+    - Ich installierte mir selbst das Fahrradlicht – Papa war beschäftigt.
+    patterns:
+    - Ich musste früh Verantwortung übernehmen, weil meine Eltern keine Zeit hatten.
+    - Schon als Kind kochte ich allein, da zu Hause niemand da war.
+    - Hausaufgaben machte ich selbstständig; Hilfe gab es nicht.
+    - Ich verließ mich lieber auf mich, meine Eltern hörten selten zu.
+    - Geburtstage organisierte ich, weil sie es vergaßen.
+    - Ich lernte, Probleme alleine zu lösen, Aufmerksamkeit war rar.
+    - Mit zwölf kümmerte ich mich um meine Schwester, Eltern arbeiteten.
+    - Urlaub? Hatte keiner geplant, also blieb ich daheim.
+    - Lob bekam ich kaum, also suchte ich es nicht mehr.
+    - Ich installierte mir selbst das Fahrradlicht – Papa war beschäftigt.
+    created_from: S_AVOIDANT_CHILDHOOD_REF.yaml
+    created_at: '2025-07-22T02:25:54.755080'
+  AUTO_SEM_20250722_5880:
+    beschreibung: Phrases that emphasise the platonic nature of the relationship.
+    examples:
+    - &id163
+      de: Lass uns das als Freunde machen.
+      en: Let’s keep this as friends.
+    - &id164
+      de: Ich mag unsere freundschaftliche Dynamik.
+      en: I like our platonic dynamic.
+    - &id165
+      de: Wir sind doch nur Kumpel, oder?
+      en: We’re just buddies, right?
+    - &id166
+      de: Mir ist wichtig, dass es platonisch bleibt.
+      en: It’s important to me that this stays platonic.
+    - &id167
+      de: Du bist meine beste Freundin, nichts weiter.
+      en: You’re my best friend, nothing more.
+    - &id168
+      de: Das war ein rein freundschaftlicher Kommentar.
+      en: That was purely a friendly remark.
+    - &id169
+      de: Zwischen uns läuft nur Freundschaft.
+      en: It’s just friendship between us.
+    - &id170
+      de: Ich schätze dich sehr als Kumpel.
+      en: I really value you as a buddy.
+    - &id171
+      de: Freundschaft first, alles andere später.
+      en: Friendship first, everything else later.
+    - &id172
+      de: Unser Verhältnis bleibt platonisch, okay?
+      en: Our relationship stays platonic, okay?
+    patterns:
+    - *id163
+    - *id164
+    - *id165
+    - *id166
+    - *id167
+    - *id168
+    - *id169
+    - *id170
+    - *id171
+    - *id172
+    created_from: A_FRIENDSHIP_BOUNDARY
+    created_at: '2025-07-22T03:12:50.600265'

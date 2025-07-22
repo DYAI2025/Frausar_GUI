@@ -1,0 +1,110 @@
+schema_version: "1.0"
+analysis_type: "gap_need_attachment_cycle"
+meta:
+  generated_at: "2025-07-21"
+  author: "auto_generated"
+  validated_with: "marker_analyzer v1"
+
+module_cycle:
+  odd_chunks: gap_silence_scan
+  even_chunks: need_attachment_probe
+  cycle_length: 10  # chunks per cycle
+
+detectors_active:
+  silence_absence:
+    atomic:
+      - A_DELAYED_REPLY
+    semantic:
+      - S_INTERACTIVE_STONEWALLING
+  need_hint:
+    atomic:
+      - A_SOFT_COMMITMENT
+    cluster:
+      - C_NEED_FOR_REASSURANCE
+  attachment_style:
+    cluster:
+      - C_ADAPTIVE_POLARIZATION
+    meta:
+      - MM_RELATIONAL_DELEGATION
+  inner_fear_uncertainty:
+    cluster:
+      - C_INNER_EMPTINESS
+    meta:
+      - MM_MEANING_CRISIS
+    atomic:
+      - PAST_WOUND_MARKER
+  repair_ritual:
+    atomic:
+      - REPAIR_MARKER
+    cluster:
+      - C_RITUAL_CONTACT
+
+chunk_templates:
+  gap_silence_scan:
+    required:
+      - chunk_id
+      - gap_snapshot
+      - silence_patterns
+      - attachment_shift
+      - interpretation_marker_based
+    properties:
+      gap_snapshot:
+        unanswered_questions: 0
+        delayed_replies: 0
+        missing_reassurance: false
+      silence_patterns: []
+      attachment_shift:
+        axis_intimacy_vs_distance: 0.0
+      interpretation_marker_based: ""
+      validity_checks: []
+  need_attachment_probe:
+    required:
+      - chunk_id
+      - need_indicators
+      - attachment_markers
+      - inner_fear_markers
+      - composite_scores
+      - interpretation_marker_based
+    properties:
+      need_indicators:
+        reassurance_requests: 0
+        soft_commitments_offered: 0
+      attachment_markers:
+        avoidant_markers: 0
+        anxious_markers: 0
+      inner_fear_markers:
+        past_wound: 0
+        meaning_crisis: 0
+      composite_scores:
+        unsaid_need_index: 0.0
+        attachment_style_vector:
+          anxious: 0.0
+          avoidant: 0.0
+          secure: 0.0
+      interpretation_marker_based: ""
+      validity_checks: []
+
+accumulation_logic:
+  period_length: "9-10"
+  gap_index: "sum(gap_snapshot.*) / total_chunks"
+  unsaid_need_ratio: "sum(need_markers) / (sum(need_markers) + sum(repair_markers))"
+  attachment_profile: "mean(attachment_style_vector) across period"
+  emergent_patterns:
+    window: 3
+    trigger_condition: "co-activation of new meta markers"
+
+interim_profile_template:
+  period: ""
+  gap_index: 0.0
+  unsaid_need_ratio: 0.0
+  attachment_profile:
+    anxious: 0.0
+    avoidant: 0.0
+    secure: 0.0
+  key_meta_markers_active: []
+  key_meta_markers_missing: []
+  narrative_marker_based: ""
+
+outputs:
+  export_format: ["json", "yaml"]
+  visualization: ["heatmap", "radar_chart"]
